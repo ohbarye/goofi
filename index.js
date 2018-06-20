@@ -8,7 +8,7 @@
 
   const client = axios.create({
     baseURL: 'https://api.github.com/',
-    timeout: 30000,
+    timeout: 60000,
     headers: {
       'Content-Type': 'application/json',
       'Accept': 'application/json',
@@ -66,28 +66,31 @@
   const csvStream = csv.createWriteStream({delimiter: "\t"});
   const writableStream = fs.createWriteStream(`${language}_good_first_issues.csv`);
 
-  writableStream.on("finish", function(){
-    console.log("DONE!");
-  });
   csvStream.pipe(writableStream);
 
   const PAGE_LIMIT = 100;
 
-  let page = 0;
-  let endCursor = undefined;
-  let hasNextPage = true;
-  while (hasNextPage && page < PAGE_LIMIT) {
-    page++;
-    console.log(`Fetching page ${page}...`);
-    const query = buildQuery(language, endCursor);
-    const response = await client.post('graphql', { query });
+  async function fetchGoodFirstIssues() {
+    let page = 0;
+    let endCursor = undefined;
+    let hasNextPage = true;
+    while (hasNextPage && page < PAGE_LIMIT) {
+      page++;
+      console.log(`Fetching page ${page}...`);
+      const query = buildQuery(language, endCursor);
+      const response = await client.post('graphql', {query});
 
-    endCursor = response.data.data.search.pageInfo.endCursor;
-    hasNextPage = response.data.data.search.pageInfo.hasNextPage;
+      endCursor = response.data.data.search.pageInfo.endCursor;
+      hasNextPage = response.data.data.search.pageInfo.hasNextPage;
 
-    const nodes = response.data.data.search.nodes;
-    nodes.forEach(writeIssues);
+      const nodes = response.data.data.search.nodes;
+      nodes.forEach(writeIssues);
+    }
   }
 
+  await fetchGoodFirstIssues();
+
   csvStream.end();
+
+  console.log("Finished!");
 })();
