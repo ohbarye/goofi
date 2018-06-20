@@ -1,26 +1,68 @@
-(async () => {
-  const fs = require('fs');
-  const axios = require('axios');
-  const csv = require('fast-csv');
+const fs = require('fs');
+const axios = require('axios');
+const csv = require('fast-csv');
 
-  const language = process.env.LANGUAGE;
-  const gitHubAuthToken = process.env.GITHUB_AUTH_TOKEN;
+const language = process.env.LANGUAGE;
+const gitHubAuthToken = process.env.GITHUB_AUTH_TOKEN;
 
-  const client = axios.create({
-    baseURL: 'https://api.github.com/',
-    timeout: 60000,
-    headers: {
-      'Content-Type': 'application/json',
-      'Accept': 'application/json',
-      'Authorization': `Bearer ${gitHubAuthToken}`,
-    },
-  });
+const client = axios.create({
+  baseURL: 'https://api.github.com/',
+  timeout: 60000,
+  headers: {
+    'Content-Type': 'application/json',
+    'Accept': 'application/json',
+    'Authorization': `Bearer ${gitHubAuthToken}`,
+  },
+});
 
-  function buildQuery(language, endCursor) {
+class CsvWriter {
+  constructor(filename) {
+    this.filename = filename;
+    this.csvStream = csv.createWriteStream({delimiter: "\t"});
+  }
+
+  start() {
+    const writableStream = fs.createWriteStream(this.filename);
+    this.csvStream.pipe(writableStream);
+  }
+
+  write(row) {
+    this.csvStream.write(row);
+  }
+
+  end() {
+    this.csvStream.end();
+  }
+}
+
+class GoodFirstIssueFinder {
+  constructor(client, writer, language) {
+    this.client = client;
+    this.writer = writer;
+    this.language = language;
+    this.PAGE_LIMIT = 100;
+
+    this.run = this.run.bind(this);
+    this.buildQuery = this.buildQuery.bind(this);
+    this.writeIssues = this.writeIssues.bind(this);
+    this.fetchGoodFirstIssues = this.fetchGoodFirstIssues.bind(this)
+  }
+
+  async run() {
+    // const writableStream = fs.createWriteStream(`${this.language}_good_first_issues.csv`);
+    //
+    // this.csvStream.pipe(writableStream);
+
+    await this.fetchGoodFirstIssues();
+
+    // this.csvStream.end();
+  }
+
+  buildQuery(endCursor) {
     const after = endCursor ? `after:"${endCursor}",` : '';
     return `
       query {
-        search(first: 100, ${after} query: "language:${language} good-first-issues:>1 stars:>500", type: REPOSITORY) {
+        search(first: 100, ${after} query: "language:${this.language} good-first-issues:>1 stars:>500", type: REPOSITORY) {
           repositoryCount
           pageInfo {
             startCursor
@@ -51,7 +93,7 @@
     `
   }
 
-  function writeIssues(repository) {
+  writeIssues(repository) {
     const owner = repository.owner.login;
     const name = repository.name;
     const stars = repository.stargazers.totalCount;
@@ -59,38 +101,38 @@
     repository.issues.nodes.forEach((issue) => {
       const title = issue.title;
       const url = issue.url;
-      csvStream.write({owner, name, stars, title, url});
+      // this.csvStream.write({owner, name, stars, title, url});
+      this.writer.write({owner, name, stars, title, url});
     });
   }
 
-  const csvStream = csv.createWriteStream({delimiter: "\t"});
-  const writableStream = fs.createWriteStream(`${language}_good_first_issues.csv`);
-
-  csvStream.pipe(writableStream);
-
-  const PAGE_LIMIT = 100;
-
-  async function fetchGoodFirstIssues() {
+  async fetchGoodFirstIssues() {
     let page = 0;
     let endCursor = undefined;
     let hasNextPage = true;
-    while (hasNextPage && page < PAGE_LIMIT) {
+    while (hasNextPage && page < this.PAGE_LIMIT) {
       page++;
-      console.log(`Fetching page ${page}...`);
-      const query = buildQuery(language, endCursor);
-      const response = await client.post('graphql', {query});
+      console.log(`[${this.language}] Fetching page ${page}...`);
+      const query = this.buildQuery(endCursor);
+      const response = await this.client.post('graphql', {query});
 
       endCursor = response.data.data.search.pageInfo.endCursor;
       hasNextPage = response.data.data.search.pageInfo.hasNextPage;
 
       const nodes = response.data.data.search.nodes;
-      nodes.forEach(writeIssues);
+      nodes.forEach(this.writeIssues);
     }
   }
+}
 
-  await fetchGoodFirstIssues();
+(async () => {
+  const writer = new CsvWriter(`csv/${language}_good_first_issues.csv`);
+  writer.start();
 
-  csvStream.end();
+  const finder = new GoodFirstIssueFinder(client, writer, language);
+  await finder.run();
+
+  writer.end();
 
   console.log("Finished!");
 })();
