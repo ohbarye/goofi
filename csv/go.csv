@@ -1,0 +1,451 @@
+owner	name	stars	title	url
+syncthing	syncthing	20960	Enforcing hidden file attribute in the Windows world	https://github.com/syncthing/syncthing/issues/4935
+syncthing	syncthing	20960	Suggest setting up auth on initial startup	https://github.com/syncthing/syncthing/issues/4703
+syncthing	syncthing	20960	Allow specifying remote expected web UI port which would generate a href somewhere	https://github.com/syncthing/syncthing/issues/4824
+syncthing	syncthing	20960	White list domains for host header in host check	https://github.com/syncthing/syncthing/issues/4819
+syncthing	syncthing	20960	"Option to specify the 'temp/partial files' directory for a defined Folder"	https://github.com/syncthing/syncthing/issues/2208
+syncthing	syncthing	20960	"""Automatic upgrades"" web GUI option in pre-release versions is misleading"	https://github.com/syncthing/syncthing/issues/4216
+syncthing	syncthing	20960	Syncthing icon for Windows binaries.	https://github.com/syncthing/syncthing/issues/3668
+syncthing	syncthing	20960	Report free space on file system of the shared folder after scan	https://github.com/syncthing/syncthing/issues/3620
+syncthing	syncthing	20960	Add list of connected applications	https://github.com/syncthing/syncthing/issues/1964
+syncthing	syncthing	20960	Change blue progress bar in web-gui to be proportional to amount of changing files instead of whole dataset	https://github.com/syncthing/syncthing/issues/1672
+syncthing	syncthing	20960	Directory auto-complete is case-sensitive	https://github.com/syncthing/syncthing/issues/1347
+syncthing	syncthing	20960	Better restart message	https://github.com/syncthing/syncthing/issues/1248
+syncthing	syncthing	20960	Ignore some files by default?	https://github.com/syncthing/syncthing/issues/837
+ethereum	go-ethereum	18708	Add an option to stop geth once in sync	https://github.com/ethereum/go-ethereum/issues/16400
+ethereum	go-ethereum	18708	Enable `deadcode` linter on CI and fix reported errors	https://github.com/ethereum/go-ethereum/issues/15473
+mholt	caddy	17504	skip prompts if stdin is closed or no tty	https://github.com/mholt/caddy/issues/2200
+mholt	caddy	17504	PANIC : invalid WriteHeader code 0	https://github.com/mholt/caddy/issues/2117
+mholt	caddy	17504	proxy: Add header and uri load balancing policies	https://github.com/mholt/caddy/issues/1463
+mholt	caddy	17504	Generate json log	https://github.com/mholt/caddy/issues/1109
+mholt	caddy	17504	Add reliable timeouts to fastcgi upstream	https://github.com/mholt/caddy/issues/2113
+cockroachdb	cockroach	13663	intervalccl: make OverlapCoveringMerge O(n log m) instead of O(nm)	https://github.com/cockroachdb/cockroach/issues/20878
+cockroachdb	cockroach	13663	"sql: Implement ""ESCAPE"""	https://github.com/cockroachdb/cockroach/issues/23538
+cockroachdb	cockroach	13663	sql: allow index hints for UPDATE and DELETE	https://github.com/cockroachdb/cockroach/issues/20048
+cockroachdb	cockroach	13663	sql: implement JSON{,B}_{OBJECT,}_AGG	https://github.com/cockroachdb/cockroach/issues/19978
+cockroachdb	cockroach	13663	cli/sql: support prompt customization	https://github.com/cockroachdb/cockroach/issues/24494
+cockroachdb	cockroach	13663	sql: add JSON builtins	https://github.com/cockroachdb/cockroach/issues/20120
+cockroachdb	cockroach	13663	sql: Support `CITEXT` type alias	https://github.com/cockroachdb/cockroach/issues/22463
+cockroachdb	cockroach	13663	sql: support disabling constraints in-place	https://github.com/cockroachdb/cockroach/issues/19444
+cockroachdb	cockroach	13663	ui: change redux.serializeState usage to redux.serialize	https://github.com/cockroachdb/cockroach/issues/19520
+cockroachdb	cockroach	13663	split under-replicated and slow stats	https://github.com/cockroachdb/cockroach/issues/23297
+cockroachdb	cockroach	13663	ui: show failed query count somewhere in admin ui	https://github.com/cockroachdb/cockroach/issues/14148
+cockroachdb	cockroach	13663	ui: Table column header toggle ux polish	https://github.com/cockroachdb/cockroach/issues/17664
+cockroachdb	cockroach	13663	ui: Missing tooltips on the Replication dashboard in Admin UI	https://github.com/cockroachdb/cockroach/issues/17670
+cockroachdb	cockroach	13663	"ui: clarify the error message on the ""connection lost"" alert"	https://github.com/cockroachdb/cockroach/issues/20510
+cockroachdb	cockroach	13663	ui: factor out an InfoTooltip component	https://github.com/cockroachdb/cockroach/issues/20921
+cockroachdb	cockroach	13663	Move projection out of sortNode by adding a parent renderNode	https://github.com/cockroachdb/cockroach/issues/20659
+influxdata	influxdb	13615	"Improve cryptic error ""ERR: %!s(<nil>)"" in CLI"	https://github.com/influxdata/influxdb/issues/9277
+influxdata	influxdb	13615	Using influx_inspect cause fatal error: runtime: out of memory	https://github.com/influxdata/influxdb/issues/6901
+influxdata	influxdb	13615	Add CA certificate, CRL and HTTPS client certificate verification support for InfluxDB	https://github.com/influxdata/influxdb/issues/9421
+influxdata	influxdb	13615	Feature request: Disable logging of NaN 	https://github.com/influxdata/influxdb/issues/9348
+influxdata	influxdb	13615	InfluxQL regex operator =~ requires a space after it but other operators do not	https://github.com/influxdata/influxdb/issues/9058
+influxdata	influxdb	13615	Enable `golint` on the code base	https://github.com/influxdata/influxdb/issues/4098
+influxdata	influxdb	13615	influx_inspect does not handle command line argument correctly	https://github.com/influxdata/influxdb/issues/6576
+influxdata	influxdb	13615	[Feature Request] Add support for default limit to CLI Influx client	https://github.com/influxdata/influxdb/issues/6528
+cayleygraph	cayley	11433	Implement Resolver iterator	https://github.com/cayleygraph/cayley/issues/663
+cayleygraph	cayley	11433	Allow custom limit for FollowRecursive() recursion depth	https://github.com/cayleygraph/cayley/issues/624
+cayleygraph	cayley	11433	Improve Integration Tests using `.Save()` and `.Or()`	https://github.com/cayleygraph/cayley/issues/238
+cayleygraph	cayley	11433	ForAll / Universal Quantifiers	https://github.com/cayleygraph/cayley/issues/209
+cayleygraph	cayley	11433	Visualise canvas clips graph when rendered at a size that shows labels	https://github.com/cayleygraph/cayley/issues/169
+ncw	rclone	9552	Improve verbose output when using --delete-excluded	https://github.com/ncw/rclone/issues/878
+ncw	rclone	9552	rclone config file changing file permission	https://github.com/ncw/rclone/issues/1742
+ncw	rclone	9552	Verify password	https://github.com/ncw/rclone/issues/1615
+golang	dep	9416	Only allow literal version strings as CLI constraints	https://github.com/golang/dep/issues/1036
+golang	dep	9416	Add help topic for constraint syntax	https://github.com/golang/dep/issues/1522
+golang	dep	9416	Add a question about requiring packages with no Go code to the FAQ	https://github.com/golang/dep/issues/1272
+golang	dep	9416	Validate written manifest after dep ensure -add	https://github.com/golang/dep/issues/1002
+hashicorp	packer	7748	Feature request: Oracle - OCI - Tagging support for instance (during build) and image	https://github.com/hashicorp/packer/issues/6313
+hashicorp	packer	7748	Pass context into OCI client	https://github.com/hashicorp/packer/issues/6323
+hashicorp	packer	7748	amazon-chroot add tags on CreateVolume	https://github.com/hashicorp/packer/issues/6309
+hashicorp	packer	7748	"Issue/Enhancement Oracle - OCI Instance's provisioned are not being set to the builder name"	https://github.com/hashicorp/packer/issues/6287
+hashicorp	packer	7748	Feature request: min_cpu_platform in Google Cloud provisioner	https://github.com/hashicorp/packer/issues/5853
+hashicorp	packer	7748	docs: Clearly document built in template variables 	https://github.com/hashicorp/packer/issues/5382
+hashicorp	packer	7748	"""null"" builder and winrm communication : authentication error "	https://github.com/hashicorp/packer/issues/6216
+hashicorp	packer	7748	QEMU driver should accept image size as a string	https://github.com/hashicorp/packer/issues/6092
+hashicorp	packer	7748	Unable to provision QEMU QCOW Image	https://github.com/hashicorp/packer/issues/5969
+hashicorp	packer	7748	[feature] Add support for vsphere vcenter/host	https://github.com/hashicorp/packer/issues/4475
+hashicorp	packer	7748	Packer looks for AWS credentials file in the wrong place under Cygwin	https://github.com/hashicorp/packer/issues/5355
+hashicorp	packer	7748	Enhancement: allow relative local file for checksums	https://github.com/hashicorp/packer/issues/5621
+hashicorp	packer	7748	Salt provisioner for Windows VM running on Linux Host fails (path separator issues)	https://github.com/hashicorp/packer/issues/4585
+hashicorp	packer	7748	Ansible command as output should be directly runnable in the shell	https://github.com/hashicorp/packer/issues/5412
+hashicorp	packer	7748	ansible-remote: add documentation on how to use with Docker 	https://github.com/hashicorp/packer/issues/5287
+hashicorp	packer	7748	"virtualbox-iso builder: Explicitly configuring a WinRM port should imply ""ssh_skip_nat_mapping"""	https://github.com/hashicorp/packer/issues/4702
+hashicorp	packer	7748	"CloudStack builder can't find service/disk offerings of ROOT domain in a CloudStack domain setting"	https://github.com/hashicorp/packer/issues/4541
+kubernetes	helm	6148	Getting the NOTES.txt data from a subchart	https://github.com/kubernetes/helm/issues/2751
+kubernetes	helm	6148	rename DEBUG to HELM_DEBUG	https://github.com/kubernetes/helm/issues/4145
+kubernetes	helm	6148	Proposal: Add an option for helm test to run in parallel	https://github.com/kubernetes/helm/issues/4118
+kubernetes	helm	6148	Quoted values in --set should be taken literally (not escaped)	https://github.com/kubernetes/helm/issues/4030
+kubernetes	helm	6148	docs clarifying how helm search --regexp	https://github.com/kubernetes/helm/issues/3927
+kubernetes	helm	6148	Tiller image not available	https://github.com/kubernetes/helm/issues/3770
+elastic	beats	5717	Update MongoDB protocol with new opcodes	https://github.com/elastic/beats/issues/6191
+elastic	beats	5717	Restricting the size of MySQL query 	https://github.com/elastic/beats/issues/96
+elastic	beats	5717	Filter conditions when field is present or not present.	https://github.com/elastic/beats/issues/6285
+elastic	beats	5717	Add metric about that aggregates all diskio per host	https://github.com/elastic/beats/issues/6378
+elastic	beats	5717	Logging:  Log attempts from Beats to re-establish connections	https://github.com/elastic/beats/issues/5175
+elastic	beats	5717	Automatically lowercase the index name when custom fields is used to build it	https://github.com/elastic/beats/issues/6342
+go-sql-driver	mysql	5586	Support for OK packets representing EOF	https://github.com/go-sql-driver/mysql/issues/805
+go-sql-driver	mysql	5586	Server timeouts broken since #302	https://github.com/go-sql-driver/mysql/issues/657
+go-sql-driver	mysql	5586	Logger interface compatible with testing package	https://github.com/go-sql-driver/mysql/issues/593
+go-sql-driver	mysql	5586	"Go 1.9 ""Out"""	https://github.com/go-sql-driver/mysql/issues/656
+openebs	openebs	5226	volume capacity stats are not working when total capacity is less than 1GB	https://github.com/openebs/openebs/issues/1312
+openebs	openebs	5226	Move all user documentation to a single folder 	https://github.com/openebs/openebs/issues/563
+openebs	openebs	5226	Remove the dependency of vagrant-triggers plugin for the Vagrantfiles	https://github.com/openebs/openebs/issues/1502
+openebs	openebs	5226	[GOREPORT] Fix linting issues maya/orchprovider/k8s/v1/util.go	https://github.com/openebs/openebs/issues/774
+openebs	openebs	5226	Update openebs helm installation configurable parameters 	https://github.com/openebs/openebs/issues/1445
+openebs	openebs	5226	Fix mix-indent in Vagrantfile openebs repo	https://github.com/openebs/openebs/issues/312
+openebs	openebs	5226	Add helm based openebs install to user documentation	https://github.com/openebs/openebs/issues/666
+openebs	openebs	5226	e2e should automate creation of minikube	https://github.com/openebs/openebs/issues/548
+openebs	openebs	5226	elves/e2e project should move into maya repository	https://github.com/openebs/openebs/issues/549
+openebs	openebs	5226	Update elves/e2e/tt-jctrl-resch test case to output results into either a success, or a failure	https://github.com/openebs/openebs/issues/550
+openebs	openebs	5226	Update elves/e2e/tt-jctrl-resch test case to output its result into Prometheus	https://github.com/openebs/openebs/issues/551
+openebs	openebs	5226	"Improve the README related to maya's Vagrantfile"	https://github.com/openebs/openebs/issues/573
+openebs	openebs	5226	Add content for Multi-node setup using Ansible	https://github.com/openebs/openebs/issues/241
+openebs	openebs	5226	Kubernetes YAML files for running ELK stack on OpenEBS	https://github.com/openebs/openebs/issues/279
+openebs	openebs	5226	Suggest better format for commit messages as post commit hooks	https://github.com/openebs/openebs/issues/316
+openebs	openebs	5226	Verify if kubectl extensions will be good for maya CLI	https://github.com/openebs/openebs/issues/469
+openebs	openebs	5226	Review and enhance the readme of openebs/jiva	https://github.com/openebs/openebs/issues/496
+openebs	openebs	5226	Create an e2e test case to verify taint feature for openebs volume Pods	https://github.com/openebs/openebs/issues/516
+openebs	openebs	5226	Kubernetes YAML files for running Wordpress with MySQL using OpenEBS Volumes	https://github.com/openebs/openebs/issues/537
+openebs	openebs	5226	Upgrade client-go to v6.0.0	https://github.com/openebs/openebs/issues/1177
+openebs	openebs	5226	"maya should support ""-i"" option for periodic polling of status"	https://github.com/openebs/openebs/issues/643
+openebs	openebs	5226	Run codespell as part of the make and ci tests	https://github.com/openebs/openebs/issues/671
+openebs	openebs	5226	Update README.md with the required steps to build the binaries with Docker (Maya)	https://github.com/openebs/openebs/issues/661
+openebs	openebs	5226	[GOREPORT] Fix linting issues maya/command/volume_list.go	https://github.com/openebs/openebs/issues/760
+openebs	openebs	5226	"[CODECOV] Write unit tests for maya-apiserver's app/command/error.go logic"	https://github.com/openebs/openebs/issues/786
+openebs	openebs	5226	"[CODECOV] Write unit tests for maya/orchprovider/k8s/v1/util.go's Pods() logic"	https://github.com/openebs/openebs/issues/793
+openebs	openebs	5226	"[CODECOV] Write unit tests for maya/orchprovider/k8s/v1/util.go's StorageClassOps() logic"	https://github.com/openebs/openebs/issues/796
+openebs	openebs	5226	"[CODECOV] Write unit tests for maya/orchprovider/k8s/v1/util.go's getClientSet() logic"	https://github.com/openebs/openebs/issues/797
+openebs	openebs	5226	Write unit tests for code implementation as a result of openebs/openebs#717	https://github.com/openebs/openebs/issues/725
+openebs	openebs	5226	"[CODECOV] Write unit tests for maya/orchprovider/k8s/v1/util.go's Services() logic"	https://github.com/openebs/openebs/issues/794
+openebs	openebs	5226	"[CODECOV] Write unit tests for maya/orchprovider/k8s/v1/util.go's DeploymentOps() logic"	https://github.com/openebs/openebs/issues/795
+openebs	openebs	5226	"[CODECOV] Write unit tests for maya/orchprovider/k8s/v1/util.go's getInClusterCS() logic"	https://github.com/openebs/openebs/issues/798
+openebs	openebs	5226	Contributor documentation w.r.t openebs/maya & openebs/external-storage	https://github.com/openebs/openebs/issues/1243
+stretchr	testify	5176	Message argument checking is inconsistent between functions	https://github.com/stretchr/testify/issues/316
+stretchr	testify	5176	value.Kind() used as a scalar value	https://github.com/stretchr/testify/issues/315
+weaveworks	weave	5132	--log-level=warning|error is not documented for weave router	https://github.com/weaveworks/weave/issues/2834
+weaveworks	weave	5132	Change log-level to DEBUG for proxy access	https://github.com/weaveworks/weave/issues/2748
+jaegertracing	jaeger	4901	"Replace ""good commit message"" guidelines across all repos"	https://github.com/jaegertracing/jaeger/issues/771
+jaegertracing	jaeger	4901	Define CHANGELOG format	https://github.com/jaegertracing/jaeger/issues/848
+jaegertracing	jaeger	4901	Make Elasticsearch index prefix configurable	https://github.com/jaegertracing/jaeger/issues/799
+jaegertracing	jaeger	4901	Fix FollowsFrom spans ignoring baggage/debug header from dummy parent context	https://github.com/jaegertracing/jaeger/issues/843
+jaegertracing	jaeger	4901	Package static assets inside the query-service binary	https://github.com/jaegertracing/jaeger/issues/609
+jaegertracing	jaeger	4901	how to install jaeger without docker  on linux?	https://github.com/jaegertracing/jaeger/issues/801
+jaegertracing	jaeger	4901	Allow running containers without overriding command line	https://github.com/jaegertracing/jaeger/issues/802
+jaegertracing	jaeger	4901	Simplify test coverage scripts	https://github.com/jaegertracing/jaeger/issues/797
+jaegertracing	jaeger	4901	Keep count of outstanding open spans	https://github.com/jaegertracing/jaeger/issues/698
+GoogleContainerTools	skaffold	3979	Enhance git tagger to tag with latest git tag or other formats	https://github.com/GoogleContainerTools/skaffold/issues/407
+GoogleContainerTools	skaffold	3979	Can we see the logs of a deployment when not in dev mode	https://github.com/GoogleContainerTools/skaffold/issues/253
+GoogleContainerTools	skaffold	3979	Add unit test coverage for util.RunCommand	https://github.com/GoogleContainerTools/skaffold/issues/78
+loadimpact	k6	3872	Add additional stats providers	https://github.com/loadimpact/k6/issues/343
+loadimpact	k6	3872	get request query parameter suffix & translated to unicode	https://github.com/loadimpact/k6/issues/418
+loadimpact	k6	3872	Clean up old stuff from repo	https://github.com/loadimpact/k6/issues/233
+loadimpact	k6	3872	Update options with command line parameters	https://github.com/loadimpact/k6/issues/613
+loadimpact	k6	3872	Support compression in websockets	https://github.com/loadimpact/k6/issues/611
+loadimpact	k6	3872	Add `error` tag when the request IP is blacklisted.	https://github.com/loadimpact/k6/issues/597
+loadimpact	k6	3872	statsd collector	https://github.com/loadimpact/k6/issues/196
+loadimpact	k6	3872	Provide a native get() method	https://github.com/loadimpact/k6/issues/290
+loadimpact	k6	3872	More robust integration tests	https://github.com/loadimpact/k6/issues/342
+loadimpact	k6	3872	Create Homebrew-core formula	https://github.com/loadimpact/k6/issues/380
+loadimpact	k6	3872	Global and per-request option to discard incoming data on arrival	https://github.com/loadimpact/k6/issues/504
+loadimpact	k6	3872	Script debug mode	https://github.com/loadimpact/k6/issues/331
+loadimpact	k6	3872	Helper for conditional percent statements 	https://github.com/loadimpact/k6/issues/239
+rqlite	rqlite	3823	CLI should accept list of nodes	https://github.com/rqlite/rqlite/issues/157
+rqlite	rqlite	3823	Store SnapShot method does not buffer read the database which could be an issue if database size is large	https://github.com/rqlite/rqlite/issues/273
+google	go-github	3646	Remove custom media type for Marketplace API	https://github.com/google/go-github/issues/917
+google	go-github	3646	Remove custom media type for global node IDs	https://github.com/google/go-github/issues/919
+google	go-github	3646	Support additional endpoints for the Migrations API	https://github.com/google/go-github/issues/918
+google	go-github	3646	Support additional endpoints for GitHub Apps API	https://github.com/google/go-github/issues/895
+google	go-github	3646	Support preview Lock Reason via the Lock Issue API	https://github.com/google/go-github/issues/828
+google	go-github	3646	Support preview Team Discussions API	https://github.com/google/go-github/issues/849
+google	go-github	3646	Support preview Organization Project Permissions API	https://github.com/google/go-github/issues/884
+google	go-github	3646	Support preview Protected Branches API	https://github.com/google/go-github/issues/876
+google	go-github	3646	Support preview Hovercard API	https://github.com/google/go-github/issues/875
+google	go-github	3646	Support preview Reactions API	https://github.com/google/go-github/issues/877
+google	go-github	3646	Remove custom media type for License API	https://github.com/google/go-github/issues/813
+google	go-github	3646	Remove custom media type for Git Signing API	https://github.com/google/go-github/issues/761
+google	go-github	3646	Support preview GraphQL API v4 Node IDs in REST API v3 resources	https://github.com/google/go-github/issues/814
+google	go-github	3646	Support dismissed_review IssueEvent	https://github.com/google/go-github/issues/827
+google	go-github	3646	Remove custom media type for Repository Invitations API	https://github.com/google/go-github/issues/708
+google	go-github	3646	Consistent Go naming for JSON fields	https://github.com/google/go-github/issues/605
+google	go-github	3646	Update Protected Branches API preview	https://github.com/google/go-github/issues/617
+elves	elvish	3026	Support chaining assignments	https://github.com/elves/elvish/issues/412
+elves	elvish	3026	The key for accepting the entire line in lastcmd mode should be customizable	https://github.com/elves/elvish/issues/421
+elves	elvish	3026	Prompt indentation behavior should be customizable	https://github.com/elves/elvish/issues/481
+elves	elvish	3026	Add a universal startup file	https://github.com/elves/elvish/issues/316
+elves	elvish	3026	Asynchronous syntax highlighting	https://github.com/elves/elvish/issues/357
+gobuffalo	buffalo	3005	Failed generate does not undo what did succeed.	https://github.com/gobuffalo/buffalo/issues/1031
+gobuffalo	buffalo	3005	Allow cookies to have a custom path	https://github.com/gobuffalo/buffalo/issues/856
+fnproject	fn	2969	Wishlist - make it easy to remove data from previous calls from the databases	https://github.com/fnproject/fn/issues/1027
+fnproject	fn	2969	[Code duplication] Extract protocols to sub-project/package	https://github.com/fnproject/fn/issues/964
+fnproject	fn	2969	fossa license scan	https://github.com/fnproject/fn/issues/818
+fnproject	fn	2969	Try to get this to work on gocover.io	https://github.com/fnproject/fn/issues/603
+goadesign	goa	2843	Add tests for design.ServerExpr.EvalName()	https://github.com/goadesign/goa/issues/1708
+goadesign	goa	2843	Add tests for design.ServerExpr.Attribute()	https://github.com/goadesign/goa/issues/1707
+goadesign	goa	2843	Add tests for design.LicenseExpr.EvalName()	https://github.com/goadesign/goa/issues/1706
+goadesign	goa	2843	Add tests for design.DocsExpr.EvalName()	https://github.com/goadesign/goa/issues/1705
+goadesign	goa	2843	Add tests for design.ContactExpr.EvalName()	https://github.com/goadesign/goa/issues/1704
+schollz	find3	2697	Allow setting time-zone per family	https://github.com/schollz/find3/issues/12
+schollz	find3	2697	Import XML/JSON into database	https://github.com/schollz/find3/issues/69
+schollz	find3	2697	Add log rotation	https://github.com/schollz/find3/issues/6
+lightningnetwork	lnd	2683	lnd --lnddir=xxx not working properly with configuration file	https://github.com/lightningnetwork/lnd/issues/1406
+lightningnetwork	lnd	2683	"""lncli newaddress np2wkh"" returns Z address not an M address for Litecoin"	https://github.com/lightningnetwork/lnd/issues/1397
+lightningnetwork	lnd	2683	[feature request] add RPC for getting on-chain fee estimates	https://github.com/lightningnetwork/lnd/issues/1212
+lightningnetwork	lnd	2683	Is payment_hash not required in SendRequest?	https://github.com/lightningnetwork/lnd/issues/856
+lightningnetwork	lnd	2683	Node type configuration parameter should not be optional	https://github.com/lightningnetwork/lnd/issues/950
+weaveworks	scope	2560	[Crash] fatal error: concurrent map iteration and map write	https://github.com/weaveworks/scope/issues/3219
+weaveworks	scope	2560	DNS sniffer errors on GKE	https://github.com/weaveworks/scope/issues/3214
+weaveworks	scope	2560	Truncate long text from left hand side	https://github.com/weaveworks/scope/issues/1015
+weaveworks	scope	2560	Bottom right of UI is getting a little crowded	https://github.com/weaveworks/scope/issues/1369
+weaveworks	scope	2560	Re-implement contrast mode	https://github.com/weaveworks/scope/issues/2363
+weaveworks	scope	2560	Scrollbar for fields in help panel not always shown in OS X	https://github.com/weaveworks/scope/issues/2370
+weaveworks	scope	2560	Graph icon is confusing	https://github.com/weaveworks/scope/issues/2511
+weaveworks	scope	2560	Full screen mode in Terminal goes way beyond your desktop 	https://github.com/weaveworks/scope/issues/2595
+weaveworks	scope	2560	"""not communicating"" message when container died"	https://github.com/weaveworks/scope/issues/2879
+weaveworks	scope	2560	Make navigation more clear	https://github.com/weaveworks/scope/issues/3163
+weaveworks	scope	2560	Table view: column headers are cut off	https://github.com/weaveworks/scope/issues/3186
+weaveworks	scope	2560	Document how to set up Scope in IBM Cloud Private	https://github.com/weaveworks/scope/issues/3203
+weaveworks	scope	2560	Check Origin Header of Websockets	https://github.com/weaveworks/scope/issues/731
+weaveworks	scope	2560	kubernetes/client.go has literally no tests.	https://github.com/weaveworks/scope/issues/736
+weaveworks	scope	2560	Ability to change font size in terminal	https://github.com/weaveworks/scope/issues/879
+weaveworks	scope	2560	Use weave client library	https://github.com/weaveworks/scope/issues/934
+weaveworks	scope	2560	Remove gob encoding support	https://github.com/weaveworks/scope/issues/971
+weaveworks	scope	2560	We should report what Docker version is installed	https://github.com/weaveworks/scope/issues/1376
+weaveworks	scope	2560	Scope could show you how much disk space you have left	https://github.com/weaveworks/scope/issues/1389
+weaveworks	scope	2560	"rename 'probe' to 'agent'"	https://github.com/weaveworks/scope/issues/1644
+weaveworks	scope	2560	replace `--privileged` with fine-grained capabilities	https://github.com/weaveworks/scope/issues/1913
+weaveworks	scope	2560	scope happily launches with garbled command line args	https://github.com/weaveworks/scope/issues/1987
+weaveworks	scope	2560	Remove redundant column definitions in `nodeSummaryGroupSpecs`	https://github.com/weaveworks/scope/issues/2013
+weaveworks	scope	2560	searching by k8s label	https://github.com/weaveworks/scope/issues/2187
+weaveworks	scope	2560	Weave Net view could add tooltips	https://github.com/weaveworks/scope/issues/2320
+weaveworks	scope	2560	Use Kubernetes logo for Kubernetes system services	https://github.com/weaveworks/scope/issues/2729
+weaveworks	scope	2560	More info in Kubernetes Services view please	https://github.com/weaveworks/scope/issues/2749
+weaveworks	scope	2560	Move container labels from Latest	https://github.com/weaveworks/scope/issues/3086
+weaveworks	scope	2560	GitHub comment encoding (and maybe others), break scope urls.	https://github.com/weaveworks/scope/issues/3187
+go-swagger	go-swagger	2381	Bug in oauth2 example	https://github.com/go-swagger/go-swagger/issues/1496
+go-swagger	go-swagger	2381	Better Email Validation	https://github.com/go-swagger/go-swagger/issues/1519
+go-swagger	go-swagger	2381	Generate additional struct tags (application/edn consumer and producer)	https://github.com/go-swagger/go-swagger/issues/1495
+go-swagger	go-swagger	2381	Unable to override operations package name	https://github.com/go-swagger/go-swagger/issues/1049
+jpmorganchase	quorum	2367	Use the permissioned nodes for discovery	https://github.com/jpmorganchase/quorum/issues/287
+jpmorganchase	quorum	2367	"Feat: `static-nodes.json` doesn't support DNS/hostnames"	https://github.com/jpmorganchase/quorum/issues/147
+Azure	draft	2362	Add nodeSelector OS constraints in all packs	https://github.com/Azure/draft/issues/817
+Azure	draft	2362	CONTRIBUTING.md guideline file missing	https://github.com/Azure/draft/issues/793
+Azure	draft	2362	make chart validation errors from helm prettier	https://github.com/Azure/draft/issues/631
+Azure	draft	2362	having trouble seeing draft up UI colors	https://github.com/Azure/draft/issues/303
+Azure	draft	2362	Quickstart docs for using Draft with docker for mac / docker for windows with kubernetes edge features	https://github.com/Azure/draft/issues/762
+Azure	draft	2362	rename tasks to hook	https://github.com/Azure/draft/issues/763
+Azure	draft	2362	re-work the entire docs directory	https://github.com/Azure/draft/issues/766
+Azure	draft	2362	re-do README	https://github.com/Azure/draft/issues/765
+Azure	draft	2362	be able to give a short name for a pack-repo	https://github.com/Azure/draft/issues/757
+Azure	draft	2362	revamp docs	https://github.com/Azure/draft/issues/742
+Azure	draft	2362	[>.12 draft releases]: Long first remote push kills the release process	https://github.com/Azure/draft/issues/644
+Azure	draft	2362	add e2e test scenario for respecting TILLER_NAMESPACE	https://github.com/Azure/draft/issues/395
+Azure	draft	2362	Allow way to turn off progress meter	https://github.com/Azure/draft/issues/386
+Azure	draft	2362	"smarter detection on ""start command"" for python apps"	https://github.com/Azure/draft/issues/352
+Azure	draft	2362	flag to enable or disable emojis	https://github.com/Azure/draft/issues/304
+Azure	draft	2362	draft create should install draft.toml if chart/ exists	https://github.com/Azure/draft/issues/219
+Azure	draft	2362	implement `draft list`	https://github.com/Azure/draft/issues/255
+Azure	draft	2362	draft up should show archive/upload progress	https://github.com/Azure/draft/issues/226
+Azure	draft	2362	Draft plugin should exit with the same exit code as expected	https://github.com/Azure/draft/issues/198
+Azure	draft	2362	Would you support Scala?	https://github.com/Azure/draft/issues/393
+Azure	draft	2362	rename --config/-f flag on draft init	https://github.com/Azure/draft/issues/679
+Azure	draft	2362	`draft create` detects Ruby on Rails repo as being Markdown	https://github.com/Azure/draft/issues/591
+Azure	draft	2362	Draft up should allow --dry-run	https://github.com/Azure/draft/issues/547
+onsi	ginkgo	2136	Errors should be written to Stderr	https://github.com/onsi/ginkgo/issues/471
+onsi	ginkgo	2136	Update docs for When DSL	https://github.com/onsi/ginkgo/issues/420
+kubernetes	community	2042	Require all k/* repositories to have CONTRIBUTING.md	https://github.com/kubernetes/community/issues/1832
+kubernetes	community	2042	PR document needs to mention trivial edit contribution policy 	https://github.com/kubernetes/community/issues/1628
+kubernetes	community	2042	Contributor guide README should clarify special subrepository contributing guidelines	https://github.com/kubernetes/community/issues/1833
+tendermint	tendermint	1932	`sync_info.syncing` should be renamed `sync_info.catchingUp`	https://github.com/tendermint/tendermint/issues/1767
+tendermint	tendermint	1932	New `tendermint-peers` binary	https://github.com/tendermint/tendermint/issues/1723
+tendermint	tendermint	1932	[p2p/upnp] Write tests for upnp package	https://github.com/tendermint/tendermint/issues/1727
+tendermint	tendermint	1932	types: update tx hash to use SHA256 and no amino	https://github.com/tendermint/tendermint/issues/1547
+tendermint	tendermint	1932	Provide JSON Schema for RPC Endpoints	https://github.com/tendermint/tendermint/issues/1730
+tendermint	tendermint	1932	Move `unsafe_*` rpc commands to independent devops server	https://github.com/tendermint/tendermint/issues/193
+tendermint	tendermint	1932	"why call  ""bcR.BaseReactor.OnStart()""   in  OnStart()  ?"	https://github.com/tendermint/tendermint/issues/1537
+tendermint	tendermint	1932	Pass in NodeKey to NewNode	https://github.com/tendermint/tendermint/issues/1544
+tendermint	tendermint	1932	docs: expand the On Determinism document	https://github.com/tendermint/tendermint/issues/1279
+quii	learn-go-with-tests	1917	map chapter	https://github.com/quii/learn-go-with-tests/issues/47
+quii	learn-go-with-tests	1917	Add chapters about strings, bytes, runes and characters	https://github.com/quii/learn-go-with-tests/issues/85
+hasura	gitkube	1883	[e2e] update tests to use gitkube cli	https://github.com/hasura/gitkube/issues/77
+hasura	gitkube	1883	[cli] generate: ask if deployments are present	https://github.com/hasura/gitkube/issues/76
+hasura	gitkube	1883	Instructions for different docker registries	https://github.com/hasura/gitkube/issues/47
+hasura	gitkube	1883	Info needed on min. node config (at least on GKE)	https://github.com/hasura/gitkube/issues/49
+hasura	gitkube	1883	Add install instructions for various K8s vendors/distributions	https://github.com/hasura/gitkube/issues/33
+hasura	gitkube	1883	Improve e2e test	https://github.com/hasura/gitkube/issues/28
+hasura	gitkube	1883	e2e teardown should not delete crd and clusterrolebinding	https://github.com/hasura/gitkube/issues/29
+jedisct1	dnscrypt-proxy	1768	Wildcard characters supporting in forwarding rules	https://github.com/jedisct1/dnscrypt-proxy/issues/514
+jedisct1	dnscrypt-proxy	1768	Allow multiple fallback resolvers?	https://github.com/jedisct1/dnscrypt-proxy/issues/485
+jedisct1	dnscrypt-proxy	1768	Feature request: DNS Cache statistics	https://github.com/jedisct1/dnscrypt-proxy/issues/448
+jedisct1	dnscrypt-proxy	1768	Excluding a server in .toml config file	https://github.com/jedisct1/dnscrypt-proxy/issues/479
+GoogleCloudPlatform	agones	1455	Move Deployment in install script out of v1beta1	https://github.com/GoogleCloudPlatform/agones/issues/173
+GoogleCloudPlatform	agones	1455	C++ SDK compilation and libraries for macOS	https://github.com/GoogleCloudPlatform/agones/issues/135
+GoogleCloudPlatform	agones	1455	C++ SDK compilation and libraries for Windows	https://github.com/GoogleCloudPlatform/agones/issues/134
+GoogleCloudPlatform	agones	1455	YAML packaging	https://github.com/GoogleCloudPlatform/agones/issues/101
+GoogleCloudPlatform	agones	1455	Integrate a spell and/or grammar check into build system	https://github.com/GoogleCloudPlatform/agones/issues/187
+GoogleCloudPlatform	agones	1455	Change container builder steps to run concurrently	https://github.com/GoogleCloudPlatform/agones/issues/186
+jetstack	cert-manager	1426	Add advice on how to sync a secret between namespaces to documentation	https://github.com/jetstack/cert-manager/issues/494
+jetstack	cert-manager	1426	Allow setting http_proxy and https_proxy in cert-manager deployment	https://github.com/jetstack/cert-manager/issues/310
+jetstack	cert-manager	1426	Negative time can be shown for a scheduled renewal	https://github.com/jetstack/cert-manager/issues/341
+improbable-eng	thanos	1422	"'bucket verify' command should error if S3 bucket does not exist"	https://github.com/improbable-eng/thanos/issues/261
+improbable-eng	thanos	1422	Refactor AWS object store auth to be as simple and flexible as Google `FindCredentials`.	https://github.com/improbable-eng/thanos/issues/209
+improbable-eng	thanos	1422	sidecar: reloader fails on ConfigMap mounts for rules	https://github.com/improbable-eng/thanos/issues/352
+improbable-eng	thanos	1422	Query instances should error when there are no store instances in the cluster	https://github.com/improbable-eng/thanos/issues/292
+improbable-eng	thanos	1422	Command-line flags page for query instances is not populated	https://github.com/improbable-eng/thanos/issues/248
+improbable-eng	thanos	1422	Default Make target installs binaries from the Internet	https://github.com/improbable-eng/thanos/issues/222
+purpleidea	mgmt	1356	[LOVE] Add static build tag for user implementation	https://github.com/purpleidea/mgmt/issues/395
+purpleidea	mgmt	1356	"[LOVE] Add Makefile ""tab completion"" for golang tests"	https://github.com/purpleidea/mgmt/issues/335
+purpleidea	mgmt	1356	[LOVE] Add docs about running the puppet mgmtgraph stats command	https://github.com/purpleidea/mgmt/issues/393
+purpleidea	mgmt	1356	[LOVE] Add a new function to the mgmt language	https://github.com/purpleidea/mgmt/issues/381
+purpleidea	mgmt	1356	New test for bash shellcheck	https://github.com/purpleidea/mgmt/issues/286
+purpleidea	mgmt	1356	[LOVE] specify the user/group in the exec resource	https://github.com/purpleidea/mgmt/issues/221
+purpleidea	mgmt	1356	[LOVE] The path to an exec resource binary can find autoedges	https://github.com/purpleidea/mgmt/issues/182
+purpleidea	mgmt	1356	[LOVE] Detect svc resource enabled/disabled state changes	https://github.com/purpleidea/mgmt/issues/183
+purpleidea	mgmt	1356	[LOVE] Add tests to GraphSync	https://github.com/purpleidea/mgmt/issues/173
+purpleidea	mgmt	1356	"implement a systemd-timers resource (""cron"")"	https://github.com/purpleidea/mgmt/issues/71
+purpleidea	mgmt	1356	Reload systemd and restart svc service on unit file changes	https://github.com/purpleidea/mgmt/issues/158
+matthewmueller	joy	1276	"Unclear error when we're missing a main() function"	https://github.com/matthewmueller/joy/issues/82
+matthewmueller	joy	1276	Licensing: Update examples & add License file	https://github.com/matthewmueller/joy/issues/60
+terraform-providers	terraform-provider-aws	1270	Slightly confusing error message db_parameter_group syntax fail	https://github.com/terraform-providers/terraform-provider-aws/issues/633
+terraform-providers	terraform-provider-aws	1270	Docs: Importing aws_lightsail_instance resource	https://github.com/terraform-providers/terraform-provider-aws/issues/4847
+terraform-providers	terraform-provider-aws	1270	aws_ses_event_destination.sns_destination is not documented enough	https://github.com/terraform-providers/terraform-provider-aws/issues/4858
+terraform-providers	terraform-provider-aws	1270	aws_cloudwatch_log_metric_filter: default_value is automatically set to 0	https://github.com/terraform-providers/terraform-provider-aws/issues/2384
+terraform-providers	terraform-provider-aws	1270	 Can not set certificate with aws_codebuild_project?	https://github.com/terraform-providers/terraform-provider-aws/issues/4742
+terraform-providers	terraform-provider-aws	1270	AWS SSM DoesNotExistException for missing Patch Baseline 	https://github.com/terraform-providers/terraform-provider-aws/issues/4612
+terraform-providers	terraform-provider-aws	1270	Feature Request - Add support for AUTOMATION in aws_ssm_maintenance_window_task resource	https://github.com/terraform-providers/terraform-provider-aws/issues/4408
+terraform-providers	terraform-provider-aws	1270	aws_eip data source missing support for tags	https://github.com/terraform-providers/terraform-provider-aws/issues/3423
+terraform-providers	terraform-provider-aws	1270	Add AWS Lightsail DNS Entry Support	https://github.com/terraform-providers/terraform-provider-aws/issues/2731
+terraform-providers	terraform-provider-aws	1270	WAF WebACL resources missing support for using Rule Groups	https://github.com/terraform-providers/terraform-provider-aws/issues/4052
+terraform-providers	terraform-provider-aws	1270	Feature Request: Automatically subscribing to DynamoDB autoscaling alarms	https://github.com/terraform-providers/terraform-provider-aws/issues/2829
+terraform-providers	terraform-provider-aws	1270	Terraform crash in v0.10.8	https://github.com/terraform-providers/terraform-provider-aws/issues/3556
+terraform-providers	terraform-provider-aws	1270	better docs about output variables for aws_opsworks_instance	https://github.com/terraform-providers/terraform-provider-aws/issues/3547
+terraform-providers	terraform-provider-aws	1270	data.aws_elasticache_cluster.cluster_address missing - yet in docs	https://github.com/terraform-providers/terraform-provider-aws/issues/3386
+terraform-providers	terraform-provider-aws	1270	Docs: aws_appautoscaling_target	https://github.com/terraform-providers/terraform-provider-aws/issues/3237
+terraform-providers	terraform-provider-aws	1270	Add option to capture snapshots on destroy of `ebs_volume`	https://github.com/terraform-providers/terraform-provider-aws/issues/2109
+terraform-providers	terraform-provider-aws	1270	Perma-diff on aws_opsworks_stack custom cookbooks source password	https://github.com/terraform-providers/terraform-provider-aws/issues/176
+terraform-providers	terraform-provider-aws	1270	AWS IAM role policy attachment documentation is unclear	https://github.com/terraform-providers/terraform-provider-aws/issues/98
+terraform-providers	terraform-provider-aws	1270	Associate multiple SNS topics with one Lambda	https://github.com/terraform-providers/terraform-provider-aws/issues/2726
+terraform-providers	terraform-provider-aws	1270	Inline EBS block device modification on AWS instance not working	https://github.com/terraform-providers/terraform-provider-aws/issues/2709
+terraform-providers	terraform-provider-aws	1270	aws_eip should have a Public DNS attribute	https://github.com/terraform-providers/terraform-provider-aws/issues/1149
+terraform-providers	terraform-provider-aws	1270	Add policy to allow a lambda to generate logging to the example	https://github.com/terraform-providers/terraform-provider-aws/issues/2237
+serverless	event-gateway	1261	Consistent prefix for system events and metrics	https://github.com/serverless/event-gateway/issues/425
+serverless	event-gateway	1261	Add support for fetching list of spaces being used	https://github.com/serverless/event-gateway/issues/440
+jenkins-x	jx	1233	jx import: support creating new gitlab repositories	https://github.com/jenkins-x/jx/issues/40
+jenkins-x	jx	1233	create cluster fails on windows due to bogus file path.	https://github.com/jenkins-x/jx/issues/229
+jenkins-x	jx	1233	"Quickstart for pipeline with 'sidecars'`"	https://github.com/jenkins-x/jx/issues/619
+jenkins-x	jx	1233	unprintable characters when using `jx create cluster gke`	https://github.com/jenkins-x/jx/issues/225
+jenkins-x	jx	1233	add a `service linking` chart for reuse in Preview Environments	https://github.com/jenkins-x/jx/issues/573
+jenkins-x	jx	1233	random failure creating GKE cluster on windows	https://github.com/jenkins-x/jx/issues/228
+jenkins-x	jx	1233	"jx create cluster gke fails on windows as cannot find ""sh"""	https://github.com/jenkins-x/jx/issues/227
+jenkins-x	jx	1233	`jx create cluster jx` fails abysmally with UTF-8 codepage.	https://github.com/jenkins-x/jx/issues/226
+Azure	brigade	1168	If a Job.env{} var is empty, it will cause a Kubernetes error	https://github.com/Azure/brigade/issues/469
+Azure	brigade	1168	Document for GitHub integration with brigade seems to be outdated	https://github.com/Azure/brigade/issues/471
+Azure	brigade	1168	Explain the behaviour of tasks in the shell	https://github.com/Azure/brigade/issues/476
+Azure	brigade	1168	Secrets\ConfigMaps not cleared up on removal of Brigade	https://github.com/Azure/brigade/issues/335
+Azure	brigade	1168	Helm Configurable LivenessProbe Settings	https://github.com/Azure/brigade/issues/268
+kubernetes-incubator	cri-o	1140	Split bind and advertise adress	https://github.com/kubernetes-incubator/cri-o/issues/594
+kubernetes-incubator	cri-o	1140	Tests github.com/kubernetes-incubator/cri-o/server pkg	https://github.com/kubernetes-incubator/cri-o/issues/893
+minishift	minishift	1093	Bad sequence in minishift start log while starting with --http-proxy flag	https://github.com/minishift/minishift/issues/1620
+minishift	minishift	1093	Typo in preflight checks	https://github.com/minishift/minishift/issues/2456
+minishift	minishift	1093	Step required in integration tests to check `OpenShift` status	https://github.com/minishift/minishift/issues/2028
+minishift	minishift	1093	Document VT-x/AMD-v requirement	https://github.com/minishift/minishift/issues/1337
+minishift	minishift	1093	"Add document about  'default' named network for kvm"	https://github.com/minishift/minishift/issues/1432
+minishift	minishift	1093	Diskspace errors out when OpenShift is stopped	https://github.com/minishift/minishift/issues/1739
+minishift	minishift	1093	" No value is specified in log level for V logs in ""minishift start -h"""	https://github.com/minishift/minishift/issues/1360
+bradleyjkemp	memviz	1002	Support all reflect.Value kinds	https://github.com/bradleyjkemp/memviz/issues/3
+bradleyjkemp	memviz	1002	Braces not escaped in type strings	https://github.com/bradleyjkemp/memviz/issues/29
+bradleyjkemp	memviz	1002	Special case rendering for sets	https://github.com/bradleyjkemp/memviz/issues/27
+bradleyjkemp	memviz	1002	Full basic coverage	https://github.com/bradleyjkemp/memviz/issues/26
+sgreben	jp	931	Make JSONPath results more consistent	https://github.com/sgreben/jp/issues/15
+sgreben	jp	931	Comments	https://github.com/sgreben/jp/issues/1
+go-task	task	902	Consider switch from dep to vgo	https://github.com/go-task/task/issues/119
+go-task	task	902	Add help informations for a task 	https://github.com/go-task/task/issues/107
+go-task	task	902	A warning/confirm field that shows a confirm prompt before proceeding 	https://github.com/go-task/task/issues/100
+go-task	task	902	HTTP Interface	https://github.com/go-task/task/issues/69
+heptio	contour	898	Bootstrap command should log the final config to stdout	https://github.com/heptio/contour/issues/419
+heptio	contour	898	deployment/readme.md: remove all non RBAC configurations	https://github.com/heptio/contour/issues/341
+heptio	contour	898	Add sticky session annotation	https://github.com/heptio/contour/issues/361
+heptio	contour	898	Double check contour grpc cluster circuit breaker limits	https://github.com/heptio/contour/issues/313
+heptio	contour	898	internal/grpc: TestGRPCStreaming/StreamRoutes test flake	https://github.com/heptio/contour/issues/327
+heptio	contour	898	Enable gzip if not already enabled	https://github.com/heptio/contour/issues/310
+heptio	contour	898	Ability to limit supported TLS versions and disable certain versions	https://github.com/heptio/contour/issues/185
+heptio	contour	898	Ability to specify custom error page	https://github.com/heptio/contour/issues/320
+heptio	contour	898	Cleanly draining envoy with DaemonSet/NLB deployment	https://github.com/heptio/contour/issues/145
+heptio	contour	898	Add readinessProbe to deployment examples	https://github.com/heptio/contour/issues/87
+Azure	acs-engine	845	Add unit tests	https://github.com/Azure/acs-engine/issues/2576
+Azure	acs-engine	845	deal with backtick (`) chars in sp keys	https://github.com/Azure/acs-engine/issues/3038
+Azure	acs-engine	845	Remove or change distro when OS type is Windows	https://github.com/Azure/acs-engine/issues/2619
+Azure	acs-engine	845	Enforce windows password complexity requirements in acs-engine client. 	https://github.com/Azure/acs-engine/issues/2407
+Azure	acs-engine	845	Allow custom resource name prefixes	https://github.com/Azure/acs-engine/issues/2367
+kubernetes-incubator	kube-aws	763	Easy to understand descriptions of security groups	https://github.com/kubernetes-incubator/kube-aws/issues/1064
+kubernetes-incubator	kube-aws	763	Curls in cloud config that are silenced and do not log errors	https://github.com/kubernetes-incubator/kube-aws/issues/1130
+kubernetes-incubator	kube-aws	763	doc: Suggest cluster admins to regularly update AMI ID(s) in cluster.yaml	https://github.com/kubernetes-incubator/kube-aws/issues/1209
+kubernetes-incubator	kube-aws	763	Is it possible to replace certificate manually on all servers? How important is it of .enc file?	https://github.com/kubernetes-incubator/kube-aws/issues/1126
+kubernetes-incubator	kube-aws	763	Move s3-uri to init/cluster.yaml	https://github.com/kubernetes-incubator/kube-aws/issues/326
+kubernetes-incubator	kube-aws	763	Making stack termination protection configurable	https://github.com/kubernetes-incubator/kube-aws/issues/1152
+kubernetes-incubator	kube-aws	763	"Use go-yaml's UnmarshalStrict to emit errors for user typos in cluster.yaml"	https://github.com/kubernetes-incubator/kube-aws/issues/1143
+kubernetes-incubator	kube-aws	763	ci: bash linting tool appropriate to be integrated into our CI	https://github.com/kubernetes-incubator/kube-aws/issues/811
+kubernetes-incubator	kube-aws	763	Sync TLS Bootstrap cluster roles with upstream	https://github.com/kubernetes-incubator/kube-aws/issues/808
+kubernetes-incubator	kube-aws	763	Use placement groups for low latency networking between nodes in an instance group	https://github.com/kubernetes-incubator/kube-aws/issues/784
+kubernetes-incubator	kube-aws	763	Assign the kube-admin user to the super-user role	https://github.com/kubernetes-incubator/kube-aws/issues/461
+kubernetes-incubator	kube-aws	763	Enable TLS bootstrap by default	https://github.com/kubernetes-incubator/kube-aws/issues/922
+kubernetes-incubator	kube-aws	763	Best practice of team operation	https://github.com/kubernetes-incubator/kube-aws/issues/1122
+kubernetes-incubator	kube-aws	763	Enable PodSecurityPolicy by default + Option to choose either Permissive/Restrictive policy	https://github.com/kubernetes-incubator/kube-aws/issues/1059
+kubernetes-incubator	kube-aws	763	A clearer setting key name for external prom support	https://github.com/kubernetes-incubator/kube-aws/issues/1110
+kubernetes-incubator	kube-aws	763	Missing a default StorageClass	https://github.com/kubernetes-incubator/kube-aws/issues/1085
+kubernetes-incubator	kube-aws	763	"Can't get 'kube-aws calculator' to work with 0.9.9"	https://github.com/kubernetes-incubator/kube-aws/issues/1083
+kubernetes-incubator	kube-aws	763	NAT gateway tagging	https://github.com/kubernetes-incubator/kube-aws/issues/1063
+kubernetes-incubator	kube-aws	763	`ReplaceUnhealthyInstances` for Spot fleets	https://github.com/kubernetes-incubator/kube-aws/issues/1062
+kubernetes-incubator	kube-aws	763	Create unique CN for generated CA certificates	https://github.com/kubernetes-incubator/kube-aws/issues/463
+kubernetes-incubator	kube-aws	763	`kube-aws validate` should fail when too old K8S version is specified	https://github.com/kubernetes-incubator/kube-aws/issues/1019
+kubernetes-incubator	kube-aws	763	Validate MinInstancesInService is less than MaxSize	https://github.com/kubernetes-incubator/kube-aws/issues/950
+kubernetes-incubator	kube-aws	763	Re-implement automatic association of Spot Fleets to LBs	https://github.com/kubernetes-incubator/kube-aws/issues/1010
+GoogleContainerTools	container-structure-test	727	Time duration for each test	https://github.com/GoogleContainerTools/container-structure-test/issues/139
+GoogleContainerTools	container-structure-test	727	Infer bazel-bin directory in release automation	https://github.com/GoogleContainerTools/container-structure-test/issues/66
+kubevirt	kubevirt	702	Support Tolerations for VMs	https://github.com/kubevirt/kubevirt/issues/445
+kubevirt	kubevirt	702	Remove ocp hack once console websocket is introduced	https://github.com/kubevirt/kubevirt/issues/834
+kubevirt	kubevirt	702	Check for correct permissions on disk.img	https://github.com/kubevirt/kubevirt/issues/1178
+kubevirt	kubevirt	702	failed to create virtual machine pod due to failed name validation	https://github.com/kubevirt/kubevirt/issues/1092
+kubevirt	kubevirt	702	Mark our infra pods as critical	https://github.com/kubevirt/kubevirt/issues/1149
+kubevirt	kubevirt	702	Add yamllint to CI	https://github.com/kubevirt/kubevirt/issues/955
+kubevirt	kubevirt	702	Add common labels and annotations to infra and workload parts	https://github.com/kubevirt/kubevirt/issues/1087
+kubevirt	kubevirt	702	Add virtctl logic for mac viewers	https://github.com/kubevirt/kubevirt/issues/1084
+kubevirt	kubevirt	702	internal registry not updated when pods are changed	https://github.com/kubevirt/kubevirt/issues/1081
+kubevirt	kubevirt	702	Ability to specify a disks serial	https://github.com/kubevirt/kubevirt/issues/1133
+kubevirt	kubevirt	702	Increase code coverage by 10%	https://github.com/kubevirt/kubevirt/issues/1063
+kubevirt	kubevirt	702	Introduce `virtctl display`	https://github.com/kubevirt/kubevirt/issues/996
+kubevirt	kubevirt	702	Initialize empty filesystem-based PVs	https://github.com/kubevirt/kubevirt/issues/991
+kubevirt	kubevirt	702	Let our ha configuration scale automatically when masters are added or deleted	https://github.com/kubevirt/kubevirt/issues/975
+kubevirt	kubevirt	702	Make virtctl console wait for console to become ready	https://github.com/kubevirt/kubevirt/issues/1001
+kubevirt	kubevirt	702	"""VM defined"" event is sent on every successfull VirtualMacine sync in virt-handler"	https://github.com/kubevirt/kubevirt/issues/894
+kubevirt	kubevirt	702	Support disk without volumes	https://github.com/kubevirt/kubevirt/issues/725
+kubevirt	kubevirt	702	virtctl start/stop should PATCH the offline virtual machine instead of updating it with PUT	https://github.com/kubevirt/kubevirt/issues/863
+kubevirt	kubevirt	702	"Can't get ""virtctl vnc..."" running on OSX"	https://github.com/kubevirt/kubevirt/issues/812
+kubevirt	kubevirt	702	Add `virtctl expose`	https://github.com/kubevirt/kubevirt/issues/818
+kubevirt	kubevirt	702	Add everything that is needed to make virtctl a kubectl binary plugin	https://github.com/kubevirt/kubevirt/issues/912
+kubevirt	kubevirt	702	Track kubectl enhancement for better VM service exposure	https://github.com/kubevirt/kubevirt/issues/744
+kubevirt	kubevirt	702	Create functional test for template examples	https://github.com/kubevirt/kubevirt/issues/772
+kubernetes-helm	monocular	693	Error if repo source missing	https://github.com/kubernetes-helm/monocular/issues/332
+kubernetes-helm	monocular	693	Keep trying to reach backend until charts load	https://github.com/kubernetes-helm/monocular/issues/343
+kubernetes-helm	monocular	693	Cannot build project on Windows	https://github.com/kubernetes-helm/monocular/issues/249
+kubernetes-helm	monocular	693	Monocular API - TLS Certificate-Authority Issue	https://github.com/kubernetes-helm/monocular/issues/248
+kubernetes-helm	monocular	693	Support Helm with configurable base href	https://github.com/kubernetes-helm/monocular/issues/242
+kubernetes-helm	monocular	693	Swagger.yml does not validate with 2.0 spec	https://github.com/kubernetes-helm/monocular/issues/72
+operator-framework	operator-sdk	614	"Use multi-stage Dockerfile instead of building using host's Go binary"	https://github.com/operator-framework/operator-sdk/issues/167
+operator-framework	operator-sdk	614	Replace deprecated packages from client-go?	https://github.com/operator-framework/operator-sdk/issues/254
+operator-framework	operator-sdk	614	Operator panics if it starts before creating the CRD	https://github.com/operator-framework/operator-sdk/issues/183
+operator-framework	operator-sdk	614	Create SA for the operator (with the required grants only)	https://github.com/operator-framework/operator-sdk/issues/189
+heketi	heketi	579	No timestamps in logs	https://github.com/heketi/heketi/issues/694
+heketi	heketi	579	"A cluster with one node and no device ""Volume create fails"""	https://github.com/heketi/heketi/issues/730
+heketi	heketi	579	Add support for getting volume ID from volume name.	https://github.com/heketi/heketi/issues/908
+kubernetes-incubator	service-catalog	523	We should have a message to warning people not to use --param[s-json] for secret information.	https://github.com/kubernetes-incubator/service-catalog/issues/1897
+kubernetes-incubator	service-catalog	523	Support displaying and filtering by broker in svcat	https://github.com/kubernetes-incubator/service-catalog/issues/1749
+manifoldco	torus-cli	518	Worklog - List users missing keypairs in your organization	https://github.com/manifoldco/torus-cli/issues/190
+manifoldco	torus-cli	518	Support tab completion	https://github.com/manifoldco/torus-cli/issues/89
+manifoldco	torus-cli	518	Support pathexp for `view`	https://github.com/manifoldco/torus-cli/issues/118
+manifoldco	torus-cli	518	Update the Quickstart guide	https://github.com/manifoldco/torus-cli/issues/304
+manifoldco	torus-cli	518	Standardize usage of username and fullname / email throughout	https://github.com/manifoldco/torus-cli/issues/240
+manifoldco	torus-cli	518	Support moving all credentials from one path to another	https://github.com/manifoldco/torus-cli/issues/226
+manifoldco	torus-cli	518	Torus run -v to give a quick stdout on the env and names of envs being set	https://github.com/manifoldco/torus-cli/issues/221
+gojektech	heimdall	508	Split out interfaces for Retrier vs HTTP Client	https://github.com/gojektech/heimdall/issues/19
+gojektech	heimdall	508	Add examples for usage of retrier with various backoffs	https://github.com/gojektech/heimdall/issues/26

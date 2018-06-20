@@ -1,0 +1,90 @@
+owner	name	stars	title	url
+sinatra	sinatra	10026	Update 2.0 README translations	https://github.com/sinatra/sinatra/issues/1249
+sinatra	sinatra	10026	Is there a reason the server_settings option is not documented anywhere?	https://github.com/sinatra/sinatra/issues/940
+sinatra	sinatra	10026	Mention how to start various servers in threaded mode	https://github.com/sinatra/sinatra/issues/941
+sinatra	sinatra	10026	Document sharing sessions	https://github.com/sinatra/sinatra/issues/1160
+sinatra	sinatra	10026	Rack::Protection more examples in docs	https://github.com/sinatra/sinatra/issues/1154
+rubocop-hq	rubocop	9135	Add examples in the documentation	https://github.com/rubocop-hq/rubocop/issues/4910
+rubocop-hq	rubocop	9135	on_index, on_indexasgn, on_lambda callbacks seem to be missing?	https://github.com/rubocop-hq/rubocop/issues/5999
+rubocop-hq	rubocop	9135	"Undiscovered bad indentation is one of RuboCop's spec files"	https://github.com/rubocop-hq/rubocop/issues/5994
+rubocop-hq	rubocop	9135	Extend cop metadata	https://github.com/rubocop-hq/rubocop/issues/5978
+rubocop-hq	rubocop	9135	 Lint/EnsureReturn cop - why ensure must not return	https://github.com/rubocop-hq/rubocop/issues/5949
+rubocop-hq	rubocop	9135	Tag issues suitable for newcomers properly	https://github.com/rubocop-hq/rubocop/issues/5795
+rubocop-hq	rubocop	9135	[Suggestion] Appveyor Rspec test reporter	https://github.com/rubocop-hq/rubocop/issues/5718
+rubocop-hq	rubocop	9135	Improve the manual	https://github.com/rubocop-hq/rubocop/issues/3246
+elastic	logstash	9078	Usage note for --quiet is wrong	https://github.com/elastic/logstash/issues/9724
+elastic	logstash	9078	Logstash Keystore Enhancement	https://github.com/elastic/logstash/issues/9262
+charliesome	better_errors	6347	Allow to configure internal url	https://github.com/charliesome/better_errors/issues/415
+charliesome	better_errors	6347	Use `ObjectSpace.memsize_of` instead of serializing every variable	https://github.com/charliesome/better_errors/issues/412
+charliesome	better_errors	6347	allow custom favicon	https://github.com/charliesome/better_errors/issues/362
+charliesome	better_errors	6347	"""Loading"" indicator while variables are being fetched"	https://github.com/charliesome/better_errors/issues/382
+cucumber	cucumber-ruby	4978	Disable color when output to file using `--out` / allow `--color` to be a per-formatter option like `--out`	https://github.com/cucumber/cucumber-ruby/issues/1288
+cucumber	cucumber-ruby	4978	Fix style violations	https://github.com/cucumber/cucumber-ruby/issues/1021
+cucumber	cucumber-ruby	4978	Fix Windows build	https://github.com/cucumber/cucumber-ruby/issues/1215
+bundler	bundler	4207	"Support ""bundle config mirror.<URL>"" for :git sources"	https://github.com/bundler/bundler/issues/4513
+bundler	bundler	4207	[Feature request] Specifying groups for `bundle list`	https://github.com/bundler/bundler/issues/6564
+bundler	bundler	4207	Add flag `--ignore-cache` to `plugin install`	https://github.com/bundler/bundler/issues/5446
+bundler	bundler	4207	Add option to `plugin install` for local plugins	https://github.com/bundler/bundler/issues/5445
+bundler	bundler	4207	Adding --gemfile= selection as an argument to exec	https://github.com/bundler/bundler/issues/5924
+bundler	bundler	4207	Allow running bundler when STDERR has been closed	https://github.com/bundler/bundler/issues/6190
+bundler	bundler	4207	Add `bundle plugin list` command	https://github.com/bundler/bundler/issues/5467
+bundler	bundler	4207	Bundler cannot run on Windows when username contains non-ASCII characters	https://github.com/bundler/bundler/issues/5566
+bundler	bundler	4207	Bundler git check not working on windows	https://github.com/bundler/bundler/issues/6052
+bundler	bundler	4207	bundle outdated --source not working as expected	https://github.com/bundler/bundler/issues/4881
+kickstarter	rack-attack	3791	Move Wiki examples into version control	https://github.com/kickstarter/rack-attack/issues/324
+kickstarter	rack-attack	3791	Add Table of Contents section to the README	https://github.com/kickstarter/rack-attack/issues/335
+kickstarter	rack-attack	3791	Add FAQ to the docs	https://github.com/kickstarter/rack-attack/issues/332
+opal	opal	3766	Regression with block argument destructuring.	https://github.com/opal/opal/issues/1660
+opal	opal	3766	Array#select should use Opal.truthy	https://github.com/opal/opal/issues/1783
+opal	opal	3766	"IO reading process means you can't use execjs with V8"	https://github.com/opal/opal/issues/1539
+fatfreecrm	fat_free_crm	3013	Patterns for custom fields	https://github.com/fatfreecrm/fat_free_crm/issues/519
+fatfreecrm	fat_free_crm	3013	Refactoring: Add a proper logger to mail_processor	https://github.com/fatfreecrm/fat_free_crm/issues/674
+fatfreecrm	fat_free_crm	3013	e-mail address with with accidently added spaces gives error message while creating a user. 	https://github.com/fatfreecrm/fat_free_crm/issues/412
+twitter	secure_headers	2458	Consider removal of support for HPKP?	https://github.com/twitter/secure_headers/issues/368
+twitter	secure_headers	2458	report-uri is deprecated in favor of report-to	https://github.com/twitter/secure_headers/issues/269
+twitter	secure_headers	2458	expect-ct is undocumented	https://github.com/twitter/secure_headers/issues/369
+rubygems	rubygems	1973	"gem pristine doesn't seem to account for --user-install"	https://github.com/rubygems/rubygems/issues/1968
+rubygems	rubygems	1973	rubygems installer uses absolute pathnames in generated windows stub batch files	https://github.com/rubygems/rubygems/issues/2111
+rubygems	rubygems	1973	pristine --bindir	https://github.com/rubygems/rubygems/issues/1997
+rubygems	rubygems	1973	Cannot cleanup user gems	https://github.com/rubygems/rubygems/issues/1530
+oauth-xx	oauth2	1782	Multiple values for same parameter get discarded	https://github.com/oauth-xx/oauth2/issues/221
+oauth-xx	oauth2	1782	Handle Faraday::Error::ConnectionFailed	https://github.com/oauth-xx/oauth2/issues/152
+oauth-xx	oauth2	1782	getaddrinfo: No such host is known with Rail 4 on Windows 7	https://github.com/oauth-xx/oauth2/issues/187
+oauth-xx	oauth2	1782	Client secret found in GET URI MUST not exist	https://github.com/oauth-xx/oauth2/issues/193
+lobsters	lobsters	1696	Turn on rails 5.2 defaults after upgrade	https://github.com/lobsters/lobsters/issues/509
+lobsters	lobsters	1696	Turn on belongs_to_required_by_default (rails 5.0 default).	https://github.com/lobsters/lobsters/issues/508
+lobsters	lobsters	1696	"Comment search doesn't use tag/domain scope. "	https://github.com/lobsters/lobsters/issues/491
+lobsters	lobsters	1696	Logging of moderator hats being used spams moderators with notifications about their own moderation actions. Moderation moderation moderation.	https://github.com/lobsters/lobsters/issues/429
+lobsters	lobsters	1696	"rake db:schema:load doesn't generate foreign key in database"	https://github.com/lobsters/lobsters/issues/478
+lobsters	lobsters	1696	Option to be emailed story replies	https://github.com/lobsters/lobsters/issues/465
+lobsters	lobsters	1696	more realistic fake_data	https://github.com/lobsters/lobsters/issues/414
+lobsters	lobsters	1696	Backend-independent full text search	https://github.com/lobsters/lobsters/issues/422
+lobsters	lobsters	1696	mails: suboptimal quoted-printable generation	https://github.com/lobsters/lobsters/issues/328
+lobsters	lobsters	1696	Question marks must be encoded when formatted as quoted-printable in mail headers	https://github.com/lobsters/lobsters/issues/396
+lobsters	lobsters	1696	"Merge Received and Sent into a unified ""Conversations"""	https://github.com/lobsters/lobsters/issues/226
+git	git-scm.com	1619	Old company/project logos	https://github.com/git/git-scm.com/issues/595
+git	git-scm.com	1619	"Make the user understand when he's seeing an outdated book version (v1)"	https://github.com/git/git-scm.com/issues/1011
+inspec	inspec	1258	AWS Cloudwatch Alarms cannot be found from Metrics with Dimensions	https://github.com/inspec/inspec/issues/3026
+inspec	inspec	1258	aws_ec2_security_group does not report the inspected security group name or id	https://github.com/inspec/inspec/issues/2576
+rpush	rpush	1235	Update jwt to 2.x	https://github.com/rpush/rpush/issues/435
+rpush	rpush	1235	[GCM] How to send messages to a topic?	https://github.com/rpush/rpush/issues/219
+rpush	rpush	1235	Make migrations in tests more robust	https://github.com/rpush/rpush/issues/398
+neo4jrb	neo4j	1206	`link_to node_object` should display a better string	https://github.com/neo4jrb/neo4j/issues/1170
+neo4jrb	neo4j	1206	"`proxy_as` shouldn't take queries which have a `return` clause"	https://github.com/neo4jrb/neo4j/issues/1225
+neo4jrb	neo4j	1206	Add `db_runtime` support to Neo4jrb	https://github.com/neo4jrb/neo4j/issues/1291
+neo4jrb	neo4j	1206	Support `distinct` when it comes to further association chaining	https://github.com/neo4jrb/neo4j/issues/1340
+neo4jrb	neo4j	1206	how to bypass cypher logging	https://github.com/neo4jrb/neo4j/issues/958
+neo4jrb	neo4j	1206	"'none' for empty result set"	https://github.com/neo4jrb/neo4j/issues/565
+openstreetmap	openstreetmap-website	779	Ensure redaction text does not go off of page	https://github.com/openstreetmap/openstreetmap-website/issues/1845
+openstreetmap	openstreetmap-website	779	Change Windows Live to Microsoft Account	https://github.com/openstreetmap/openstreetmap-website/issues/1828
+openstreetmap	openstreetmap-website	779	Make email values a link in object detail mode	https://github.com/openstreetmap/openstreetmap-website/issues/1689
+travis-ci	dpl	760	Submodule files not included in Elastic Beanstalk upload	https://github.com/travis-ci/dpl/issues/592
+travis-ci	dpl	760	"DPL deploys to S3 with an empty content-type if it can't automatically detect it"	https://github.com/travis-ci/dpl/issues/803
+JacobEvelyn	friends	615	Add a project logo!	https://github.com/JacobEvelyn/friends/issues/177
+JacobEvelyn	friends	615	Add `set home` command to set your own location	https://github.com/JacobEvelyn/friends/issues/152
+JacobEvelyn	friends	615	"Is there a way to set friends.md's path to a permanent location?"	https://github.com/JacobEvelyn/friends/issues/197
+codevise	pageflow	569	Fix bourbon deprecations	https://github.com/codevise/pageflow/issues/933
+codevise	pageflow	569	Set maxlength on editor text inputs	https://github.com/codevise/pageflow/issues/782
+codevise	pageflow	569	JSON.parse error on account admin page	https://github.com/codevise/pageflow/issues/628
+codevise	pageflow	569	Redirect back to features tab on after saving feature settings	https://github.com/codevise/pageflow/issues/623
+codevise	pageflow	569	Redirect back to versions tab after saving current revision	https://github.com/codevise/pageflow/issues/621

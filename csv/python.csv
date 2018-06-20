@@ -1,0 +1,1184 @@
+owner	name	stars	title	url
+scikit-learn	scikit-learn	28881	confusion_matrix() linking to Wikipedia, but not consistent with example there.	https://github.com/scikit-learn/scikit-learn/issues/11326
+scikit-learn	scikit-learn	28881	Document missing/incorrect for libsvm.predict and libsvm.predict_proba	https://github.com/scikit-learn/scikit-learn/issues/11097
+scikit-learn	scikit-learn	28881	check_X_y raises uninformative error message when y=None	https://github.com/scikit-learn/scikit-learn/issues/11257
+scikit-learn	scikit-learn	28881	Change default n_estimators in RandomForest (to 100?)	https://github.com/scikit-learn/scikit-learn/issues/11128
+scikit-learn	scikit-learn	28881	Add a list_scorers function to sklearn.metrics	https://github.com/scikit-learn/scikit-learn/issues/10712
+scikit-learn	scikit-learn	28881	Adding Fall-out, Miss rate, specificity as metrics	https://github.com/scikit-learn/scikit-learn/issues/5516
+scikit-learn	scikit-learn	28881	Change cv default to 5	https://github.com/scikit-learn/scikit-learn/issues/11129
+scikit-learn	scikit-learn	28881	"Add ""usage question"" reply to saved replies"	https://github.com/scikit-learn/scikit-learn/issues/11145
+scikit-learn	scikit-learn	28881	"Document `length_scale_bounds=""fixed""` in GP kernels."	https://github.com/scikit-learn/scikit-learn/issues/8358
+scikit-learn	scikit-learn	28881	"SVC.coef_ and NuSVC.coef_ don't work as documented"	https://github.com/scikit-learn/scikit-learn/issues/9196
+scikit-learn	scikit-learn	28881	Shorten and improve CONTRIBUTING.md	https://github.com/scikit-learn/scikit-learn/issues/10892
+scikit-learn	scikit-learn	28881	Linear models take unreasonable longer time in certain data size.	https://github.com/scikit-learn/scikit-learn/issues/10813
+scikit-learn	scikit-learn	28881	Make random_state descriptions more informative and refer to Glossary	https://github.com/scikit-learn/scikit-learn/issues/10548
+scikit-learn	scikit-learn	28881	Verbose VotingClassifier	https://github.com/scikit-learn/scikit-learn/issues/10360
+scikit-learn	scikit-learn	28881	Confusing organization for OneClassSVM docs.	https://github.com/scikit-learn/scikit-learn/issues/10923
+scikit-learn	scikit-learn	28881	W and H switched in NMF docs?	https://github.com/scikit-learn/scikit-learn/issues/10944
+scikit-learn	scikit-learn	28881	validation_curve and learning_curve should support fit_params	https://github.com/scikit-learn/scikit-learn/issues/10252
+scikit-learn	scikit-learn	28881	Add QuantileTransformer to PowerTransformer example	https://github.com/scikit-learn/scikit-learn/issues/10257
+scikit-learn	scikit-learn	28881	inf or -inf values in CV ruin the mean and std	https://github.com/scikit-learn/scikit-learn/issues/10529
+scikit-learn	scikit-learn	28881	fetch_california_housing missing from the user guide	https://github.com/scikit-learn/scikit-learn/issues/10555
+scikit-learn	scikit-learn	28881	BernoulliNB and MultinomialNB documentation for alpha=0	https://github.com/scikit-learn/scikit-learn/issues/10772
+scikit-learn	scikit-learn	28881	Parallel computing with nested cross-validation	https://github.com/scikit-learn/scikit-learn/issues/10232
+scrapy	scrapy	27815	Bring back docstring comments in CrawlSpider	https://github.com/scrapy/scrapy/issues/2727
+scrapy	scrapy	27815	`item_urls` is not defined in example	https://github.com/scrapy/scrapy/issues/3097
+scrapy	scrapy	27815	Prevent URL encoding option	https://github.com/scrapy/scrapy/issues/833
+scrapy	scrapy	27815	Offsite middleware ignoring port	https://github.com/scrapy/scrapy/issues/50
+scrapy	scrapy	27815	Python 3.7 support	https://github.com/scrapy/scrapy/issues/3143
+certbot	certbot	22438	"Don't allow special characters in lineage name"	https://github.com/certbot/certbot/issues/6127
+certbot	certbot	22438	certbot renew --debug-challenges	https://github.com/certbot/certbot/issues/5005
+certbot	certbot	22438	`certbot delete` can result in a malformed Nginx config	https://github.com/certbot/certbot/issues/6094
+certbot	certbot	22438	Give usage information specific to subcommand	https://github.com/certbot/certbot/issues/6093
+certbot	certbot	22438	Offer interactive selection for --cert-name for install verb	https://github.com/certbot/certbot/issues/5824
+certbot	certbot	22438	Spurious error parsing ssl.conf	https://github.com/certbot/certbot/issues/6095
+certbot	certbot	22438	Get static typing (using mypy?)	https://github.com/certbot/certbot/issues/4244
+certbot	certbot	22438	[Feature Request] Parameter to keep internal webserver running	https://github.com/certbot/certbot/issues/6042
+certbot	certbot	22438	"certbot-apache should dump the apachectl -S when it can't renew"	https://github.com/certbot/certbot/issues/6045
+certbot	certbot	22438	Refactor Nginx plugin unit tests to decouple test config files	https://github.com/certbot/certbot/issues/3873
+certbot	certbot	22438	Renewal conf files should use relative paths for specifying live/archive dirs	https://github.com/certbot/certbot/issues/3953
+certbot	certbot	22438	Remove e-mail address from registration	https://github.com/certbot/certbot/issues/3162
+certbot	certbot	22438	Address linter issues from using upgraded pylint	https://github.com/certbot/certbot/issues/5904
+certbot	certbot	22438	Improve documentation about gnupg2 verification of certbot-auto	https://github.com/certbot/certbot/issues/5718
+certbot	certbot	22438	Revamp register subcommand	https://github.com/certbot/certbot/issues/3816
+certbot	certbot	22438	Ability to set source IP	https://github.com/certbot/certbot/issues/3489
+certbot	certbot	22438	document how different display modes interact with force_interactive	https://github.com/certbot/certbot/issues/4310
+certbot	certbot	22438	"Documentation: bootstrapping link isn't informative"	https://github.com/certbot/certbot/issues/4366
+certbot	certbot	22438	Rewrite our various `if os.path.exists`s atomically.	https://github.com/certbot/certbot/issues/4319
+certbot	certbot	22438	Refactor Apache plugin unit tests to decouple test config files	https://github.com/certbot/certbot/issues/4338
+certbot	certbot	22438	Confusing Error message	https://github.com/certbot/certbot/issues/4759
+certbot	certbot	22438	"Better support for ""pip install letsencrypt"" or ""pip install letsencrypt-nginx"" etc via error messages"	https://github.com/certbot/certbot/issues/2769
+certbot	certbot	22438	"Make use of ""caa-identities"" metadata"	https://github.com/certbot/certbot/issues/4836
+certbot	certbot	22438	letsencrypt apache, bad domain order	https://github.com/certbot/certbot/issues/2685
+certbot	certbot	22438	Add --all-domains	https://github.com/certbot/certbot/issues/3887
+certbot	certbot	22438	Integration tests for failed challenges	https://github.com/certbot/certbot/issues/749
+pandas-dev	pandas	14767	background_gradient vmin and vmax	https://github.com/pandas-dev/pandas/issues/12145
+pandas-dev	pandas	14767	BUG: np.array @ pd.Series swaps arguments	https://github.com/pandas-dev/pandas/issues/21530
+pandas-dev	pandas	14767	File mode in `to_csv` is ignored, when passing a file object instead of a path	https://github.com/pandas-dev/pandas/issues/19827
+pandas-dev	pandas	14767	BUG: groupby().ffill() adds group labels as extra column	https://github.com/pandas-dev/pandas/issues/21521
+pandas-dev	pandas	14767	Problem Compiling Docs using make.py 	https://github.com/pandas-dev/pandas/issues/20862
+pandas-dev	pandas	14767	pandas.rolling.apply skip calling function if window contains any NaN	https://github.com/pandas-dev/pandas/issues/21489
+pandas-dev	pandas	14767	"DOC: Add documentation for freq='infer' option of DatetimeIndex and TimedeltaIndex constructors"	https://github.com/pandas-dev/pandas/issues/21128
+pandas-dev	pandas	14767	ENH: Iterate over HDF store hierarchically	https://github.com/pandas-dev/pandas/issues/10143
+pandas-dev	pandas	14767	[DOC]: Explain the choice of absolute/relative tolerance for check_less_precise in assert_almost_equal	https://github.com/pandas-dev/pandas/issues/21528
+pandas-dev	pandas	14767	"Raise ValueError for read_json and orient='table' With Numeric Column Names"	https://github.com/pandas-dev/pandas/issues/19129
+pandas-dev	pandas	14767	Passing empty label list to df.drop() errors when index is non-unique	https://github.com/pandas-dev/pandas/issues/21494
+pandas-dev	pandas	14767	DOC: Implement script to validate list indentation in docs	https://github.com/pandas-dev/pandas/issues/21520
+pandas-dev	pandas	14767	TST: split up pandas/tests/indexes/test_multi.py	https://github.com/pandas-dev/pandas/issues/18644
+pandas-dev	pandas	14767	BUG: DataFrame.pivot fails on multiple columns to set as index	https://github.com/pandas-dev/pandas/issues/21425
+pandas-dev	pandas	14767	Document our pytest fixtures	https://github.com/pandas-dev/pandas/issues/19159
+pandas-dev	pandas	14767	ENH date_range should accept dateutil frequency constants	https://github.com/pandas-dev/pandas/issues/9314
+pandas-dev	pandas	14767	Concatenation of category value counts mixes up the index order	https://github.com/pandas-dev/pandas/issues/14600
+pandas-dev	pandas	14767	CI: Enable spellcheck in docbuild	https://github.com/pandas-dev/pandas/issues/21354
+pandas-dev	pandas	14767	TST: add additional test cases for pivot_table with categorical data	https://github.com/pandas-dev/pandas/issues/21370
+pandas-dev	pandas	14767	"pandas.read_csv(..., skiprows=2, engine='c') with unix-style line breaks crashes python on windows"	https://github.com/pandas-dev/pandas/issues/11020
+pandas-dev	pandas	14767	Timestamp.resolution returns timedelta(microseconds=1)	https://github.com/pandas-dev/pandas/issues/21336
+pandas-dev	pandas	14767	np array indexer modified in iloc	https://github.com/pandas-dev/pandas/issues/20852
+pandas-dev	pandas	14767	test needed: groupby(as_index=False, sort=False).aggregate formerly (?) gave unexpected results with a list-like function	https://github.com/pandas-dev/pandas/issues/18473
+pandas-dev	pandas	14767	(DOC) A `string` passed to `groupby` is hard to understand based on current doc	https://github.com/pandas-dev/pandas/issues/16870
+pandas-dev	pandas	14767	read_excel return empty dataframe when using usecols	https://github.com/pandas-dev/pandas/issues/18273
+pandas-dev	pandas	14767	STYLE: support flake8>3.4.1	https://github.com/pandas-dev/pandas/issues/18419
+pandas-dev	pandas	14767	cannot get cut() to display desired bins label	https://github.com/pandas-dev/pandas/issues/15357
+pandas-dev	pandas	14767	ENH: return .dt.weekday/weekday_name as ordered categoricals	https://github.com/pandas-dev/pandas/issues/12993
+pandas-dev	pandas	14767	"Add Timedelta Support to JSON Reader with orient=""table"""	https://github.com/pandas-dev/pandas/issues/21140
+pandas-dev	pandas	14767	Phantom Index when NaN in MultiIndex	https://github.com/pandas-dev/pandas/issues/5286
+pandas-dev	pandas	14767	DOC: improve docs for broadcasting behavior	https://github.com/pandas-dev/pandas/issues/18857
+pandas-dev	pandas	14767	Inconsistent behaviour when calling apply() on a categorical column with missing data 	https://github.com/pandas-dev/pandas/issues/20714
+pandas-dev	pandas	14767	API: consider deprecating DataFrame.hist in favor of DataFrame.plot.hist	https://github.com/pandas-dev/pandas/issues/11053
+pandas-dev	pandas	14767	Groupby with function returning a tuple fails if index has a name	https://github.com/pandas-dev/pandas/issues/18696
+pandas-dev	pandas	14767	DOC: clean Index.set_name / .rename doc-strings	https://github.com/pandas-dev/pandas/issues/20787
+pandas-dev	pandas	14767	API/BUG: center=True in expanding operations returns non-sensical results	https://github.com/pandas-dev/pandas/issues/20647
+pandas-dev	pandas	14767	issue when shifting with Timedelta in a groupby	https://github.com/pandas-dev/pandas/issues/20492
+pandas-dev	pandas	14767	DOC: enhance pivot / reshape docs	https://github.com/pandas-dev/pandas/issues/19089
+pandas-dev	pandas	14767	More clean up of the scripts	https://github.com/pandas-dev/pandas/issues/19372
+pandas-dev	pandas	14767	Series values cannot be accessed by numeric categorical index	https://github.com/pandas-dev/pandas/issues/14865
+pandas-dev	pandas	14767	deprecation warning importing pandas (python2.7 only)	https://github.com/pandas-dev/pandas/issues/19944
+pandas-dev	pandas	14767	COMPAT: drop pyarrow < 0.7 and fastparquet < 0.1 for Parquet IO	https://github.com/pandas-dev/pandas/issues/18742
+pandas-dev	pandas	14767	Ongoing: Fixing docstrings	https://github.com/pandas-dev/pandas/issues/2916
+pandas-dev	pandas	14767	TST: split out test_pytables.py to sub-module of tests	https://github.com/pandas-dev/pandas/issues/18498
+pandas-dev	pandas	14767	Investigate using Hypothesis for some tests	https://github.com/pandas-dev/pandas/issues/17978
+pandas-dev	pandas	14767	feature wanted: pd.DataFrame.info() should show line numbers	https://github.com/pandas-dev/pandas/issues/17304
+pandas-dev	pandas	14767	DOC: clarify dangers of fast apply in GroupBy apply docs	https://github.com/pandas-dev/pandas/issues/14180
+pandas-dev	pandas	14767	Adding big offset to timedelta generates a python crash	https://github.com/pandas-dev/pandas/issues/14080
+pandas-dev	pandas	14767	"'groupby' multiple columns and 'sum' multiple columns with different types"	https://github.com/pandas-dev/pandas/issues/13821
+pandas-dev	pandas	14767	BUG: maybe_convert_objects on soft converttof datetime can raise unexpectedly	https://github.com/pandas-dev/pandas/issues/19359
+pandas-dev	pandas	14767	Raise ValueError When Attempting to Rank Object Dtypes	https://github.com/pandas-dev/pandas/issues/19560
+pandas-dev	pandas	14767	qcut raising TypeError for boolean Series	https://github.com/pandas-dev/pandas/issues/20303
+pandas-dev	pandas	14767	"reset_index() doesn't work with CategoricalIndex columns"	https://github.com/pandas-dev/pandas/issues/19136
+pandas-dev	pandas	14767	BUG: STD modifies groupby target column when as_index=False	https://github.com/pandas-dev/pandas/issues/10355
+pandas-dev	pandas	14767	ERR: pivot_table when number of levels larger than int32 range	https://github.com/pandas-dev/pandas/issues/20601
+pandas-dev	pandas	14767	new behavior regarding `Series.plot.bar` for `logy=True` in 0.21	https://github.com/pandas-dev/pandas/issues/18394
+pandas-dev	pandas	14767	Docstring on Styler.apply{,map} is confusing	https://github.com/pandas-dev/pandas/issues/12148
+pandas-dev	pandas	14767	Local PostgreSQL faliures	https://github.com/pandas-dev/pandas/issues/20505
+pandas-dev	pandas	14767	check_names=False parameter for pandas.util.testing.assert_frame_equal applies to index.names but not columns.names	https://github.com/pandas-dev/pandas/issues/19411
+pandas-dev	pandas	14767	BUG: Timezones are lost in pivot_table	https://github.com/pandas-dev/pandas/issues/14948
+pandas-dev	pandas	14767	loffset has no effect when passing in a numyp.timedelta64	https://github.com/pandas-dev/pandas/issues/7687
+pandas-dev	pandas	14767	asv tests for DataFrame constructor	https://github.com/pandas-dev/pandas/issues/18840
+pandas-dev	pandas	14767	TST: split out sparse tests	https://github.com/pandas-dev/pandas/issues/18969
+pandas-dev	pandas	14767	ENH: fill_value argument for shift	https://github.com/pandas-dev/pandas/issues/15486
+pandas-dev	pandas	14767	Multiarray searchsorted fails	https://github.com/pandas-dev/pandas/issues/14833
+pandas-dev	pandas	14767	ENH: df.add fill_value NotImplementedError	https://github.com/pandas-dev/pandas/issues/13488
+pandas-dev	pandas	14767	TST: code coverage enhancements	https://github.com/pandas-dev/pandas/issues/12634
+pandas-dev	pandas	14767	"ENH: add errors='raise' option to rename"	https://github.com/pandas-dev/pandas/issues/13473
+pandas-dev	pandas	14767	ENH: calculate average absolute difference by mean, median or mode	https://github.com/pandas-dev/pandas/issues/11787
+pandas-dev	pandas	14767	API: read_csv,from_csv/to_csv keyword consistency	https://github.com/pandas-dev/pandas/issues/9568
+pandas-dev	pandas	14767	DOC: freeze old whatsnew notes?	https://github.com/pandas-dev/pandas/issues/6856
+pandas-dev	pandas	14767	Groupby all levels except the specified ones	https://github.com/pandas-dev/pandas/issues/15475
+pandas-dev	pandas	14767	BUG: index name lost when indexing with another index	https://github.com/pandas-dev/pandas/issues/9943
+pandas-dev	pandas	14767	Silently Ignored Kwargs Cleanup	https://github.com/pandas-dev/pandas/issues/18748
+pandas-dev	pandas	14767	Fillna a categories series with another series breaks	https://github.com/pandas-dev/pandas/issues/13628
+pandas-dev	pandas	14767	"""is_all_dates"" inconsistent across datetimelike types"	https://github.com/pandas-dev/pandas/issues/19204
+pandas-dev	pandas	14767	Flesh out examples included in docstrings	https://github.com/pandas-dev/pandas/issues/3439
+pandas-dev	pandas	14767	TST: split tests for windows to sub-modules	https://github.com/pandas-dev/pandas/issues/19228
+pandas-dev	pandas	14767	"read_fwf - parsers.py PythonParser._rows_to_columns line 2814 object of type 'NoneType' has no len()"	https://github.com/pandas-dev/pandas/issues/19436
+pandas-dev	pandas	14767	DEPR: DataFrame.combine propagates nan values	https://github.com/pandas-dev/pandas/issues/10734
+pandas-dev	pandas	14767	DOC: improve s3 access doc-strings / docs	https://github.com/pandas-dev/pandas/issues/12206
+pandas-dev	pandas	14767	Behaviour of Categorical inputs to sparse data structures	https://github.com/pandas-dev/pandas/issues/19278
+pandas-dev	pandas	14767	DOC: improve groupby reference docs	https://github.com/pandas-dev/pandas/issues/6944
+pandas-dev	pandas	14767	DataFrame.to_string truncates long strings	https://github.com/pandas-dev/pandas/issues/9784
+pandas-dev	pandas	14767	DOC: More subtotals / margins in pivot_table	https://github.com/pandas-dev/pandas/issues/4817
+pandas-dev	pandas	14767	"BUG: Creating Index name using `names` names argument, doesn't set index name"	https://github.com/pandas-dev/pandas/issues/19082
+pandas-dev	pandas	14767	Equivalent of Series.map for DataFrame	https://github.com/pandas-dev/pandas/issues/12550
+pandas-dev	pandas	14767	pd.set_eng_float_format() function not documented in the API reference	https://github.com/pandas-dev/pandas/issues/15610
+pandas-dev	pandas	14767	DOC: section on caveats of storing lists inside DataFrame/Series	https://github.com/pandas-dev/pandas/issues/17027
+pandas-dev	pandas	14767	DOC: improve documentation for Series.resample	https://github.com/pandas-dev/pandas/issues/5023
+pandas-dev	pandas	14767	DOC: add axes attributes to API docs	https://github.com/pandas-dev/pandas/issues/11407
+pandas-dev	pandas	14767	Improvement: DataFrame.to_html() to create hyperlinks	https://github.com/pandas-dev/pandas/issues/2679
+pandas-dev	pandas	14767	Wish: Input / output for Open Document Spreadsheet (ODS)	https://github.com/pandas-dev/pandas/issues/2311
+pandas-dev	pandas	14767	ENH/VIS: Pass DataFrame column to size argument in df.scatter	https://github.com/pandas-dev/pandas/issues/8244
+pandas-dev	pandas	14767	ERR: catchall exception should be explicity and use Exception EAFP	https://github.com/pandas-dev/pandas/issues/7948
+pandas-dev	pandas	14767	TST: add tests for Series/Panel with non-unique index in to_hdf with fixed format	https://github.com/pandas-dev/pandas/issues/7813
+pandas-dev	pandas	14767	PERF/API: alias len/size in groupby.transform	https://github.com/pandas-dev/pandas/issues/7570
+pandas-dev	pandas	14767	ERR: more helpful error message on invalid access with a timestamp-like	https://github.com/pandas-dev/pandas/issues/7211
+pandas-dev	pandas	14767	BUG/TST: verify that groupby apply with a column aggregation does not return the column	https://github.com/pandas-dev/pandas/issues/7002
+pandas-dev	pandas	14767	DOC: provide more inline examples for cookbook.rst	https://github.com/pandas-dev/pandas/issues/6918
+ipython	ipython	12818	"String ""feedbac"" is highlighted blue in markdown cell in notebook"	https://github.com/ipython/ipython/issues/8721
+ipython	ipython	12818	_repr_svg_ needs better documentation	https://github.com/ipython/ipython/issues/10973
+ipython	ipython	12818	investigate os.scandir	https://github.com/ipython/ipython/issues/9914
+ipython	ipython	12818	HTML vs Iframe	https://github.com/ipython/ipython/issues/9343
+ipython	ipython	12818	Treat subprocess errors as exceptions	https://github.com/ipython/ipython/issues/9657
+ipython	ipython	12818	Custom PPrinter	https://github.com/ipython/ipython/issues/9227
+ipython	ipython	12818	cannot open any .ipynb notebooks or create a new one	https://github.com/ipython/ipython/issues/9003
+ipython	ipython	12818	ipython Sphinx directive executes code when excluded by only, ifconfig	https://github.com/ipython/ipython/issues/9339
+ipython	ipython	12818	NBExplode content manager.	https://github.com/ipython/ipython/issues/9341
+ipython	ipython	12818	Twisted-aware kernel [question]	https://github.com/ipython/ipython/issues/9308
+ipython	ipython	12818	"feature request: redirect magic's result to pager"	https://github.com/ipython/ipython/issues/9891
+ipython	ipython	12818	[docs] update make.cmd	https://github.com/ipython/ipython/issues/2603
+ipython	ipython	12818	"traitlets issue: TypeError: 'LazyConfigValue' object is not iterable"	https://github.com/ipython/ipython/issues/8775
+ipython	ipython	12818	Profiler %prun Magic does not allow disabling strip_dirs	https://github.com/ipython/ipython/issues/8413
+ipython	ipython	12818	Fallback to pydoc if site._Helper is not defined	https://github.com/ipython/ipython/issues/2606
+ipython	ipython	12818	When creating folders prompt for folder name	https://github.com/ipython/ipython/issues/8562
+ipython	ipython	12818	Whitespace in cell and line magics	https://github.com/ipython/ipython/issues/5640
+ipython	ipython	12818	should we enable markdown_github for pandoc ?	https://github.com/ipython/ipython/issues/5635
+ipython	ipython	12818	Allow to embed local videos using html5	https://github.com/ipython/ipython/issues/5987
+ipython	ipython	12818	Profiling code in the clipboard (%paste)	https://github.com/ipython/ipython/issues/3927
+ipython	ipython	12818	inactive code cells	https://github.com/ipython/ipython/issues/2125
+ipython	ipython	12818	More secure default for non localhost-only binding notebook.	https://github.com/ipython/ipython/issues/2756
+ipython	ipython	12818	Ability to remove all script in html view	https://github.com/ipython/ipython/issues/4935
+ipython	ipython	12818	Built-in ability to exclude cells in nbconvert output.	https://github.com/ipython/ipython/issues/4931
+ipython	ipython	12818	* -> ipynb converter	https://github.com/ipython/ipython/issues/4930
+ipython	ipython	12818	Mathematica-style Initialization Cells	https://github.com/ipython/ipython/issues/2950
+ipython	ipython	12818	Magic to toggle tab completion	https://github.com/ipython/ipython/issues/2837
+ipython	ipython	12818	Robust default color scheme	https://github.com/ipython/ipython/issues/2281
+ipython	ipython	12818	Add install instructions when dependencies are missing	https://github.com/ipython/ipython/issues/2569
+ipython	ipython	12818	investigate json(ascii=False) for on disk notebooks.	https://github.com/ipython/ipython/issues/7050
+pypa	pipenv	11832	Better error handling when user does not provide argument for -e	https://github.com/pypa/pipenv/issues/2383
+pypa	pipenv	11832	"Help text doesn't appear in command --help"	https://github.com/pypa/pipenv/issues/2381
+pypa	pipenv	11832	Provide better logging for “run”	https://github.com/pypa/pipenv/issues/2367
+pypa	pipenv	11832	Better error messages (instead of exceptions) when parsing malformed [[source]] section	https://github.com/pypa/pipenv/issues/2373
+pypa	pipenv	11832	pipenv creates virtualenvs in ~/Library/Application Support on OSX, so binaries can be unrunnable	https://github.com/pypa/pipenv/issues/2321
+pypa	pipenv	11832	Parse error for file on Linux	https://github.com/pypa/pipenv/issues/2323
+pypa	pipenv	11832	Documentation should mention variable expansion works only in [[source]] entries	https://github.com/pypa/pipenv/issues/2317
+pypa	pipenv	11832	Provide better error message if the project’s virtual environment is broken	https://github.com/pypa/pipenv/issues/1918
+pypa	pipenv	11832	document tox-pipenv	https://github.com/pypa/pipenv/issues/1671
+pypa	pipenv	11832	Conda-specific compatibility note in documentation	https://github.com/pypa/pipenv/issues/1862
+pypa	pipenv	11832	Note in documentation about broken Python 2.7.12 and Virtualenv installation on Ubuntu 16.04	https://github.com/pypa/pipenv/issues/1952
+celery	celery	9747	Celery ignores BROKER_URL vhost	https://github.com/celery/celery/issues/4359
+celery	celery	9747	Unexpected task delay w/ Redis + acks_late	https://github.com/celery/celery/issues/4378
+celery	celery	9747	"How to restart a celery worker in development with out ""Ready delay""."	https://github.com/celery/celery/issues/4373
+celery	celery	9747	Persistent data not restored.	https://github.com/celery/celery/issues/4340
+celery	celery	9747	"When LOGGING key exists in setting.py, celeryd can't restart"	https://github.com/celery/celery/issues/4372
+bokeh	bokeh	7767	Step Glyph Support for Gaps from Missing/Non-Finite Data Points (inf, nan)	https://github.com/bokeh/bokeh/issues/7890
+bokeh	bokeh	7767	Feature idea: Docker image for bokeh server	https://github.com/bokeh/bokeh/issues/2283
+bokeh	bokeh	7767	Feature Request: support hit-testing for text glyphs	https://github.com/bokeh/bokeh/issues/7618
+bokeh	bokeh	7767	Update export_png function to get image handle?	https://github.com/bokeh/bokeh/issues/7238
+bokeh	bokeh	7767	[Feature Request] Allow FunctionHandler to Include Lifecycle Hooks and Themes	https://github.com/bokeh/bokeh/issues/5728
+bokeh	bokeh	7767	"New user's guide entry: Scrollable columns"	https://github.com/bokeh/bokeh/issues/7321
+bokeh	bokeh	7767	document validation check needed for mis-matched y_range_name	https://github.com/bokeh/bokeh/issues/7320
+bokeh	bokeh	7767	BoxZoomTool does not work on GMapPlot	https://github.com/bokeh/bokeh/issues/5469
+bokeh	bokeh	7767	Oval selection does not update color (does not support hit testing)	https://github.com/bokeh/bokeh/issues/6985
+bokeh	bokeh	7767	"Feature: Add ""dbl-click to reset zoom"" on BoxZoomTool "	https://github.com/bokeh/bokeh/issues/4698
+bokeh	bokeh	7767	Toggle selection of objects with shift+click	https://github.com/bokeh/bokeh/issues/2326
+bokeh	bokeh	7767	Pandas periods are not recognised	https://github.com/bokeh/bokeh/issues/2266
+bokeh	bokeh	7767	bokeh server: color palette rgb is not recognized	https://github.com/bokeh/bokeh/issues/4096
+bokeh	bokeh	7767	expose tap and hover tool hit radius	https://github.com/bokeh/bokeh/issues/2230
+bokeh	bokeh	7767	GridPlot ignores `title` property	https://github.com/bokeh/bokeh/issues/1449
+bokeh	bokeh	7767	Plot.y_range / Plot.x_range start/end values not set	https://github.com/bokeh/bokeh/issues/4371
+bokeh	bokeh	7767	x_axis_type not in fuzzy matching for figure args	https://github.com/bokeh/bokeh/issues/5241
+bokeh	bokeh	7767	Integration tests should use Models unless explicitly testing the plotting or charts API	https://github.com/bokeh/bokeh/issues/4314
+bokeh	bokeh	7767	measurement tools	https://github.com/bokeh/bokeh/issues/182
+bokeh	bokeh	7767	"Not correct behaviour of HoverTool with annular glyph and units='screen'"	https://github.com/bokeh/bokeh/issues/2022
+bokeh	bokeh	7767	Provide an interface to clip grid lines in both dimensions	https://github.com/bokeh/bokeh/issues/3655
+bokeh	bokeh	7767	Should hover tool be disabled during making selection?	https://github.com/bokeh/bokeh/issues/1394
+matplotlib	matplotlib	7452	Examples not shown in API docs for many methods.	https://github.com/matplotlib/matplotlib/issues/10974
+matplotlib	matplotlib	7452	Most warnings calls do not set the stacklevel	https://github.com/matplotlib/matplotlib/issues/10643
+matplotlib	matplotlib	7452	Only the first figure window has mpl icon, all other figures have default tk icon.	https://github.com/matplotlib/matplotlib/issues/11138
+matplotlib	matplotlib	7452	pcolormesh bug: edgecolor ignored	https://github.com/matplotlib/matplotlib/issues/1302
+matplotlib	matplotlib	7452	default filename does not strip invalid characters on windows 	https://github.com/matplotlib/matplotlib/issues/9056
+matplotlib	matplotlib	7452	Cannot set the markeredgecolor by default	https://github.com/matplotlib/matplotlib/issues/8109
+matplotlib	matplotlib	7452	Add benchmarking suite	https://github.com/matplotlib/matplotlib/issues/2188
+matplotlib	matplotlib	7452	fill_between color / facecolor / edegcolor resolution not deterministic	https://github.com/matplotlib/matplotlib/issues/7840
+matplotlib	matplotlib	7452	Add documentation for set_rlim	https://github.com/matplotlib/matplotlib/issues/10704
+matplotlib	matplotlib	7452	Make documentation builds (more) reproducible	https://github.com/matplotlib/matplotlib/issues/10702
+matplotlib	matplotlib	7452	Support error bars on 3D plots	https://github.com/matplotlib/matplotlib/issues/568
+matplotlib	matplotlib	7452	Animations & Object Persistence	https://github.com/matplotlib/matplotlib/issues/1656
+matplotlib	matplotlib	7452	Move/copy documentation from pcolor to pcolormesh	https://github.com/matplotlib/matplotlib/issues/2957
+matplotlib	matplotlib	7452	markerfacecolor / mfc not in rcparams	https://github.com/matplotlib/matplotlib/issues/3293
+matplotlib	matplotlib	7452	Add a __repr__ for Figure without the object address ?	https://github.com/matplotlib/matplotlib/issues/9372
+matplotlib	matplotlib	7452	matplotlibrc parameter for legend title font size	https://github.com/matplotlib/matplotlib/issues/9201
+matplotlib	matplotlib	7452	docstring of parameter Fs of matplotlib.pyplot.specgram() inconsistent with default value	https://github.com/matplotlib/matplotlib/issues/9100
+matplotlib	matplotlib	7452	Separate plots in examples w/ multiple plots using ######	https://github.com/matplotlib/matplotlib/issues/8922
+matplotlib	matplotlib	7452	Add one-line descriptions to remaining examples	https://github.com/matplotlib/matplotlib/issues/8921
+matplotlib	matplotlib	7452	line3D set_data only takes in x and y data	https://github.com/matplotlib/matplotlib/issues/8914
+matplotlib	matplotlib	7452	expand log demo to a tutorial	https://github.com/matplotlib/matplotlib/issues/8863
+matplotlib	matplotlib	7452	System Error in backend_agg. (with a fix!)	https://github.com/matplotlib/matplotlib/issues/8650
+matplotlib	matplotlib	7452	Feature Request: draw percentiles in violinplot	https://github.com/matplotlib/matplotlib/issues/8532
+matplotlib	matplotlib	7452	"plt.pcolormesh shape mismatch when shading='gouraud'"	https://github.com/matplotlib/matplotlib/issues/8422
+matplotlib	matplotlib	7452	capstyle/joinstyle support for matplotlib.collections.Collection	https://github.com/matplotlib/matplotlib/issues/8277
+matplotlib	matplotlib	7452	"Legend does not show 'annotate'"	https://github.com/matplotlib/matplotlib/issues/8236
+matplotlib	matplotlib	7452	Suggested improvements to the gallery	https://github.com/matplotlib/matplotlib/issues/7956
+matplotlib	matplotlib	7452	Update dependencies in the docs	https://github.com/matplotlib/matplotlib/issues/7858
+matplotlib	matplotlib	7452	directory-of-files MovieWriter subclass	https://github.com/matplotlib/matplotlib/issues/7679
+matplotlib	matplotlib	7452	"anchored_artists don't support zorder argument"	https://github.com/matplotlib/matplotlib/issues/7650
+matplotlib	matplotlib	7452	consult rcParams for Figures on `fig.clf`	https://github.com/matplotlib/matplotlib/issues/7434
+matplotlib	matplotlib	7452	Moving get_ax and do_event to testing	https://github.com/matplotlib/matplotlib/issues/7372
+matplotlib	matplotlib	7452	weird mathtext doc markup	https://github.com/matplotlib/matplotlib/issues/7300
+matplotlib	matplotlib	7452	Converting docstrings to numpydoc	https://github.com/matplotlib/matplotlib/issues/7205
+matplotlib	matplotlib	7452	Version ~/.cache/matplotlib	https://github.com/matplotlib/matplotlib/issues/4993
+matplotlib	matplotlib	7452	JPG quality keyword in savefig	https://github.com/matplotlib/matplotlib/issues/458
+zulip	zulip	7354	Test query counts for more stream-create scenarios.	https://github.com/zulip/zulip/issues/4804
+zulip	zulip	7354	"Editing topic of messages present before subscribing to a stream doesn't work."	https://github.com/zulip/zulip/issues/8750
+zulip	zulip	7354	Overlapping alert words bug	https://github.com/zulip/zulip/issues/9157
+zulip	zulip	7354	right sidebar: Show last active time more prominently.	https://github.com/zulip/zulip/issues/8631
+zulip	zulip	7354	registration: Initial narrow after registration should be to PMs with welcome bot.	https://github.com/zulip/zulip/issues/5816
+zulip	zulip	7354	Add rate limiting to the login and password change processes	https://github.com/zulip/zulip/issues/5677
+zulip	zulip	7354	Strengthen check for name validity.	https://github.com/zulip/zulip/issues/4676
+zulip	zulip	7354	bugdown: Change youtube preview to show name of video instead of link.	https://github.com/zulip/zulip/issues/7549
+zulip	zulip	7354	bug: recent PMs > more conversations too long and without scroll bar	https://github.com/zulip/zulip/issues/5384
+zulip	zulip	7354	"Attempting to start a reply to a message you're editing doesn't work"	https://github.com/zulip/zulip/issues/3938
+zulip	zulip	7354	message view: Improve the message copying experience.	https://github.com/zulip/zulip/issues/6316
+zulip	zulip	7354	user docs: minimize references to the home view in /help/	https://github.com/zulip/zulip/issues/5827
+zulip	zulip	7354	user docs: Write user docs for the *Find your Zulip organization* feature	https://github.com/zulip/zulip/issues/3355
+zulip	zulip	7354	"dev tooling: Add ""create new user"" and ""create new realm"" buttons to /devlogin."	https://github.com/zulip/zulip/issues/6018
+zulip	zulip	7354	font: Ligatures like ff have strange behavior	https://github.com/zulip/zulip/issues/4260
+zulip	zulip	7354	Move is_zephyr_mirror_realm to be a database field on Realm	https://github.com/zulip/zulip/issues/2275
+zulip	zulip	7354	View Source misbehaves for message sources already being viewed.	https://github.com/zulip/zulip/issues/3802
+zulip	zulip	7354	Frontend regression managing the pointer with local echo and USE_WEBSOCKETS=False	https://github.com/zulip/zulip/issues/2734
+zulip	zulip	7354	Add realm option to get default avatars from GitHub or Gravatar	https://github.com/zulip/zulip/issues/2335
+zulip	zulip	7354	Add join/leave notifications for private streams	https://github.com/zulip/zulip/issues/2746
+zulip	zulip	7354	"invite modal: Change ""Users join as"" into a checkbox."	https://github.com/zulip/zulip/issues/7446
+zulip	zulip	7354	invitations: Improve experience around reactivating users.	https://github.com/zulip/zulip/issues/8144
+zulip	zulip	7354	message editing: Add a local echo.	https://github.com/zulip/zulip/issues/3530
+zulip	zulip	7354	Add documentation for init.d starting nginx.	https://github.com/zulip/zulip/issues/4849
+zulip	zulip	7354	"Cannot tab from a locked content field to ""Close"" button in view source/message editing"	https://github.com/zulip/zulip/issues/3830
+zulip	zulip	7354	analytics: Improve new realm experience on /stats.	https://github.com/zulip/zulip/issues/3865
+zulip	zulip	7354	org settings: Add modal for time limits. 	https://github.com/zulip/zulip/issues/6809
+zulip	zulip	7354	compose: Move typeahead popup to be closer to the cursor.	https://github.com/zulip/zulip/issues/8149
+zulip	zulip	7354	notifications: Do not notify for at-all in muted streams.	https://github.com/zulip/zulip/issues/6040
+zulip	zulip	7354	onboarding: Keep 80 messages unread on start and after bankruptcy.	https://github.com/zulip/zulip/issues/6512
+zulip	zulip	7354	Centreon integration	https://github.com/zulip/zulip/issues/3868
+zulip	zulip	7354	Docs for remote developent with PyCharm	https://github.com/zulip/zulip/issues/4891
+zulip	zulip	7354	"user docs: Write a good explanation for ""your password is too weak""."	https://github.com/zulip/zulip/issues/5614
+zulip	zulip	7354	Improve the find my team page.	https://github.com/zulip/zulip/issues/3128
+zulip	zulip	7354	dev tooling: Make streams and initial messages more like production.	https://github.com/zulip/zulip/issues/6020
+zulip	zulip	7354	user docs: Write user docs for the *Add a link preview* feature 	https://github.com/zulip/zulip/issues/3534
+zulip	zulip	7354	Move bankruptcy prompt to a top-of-page prompt (instead of a modal)	https://github.com/zulip/zulip/issues/3347
+zulip	zulip	7354	Show a banner with link to a custom url when user joins for the first time	https://github.com/zulip/zulip/issues/3917
+zulip	zulip	7354	Make the UI for setting a bot as an incoming webhook bot more fancy/self-explanatory	https://github.com/zulip/zulip/issues/5273
+zulip	zulip	7354	Change buttons that are nested in anchor tags	https://github.com/zulip/zulip/issues/6126
+zulip	zulip	7354	First reaction with single user should show full name instead of reaction count in reactions	https://github.com/zulip/zulip/issues/4513
+zulip	zulip	7354	user settings: Forgot your password link should directly send you an email.	https://github.com/zulip/zulip/issues/6342
+zulip	zulip	7354	Change consider_bankruptcy to use UserPresence instead of pointer.	https://github.com/zulip/zulip/issues/4120
+zulip	zulip	7354	"""Display left side userlist in narrows"" doesn't work with pinned streams"	https://github.com/zulip/zulip/issues/3916
+zulip	zulip	7354	"Casper tests should have a better ""overall result"" output"	https://github.com/zulip/zulip/issues/1978
+zulip	zulip	7354	Standardize tooltip naming style.	https://github.com/zulip/zulip/issues/4612
+zulip	zulip	7354	Refocus compose box after clicking link always focuses to the message content box	https://github.com/zulip/zulip/issues/6581
+zulip	zulip	7354	user docs: Write user docs for *What to do if the server returns an error*	https://github.com/zulip/zulip/issues/3535
+zulip	zulip	7354	Add support for administrators toggling default streams in stream settings page	https://github.com/zulip/zulip/issues/2284
+zulip	zulip	7354	Add option to display only message/mention notification counts	https://github.com/zulip/zulip/issues/1736
+zulip	zulip	7354	Improve visual formatting of message edit history 	https://github.com/zulip/zulip/issues/3731
+zulip	zulip	7354	message edit: Nicer animation on close.	https://github.com/zulip/zulip/issues/4240
+zulip	zulip	7354	new accounts, if started at URL for a narrow, should be directed there after account creation	https://github.com/zulip/zulip/issues/1995
+zulip	zulip	7354	Add avatar to navbar right column.	https://github.com/zulip/zulip/issues/2305
+zulip	zulip	7354	"Expanding private messages by clicking ""more conversations"" breaks scroll"	https://github.com/zulip/zulip/issues/1991
+zulip	zulip	7354	i18n: Add translation packages to stats page. 	https://github.com/zulip/zulip/issues/4785
+zulip	zulip	7354	Show box for broken/unloaded images.	https://github.com/zulip/zulip/issues/3564
+zulip	zulip	7354	Allow searching by emoji	https://github.com/zulip/zulip/issues/2994
+zulip	zulip	7354	Add support for message shortcuts.	https://github.com/zulip/zulip/issues/3220
+zulip	zulip	7354	Audit our webhook integrations for ping messages that should be handled	https://github.com/zulip/zulip/issues/4115
+zulip	zulip	7354	Confluence Integration	https://github.com/zulip/zulip/issues/5142
+zulip	zulip	7354	"Expand and reorganize ""Using Travis"" section from docs/travis.md"	https://github.com/zulip/zulip/issues/5263
+zulip	zulip	7354	Document log2zulip integration	https://github.com/zulip/zulip/issues/5087
+zulip	zulip	7354	Fix topic editing of messages that threw a backend error. 	https://github.com/zulip/zulip/issues/2278
+zulip	zulip	7354	Editing timeout message persists	https://github.com/zulip/zulip/issues/4639
+zulip	zulip	7354	feature request: show somewhere the number of commits a build has	https://github.com/zulip/zulip/issues/4685
+zulip	zulip	7354	message editing: Close message edit when re-narrowing.	https://github.com/zulip/zulip/issues/3992
+zulip	zulip	7354	Unofficial winston zulip contribution	https://github.com/zulip/zulip/issues/4549
+zulip	zulip	7354	improvement: add OR Operator in user search box	https://github.com/zulip/zulip/issues/4109
+zulip	zulip	7354	Message actions popover shifted to the left with narrow windows	https://github.com/zulip/zulip/issues/4145
+zulip	zulip	7354	Add back stats page anchor links (basically navigation for the graphs)	https://github.com/zulip/zulip/issues/3713
+zulip	zulip	7354	requirements: Upgrade boto to boto3	https://github.com/zulip/zulip/issues/3490
+zulip	zulip	7354	Improve compression settings in nginx configuration	https://github.com/zulip/zulip/issues/3211
+zulip	zulip	7354	user messages in muted topics not visible in home view	https://github.com/zulip/zulip/issues/2083
+zulip	zulip	7354	"Verify `test-backend` doesn't produce extra output spam in Travis CI"	https://github.com/zulip/zulip/issues/1587
+zulip	zulip	7354	Clean way to handle frontend pluralization 	https://github.com/zulip/zulip/issues/1286
+zulip	zulip	7354	Make i18n options clear on non-logged-in pages.	https://github.com/zulip/zulip/issues/1305
+zulip	zulip	7354	export: Fix missing Subscription and Recipient objects in partial export	https://github.com/zulip/zulip/issues/1657
+RaRe-Technologies	gensim	7203	"Gensim doesn't allow changing negative sampling distribution parameter"	https://github.com/RaRe-Technologies/gensim/issues/2090
+RaRe-Technologies	gensim	7203	wiki examples: sample code to get from tfidf doc to wikipedia title/uri and vice versa	https://github.com/RaRe-Technologies/gensim/issues/1322
+RaRe-Technologies	gensim	7203	Fix python warnings (occur during testing)	https://github.com/RaRe-Technologies/gensim/issues/1519
+RaRe-Technologies	gensim	7203	proper check for filename before calling subprocess	https://github.com/RaRe-Technologies/gensim/issues/1485
+RaRe-Technologies	gensim	7203	Improving computational time in LDASeqModel	https://github.com/RaRe-Technologies/gensim/issues/1545
+RaRe-Technologies	gensim	7203	" 'ConcatenatedDoc2Vec' object has no attribute 'corpus_count'"	https://github.com/RaRe-Technologies/gensim/issues/1340
+RaRe-Technologies	gensim	7203	"Check what's the reason to use double-precision in topic models"	https://github.com/RaRe-Technologies/gensim/issues/1576
+RaRe-Technologies	gensim	7203	BleiCorpus after serialize cannot be loaded	https://github.com/RaRe-Technologies/gensim/issues/1171
+wagtail	wagtail	5610	Feature request: add more built-in rich text formats	https://github.com/wagtail/wagtail/issues/4562
+wagtail	wagtail	5610	Image URL generator is confusing for end users	https://github.com/wagtail/wagtail/issues/3683
+wagtail	wagtail	5610	PageTypeField API serializer should gracefully handle missing page models	https://github.com/wagtail/wagtail/issues/4592
+wagtail	wagtail	5610	Document PyPI trove classifiers for Wagtail	https://github.com/wagtail/wagtail/issues/4483
+wagtail	wagtail	5610	"Editor's guide – ""Inserting videos into body content"" is out of date"	https://github.com/wagtail/wagtail/issues/4558
+wagtail	wagtail	5610	"Merging type_q into one Q results in ""TypeError: can't pickle dict_values objects"""	https://github.com/wagtail/wagtail/issues/4489
+wagtail	wagtail	5610	"User with the ""publish"" (but without the ""edit"") permission can see the ""Edit"" button"	https://github.com/wagtail/wagtail/issues/4146
+wagtail	wagtail	5610	Bug - Settings throw Exception when all pages are deleted	https://github.com/wagtail/wagtail/issues/4256
+wagtail	wagtail	5610	Keyboard shortcut documentation for editor in the Wagtail UI	https://github.com/wagtail/wagtail/issues/3949
+wagtail	wagtail	5610	Help text is partially hidden when use a combination of BooleanField and FieldPanel in page model	https://github.com/wagtail/wagtail/issues/3522
+wagtail	wagtail	5610	"'Parent' link in page chooser search should not navigate away"	https://github.com/wagtail/wagtail/issues/3085
+wagtail	wagtail	5610	"Mobile footer doesn't stick while nav-menu is visible"	https://github.com/wagtail/wagtail/issues/3818
+wagtail	wagtail	5610	Tests for wagtailfrontendcache HTTPBackend.purge	https://github.com/wagtail/wagtail/issues/1930
+wagtail	wagtail	5610	Layout bug for PageChooserBlock with multiple page types in target_model	https://github.com/wagtail/wagtail/issues/3585
+wagtail	wagtail	5610	"The document chooser: Sorry, no documents match """""	https://github.com/wagtail/wagtail/issues/3838
+wagtail	wagtail	5610	Document the ajax_template mechanism	https://github.com/wagtail/wagtail/issues/1945
+wagtail	wagtail	5610	Deleting page from usage view sends user back to wrong place	https://github.com/wagtail/wagtail/issues/3010
+wagtail	wagtail	5610	explorer delete view does not use specific page when checking delete permission	https://github.com/wagtail/wagtail/issues/3827
+mopidy	mopidy	5261	local scan: report progress	https://github.com/mopidy/mopidy/issues/1625
+mopidy	mopidy	5261	Add tests for Mopidy-File	https://github.com/mopidy/mopidy/issues/1215
+mopidy	mopidy	5261	Create documentation on writing testcases	https://github.com/mopidy/mopidy/issues/547
+mopidy	mopidy	5261	File backend not unwrapping playlists	https://github.com/mopidy/mopidy/issues/1529
+mopidy	mopidy	5261	"docs: Encourage ""frontends"" outside of mopidy"	https://github.com/mopidy/mopidy/issues/1492
+mopidy	mopidy	5261	"MPD 0.20 compat: Support ""window"" pagination with search and find commands"	https://github.com/mopidy/mopidy/issues/1245
+mopidy	mopidy	5261	Wishlist: Command to update local tag cache	https://github.com/mopidy/mopidy/issues/612
+mopidy	mopidy	5261	Fix proxy use in extensions	https://github.com/mopidy/mopidy/issues/1156
+mopidy	mopidy	5261	Provide way to get errors to MPD/WS users	https://github.com/mopidy/mopidy/issues/1011
+mopidy	mopidy	5261	Support legacy ASX	https://github.com/mopidy/mopidy/issues/794
+mopidy	mopidy	5261	Add marketing tips for extensions?	https://github.com/mopidy/mopidy/issues/878
+falconry	falcon	5252	"feat: Add a ""default"" kwarg to Response.get_header()"	https://github.com/falconry/falcon/issues/1321
+falconry	falcon	5252	Add a new method, get_param_as_float(), to Request	https://github.com/falconry/falcon/issues/1275
+falconry	falcon	5252	Remove all deprecated behaviors and shims	https://github.com/falconry/falcon/issues/1029
+falconry	falcon	5252	Remove redundant naming in uri.parse_query_string() kwargs	https://github.com/falconry/falcon/issues/841
+falconry	falcon	5252	Change the auto_parse_qs_csv Request option default to False	https://github.com/falconry/falcon/issues/842
+falconry	falcon	5252	Decode non-ASCII UTF-8 characters in the request path before routing (Python 2.6/7 only)	https://github.com/falconry/falcon/issues/1031
+falconry	falcon	5252	Remove the deprecated routing.create_http_method_map method	https://github.com/falconry/falcon/issues/1177
+falconry	falcon	5252	Misleading doc string in JSON media handler	https://github.com/falconry/falcon/issues/1243
+falconry	falcon	5252	docs: Add a warning to the Request.path docstring re url encoding	https://github.com/falconry/falcon/issues/1259
+falconry	falcon	5252	feat: Response.append_header does not include a space after the comma	https://github.com/falconry/falcon/issues/1261
+falconry	falcon	5252	Change the default of the independent_middleware kwarg in API.__init__ to True	https://github.com/falconry/falcon/issues/1276
+falconry	falcon	5252	Consider adding basic CORS support directly into the framework.	https://github.com/falconry/falcon/issues/1194
+falconry	falcon	5252	Add Response.expires to set the Expires header to a datetime instance	https://github.com/falconry/falcon/issues/1210
+falconry	falcon	5252	Add error classes for additional error codes	https://github.com/falconry/falcon/issues/561
+plotly	dash	5237	latex support	https://github.com/plotly/dash/issues/242
+plotly	dash	5237	Add an option to remove the undo-redo button.	https://github.com/plotly/dash/issues/234
+plotly	dash	5237	bug with dcc.Checklist	https://github.com/plotly/dash/issues/239
+Zulko	moviepy	5019	One of the examples doesnt work	https://github.com/Zulko/moviepy/issues/149
+Zulko	moviepy	5019	No documentation for preserving the aspect ratio when resizing clip	https://github.com/Zulko/moviepy/issues/258
+sympy	sympy	4901	test case for syntax error on lambdify	https://github.com/sympy/sympy/issues/13881
+sympy	sympy	4901	"To see issues good to start with, click ""Easy to Fix"" 🡪"	https://github.com/sympy/sympy/issues/13520
+scipy	scipy	4567	"DOC: Add ""Examples"" to docstrings"	https://github.com/scipy/scipy/issues/7168
+scipy	scipy	4567	`stats.pearsonr` documentation needs more information	https://github.com/scipy/scipy/issues/8789
+scipy	scipy	4567	Add FIR filter examples to scipy.signal documentation	https://github.com/scipy/scipy/issues/4368
+scipy	scipy	4567	"minres always uses zero vector as initial vector and user doesn't know about it"	https://github.com/scipy/scipy/issues/6843
+scipy	scipy	4567	Docstring improvements for optimize.minimize_scalar	https://github.com/scipy/scipy/issues/5511
+scipy	scipy	4567	"OptimizeResult from minimize_scalar (Brent's method) missing attributes or incorrectly documented"	https://github.com/scipy/scipy/issues/4630
+scipy	scipy	4567	"Comparison operator overloading doesn't work with sparse matrices"	https://github.com/scipy/scipy/issues/4819
+scipy	scipy	4567	Scipy dblquad/tplquad spuriously drops epsilon for inner integration (Trac #1572)	https://github.com/scipy/scipy/issues/2097
+scipy	scipy	4567	scipy.stats.ncx2 fails for nc=0	https://github.com/scipy/scipy/issues/5441
+scipy	scipy	4567	"TST: residue/residuez/invres/invresz don't have any tests"	https://github.com/scipy/scipy/issues/4464
+scipy	scipy	4567	scipy.stats.mstats.winsorize	https://github.com/scipy/scipy/issues/7656
+scipy	scipy	4567	"TST: Clean up ""ignore"" warnings"	https://github.com/scipy/scipy/issues/7524
+scipy	scipy	4567	"griddata docstring doesn't make any sense"	https://github.com/scipy/scipy/issues/4802
+scipy	scipy	4567	Hypergeometric Functions documentation is lacking	https://github.com/scipy/scipy/issues/6966
+scipy	scipy	4567	pinv and pinv2 behave differently	https://github.com/scipy/scipy/issues/4372
+scipy	scipy	4567	"""Kulsinski"" dissimilarity seems wrong (Trac #1484)"	https://github.com/scipy/scipy/issues/2009
+scipy	scipy	4567	"'sokalmichener' and 'rogerstanimoto' distances are the same (Trac #1486)"	https://github.com/scipy/scipy/issues/2011
+scipy	scipy	4567	Test coverage for scipy.signals.windows needs improvement	https://github.com/scipy/scipy/issues/3432
+scipy	scipy	4567	"Documentation of 'hybr' and 'lm' inconsistent in optimize.root"	https://github.com/scipy/scipy/issues/5309
+scipy	scipy	4567	signal.resample could be twice as fast using rfft	https://github.com/scipy/scipy/issues/5592
+scipy	scipy	4567	scipy.interpolate.interp2d has unexpected behavior with Nan values	https://github.com/scipy/scipy/issues/4730
+scipy	scipy	4567	documentation error in docstring of pdist/cdist	https://github.com/scipy/scipy/issues/4472
+scipy	scipy	4567	UnboundLocalError in scipy.interpolate.splrep	https://github.com/scipy/scipy/issues/2883
+scipy	scipy	4567	add `implicit none` to Fortran sources	https://github.com/scipy/scipy/issues/3168
+scipy	scipy	4567	scipy.integrate.tplquad inconsistent with non-finite boundaries (Trac #1058)	https://github.com/scipy/scipy/issues/1585
+scipy	scipy	4567	"BUG: optimize: '**kw' argument of 'newton_krylov' is not documented"	https://github.com/scipy/scipy/issues/2744
+scipy	scipy	4567	Documention of scipy.sparse.linalg.eigsh does not match ARPACK for generalized eigenvalue problem (Trac #1587)	https://github.com/scipy/scipy/issues/2112
+pypa	pip	4522	pip show --json	https://github.com/pypa/pip/issues/5261
+pypa	pip	4522	Misleading pip install error message	https://github.com/pypa/pip/issues/5381
+pypa	pip	4522	Canceled uninstall gives return code of 0; pip 1.5.4, Ubuntu 14.04	https://github.com/pypa/pip/issues/3363
+pypa	pip	4522	Improve pip download documentation	https://github.com/pypa/pip/issues/3116
+pypa	pip	4522	"pip uses configparser's deprecated readfp"	https://github.com/pypa/pip/issues/5056
+pypa	pip	4522	"Display pre-release version hint in package version output of ""pip search"" (and others)"	https://github.com/pypa/pip/issues/5169
+pypa	pip	4522	Comment regular expression in `req_file` causing `maximum recursion depth exceeded`	https://github.com/pypa/pip/issues/3662
+pypa	pip	4522	pip install should exit with non-zero exit code when not given enough arguments	https://github.com/pypa/pip/issues/4737
+pypa	pip	4522	pip 9 offers upgrades to prereleases	https://github.com/pypa/pip/issues/5175
+pypa	pip	4522	Better error message when a package has no setup.py	https://github.com/pypa/pip/issues/1228
+pypa	pip	4522	no-binary / no-use-wheel mismatch	https://github.com/pypa/pip/issues/3191
+pypa	pip	4522	pip uses deprecated SafeConfigParser	https://github.com/pypa/pip/issues/5059
+pypa	pip	4522	pip --isolated should ignore site config too (or another way to restore defaults should be provided)	https://github.com/pypa/pip/issues/3828
+pypa	pip	4522	Add scripts directory option when using `pip install --target target_dir`	https://github.com/pypa/pip/issues/3934
+pypa	pip	4522	`pip freeze` includes the current directory, if there is an egg-info.	https://github.com/pypa/pip/issues/2926
+pypa	pip	4522	Adding mypy annotations throughout the codebase	https://github.com/pypa/pip/issues/4748
+pypa	pip	4522	python subprocess invocation to inject setuptools pollutes setuptools argument list	https://github.com/pypa/pip/issues/1890
+pypa	pip	4522	"Docu example on ""editable project in current directory"" seems not to work/is unclear/suggests failing behaviour"	https://github.com/pypa/pip/issues/4733
+pypa	pip	4522	pip autocompletion should silence of KeyboardInterrupts	https://github.com/pypa/pip/issues/3942
+pypa	pip	4522	Requirements file --hash syntax errors should describe the offending line	https://github.com/pypa/pip/issues/4227
+pypa	pip	4522	List of supported URL schemes for Mercurial incomplete	https://github.com/pypa/pip/issues/4358
+ambv	black	4389	Black should have an opinion about doc strings	https://github.com/ambv/black/issues/144
+ambv	black	4389	Create PEP 8-style document with the intended formatting style explicitly described	https://github.com/ambv/black/issues/53
+pyinstaller	pyinstaller	4124	Add check for documentation building / readthedocs	https://github.com/pyinstaller/pyinstaller/issues/3581
+pyinstaller	pyinstaller	4124	Better error message and catch error if some hooks crashes	https://github.com/pyinstaller/pyinstaller/issues/2700
+pyinstaller	pyinstaller	4124	Use --clean option alone	https://github.com/pyinstaller/pyinstaller/issues/3391
+pyinstaller	pyinstaller	4124	is_module_satisfies() returns True for packages that are not installed	https://github.com/pyinstaller/pyinstaller/issues/3428
+pyinstaller	pyinstaller	4124	replace Pycrypto - which is unsupported and buggy	https://github.com/pyinstaller/pyinstaller/issues/2365
+pyinstaller	pyinstaller	4124	depend/dylib.py should exclude libdrm	https://github.com/pyinstaller/pyinstaller/issues/3286
+pyinstaller	pyinstaller	4124	relative paths for icon and version in spec file	https://github.com/pyinstaller/pyinstaller/issues/3333
+pyinstaller	pyinstaller	4124	Pyinstall a package with __main__.py	https://github.com/pyinstaller/pyinstaller/issues/2560
+pyinstaller	pyinstaller	4124	Need hook for pypcap on windows	https://github.com/pyinstaller/pyinstaller/issues/3282
+pyinstaller	pyinstaller	4124	"Need hook for ""preshed"""	https://github.com/pyinstaller/pyinstaller/issues/2806
+pyinstaller	pyinstaller	4124	Inhibit meaningless combinations of command-line arguments	https://github.com/pyinstaller/pyinstaller/issues/1110
+pyinstaller	pyinstaller	4124	Failed import of cbook due to upgrade to matplolib 2.2.0	https://github.com/pyinstaller/pyinstaller/issues/3389
+pyinstaller	pyinstaller	4124	Patoolib integration with Pyinstaller	https://github.com/pyinstaller/pyinstaller/issues/3013
+pyinstaller	pyinstaller	4124	Problem with pytorch	https://github.com/pyinstaller/pyinstaller/issues/2666
+pyinstaller	pyinstaller	4124	about --windowed/--no console to package python	https://github.com/pyinstaller/pyinstaller/issues/3326
+pyinstaller	pyinstaller	4124	bindepend.get_python_library_path() should issue a message if libpython is not found	https://github.com/pyinstaller/pyinstaller/issues/3364
+pyinstaller	pyinstaller	4124	Try to find libpython even for statically linked python executables	https://github.com/pyinstaller/pyinstaller/issues/3363
+pyinstaller	pyinstaller	4124	pyinstaller does not work on cygwin	https://github.com/pyinstaller/pyinstaller/issues/3328
+pyinstaller	pyinstaller	4124	Changing from -F to -D on consecutive runs causes crash	https://github.com/pyinstaller/pyinstaller/issues/3309
+pyinstaller	pyinstaller	4124	Edit doc to show -F not required with -w for mac	https://github.com/pyinstaller/pyinstaller/issues/3304
+pyinstaller	pyinstaller	4124	"Can't include filters used by webassets"	https://github.com/pyinstaller/pyinstaller/issues/3283
+pyinstaller	pyinstaller	4124	Add command-line-option to set Run-time Python Options	https://github.com/pyinstaller/pyinstaller/issues/3245
+pyinstaller	pyinstaller	4124	Need hooks for matplotlib.backends to exclude unwanted backends	https://github.com/pyinstaller/pyinstaller/issues/2785
+pyinstaller	pyinstaller	4124	"Security-Alert: try to store file outside of dist-directory. Aborting. 'my..data.txt'"	https://github.com/pyinstaller/pyinstaller/issues/2641
+pyinstaller	pyinstaller	4124	Cache `base_library.zip`	https://github.com/pyinstaller/pyinstaller/issues/3090
+pyinstaller	pyinstaller	4124	--icons option should be repeatable, is not	https://github.com/pyinstaller/pyinstaller/issues/3086
+pyinstaller	pyinstaller	4124	Use the guts mechanism for `base_library.zip` like any other Target does	https://github.com/pyinstaller/pyinstaller/issues/1384
+pyinstaller	pyinstaller	4124	Get rid of multiple compat.exec_command* variants	https://github.com/pyinstaller/pyinstaller/issues/3089
+pyinstaller	pyinstaller	4124	Need to regard architecture, too	https://github.com/pyinstaller/pyinstaller/issues/2849
+pyinstaller	pyinstaller	4124	Error in icon.py loading icon	https://github.com/pyinstaller/pyinstaller/issues/2039
+pyinstaller	pyinstaller	4124	"Documentation asserts a requirement of ""execute"" privilege on the /tmp directory in Linux environments"	https://github.com/pyinstaller/pyinstaller/issues/2973
+pyinstaller	pyinstaller	4124	archive_viewer support for 24 byte MAGIC cookie	https://github.com/pyinstaller/pyinstaller/issues/2373
+pyinstaller	pyinstaller	4124	archive_viewer not able to find CArchive	https://github.com/pyinstaller/pyinstaller/issues/2372
+pyinstaller	pyinstaller	4124	pls bundle python3.dll automatically	https://github.com/pyinstaller/pyinstaller/issues/2293
+pyinstaller	pyinstaller	4124	Call for new feature: UPX performing exclusion	https://github.com/pyinstaller/pyinstaller/issues/2659
+pyinstaller	pyinstaller	4124	"""datas"" is ""binaries""?"	https://github.com/pyinstaller/pyinstaller/issues/2826
+pyinstaller	pyinstaller	4124	Catch wrong input in format_binaries_and_datas()	https://github.com/pyinstaller/pyinstaller/issues/1885
+pyinstaller	pyinstaller	4124	Unify the way to find pylib	https://github.com/pyinstaller/pyinstaller/issues/1855
+pyinstaller	pyinstaller	4124	support packing scripts build defined entry-point console_script/gui_script	https://github.com/pyinstaller/pyinstaller/issues/305
+pyinstaller	pyinstaller	4124	Description of `datas` and `binaries` needs to be clarified	https://github.com/pyinstaller/pyinstaller/issues/2733
+pyinstaller	pyinstaller	4124	During a MERGE build, a manifest file is created for the spec file, and is not used	https://github.com/pyinstaller/pyinstaller/issues/563
+pyinstaller	pyinstaller	4124	Add hooks for PyGTK themes	https://github.com/pyinstaller/pyinstaller/issues/969
+pyinstaller	pyinstaller	4124	"Implement a ""warning"" mechanism for hooks"	https://github.com/pyinstaller/pyinstaller/issues/2734
+pyinstaller	pyinstaller	4124	PyInstaller rebuilds exe every time	https://github.com/pyinstaller/pyinstaller/issues/2239
+pyinstaller	pyinstaller	4124	Better error message and catch error if some build-step crashes	https://github.com/pyinstaller/pyinstaller/issues/2698
+pyinstaller	pyinstaller	4124	Compile bootloaders with --leak-detector at CI	https://github.com/pyinstaller/pyinstaller/issues/2671
+pyinstaller	pyinstaller	4124	Merge redundant constants	https://github.com/pyinstaller/pyinstaller/issues/1103
+pyinstaller	pyinstaller	4124	Rearrange test-cases	https://github.com/pyinstaller/pyinstaller/issues/1534
+pyinstaller	pyinstaller	4124	"Update ""Make sure everything is packed"""	https://github.com/pyinstaller/pyinstaller/issues/2421
+pyinstaller	pyinstaller	4124	doc how to run tests with pytest framework	https://github.com/pyinstaller/pyinstaller/issues/1372
+pyinstaller	pyinstaller	4124	Crash if Django `settings.py` has Syntax Error 	https://github.com/pyinstaller/pyinstaller/issues/2473
+pyinstaller	pyinstaller	4124	Document the parameters of the Analysis class	https://github.com/pyinstaller/pyinstaller/issues/2358
+pyinstaller	pyinstaller	4124	Documentation change: Case Sensitive filename needed on Windows.	https://github.com/pyinstaller/pyinstaller/issues/2291
+pyinstaller	pyinstaller	4124	Make PyInstaller version available at runtime	https://github.com/pyinstaller/pyinstaller/issues/1807
+pyinstaller	pyinstaller	4124	Display custom bootloader message	https://github.com/pyinstaller/pyinstaller/issues/1797
+ansible	awx	4064	Feature: use file upload widgets where appropriate	https://github.com/ansible/awx/issues/342
+ansible	awx	4064	RFE: add support for a CORS policy	https://github.com/ansible/awx/issues/1519
+ansible	awx	4064	Please add file system cleanup when deleting Projects through the UI.	https://github.com/ansible/awx/issues/426
+ansible	awx	4064	Kerberos Setup on Task Container needs to be privileged	https://github.com/ansible/awx/issues/735
+ansible	awx	4064	"RFE : Failed SCM update job with it's id should have hyperlink"	https://github.com/ansible/awx/issues/1907
+ansible	awx	4064	Allow creating a project that does not auto-update	https://github.com/ansible/awx/issues/208
+ansible	awx	4064	foreman.py dynamic inventory script for Red Hat Satellite 6 not loading Host Collections as groups	https://github.com/ansible/awx/issues/1808
+ansible	awx	4064	"project_data_dir and ca_trust_dir don't work together"	https://github.com/ansible/awx/issues/1788
+ansible	awx	4064	Add SSL Termination to standalone docker deployment	https://github.com/ansible/awx/issues/1549
+ansible	awx	4064	RFE : send tower log to graylog without using logstash	https://github.com/ansible/awx/issues/1309
+ansible	awx	4064	Integrated notifications with Microsoft Teams	https://github.com/ansible/awx/issues/885
+ansible	awx	4064	RFE: Send real client remote address in TACACS+ authentication packet	https://github.com/ansible/awx/issues/1797
+ansible	awx	4064	pg_dump included in awx_task/awx_web is old 9.2.23 incompatible	https://github.com/ansible/awx/issues/977
+ansible	awx	4064	Add option to have Slack notifications reply to a thread, rather than the whole channel	https://github.com/ansible/awx/issues/1741
+ansible	awx	4064	unable to connect to database	https://github.com/ansible/awx/issues/521
+ansible	awx	4064	Document method to have awx_web bind only to localhost	https://github.com/ansible/awx/issues/315
+ansible	awx	4064	"list of credential tags on templates view should wrap horizontally with an eventual 'see more'"	https://github.com/ansible/awx/issues/1444
+ansible	awx	4064	Add support for sesu become method	https://github.com/ansible/awx/issues/1420
+ansible	awx	4064	docker-py is an outdated library	https://github.com/ansible/awx/issues/316
+ansible	awx	4064	Documentation for IAM EC2 inventory	https://github.com/ansible/awx/issues/924
+ansible	awx	4064	Add support for syslog for external logging	https://github.com/ansible/awx/issues/1083
+ansible	awx	4064	Add ability to know which Organization Job is related for	https://github.com/ansible/awx/issues/961
+ansible	awx	4064	Improve Slack Notification Error Handling	https://github.com/ansible/awx/issues/1048
+ansible	awx	4064	"Adding option in UI for Inventory synced with GCE for VAR ""INVENTORY_IP_TYPE:"""	https://github.com/ansible/awx/issues/634
+ansible	awx	4064	Limit fields in API output	https://github.com/ansible/awx/issues/508
+ansible	awx	4064	"Produce ""changed"" status for inventory imports"	https://github.com/ansible/awx/issues/364
+ansible	awx	4064	Feature: support Github enterprise OAuth	https://github.com/ansible/awx/issues/443
+ansible	awx	4064	Feature: allow autocomplete on the AWX login page	https://github.com/ansible/awx/issues/444
+ansible	awx	4064	subversion project checkout fails with user/pass credential	https://github.com/ansible/awx/issues/353
+ansible	awx	4064	Add total host count to inventory hosts display	https://github.com/ansible/awx/issues/344
+ansible	awx	4064	Openstack Inventory Sources - source variables do not overwrite openstack.yaml variables 	https://github.com/ansible/awx/issues/268
+ansible	awx	4064	JT launch prompt modal button responsive issue	https://github.com/ansible/awx/issues/265
+kubeflow	kubeflow	3899	Create a simple TF model to test TF Serving	https://github.com/kubeflow/kubeflow/issues/337
+kubeflow	kubeflow	3899	Update docs to mention known issues with ksonnet and windows	https://github.com/kubeflow/kubeflow/issues/501
+crazyguitar	pysheeet	3866	Default to Python 3 compatibility	https://github.com/crazyguitar/pysheeet/issues/49
+crazyguitar	pysheeet	3866	socket cheat sheet: AF_INET6 missing	https://github.com/crazyguitar/pysheeet/issues/37
+lbryio	lbry	3837	Add date added and last updated columns to the file table in sqlite	https://github.com/lbryio/lbry/issues/1228
+lbryio	lbry	3837	Allow sorting of claim related functions	https://github.com/lbryio/lbry/issues/1225
+lbryio	lbry	3837	"Daemon Error: 'claim' when using stream_availability on invalid URI"	https://github.com/lbryio/lbry/issues/1210
+lbryio	lbry	3837	Prevent multiple daemons from running using the same wallet/db/conf	https://github.com/lbryio/lbry/issues/1051
+lbryio	lbry	3837	New Wallet: Single Key Accounts	https://github.com/lbryio/lbry/issues/1179
+lbryio	lbry	3837	Add pagination to transaction_list	https://github.com/lbryio/lbry/issues/1186
+lbryio	lbry	3837	Daemon fails to start if it cannot write to download directory	https://github.com/lbryio/lbry/issues/877
+lbryio	lbry	3837	Exception when stopping daemon with Ctrl-C	https://github.com/lbryio/lbry/issues/626
+buildbot	buildbot	3452	Waterfall view should be filterable by tags	https://github.com/buildbot/buildbot/issues/3471
+buildbot	buildbot	3452	exceptions.UnicodeDecodeError: invalid start byte	https://github.com/buildbot/buildbot/issues/3448
+buildbot	buildbot	3452	Feature request: Buildstep for pytest	https://github.com/buildbot/buildbot/issues/3914
+buildbot	buildbot	3452	Notifications of missing worker require a list	https://github.com/buildbot/buildbot/issues/3913
+buildbot	buildbot	3452	[ui] Running build show wrong time	https://github.com/buildbot/buildbot/issues/3714
+buildbot	buildbot	3452	When Builbot title is too long, Menu Navigation Label is displayed on top of Home Label	https://github.com/buildbot/buildbot/issues/3514
+buildbot	buildbot	3452	"ForceScheduler doesn't show Responsible Users from owners property"	https://github.com/buildbot/buildbot/issues/3476
+buildbot	buildbot	3452	Allow filtering by tags in console view	https://github.com/buildbot/buildbot/issues/3470
+buildbot	buildbot	3452	elapsed time for current build is negative	https://github.com/buildbot/buildbot/issues/3457
+buildbot	buildbot	3452	Documentation wrong - GitHubAuth (and any using oauth2?) requires requests	https://github.com/buildbot/buildbot/issues/3455
+buildbot	buildbot	3452	Inconsistent REST api	https://github.com/buildbot/buildbot/issues/3427
+buildbot	buildbot	3452	Setting timeout=None to the CopyDirectory step has no effect.	https://github.com/buildbot/buildbot/issues/3032
+buildbot	buildbot	3452	wth 1382003: unreachable code?	https://github.com/buildbot/buildbot/issues/3019
+buildbot	buildbot	3452	add option to join stdout and stderr for ShellCommand	https://github.com/buildbot/buildbot/issues/2999
+buildbot	buildbot	3452	verify that all entry points of Buildbot are at least importable	https://github.com/buildbot/buildbot/issues/2986
+RasaHQ	rasa_nlu	3351	add ner_duckling_http to pipeline component docs	https://github.com/RasaHQ/rasa_nlu/issues/1157
+RasaHQ	rasa_nlu	3351	Add import functionality for IBM Watson Assistant (ex Conversation, ex Dialog)	https://github.com/RasaHQ/rasa_nlu/issues/1154
+RasaHQ	rasa_nlu	3351	remove `/config` endpoint	https://github.com/RasaHQ/rasa_nlu/issues/1132
+RasaHQ	rasa_nlu	3351	progressbar for sklearn training	https://github.com/RasaHQ/rasa_nlu/issues/1114
+RasaHQ	rasa_nlu	3351	Show name of intent(s) that lack enough train examples	https://github.com/RasaHQ/rasa_nlu/issues/431
+RasaHQ	rasa_nlu	3351	Docker Build Warning for Empty Continuation Line.	https://github.com/RasaHQ/rasa_nlu/issues/713
+RasaHQ	rasa_nlu	3351	Update API.ai response emulation to match current format	https://github.com/RasaHQ/rasa_nlu/issues/509
+RasaHQ	rasa_nlu	3351	Separate Pip and Github Installation Instructions and write a tutorial for each.	https://github.com/RasaHQ/rasa_nlu/issues/598
+cython	cython	3205	Deduplicate constant tuples and slices	https://github.com/cython/cython/issues/2292
+cython	cython	3205	Speed up method calls by avoiding bound method instantiation	https://github.com/cython/cython/issues/2242
+cython	cython	3205	Implement reversed C++ iteration	https://github.com/cython/cython/issues/2225
+cython	cython	3205	Simplify compilation of complete applications	https://github.com/cython/cython/issues/2011
+cython	cython	3205	Implement @total_ordering for cdef classes	https://github.com/cython/cython/issues/2090
+cython	cython	3205	Speed up f-string float formatting	https://github.com/cython/cython/issues/2195
+cython	cython	3205	Coercing a sliced C array to Python should create a list	https://github.com/cython/cython/issues/2159
+cython	cython	3205	"Support ""const"" modifier on fused types"	https://github.com/cython/cython/issues/1772
+cython	cython	3205	Includes/libcpp does not expose `std::vector::emplace_back(...)`	https://github.com/cython/cython/issues/2171
+cython	cython	3205	Python wrappers are not profiled separately when binding=True	https://github.com/cython/cython/issues/2137
+cython	cython	3205	Pythran fallback not used for numpy call	https://github.com/cython/cython/issues/2126
+cython	cython	3205	Exponentiation of integer constants interpreted as integer	https://github.com/cython/cython/issues/2133
+cython	cython	3205	"Optimise ""for ... in (x, y, z)"" into C array iteration"	https://github.com/cython/cython/issues/2117
+cython	cython	3205	"cythonize doesn't work with cython_compile_time_env"	https://github.com/cython/cython/issues/1572
+cython	cython	3205	Ship `cython.py` in a separate package	https://github.com/cython/cython/issues/1981
+cython	cython	3205	Cython coverage fails on trivial module	https://github.com/cython/cython/issues/1985
+NullArray	AutoSploit	3078	README translations	https://github.com/NullArray/AutoSploit/issues/102
+NullArray	AutoSploit	3078	Vagrant documentation 	https://github.com/NullArray/AutoSploit/issues/135
+dask	dask	3018	Add missing methods to Series	https://github.com/dask/dask/issues/1259
+dask	dask	3018	Dataframe index is not sorted after `.set_index()`	https://github.com/dask/dask/issues/3376
+dask	dask	3018	Add examples and infrastructure to the dask-examples repository	https://github.com/dask/dask/issues/3336
+dask	dask	3018	Add DataFrame.to_dask_array	https://github.com/dask/dask/issues/3090
+dask	dask	3018	Add DataFrame.squeeze	https://github.com/dask/dask/issues/2830
+dask	dask	3018	Rewrite docstrings	https://github.com/dask/dask/issues/1815
+dask	dask	3018	[Documentation] Meta Keyword for dask.dataframe.apply requires meta of output of .apply, not meta of output of func	https://github.com/dask/dask/issues/2717
+dask	dask	3018	get_dummies web docummentation is missing	https://github.com/dask/dask/issues/2874
+dask	dask	3018	Identify and speed up some of the most intense tests	https://github.com/dask/dask/issues/1317
+dask	dask	3018	Organize examples from various sources	https://github.com/dask/dask/issues/1217
+HypothesisWorks	hypothesis	2740	Add CI test to check whether Cargo.toml and Gemfile.lock agree on Helix version	https://github.com/HypothesisWorks/hypothesis/issues/1337
+HypothesisWorks	hypothesis	2740	Improve error for from_type(an_empty_Enum)	https://github.com/HypothesisWorks/hypothesis/issues/1317
+HypothesisWorks	hypothesis	2740	Check that the alphabet argument to text() is a sequence of unicode characters	https://github.com/HypothesisWorks/hypothesis/issues/1329
+HypothesisWorks	hypothesis	2740	Consider adding a simple subsets / subsequences strategy?	https://github.com/HypothesisWorks/hypothesis/issues/1115
+HypothesisWorks	hypothesis	2740	Automatically generate django forms	https://github.com/HypothesisWorks/hypothesis/issues/35
+HypothesisWorks	hypothesis	2740	Document pytest plugin options, and add an option for verbosity	https://github.com/HypothesisWorks/hypothesis/issues/1238
+HypothesisWorks	hypothesis	2740	Stateful tracebacks include internals	https://github.com/HypothesisWorks/hypothesis/issues/1170
+HypothesisWorks	hypothesis	2740	The shrinker can get stuck on indexes into lists	https://github.com/HypothesisWorks/hypothesis/issues/1187
+HypothesisWorks	hypothesis	2740	Sparse scientific hypotheses (for scipy.sparse)	https://github.com/HypothesisWorks/hypothesis/issues/639
+HypothesisWorks	hypothesis	2740	Getting more people to work on the shrinker	https://github.com/HypothesisWorks/hypothesis/issues/1093
+HypothesisWorks	hypothesis	2740	Support hypothesis.ini file based configuration	https://github.com/HypothesisWorks/hypothesis/issues/185
+HypothesisWorks	hypothesis	2740	Add a `full_match` argument to `st.from_regex()`	https://github.com/HypothesisWorks/hypothesis/issues/840
+HypothesisWorks	hypothesis	2740	The shrinker cannot sort most objects in lists	https://github.com/HypothesisWorks/hypothesis/issues/1094
+HypothesisWorks	hypothesis	2740	The lexicographic minimizer cannot sort bytes well enough	https://github.com/HypothesisWorks/hypothesis/issues/1096
+HypothesisWorks	hypothesis	2740	Bulk replacement of uninteresting values with zero	https://github.com/HypothesisWorks/hypothesis/issues/1098
+HypothesisWorks	hypothesis	2740	Handle zig-zagging when doing more global lexicographic minimization	https://github.com/HypothesisWorks/hypothesis/issues/1102
+StackStorm	st2	2668	Unit Tests for Actions in `packs` pack	https://github.com/StackStorm/st2/issues/3057
+StackStorm	st2	2668	`st2ctl status` should report nginx, MongoDB, PostgreSQL & RabbitMQ status	https://github.com/StackStorm/st2/issues/3779
+StackStorm	st2	2668	ChatOps Aliases Unit Tests	https://github.com/StackStorm/st2/issues/3056
+StackStorm	st2	2668	"Chatops '!pack get' fails under EL6"	https://github.com/StackStorm/st2/issues/3222
+StackStorm	st2	2668	"Retry logic for 'st2client' and 'st2 pack'"	https://github.com/StackStorm/st2/issues/3257
+StackStorm	st2	2668	"Unhelpful error message when Jinja key doesn't exist"	https://github.com/StackStorm/st2/issues/3329
+StackStorm	st2	2668	"Predictive error message when config hasn't been loaded"	https://github.com/StackStorm/st2/issues/3435
+StackStorm	st2	2668	"Add 'shell_escape' Jinja filter"	https://github.com/StackStorm/st2/issues/3564
+robotframework	robotframework	2346	"""Lists should be equal"" keywords in the Collection library should have the option to ignore order"	https://github.com/robotframework/robotframework/issues/2703
+robotframework	robotframework	2346	Add a generic string format keyword	https://github.com/robotframework/robotframework/issues/2822
+robotframework	robotframework	2346	"Requesting a ""Convert To Titlecase"" keyword for strings"	https://github.com/robotframework/robotframework/issues/2706
+robotframework	robotframework	2346	`Should Be Equal` and possibly others: Support showing `repr` of compared values	https://github.com/robotframework/robotframework/issues/2815
+robotframework	robotframework	2346	`Dictionaries Should Be Equal` should support ignoring keys	https://github.com/robotframework/robotframework/issues/2717
+robotframework	robotframework	2346	"System log doesn't create the directory"	https://github.com/robotframework/robotframework/issues/2767
+robotframework	robotframework	2346	`Collections` keywords fail with bad error message when used with invalid input	https://github.com/robotframework/robotframework/issues/2580
+robotframework	robotframework	2346	HTML support for set_test_documentation() and set_suite_documentation()	https://github.com/robotframework/robotframework/issues/2549
+robotframework	robotframework	2346	Times in xUnit outputs should be floats not integers	https://github.com/robotframework/robotframework/issues/2397
+robotframework	robotframework	2346	Run Keyword And Warn On Failure keyword	https://github.com/robotframework/robotframework/issues/2294
+scikit-image	scikit-image	2335	Add `background` keyword argument to `draw.random_shapes`	https://github.com/scikit-image/scikit-image/issues/3083
+scikit-image	scikit-image	2335	Not all imported utility functions are described in the docs	https://github.com/scikit-image/scikit-image/issues/3156
+scikit-image	scikit-image	2335	Reduce the size of the skimage wheel by removing docs	https://github.com/scikit-image/scikit-image/issues/2978
+scikit-image	scikit-image	2335	Use astropy instead of pyfits to read FITS images	https://github.com/scikit-image/scikit-image/issues/3002
+scikit-image	scikit-image	2335	Add `np.lookfor` as a discoverability tip to the User Guide	https://github.com/scikit-image/scikit-image/issues/2426
+scikit-image	scikit-image	2335	ENH: pass options from scipy.ndimage to our wrappers	https://github.com/scikit-image/scikit-image/issues/2597
+scikit-image	scikit-image	2335	Feature request: skimage.io.imdecode	https://github.com/scikit-image/scikit-image/issues/2889
+scikit-image	scikit-image	2335	canny smoothing step is inaccurate for image of dtype uint8	https://github.com/scikit-image/scikit-image/issues/2981
+scikit-image	scikit-image	2335	"Does `hough_line`'s `min_angle` parameter function correctly?"	https://github.com/scikit-image/scikit-image/issues/2765
+scikit-image	scikit-image	2335	A faster method for computing the convex hull of a binary image	https://github.com/scikit-image/scikit-image/issues/1786
+scikit-image	scikit-image	2335	RANSAC: Check for updates	https://github.com/scikit-image/scikit-image/issues/2698
+scikit-image	scikit-image	2335	No good gallery example for Region Adjacency Graphs	https://github.com/scikit-image/scikit-image/issues/2589
+scikit-image	scikit-image	2335	Use stacklevel in warnings	https://github.com/scikit-image/scikit-image/issues/2097
+scikit-image	scikit-image	2335	Moments documentation is confusing to users	https://github.com/scikit-image/scikit-image/issues/2239
+scikit-image	scikit-image	2335	VisibleDeprecationWarning in plot_local_binary_pattern.py	https://github.com/scikit-image/scikit-image/issues/2268
+scikit-image	scikit-image	2335	Allow rectangular window sizes in threshold_niblack and threshold_sauvola	https://github.com/scikit-image/scikit-image/issues/2442
+scikit-image	scikit-image	2335	Merge two examples in the gallery (image deconvolution)	https://github.com/scikit-image/scikit-image/issues/2506
+scikit-image	scikit-image	2335	Better documentation for `peak_local_max`s `exclude_border` boolean variant	https://github.com/scikit-image/scikit-image/issues/2407
+scikit-image	scikit-image	2335	Examples wanted for the gallery	https://github.com/scikit-image/scikit-image/issues/1231
+scikit-image	scikit-image	2335	Add 1-2-3 instructions for new contributors to front page of web	https://github.com/scikit-image/scikit-image/issues/1580
+scikit-image	scikit-image	2335	Clarify difference between filled_area, area, and convex_area in regionprops	https://github.com/scikit-image/scikit-image/issues/1961
+scikit-image	scikit-image	2335	Refactor `skimage.transform.hough_line` docstring example 	https://github.com/scikit-image/scikit-image/issues/2290
+scikit-image	scikit-image	2335	"Improve format of region's bounding box"	https://github.com/scikit-image/scikit-image/issues/1959
+scikit-image	scikit-image	2335	Add callback to active_contour	https://github.com/scikit-image/scikit-image/issues/2092
+scikit-image	scikit-image	2335	AssertionError in test_ransac_geometric	https://github.com/scikit-image/scikit-image/issues/1668
+scikit-image	scikit-image	2335	Mention `apply_parallel` in the user guide	https://github.com/scikit-image/scikit-image/issues/1578
+mobolic	facebook-sdk	2291	delete_object does not return anything.	https://github.com/mobolic/facebook-sdk/issues/411
+mobolic	facebook-sdk	2291	Document lack of versioning in request method.	https://github.com/mobolic/facebook-sdk/issues/323
+EFForg	https-everywhere	2227	OSS coverage in HTTPS Everywhere	https://github.com/EFForg/https-everywhere/issues/15750
+EFForg	https-everywhere	2227	reCaptcha broken (google api rules)	https://github.com/EFForg/https-everywhere/issues/1682
+EFForg	https-everywhere	2227	Add some hosters/domain registrars	https://github.com/EFForg/https-everywhere/issues/2324
+EFForg	https-everywhere	2227	Sites that should have https forced	https://github.com/EFForg/https-everywhere/issues/3069
+EFForg	https-everywhere	2227	"Audit default_off=""expired"" rulesets."	https://github.com/EFForg/https-everywhere/issues/13176
+pyca	cryptography	2173	Integrate tests from wycheproof	https://github.com/pyca/cryptography/issues/3331
+pyca	cryptography	2173	Deprecate passing backend	https://github.com/pyca/cryptography/issues/3881
+pyca	cryptography	2173	"Implement __hash__ on all extensions we've implemented __eq__ on"	https://github.com/pyca/cryptography/issues/2578
+tensorflow	minigo	2160	Feature: nice gogui/GTP extensions	https://github.com/tensorflow/minigo/issues/11
+tensorflow	minigo	2160	Support more GTP commands	https://github.com/tensorflow/minigo/issues/46
+tensorflow	minigo	2160	CGOS play improvements	https://github.com/tensorflow/minigo/issues/10
+mitsuhiko	flask-sqlalchemy	2127	Make it easy to parse a Pagination object to dict	https://github.com/mitsuhiko/flask-sqlalchemy/issues/482
+mitsuhiko	flask-sqlalchemy	2127	"Add ""first"" and ""last"" to Pagination class?"	https://github.com/mitsuhiko/flask-sqlalchemy/issues/567
+mitsuhiko	flask-sqlalchemy	2127	"Can't receive signals when register handlers by `connect_via`"	https://github.com/mitsuhiko/flask-sqlalchemy/issues/505
+MrS0m30n3	youtube-dl-gui	2120	~/.config/youtube-dlg is abused	https://github.com/MrS0m30n3/youtube-dl-gui/issues/260
+MrS0m30n3	youtube-dl-gui	2120	"Add 'Playlist + Index + Title' to 'Filename format' dropdown"	https://github.com/MrS0m30n3/youtube-dl-gui/issues/239
+MrS0m30n3	youtube-dl-gui	2120	True portable mode for Windows	https://github.com/MrS0m30n3/youtube-dl-gui/issues/65
+jpadilla	pyjwt	2016	Python type hints	https://github.com/jpadilla/pyjwt/issues/312
+jpadilla	pyjwt	2016	Add examples to documentation on how to decode private keys with passphrases	https://github.com/jpadilla/pyjwt/issues/286
+jpadilla	pyjwt	2016	Conda Install failure of noarch/pyjwt 1.5.3 on Windows 7	https://github.com/jpadilla/pyjwt/issues/294
+conan-io	conan	1937	[SCM] capture does not clone recursively	https://github.com/conan-io/conan/issues/3020
+conan-io	conan	1937	Bad developer experience with relation to unit tests integration	https://github.com/conan-io/conan/issues/3060
+conan-io	conan	1937	"CMake build helper should prevent CMake from writing to the ""package registry"""	https://github.com/conan-io/conan/issues/3070
+conan-io	conan	1937	new clang version 10.0.0 is not supported (settings.compiler.version)	https://github.com/conan-io/conan/issues/3043
+conan-io	conan	1937	"Provide a tool to inject the conan cmake ""magic"" lines"	https://github.com/conan-io/conan/issues/2590
+conan-io	conan	1937	"MSBuild() can't receive custom properties"	https://github.com/conan-io/conan/issues/3048
+conan-io	conan	1937	"tools.patch should allow 'fuzzy patching'"	https://github.com/conan-io/conan/issues/2752
+conan-io	conan	1937	"conan install causes conanbuildinfo.cmake to be re-generated even if it hasn't changed"	https://github.com/conan-io/conan/issues/2895
+conan-io	conan	1937	Add import-folder option to conan install command	https://github.com/conan-io/conan/issues/2837
+conan-io	conan	1937	Conan virtualenv on Windows should generate shell script as well as .bat and .ps1	https://github.com/conan-io/conan/issues/2568
+conan-io	conan	1937	Missing MSVC version checks in conanbuildinfo.cmake	https://github.com/conan-io/conan/issues/1838
+conan-io	conan	1937	"Command to add remote only if it doesn't exist"	https://github.com/conan-io/conan/issues/1995
+conan-io	conan	1937	"Improvements/clarification around msbuild's parallel flag"	https://github.com/conan-io/conan/issues/2699
+conan-io	conan	1937	Tool for running binaries in test()	https://github.com/conan-io/conan/issues/2613
+conan-io	conan	1937	MSBuild verbosity level	https://github.com/conan-io/conan/issues/2575
+conan-io	conan	1937	CONAN_EXPORTED variable in CMake	https://github.com/conan-io/conan/issues/2408
+conan-io	conan	1937	Invalid remote 	https://github.com/conan-io/conan/issues/2544
+conan-io	conan	1937	Allow specifying default options as a dictionary	https://github.com/conan-io/conan/issues/2713
+conan-io	conan	1937	Improve option conflict errors	https://github.com/conan-io/conan/issues/2547
+conan-io	conan	1937	Adding a -q option to conan upload would help	https://github.com/conan-io/conan/issues/2445
+conan-io	conan	1937	conanbuildinfo.cmake error with CMake v2.8.11	https://github.com/conan-io/conan/issues/1968
+sphinx-doc	sphinx	1936	"How about a PowerShell based 'make' file?"	https://github.com/sphinx-doc/sphinx/issues/3145
+sphinx-doc	sphinx	1936	sphinx-quickstart not translated	https://github.com/sphinx-doc/sphinx/issues/2341
+sphinx-doc	sphinx	1936	Add a texinputs/make.bat	https://github.com/sphinx-doc/sphinx/issues/1867
+sphinx-doc	sphinx	1936	apidoc and autosummary does not support east-asian characters	https://github.com/sphinx-doc/sphinx/issues/3591
+sphinx-doc	sphinx	1936	DRY: refactor common functionality in generating index nodes	https://github.com/sphinx-doc/sphinx/issues/2914
+sphinx-doc	sphinx	1936	make visited links default color different	https://github.com/sphinx-doc/sphinx/issues/1708
+geopy	geopy	1917	Add ability to use local Arcgis geocoder	https://github.com/geopy/geopy/issues/192
+geopy	geopy	1917	How to set the extratags of Nominatim to True?	https://github.com/geopy/geopy/issues/157
+Kozea	WeasyPrint	1838	HTML() to accept pathlib.Path object	https://github.com/Kozea/WeasyPrint/issues/622
+Kozea	WeasyPrint	1838	Absolutely positioned element stays on the previous page	https://github.com/Kozea/WeasyPrint/issues/591
+Kozea	WeasyPrint	1838	Add tests for flexbox	https://github.com/Kozea/WeasyPrint/issues/601
+Kozea	WeasyPrint	1838	Improve assert statements	https://github.com/Kozea/WeasyPrint/issues/600
+Kozea	WeasyPrint	1838	New page-margin boxes layout algorithm	https://github.com/Kozea/WeasyPrint/issues/58
+Kozea	WeasyPrint	1838	mixing bookmark-label: contents and text-transform has unexpected results	https://github.com/Kozea/WeasyPrint/issues/137
+Kozea	WeasyPrint	1838	Silently ignore known CSS vendor prefixes	https://github.com/Kozea/WeasyPrint/issues/493
+Kozea	WeasyPrint	1838	Support media queries	https://github.com/Kozea/WeasyPrint/issues/494
+QISKit	qiskit-core	1820	One single source of version information	https://github.com/QISKit/qiskit-core/issues/581
+QISKit	qiskit-core	1820	testsuite input should be deterministic	https://github.com/QISKit/qiskit-core/issues/205
+QISKit	qiskit-core	1820	test/python/test_dagcircuit.py has no assert	https://github.com/QISKit/qiskit-core/issues/305
+QISKit	qiskit-core	1820	The tools in qiskit/tools/qcvv/ need more testing	https://github.com/QISKit/qiskit-core/issues/302
+QISKit	qiskit-core	1820	qiskit/tools/visualization.py needs more testing	https://github.com/QISKit/qiskit-core/issues/300
+QISKit	qiskit-core	1820	The tools in qiskit/tools/qi/ need more testing	https://github.com/QISKit/qiskit-core/issues/299
+QISKit	qiskit-core	1820	tests should not need internet conection 	https://github.com/QISKit/qiskit-core/issues/234
+QISKit	qiskit-core	1820	Remove asserts from codebase	https://github.com/QISKit/qiskit-core/issues/225
+pypa	warehouse	1816	"Validate our current headers against Fastly's list"	https://github.com/pypa/warehouse/issues/4007
+pypa	warehouse	1816	Remove italic styles	https://github.com/pypa/warehouse/issues/4035
+pypa	warehouse	1816	Test PyPI should include the `--index-url` argument for the pip install command.	https://github.com/pypa/warehouse/issues/4018
+pypa	warehouse	1816	Make callout block component dismissible (optionally)	https://github.com/pypa/warehouse/issues/3126
+pypa	warehouse	1816	"Improve spelling, style of ""Why isn't my desired project name available?"" in FAQ"	https://github.com/pypa/warehouse/issues/3984
+pypa	warehouse	1816	Audit SCSS comments	https://github.com/pypa/warehouse/issues/3838
+pypa	warehouse	1816	ie11: tooltip underlined	https://github.com/pypa/warehouse/issues/3515
+pypa	warehouse	1816	Audit copywriting against styleguide	https://github.com/pypa/warehouse/issues/3167
+pypa	warehouse	1816	"Add rel=""noopener"" guidance to developer docs"	https://github.com/pypa/warehouse/issues/3877
+pypa	warehouse	1816	"Add 'sole owner' badge on list of projects"	https://github.com/pypa/warehouse/issues/3127
+cobrateam	splinter	1772	update the docs about http error handling	https://github.com/cobrateam/splinter/issues/614
+cobrateam	splinter	1772	status_code requires __ne__ to work in python 2.7.x	https://github.com/cobrateam/splinter/issues/460
+cobrateam	splinter	1772	remove phantomjs support	https://github.com/cobrateam/splinter/issues/592
+cobrateam	splinter	1772	Suggest add in docs the possibility to use selenium special Keys	https://github.com/cobrateam/splinter/issues/567
+cobrateam	splinter	1772	Docs lists methods that raise NotImplementedError	https://github.com/cobrateam/splinter/issues/324
+cobrateam	splinter	1772	is_element_not_present_by_* are slow	https://github.com/cobrateam/splinter/issues/293
+cobrateam	splinter	1772	"Add ""Companies using Splinter"" page to docs"	https://github.com/cobrateam/splinter/issues/201
+cobrateam	splinter	1772	Change docs to include Browser usage as context manager	https://github.com/cobrateam/splinter/issues/200
+cobrateam	splinter	1772	Select method for WebDriverElement	https://github.com/cobrateam/splinter/issues/191
+cobrateam	splinter	1772	"AttributeError: 'TemplateResponse' object has no attribute 'charset'"	https://github.com/cobrateam/splinter/issues/383
+cobrateam	splinter	1772	Make changelog browsable	https://github.com/cobrateam/splinter/issues/560
+Instagram	MonkeyType	1658	Useful error message if somebody passes a filename instead of module name to stub/apply	https://github.com/Instagram/MonkeyType/issues/65
+Instagram	MonkeyType	1658	rewrite Generator[..., None, None] to Iterator[...]	https://github.com/Instagram/MonkeyType/issues/4
+astropy	astropy	1618	Make docstring of fits.open more compliant with numpydoc	https://github.com/astropy/astropy/issues/7566
+astropy	astropy	1618	AstroPY Time and SkyCoords comment that it includes relativistic correction.	https://github.com/astropy/astropy/issues/7526
+astropy	astropy	1618	Doc for objects that inherit from BaseCoordinateFrame is messy	https://github.com/astropy/astropy/issues/7458
+astropy	astropy	1618	Cannot write HDUList to stream on Python 3	https://github.com/astropy/astropy/issues/7435
+astropy	astropy	1618	Cutout2D: Inconsistent array convention (needs documentation)	https://github.com/astropy/astropy/issues/7414
+astropy	astropy	1618	"CSV table writer fails with cryptic message when meta contains ""comments"" key"	https://github.com/astropy/astropy/issues/7357
+astropy	astropy	1618	Documentation of trying development has python2-only stuff	https://github.com/astropy/astropy/issues/7287
+astropy	astropy	1618	Add tests and fix bugs in tabledump and tableload	https://github.com/astropy/astropy/issues/7015
+astropy	astropy	1618	Better documentation for muti-dimensional columns with TDIM	https://github.com/astropy/astropy/issues/6900
+astropy	astropy	1618	hstack requires a sequence of Tables or Rows	https://github.com/astropy/astropy/issues/6791
+astropy	astropy	1618	Use BufferedReader instead of io.BytesIO	https://github.com/astropy/astropy/issues/6652
+astropy	astropy	1618	Handle cache if loading it fails	https://github.com/astropy/astropy/issues/6620
+astropy	astropy	1618	Table.read registry for google sheets	https://github.com/astropy/astropy/issues/6587
+astropy	astropy	1618	Better document bolometric_flux for BlackBody1D	https://github.com/astropy/astropy/issues/6456
+astropy	astropy	1618	multiple functions from scipy.special do not work with quantities	https://github.com/astropy/astropy/issues/6390
+astropy	astropy	1618	Update installation documentation 	https://github.com/astropy/astropy/issues/6154
+astropy	astropy	1618	Have default `repr` for [Q]Table show column classes	https://github.com/astropy/astropy/issues/6107
+astropy	astropy	1618	LinearLSQFitter cannot fit compound models	https://github.com/astropy/astropy/issues/6038
+astropy	astropy	1618	Match catalog frames should use exact catalog frame	https://github.com/astropy/astropy/issues/5857
+astropy	astropy	1618	Making the str equivalent of the dimensionless_unscaled unit more discoverable	https://github.com/astropy/astropy/issues/5850
+astropy	astropy	1618	CircleCI removes version number	https://github.com/astropy/astropy/issues/5840
+astropy	astropy	1618	SkyCoord.separation is slow due to unneeded frame transform	https://github.com/astropy/astropy/issues/5702
+astropy	astropy	1618	rename_columns function	https://github.com/astropy/astropy/issues/5159
+astropy	astropy	1618	Quantity._repr_latex_ should work for all types.	https://github.com/astropy/astropy/issues/5071
+astropy	astropy	1618	Adding timedelta can produce malformed Times	https://github.com/astropy/astropy/issues/4983
+astropy	astropy	1618	Should Table(rows=...) preserve column order if using OrderedDicts?	https://github.com/astropy/astropy/issues/4667
+astropy	astropy	1618	FITS I/O bug	https://github.com/astropy/astropy/issues/4580
+astropy	astropy	1618	"Add the unit 'crab' to astropy.units"	https://github.com/astropy/astropy/issues/3775
+astropy	astropy	1618	Include LONGSTR keyword in headers using the CONTINUE card convention	https://github.com/astropy/astropy/issues/3205
+astropy	astropy	1618	Allow tuples/iterables as convenience for setting contraints on model parameters	https://github.com/astropy/astropy/issues/3028
+astropy	astropy	1618	Add source information to executable scripts	https://github.com/astropy/astropy/issues/3009
+astropy	astropy	1618	Run landscape.io analysis for Astropy?	https://github.com/astropy/astropy/issues/2770
+astropy	astropy	1618	Save multiple Table objects to one FITS file	https://github.com/astropy/astropy/issues/2632
+astropy	astropy	1618	improve interpolation in IERS data	https://github.com/astropy/astropy/issues/1803
+astropy	astropy	1618	Add option to project `separation` onto an ellipse	https://github.com/astropy/astropy/issues/1012
+astropy	astropy	1618	list of cosmology functions in documentation	https://github.com/astropy/astropy/issues/4244
+astropy	astropy	1618	Better explain masked arrays in sigma_clip	https://github.com/astropy/astropy/issues/3858
+astropy	astropy	1618	Clarify WCS examples	https://github.com/astropy/astropy/issues/3840
+SublimeLinter	SublimeLinter	1602	Nice error message when package.json cannot be loaded	https://github.com/SublimeLinter/SublimeLinter/issues/1447
+SublimeLinter	SublimeLinter	1602	Improve message when executable cannot be found	https://github.com/SublimeLinter/SublimeLinter/issues/1418
+SublimeLinter	SublimeLinter	1602	output panel only for current view	https://github.com/SublimeLinter/SublimeLinter/issues/1415
+SublimeLinter	SublimeLinter	1602	Linter-specific settings are not discoverable.	https://github.com/SublimeLinter/SublimeLinter/issues/1392
+SublimeLinter	SublimeLinter	1602	Nice error message if the `VirtualView` throws	https://github.com/SublimeLinter/SublimeLinter/issues/1379
+SublimeLinter	SublimeLinter	1602	Apply basic styling to message_view	https://github.com/SublimeLinter/SublimeLinter/issues/1340
+evhub	coconut	1576	New dataclass in python 3.7	https://github.com/evhub/coconut/issues/376
+evhub	coconut	1576	Add implicit -> None type annotation to __init__ methods	https://github.com/evhub/coconut/issues/389
+evhub	coconut	1576	--ipython seems to call the wrong interpreter	https://github.com/evhub/coconut/issues/281
+evhub	coconut	1576	Add stub file for coconut.convenience	https://github.com/evhub/coconut/issues/406
+evhub	coconut	1576	Add Coconut line numbers to MyPy output	https://github.com/evhub/coconut/issues/332
+evhub	coconut	1576	Watcher recompiles package code to standalone code	https://github.com/evhub/coconut/issues/401
+evhub	coconut	1576	Make Coconut built-ins thread-safe	https://github.com/evhub/coconut/issues/304
+evhub	coconut	1576	Coconut should compile to a temporary directory when --no-write is passed	https://github.com/evhub/coconut/issues/314
+evhub	coconut	1576	Design a Coconut logo	https://github.com/evhub/coconut/issues/50
+evhub	coconut	1576	Make GitHub properly detect and highlight Coconut source	https://github.com/evhub/coconut/issues/335
+evhub	coconut	1576	Improve documentation for type annotation for lists	https://github.com/evhub/coconut/issues/353
+evhub	coconut	1576	Improve tail call optimization documentation	https://github.com/evhub/coconut/issues/363
+evhub	coconut	1576	Improve Coconut tooling	https://github.com/evhub/coconut/issues/236
+evhub	coconut	1576	Official Atom Language Package	https://github.com/evhub/coconut/issues/251
+evhub	coconut	1576	Use multiprocessing/multithreading instead of concurrent.futures in parallel and concurrent map	https://github.com/evhub/coconut/issues/139
+mesonbuild	meson	1519	Validate and warn about unknown systems and CPU families in cross files	https://github.com/mesonbuild/meson/issues/3751
+mesonbuild	meson	1519	configure_file() called on the same output file multiple times silently overwrites earlier calls	https://github.com/mesonbuild/meson/issues/3714
+mesonbuild	meson	1519	Do not use --no-undefined and --as-needed with lld cross-compiling for windows	https://github.com/mesonbuild/meson/issues/3670
+mesonbuild	meson	1519	gnome.generate_gir() should accept multiple libraries	https://github.com/mesonbuild/meson/issues/3688
+mesonbuild	meson	1519	tests compiled even when build_by_default is false	https://github.com/mesonbuild/meson/issues/3662
+mesonbuild	meson	1519	Dependency checks should automatically offer to install the necessary -dev packages	https://github.com/mesonbuild/meson/issues/2292
+mesonbuild	meson	1519	dependency-specific keywords to dependency() are always accepted	https://github.com/mesonbuild/meson/issues/3650
+mesonbuild	meson	1519	clang 6.x warning when using precompiled header input with .h extension	https://github.com/mesonbuild/meson/issues/3641
+mesonbuild	meson	1519	Add `guess:` kwarg for for sizeof() and alignment()	https://github.com/mesonbuild/meson/issues/3634
+mesonbuild	meson	1519	dist command does not work with git worktrees	https://github.com/mesonbuild/meson/issues/3378
+mesonbuild	meson	1519	"clang's linker doesn't like -pthread"	https://github.com/mesonbuild/meson/issues/2628
+mesonbuild	meson	1519	Allow passing ExternalProgram objects as test() and add_install_script() arguments.	https://github.com/mesonbuild/meson/issues/3552
+mesonbuild	meson	1519	-D_FILE_OFFSET_BITS=64 should be disabled on some buggy 32-bit platforms	https://github.com/mesonbuild/meson/issues/3049
+mesonbuild	meson	1519	Detect when people try to run meson from a subdir in the source tree and print a friendly error	https://github.com/mesonbuild/meson/issues/3426
+mesonbuild	meson	1519	Document compiler warning_level project option	https://github.com/mesonbuild/meson/issues/3275
+mesonbuild	meson	1519	pkgconfig generator should automatically populate requires/requires_private from dependency() objects	https://github.com/mesonbuild/meson/issues/2896
+mesonbuild	meson	1519	Support PGI C/C++ compilers	https://github.com/mesonbuild/meson/issues/3231
+mesonbuild	meson	1519	Install generated files into multiple directories	https://github.com/mesonbuild/meson/issues/2416
+mesonbuild	meson	1519	"Python module's extension_module() method should auto-detect install_dir"	https://github.com/mesonbuild/meson/issues/2859
+mesonbuild	meson	1519	"pkgconfig: Passed invalid keyword argument ""install"""	https://github.com/mesonbuild/meson/issues/2898
+mesonbuild	meson	1519	Document how to run the project tests, the unit tests, and both together	https://github.com/mesonbuild/meson/issues/2818
+mesonbuild	meson	1519	Libraries built with lto and meson/ninja are larger than with configure/make	https://github.com/mesonbuild/meson/issues/3059
+mesonbuild	meson	1519	Symbolextractor fails when run on non utf8 locale	https://github.com/mesonbuild/meson/issues/3080
+mesonbuild	meson	1519	Meson breaks build directories when invalid executable has been inserted	https://github.com/mesonbuild/meson/issues/3078
+mesonbuild	meson	1519	Missing dependency between gir file and sources scanned for gir data.	https://github.com/mesonbuild/meson/issues/3073
+mesonbuild	meson	1519	crash needs error message	https://github.com/mesonbuild/meson/issues/2979
+mesonbuild	meson	1519	`configure_file()` needs an option to verify all `configuration_data()` has been consumed	https://github.com/mesonbuild/meson/issues/2978
+mesonbuild	meson	1519	Meson fails if /tmp is mounted with noexec	https://github.com/mesonbuild/meson/issues/2972
+mesonbuild	meson	1519	capture option prevent command from showing up with ninja -v	https://github.com/mesonbuild/meson/issues/2970
+mesonbuild	meson	1519	Add subdir argument to gnome.mkenums_simple() to match install_headers()	https://github.com/mesonbuild/meson/issues/2969
+mesonbuild	meson	1519	coverage targets ?	https://github.com/mesonbuild/meson/issues/2953
+mesonbuild	meson	1519	Source only internal dependencies does not work in mixed projects	https://github.com/mesonbuild/meson/issues/2937
+mesonbuild	meson	1519	State corruption with multiple tasks running on same directory	https://github.com/mesonbuild/meson/issues/2922
+mesonbuild	meson	1519	Allow debugging internal commands	https://github.com/mesonbuild/meson/issues/2900
+mesonbuild	meson	1519	Add benchmarks for Meson	https://github.com/mesonbuild/meson/issues/2773
+mesonbuild	meson	1519	[mingw-w64] Add a FAQ or How-To to create mingw-w64 pacman packages	https://github.com/mesonbuild/meson/issues/2729
+python-security	pyt	1447	"Add a ""don't ask me anymore"" option to the interactive mode"	https://github.com/python-security/pyt/issues/128
+python-security	pyt	1447	Add docstrings to everything 	https://github.com/python-security/pyt/issues/109
+python-security	pyt	1447	More user friendly menu	https://github.com/python-security/pyt/issues/27
+python-security	pyt	1447	Add new language features from 3.5 to cfg	https://github.com/python-security/pyt/issues/13
+python-security	pyt	1447	Add new language features from 3.6 to cfg	https://github.com/python-security/pyt/issues/14
+raiden-network	raiden	1439	Create a raiden module and use remapping for smart contracts	https://github.com/raiden-network/raiden/issues/162
+raiden-network	raiden	1439	Replace functions from raiden.utils with eth-utils equivalents	https://github.com/raiden-network/raiden/issues/1422
+raiden-network	raiden	1439	Use event arguments check function from raiden-contracts	https://github.com/raiden-network/raiden/issues/1489
+raiden-network	raiden	1439	Check if solc satisfies version requirements.	https://github.com/raiden-network/raiden/issues/1365
+raiden-network	raiden	1439	Force HTTPS for the REST endpoints	https://github.com/raiden-network/raiden/issues/446
+raiden-network	raiden	1439	"Swap Tokens functionality always returns success, even when it can't succeed"	https://github.com/raiden-network/raiden/issues/840
+dnouri	skorch	1431	Make doc version depend on VERSION file	https://github.com/dnouri/skorch/issues/256
+dnouri	skorch	1431	Provide NeuralNetBinaryClassifier	https://github.com/dnouri/skorch/issues/200
+dnouri	skorch	1431	compatibility with ignite metrics	https://github.com/dnouri/skorch/issues/172
+polyaxon	polyaxon	1376	Add metrics visualisation to the dashboard	https://github.com/polyaxon/polyaxon/issues/95
+polyaxon	polyaxon	1376	Allow user to compare experiments based on sequence/id	https://github.com/polyaxon/polyaxon/issues/102
+polyaxon	polyaxon	1376	Add iteration details to experiments	https://github.com/polyaxon/polyaxon/issues/94
+polyaxon	polyaxon	1376	Annotate experiment group with search algorithm used	https://github.com/polyaxon/polyaxon/issues/93
+biolab	orange3	1354	"FR/OMISSION: Models' parameters max limits way too low"	https://github.com/biolab/orange3/issues/2935
+biolab	orange3	1354	Replicable sampling in Test & Score	https://github.com/biolab/orange3/issues/2035
+biolab	orange3	1354	Consider including documentation in built wheels	https://github.com/biolab/orange3/issues/2019
+biolab	orange3	1354	Distances widget could include an option for deciding whether to include targets or not	https://github.com/biolab/orange3/issues/1604
+biolab	orange3	1354	Periodically rebuild website Widget Catalog	https://github.com/biolab/orange3/issues/2799
+biolab	orange3	1354	pyqt and libpng warnings on load	https://github.com/biolab/orange3/issues/2858
+biolab	orange3	1354	Merge Data: Add autocommit button	https://github.com/biolab/orange3/issues/2927
+pwndbg	pwndbg	1311	"pwndbg gets stuck when executing gdbscripts/commands that contain ""silent"""	https://github.com/pwndbg/pwndbg/issues/425
+pwndbg	pwndbg	1311	Command Name Blacklist	https://github.com/pwndbg/pwndbg/issues/230
+pwndbg	pwndbg	1311	Implement a heap bin view	https://github.com/pwndbg/pwndbg/issues/138
+pwndbg	pwndbg	1311	pwndbg cannot show source when debugging Linux kernel	https://github.com/pwndbg/pwndbg/issues/438
+pwndbg	pwndbg	1311	Honor delay slots in disassembly splits	https://github.com/pwndbg/pwndbg/issues/13
+pwndbg	pwndbg	1311	Showing code lines before the current line?	https://github.com/pwndbg/pwndbg/issues/419
+pwndbg	pwndbg	1311	GDB 8.1 Improvements	https://github.com/pwndbg/pwndbg/issues/411
+pwndbg	pwndbg	1311	Pwndbg Bugreport	https://github.com/pwndbg/pwndbg/issues/414
+pwndbg	pwndbg	1311	Telescope on strings	https://github.com/pwndbg/pwndbg/issues/368
+pwndbg	pwndbg	1311	Pwndbg crashes when opening corefiles	https://github.com/pwndbg/pwndbg/issues/408
+pwndbg	pwndbg	1311	Disassemble whole function (without branch emulation)	https://github.com/pwndbg/pwndbg/issues/315
+pwndbg	pwndbg	1311	Breaking on ida function should check onlyWhenRunning	https://github.com/pwndbg/pwndbg/issues/320
+pwndbg	pwndbg	1311	ctypes: Header file generation	https://github.com/pwndbg/pwndbg/issues/344
+pwndbg	pwndbg	1311	ctypes: Conversion between gdb.Type	https://github.com/pwndbg/pwndbg/issues/346
+pwndbg	pwndbg	1311	External commands existence 	https://github.com/pwndbg/pwndbg/issues/312
+pwndbg	pwndbg	1311	Save and Diff commands	https://github.com/pwndbg/pwndbg/issues/171
+pwndbg	pwndbg	1311	Making docs connects to IDA	https://github.com/pwndbg/pwndbg/issues/240
+pwndbg	pwndbg	1311	Search command limits	https://github.com/pwndbg/pwndbg/issues/243
+pwndbg	pwndbg	1311	Use ArgparsedCommand for everything	https://github.com/pwndbg/pwndbg/issues/244
+pwndbg	pwndbg	1311	Abolish print() in favor of stdlib logging	https://github.com/pwndbg/pwndbg/issues/245
+CTFd	CTFd	1258	Reset CTF Button	https://github.com/CTFd/CTFd/issues/639
+CTFd	CTFd	1258	Mark wrong key as correct button	https://github.com/CTFd/CTFd/issues/181
+CTFd	CTFd	1258	Flask reloader causes CTFd to load plugins twice with serve.py	https://github.com/CTFd/CTFd/issues/361
+OfflineIMAP	offlineimap	1206	introduce a configuration option to define the internaldate used for APPEND	https://github.com/OfflineIMAP/offlineimap/issues/522
+OfflineIMAP	offlineimap	1206	netrc cannot contain spaces in password	https://github.com/OfflineIMAP/offlineimap/issues/518
+OfflineIMAP	offlineimap	1206	Include exit code of pre/post sync hooks when exiting?	https://github.com/OfflineIMAP/offlineimap/issues/517
+OfflineIMAP	offlineimap	1206	offlineimap cannot acquire lock after system suspend	https://github.com/OfflineIMAP/offlineimap/issues/516
+OfflineIMAP	offlineimap	1206	introduce hook to track down any change to local Maildirs	https://github.com/OfflineIMAP/offlineimap/issues/367
+OfflineIMAP	offlineimap	1206	support checking the database files	https://github.com/OfflineIMAP/offlineimap/issues/402
+OfflineIMAP	offlineimap	1206	changing nametrans on a local folder invalidates all uids.	https://github.com/OfflineIMAP/offlineimap/issues/411
+pirate	bookmark-archiver	1189	Archive Method: Markdown output for readability viewers	https://github.com/pirate/bookmark-archiver/issues/69
+pirate	bookmark-archiver	1189	Simple docker container for bookmark-archiver	https://github.com/pirate/bookmark-archiver/issues/62
+pirate	bookmark-archiver	1189	Archive Method: Add support for .webarchive output	https://github.com/pirate/bookmark-archiver/issues/11
+pirate	bookmark-archiver	1189	Archive Method: Add WARC file output	https://github.com/pirate/bookmark-archiver/issues/6
+pirate	bookmark-archiver	1189	Index: Add a way to sort the index table by column	https://github.com/pirate/bookmark-archiver/issues/40
+pirate	bookmark-archiver	1189	Config: Add a way to blacklist URLs from being archived or indexed	https://github.com/pirate/bookmark-archiver/issues/38
+pirate	bookmark-archiver	1189	Index: Add a way to search the index titles, dates, and urls in the frontend	https://github.com/pirate/bookmark-archiver/issues/61
+pirate	bookmark-archiver	1189	Archive Method: Add git repository archiving for github, bitbucket, and gitlab URLs	https://github.com/pirate/bookmark-archiver/issues/49
+pirate	bookmark-archiver	1189	Link Parsing: Add support for OneTab bookmark exports	https://github.com/pirate/bookmark-archiver/issues/28
+python-trio	trio	1150	Make trio.socket._SocketType.connect *always* close the socket on cancellation	https://github.com/python-trio/trio/issues/247
+python-trio	trio	1150	Add a method to trio.BlockingTrioPortal for conveniently using async context managers	https://github.com/python-trio/trio/issues/323
+python-trio	trio	1150	On Linux, set up socket object correctly when creating from an fd	https://github.com/python-trio/trio/issues/251
+trailofbits	manticore	1148	emit trace files for each evm testcase	https://github.com/trailofbits/manticore/issues/729
+trailofbits	manticore	1148	Add the pathgrind examples to test manticore	https://github.com/trailofbits/manticore/issues/884
+trailofbits	manticore	1148	Reintroduce Manticore.workspace property	https://github.com/trailofbits/manticore/issues/672
+geopandas	geopandas	1128	drop_duplicates functionality	https://github.com/geopandas/geopandas/issues/521
+geopandas	geopandas	1128	TST: create test suite for overlay based on wiki example	https://github.com/geopandas/geopandas/issues/533
+geopandas	geopandas	1128	DOC: add additional gallery examples	https://github.com/geopandas/geopandas/issues/529
+geopandas	geopandas	1128	DOC: document new plotting features + set_axis_off	https://github.com/geopandas/geopandas/issues/524
+geopandas	geopandas	1128	Improve docstrings	https://github.com/geopandas/geopandas/issues/107
+geopandas	geopandas	1128	"ENH: improve 'explode' to work on GeoDataFrames (preserving other columns)"	https://github.com/geopandas/geopandas/issues/667
+geopandas	geopandas	1128	Setting the crs of naive geometries with EPSG number	https://github.com/geopandas/geopandas/issues/245
+geopandas	geopandas	1128	Support file-like objects in to_file() and read_file()	https://github.com/geopandas/geopandas/issues/388
+git-cola	git-cola	1126	[Feature Request] PPA for Ubuntu based distros	https://github.com/git-cola/git-cola/issues/460
+git-cola	git-cola	1126	GNOME Files(Nautilus) integration	https://github.com/git-cola/git-cola/issues/555
+git-cola	git-cola	1126	Option to automatically add commit message template?	https://github.com/git-cola/git-cola/issues/735
+WeblateOrg	weblate	1063	Component discovery addon name replace	https://github.com/WeblateOrg/weblate/issues/2076
+WeblateOrg	weblate	1063	Choose/Select consistency in strings	https://github.com/WeblateOrg/weblate/issues/2079
+WeblateOrg	weblate	1063	Migrate performance checks to Django checks	https://github.com/WeblateOrg/weblate/issues/2067
+WeblateOrg	weblate	1063	Vote for suggestion when adding duplicate	https://github.com/WeblateOrg/weblate/issues/1375
+WeblateOrg	weblate	1063	"Sign all Weblate's Git commits with a GPG key"	https://github.com/WeblateOrg/weblate/issues/1804
+WeblateOrg	weblate	1063	Post translation file via API with more parameters	https://github.com/WeblateOrg/weblate/issues/1866
+WeblateOrg	weblate	1063	Files - Download subsets of Translations	https://github.com/WeblateOrg/weblate/issues/2056
+WeblateOrg	weblate	1063	Field scrolls outside of box when zooming webpage	https://github.com/WeblateOrg/weblate/issues/2041
+WeblateOrg	weblate	1063	Template to run weblate on Kubernetes	https://github.com/WeblateOrg/weblate/issues/1205
+WeblateOrg	weblate	1063	Add support for OpenShift 3	https://github.com/WeblateOrg/weblate/issues/1523
+WeblateOrg	weblate	1063	Feature Request: Add machine translation support for AWS translate	https://github.com/WeblateOrg/weblate/issues/1965
+WeblateOrg	weblate	1063	Inconsistencies for Checks	https://github.com/WeblateOrg/weblate/issues/1943
+WeblateOrg	weblate	1063	Support for relative locations in Qt TS files	https://github.com/WeblateOrg/weblate/issues/1819
+WeblateOrg	weblate	1063	glossaries do not have a search box.	https://github.com/WeblateOrg/weblate/issues/1717
+WeblateOrg	weblate	1063	Provide recent changes method for sorting/filter changes	https://github.com/WeblateOrg/weblate/issues/1455
+WeblateOrg	weblate	1063	"Flags ""Other translation available"" and ""Translation not consistent"" are badly raised and give extra and useless work to translators"	https://github.com/WeblateOrg/weblate/issues/1694
+WeblateOrg	weblate	1063	New language notification for adding language as well	https://github.com/WeblateOrg/weblate/issues/567
+WeblateOrg	weblate	1063	Components and languages pagination	https://github.com/WeblateOrg/weblate/issues/1198
+WeblateOrg	weblate	1063	Add Heroku support	https://github.com/WeblateOrg/weblate/issues/732
+djrobstep	migra	1021	Restrict output to specified object/table names	https://github.com/djrobstep/migra/issues/28
+djrobstep	migra	1021	Documentation improvements	https://github.com/djrobstep/migra/issues/23
+djrobstep	migra	1021	Postgres 10 support	https://github.com/djrobstep/migra/issues/9
+riptano	ccm	997	Windows: find `ant` as well as `ant.bat` on path	https://github.com/riptano/ccm/issues/405
+riptano	ccm	997	`sudo setup.py install` installs ccm egg only readable by root	https://github.com/riptano/ccm/issues/507
+riptano	ccm	997	Put the need for `-r` in the README	https://github.com/riptano/ccm/issues/545
+r0x0r	pywebview	990	Qt not supported on Windows	https://github.com/r0x0r/pywebview/issues/199
+r0x0r	pywebview	990	Frameless windows	https://github.com/r0x0r/pywebview/issues/169
+mypaint	mypaint	986	Palette editor gets confused with duplicate colors	https://github.com/mypaint/mypaint/issues/922
+mypaint	mypaint	986	Let users turn off overwrite backup copies (*~)	https://github.com/mypaint/mypaint/issues/395
+pantsbuild	pants	970	Pants equivalent of PEX resolver --build/--no-build option?	https://github.com/pantsbuild/pants/issues/5862
+pantsbuild	pants	970	--cache-dir option in Ivy scope appears to be broken when used for resolve.	https://github.com/pantsbuild/pants/issues/3148
+pantsbuild	pants	970	Add `extra_jvm_options` for jvm_binary	https://github.com/pantsbuild/pants/issues/5868
+pantsbuild	pants	970	Add target-level metrics for code coverage tools	https://github.com/pantsbuild/pants/issues/5151
+pantsbuild	pants	970	Add an option to prepend `.gitignore` to --pants-ignore	https://github.com/pantsbuild/pants/issues/5682
+pantsbuild	pants	970	python_binary given a sources kwarg results in a difficult to understand error	https://github.com/pantsbuild/pants/issues/5680
+pantsbuild	pants	970	depmap options not rendered in the options reference	https://github.com/pantsbuild/pants/issues/5026
+pantsbuild	pants	970	"--changed-parent flag doesn't show up in ./pants options"	https://github.com/pantsbuild/pants/issues/4581
+pantsbuild	pants	970	"Replace the hardcoded `fatal_warnings` flag with ""options sets"""	https://github.com/pantsbuild/pants/issues/5360
+pantsbuild	pants	970	Label pants options with when they were introduced, and render those in the docsite	https://github.com/pantsbuild/pants/issues/5264
+pantsbuild	pants	970	pytest UI only shows progress for the first test	https://github.com/pantsbuild/pants/issues/5251
+pantsbuild	pants	970	Consider use of a New Issue template for pantsbuild/pants	https://github.com/pantsbuild/pants/issues/4840
+pantsbuild	pants	970	Update documentation on pants binary dependencies server	https://github.com/pantsbuild/pants/issues/4802
+pantsbuild	pants	970	--test-junit-per-test-timer option no longer renders times	https://github.com/pantsbuild/pants/issues/4159
+pantsbuild	pants	970	"./pants goals shouldn't take the execution lock"	https://github.com/pantsbuild/pants/issues/4464
+pantsbuild	pants	970	Move scala/java checkstyle to contrib	https://github.com/pantsbuild/pants/issues/2954
+pantsbuild	pants	970	Option registration should fail if the default value is of the wrong type.	https://github.com/pantsbuild/pants/issues/3157
+pantsbuild	pants	970	default platform not exported correctly	https://github.com/pantsbuild/pants/issues/3804
+pantsbuild	pants	970	Add passthrough arg support to options help for tasks	https://github.com/pantsbuild/pants/issues/3762
+pantsbuild	pants	970	Add support for passthrough args to the python repl	https://github.com/pantsbuild/pants/issues/3423
+pantsbuild	pants	970	make clean-all extensible 	https://github.com/pantsbuild/pants/issues/4077
+pantsbuild	pants	970	Randomize the order of test cases passed from junit_run.py to junit-runner task	https://github.com/pantsbuild/pants/issues/4038
+pantsbuild	pants	970	Minimize the long_description in the pantsbuild.pants packages	https://github.com/pantsbuild/pants/issues/1708
+pantsbuild	pants	970	unhandled exception in statsdb write path when sqlite db gets into a bad state	https://github.com/pantsbuild/pants/issues/4017
+pantsbuild	pants	970	ivy resolve debug statements should be better	https://github.com/pantsbuild/pants/issues/3873
+pantsbuild	pants	970	"""Unnormalized"" addresses of form src/lang/some/target:target not validated in BUILD files"	https://github.com/pantsbuild/pants/issues/3975
+pantsbuild	pants	970	"[minor-perf] Don't regenerate class dir lookup table for each compile entry's analysis discovery"	https://github.com/pantsbuild/pants/issues/3829
+pantsbuild	pants	970	"python_binary `repositories` and `indices` kwargs aren't wired up."	https://github.com/pantsbuild/pants/issues/3737
+pantsbuild	pants	970	Allow ./pants run to execute with any jvm target	https://github.com/pantsbuild/pants/issues/1781
+pantsbuild	pants	970	Jar publish relies on --jvm-options to be set.	https://github.com/pantsbuild/pants/issues/2391
+pantsbuild	pants	970	test_build_configuration.py can be fooled by spurious file in /private/tmp/BUILD.temp	https://github.com/pantsbuild/pants/issues/527
+pantsbuild	pants	970	Add a pants_test_requirement() to go along with pants_requirement()	https://github.com/pantsbuild/pants/issues/2609
+pantsbuild	pants	970	Add variable interpolation for the distribution picked into the jvm platform argumetns	https://github.com/pantsbuild/pants/issues/2396
+pantsbuild	pants	970	Add --with-dependees option to pants idea and/or the plugin	https://github.com/pantsbuild/pants/issues/1319
+nojhan	colout	957	Make a new release?	https://github.com/nojhan/colout/issues/79
+nojhan	colout	957	"The ""make"" theme should be extracted out of the ""cmake"" theme"	https://github.com/nojhan/colout/issues/94
+napalm-automation	napalm	930	get_mac_table not parsing routed ports correctly	https://github.com/napalm-automation/napalm/issues/464
+napalm-automation	napalm	930	Implement get_ntp_peers on Cisco IOS	https://github.com/napalm-automation/napalm/issues/448
+napalm-automation	napalm	930	Inconsistent MAC and IPv6 format for several IOS getters	https://github.com/napalm-automation/napalm/issues/451
+napalm-automation	napalm	930	Shutdown BGP neighbours are not parsed correctly	https://github.com/napalm-automation/napalm/issues/461
+napalm-automation	napalm	930	get_lldp_neighbors_detailed borked on Junos 15, MX series	https://github.com/napalm-automation/napalm/issues/428
+pywinauto	pywinauto	917	Getting/Setting slider  values on OBS Studio 64	https://github.com/pywinauto/pywinauto/issues/507
+pywinauto	pywinauto	917	Implement key down & key up actions in the keyboard module	https://github.com/pywinauto/pywinauto/issues/503
+pywinauto	pywinauto	917	No way to copy selected text ?	https://github.com/pywinauto/pywinauto/issues/506
+pywinauto	pywinauto	917	What is the output of the Example Codes? 	https://github.com/pywinauto/pywinauto/issues/484
+pywinauto	pywinauto	917	CaptureAsImage results a black image for second monitor (maybe re-use pyWin32?)	https://github.com/pywinauto/pywinauto/issues/423
+pywinauto	pywinauto	917	A little enhancement for win32_hooks.py method _process_kbd_msg_type	https://github.com/pywinauto/pywinauto/issues/464
+pywinauto	pywinauto	917	HideFromTaskbar removes minimize and maximize icons permanently	https://github.com/pywinauto/pywinauto/issues/466
+pywinauto	pywinauto	917	Implement keyboard.send_keys_directx(...): use scan codes for DirectX games	https://github.com/pywinauto/pywinauto/issues/469
+PetrochukM	PyTorch-NLP	915	Add BPE Text Encoder	https://github.com/PetrochukM/PyTorch-NLP/issues/7
+PetrochukM	PyTorch-NLP	915	Add ROGUE Metric	https://github.com/PetrochukM/PyTorch-NLP/issues/6
+PetrochukM	PyTorch-NLP	915	Add SQUAD Dataset	https://github.com/PetrochukM/PyTorch-NLP/issues/17
+PetrochukM	PyTorch-NLP	915	Add GLUE datasets	https://github.com/PetrochukM/PyTorch-NLP/issues/26
+RasaHQ	rasa_core	857	Train rasa_core with dialogflow files	https://github.com/RasaHQ/rasa_core/issues/508
+RasaHQ	rasa_core	857	Document script parameters to run / server / train	https://github.com/RasaHQ/rasa_core/issues/240
+pydata	xarray	850	concat_dim getting added to *all* variables of multifile datasets	https://github.com/pydata/xarray/issues/2064
+pydata	xarray	850	Remove use of allow_cleanup_failure in test_backends.py	https://github.com/pydata/xarray/issues/1668
+pydata	xarray	850	Improve documentation and error validation for set_options(arithmetic_join)	https://github.com/pydata/xarray/issues/1624
+ritiek	spotify-downloader	826	Display absolute path to the download directory instead of relative path	https://github.com/ritiek/spotify-downloader/issues/285
+ritiek	spotify-downloader	826	Change test track to one whose lyrics are found	https://github.com/ritiek/spotify-downloader/issues/260
+marcosfede	algorithms	807	Add comments to each solution implemented	https://github.com/marcosfede/algorithms/issues/10
+marcosfede	algorithms	807	Write time complexity for each solution implemented so far	https://github.com/marcosfede/algorithms/issues/9
+RDFLib	rdflib	796	Problem with prefixes created for URIs containing %20	https://github.com/RDFLib/rdflib/issues/801
+RDFLib	rdflib	796	docs cleanup	https://github.com/RDFLib/rdflib/issues/780
+mapbox	rasterio	790	Isolate test files	https://github.com/mapbox/rasterio/issues/1187
+mapbox	rasterio	790	"Omitting 'driver' when creating a new image does not produce a helpful error"	https://github.com/mapbox/rasterio/issues/1203
+mapbox	rasterio	790	Add Cloud Optimized GeoTIFF profile	https://github.com/mapbox/rasterio/issues/1214
+mapbox	rasterio	790	Cleanup doc warnings	https://github.com/mapbox/rasterio/issues/1227
+mapbox	rasterio	790	Support for Path protocol	https://github.com/mapbox/rasterio/issues/1016
+mapbox	rasterio	790	Support for datasource connection strings in the CLI	https://github.com/mapbox/rasterio/issues/871
+mapbox	rasterio	790	Implement a `TarMemoryFile`	https://github.com/mapbox/rasterio/issues/974
+mapbox	rasterio	790	rio overview option to create external .ovr	https://github.com/mapbox/rasterio/issues/980
+mapbox	rasterio	790	"Catch BrokenPipeError in CLI and don't log exception"	https://github.com/mapbox/rasterio/issues/818
+mapbox	rasterio	790	Consolidate usage for rio flags, where possible	https://github.com/mapbox/rasterio/issues/341
+mapbox	rasterio	790	Access to S3 rasters identified using arn:	https://github.com/mapbox/rasterio/issues/671
+mapbox	rasterio	790	Get coverage to 100% including Cython modules	https://github.com/mapbox/rasterio/issues/515
+mapbox	rasterio	790	Add listing of alternative implementations of GDAL algorithms	https://github.com/mapbox/rasterio/issues/340
+mapbox	rasterio	790	MrSID appears to be registered but throws an IOError	https://github.com/mapbox/rasterio/issues/432
+mapbox	rasterio	790	Document issues with writing compressed files	https://github.com/mapbox/rasterio/issues/77
+guyzmo	git-repo	761	No manual entry for git-repo	https://github.com/guyzmo/git-repo/issues/180
+guyzmo	git-repo	761	Listing forks	https://github.com/guyzmo/git-repo/issues/176
+guyzmo	git-repo	761	Implement GPG keys management	https://github.com/guyzmo/git-repo/issues/155
+guyzmo	git-repo	761	No way to close a merge request without merging it	https://github.com/guyzmo/git-repo/issues/154
+guyzmo	git-repo	761	Write more thorough documentation	https://github.com/guyzmo/git-repo/issues/146
+guyzmo	git-repo	761	Ability to assign pull request to a github user	https://github.com/guyzmo/git-repo/issues/64
+guyzmo	git-repo	761	Add SSH key upload feature	https://github.com/guyzmo/git-repo/issues/22
+theupdateframework	tuf	755	Add an FAQ and/or high-level overview of how to integrate TUF	https://github.com/theupdateframework/tuf/issues/486
+theupdateframework	tuf	755	Track CNCF Project Maturity Level Requirements	https://github.com/theupdateframework/tuf/issues/521
+theupdateframework	tuf	755	Remove crypto functions already available in library dependency	https://github.com/theupdateframework/tuf/issues/656
+theupdateframework	tuf	755	Reference the map file in the specification	https://github.com/theupdateframework/tuf/issues/447
+theupdateframework	tuf	755	Specification: Delete obsolete metadata	https://github.com/theupdateframework/tuf/issues/416
+theupdateframework	tuf	755	Add in-toto metadata to releases to validate the integrity of their software supply chain	https://github.com/theupdateframework/tuf/issues/529
+theupdateframework	tuf	755	Update example metadata	https://github.com/theupdateframework/tuf/issues/436
+theupdateframework	tuf	755	A few unit tests raise WindowsError after calling os.remove(), os.rename(), etc.	https://github.com/theupdateframework/tuf/issues/101
+theupdateframework	tuf	755	Print expected type instead of its string representation	https://github.com/theupdateframework/tuf/issues/243
+theupdateframework	tuf	755	Detect metadata and data mismatch on server when possible	https://github.com/theupdateframework/tuf/issues/106
+whitesmith	hawkpost	755	Social signup when email already exists	https://github.com/whitesmith/hawkpost/issues/230
+whitesmith	hawkpost	755	Add instructions for running tests in README	https://github.com/whitesmith/hawkpost/issues/251
+oilshell	oil	751	Implement utf-8 string operations	https://github.com/oilshell/oil/issues/142
+oilshell	oil	751	Make spec test format stricter	https://github.com/oilshell/oil/issues/143
+oilshell	oil	751	Write a proper glob parser to convert globs to ERE regex syntax	https://github.com/oilshell/oil/issues/125
+oilshell	oil	751	Use Travis for more things	https://github.com/oilshell/oil/issues/81
+iterative	dvc	725	Azure cloud	https://github.com/iterative/dvc/issues/442
+iterative	dvc	725	Create an installation package for conda package manager	https://github.com/iterative/dvc/issues/120
+bloomreach	s4cmd	722	Python Module version + non-blocking?	https://github.com/bloomreach/s4cmd/issues/44
+bloomreach	s4cmd	722	Specify the S3 permissions needed for each operation in the doc	https://github.com/bloomreach/s4cmd/issues/54
+bloomreach	s4cmd	722	"Can't GET from buckets with mixed-case names"	https://github.com/bloomreach/s4cmd/issues/30
+dateutil	dateutil	710	bytes/str conversion lines not hit in test_isoparser	https://github.com/dateutil/dateutil/issues/776
+dateutil	dateutil	710	Exercise: Martin Luther King day	https://github.com/dateutil/dateutil/issues/664
+dateutil	dateutil	710	Exercise: Parsing a local tzname	https://github.com/dateutil/dateutil/issues/666
+dateutil	dateutil	710	Exercise: Next Monday meeting	https://github.com/dateutil/dateutil/issues/665
+unknown-horizons	unknown-horizons	704	"Don't offer route configuration with only one settlement"	https://github.com/unknown-horizons/unknown-horizons/issues/2721
+unknown-horizons	unknown-horizons	704	We should improve the wiki	https://github.com/unknown-horizons/unknown-horizons/issues/2447
+dmlc	gluon-nlp	697	Better tokenizer for Chinese	https://github.com/dmlc/gluon-nlp/issues/102
+dmlc	gluon-nlp	697	Better tutorial on how to use the attention cell	https://github.com/dmlc/gluon-nlp/issues/119
+evennia	evennia	693	allcom who crashes when non-Account objects are subscribers	https://github.com/evennia/evennia/issues/1568
+evennia	evennia	693	Develop-branch needs to run `collectstatic`	https://github.com/evennia/evennia/issues/1611
+evennia	evennia	693	Request: Add file paths to wiki pages	https://github.com/evennia/evennia/issues/1578
+evennia	evennia	693	allcom displays objects from derived classes	https://github.com/evennia/evennia/issues/1569
+evennia	evennia	693	Add a /delete switch to @accounts	https://github.com/evennia/evennia/issues/1477
+evennia	evennia	693	Feature Request: Add Slack Support for Communications Bridging	https://github.com/evennia/evennia/issues/1538
+evennia	evennia	693	Create new unit tests for Evennia	https://github.com/evennia/evennia/issues/1458
+evennia	evennia	693	EvForm tracebacks with certain dissimilar line lengths of form	https://github.com/evennia/evennia/issues/1459
+evennia	evennia	693	"nicks command fails to take into account non-""inputline"" categories"	https://github.com/evennia/evennia/issues/1415
+evennia	evennia	693	No way to clear object descs without resorting to @py	https://github.com/evennia/evennia/issues/1499
+tensorflow	probability	691	improve text and visuals in Bayesian Gaussian mixture model tutorial	https://github.com/tensorflow/probability/issues/74
+tensorflow	probability	691	Stochastic block model example/tutorial	https://github.com/tensorflow/probability/issues/71
+tensorflow	probability	691	Categorical autoregressive distribution with LSTM example/tutorial	https://github.com/tensorflow/probability/issues/73
+tensorflow	probability	691	Sigmoid belief network example/tutorial	https://github.com/tensorflow/probability/issues/70
+tensorflow	probability	691	Item response theory model example/tutorial	https://github.com/tensorflow/probability/issues/69
+tensorflow	probability	691	Logistic factorial analysis example/tutorial	https://github.com/tensorflow/probability/issues/68
+tensorflow	probability	691	Bayesian neural network tutorial	https://github.com/tensorflow/probability/issues/66
+tensorflow	probability	691	VAE tutorial	https://github.com/tensorflow/probability/issues/65
+tensorflow	probability	691	Probabilistic matrix factorization/PCA example/tutorial	https://github.com/tensorflow/probability/issues/64
+tensorflow	probability	691	Generative adversarial networks example/tutorial	https://github.com/tensorflow/probability/issues/63
+tensorflow	probability	691	Mixture density networks example/tutorial	https://github.com/tensorflow/probability/issues/62
+tensorflow	probability	691	latent space models example/tutorial	https://github.com/tensorflow/probability/issues/61
+tensorflow	probability	691	"raise error if tfp.layers' kernel_prior/posterior aren't specified with correct shapes"	https://github.com/tensorflow/probability/issues/29
+oppia	oppia	674	Convert frontend dicts to domain objects.	https://github.com/oppia/oppia/issues/3968
+oppia	oppia	674	Refactor functions in core/tests/protractor_util into Page Objects	https://github.com/oppia/oppia/issues/3954
+oppia	oppia	674	"On resizing the browser, the Code editor's submit button is not visible completely."	https://github.com/oppia/oppia/issues/5076
+oppia	oppia	674	Replace Jinja templates in the frontend with Angular.	https://github.com/oppia/oppia/issues/3950
+oppia	oppia	674	Update docstrings in the python backend code.	https://github.com/oppia/oppia/issues/4374
+oppia	oppia	674	Re-order startup script to open browser after starting server	https://github.com/oppia/oppia/issues/5106
+oppia	oppia	674	"The warning tooltip ""there's no way to complete this exploration ..."" is not explicit enough"	https://github.com/oppia/oppia/issues/5086
+oppia	oppia	674	Test frontend services	https://github.com/oppia/oppia/issues/4057
+oppia	oppia	674	Continue button preview missing in exploration editor	https://github.com/oppia/oppia/issues/5039
+oppia	oppia	674	Switch from static image resources to existing font awesome icons	https://github.com/oppia/oppia/issues/3522
+oppia	oppia	674	"Learner dashboard ""play later"" section tiles are inconsistent with other sections"	https://github.com/oppia/oppia/issues/4932
+oppia	oppia	674	Add a tooltip about private information in the learner view	https://github.com/oppia/oppia/issues/3225
+oppia	oppia	674	The default text which appears while inserting a link from should be a placeholder.	https://github.com/oppia/oppia/issues/2584
+oppia	oppia	674	Image Interaction supplemental card hidden continue button with long feedback	https://github.com/oppia/oppia/issues/5019
+oppia	oppia	674	Create delete_json method in test_utils	https://github.com/oppia/oppia/issues/4830
+oppia	oppia	674	The image added in the multiple choice option is not shown in Add Response Modal when we have to add the response for it.	https://github.com/oppia/oppia/issues/4961
+oppia	oppia	674	Add only build third_party.min.js option to build.py	https://github.com/oppia/oppia/issues/4973
+oppia	oppia	674	Extract Angular services in the frontend into individual files.	https://github.com/oppia/oppia/issues/3826
+oppia	oppia	674	On mobile, the audio bar is visible even if the the header becomes hidden.	https://github.com/oppia/oppia/issues/4907
+oppia	oppia	674	"The dropdown menu for the ""Categories"" and the ""Language"" do not close when user presses tab on the last element element or presses shift + tab on the first element in the dropdown menu"	https://github.com/oppia/oppia/issues/4936
+oppia	oppia	674	Create an SubtitledHtmlEditorDirective	https://github.com/oppia/oppia/issues/4333
+oppia	oppia	674	In Firefox, clicking bold / italic in the rich-text-editor does nothing.	https://github.com/oppia/oppia/issues/4177
+oppia	oppia	674	Create an e2e test that comprehensively tests the basic answer/feedback flow.	https://github.com/oppia/oppia/issues/1404
+oppia	oppia	674	Add Finnish language to site language list	https://github.com/oppia/oppia/issues/4913
+oppia	oppia	674	"Editor tour freezes in explorations for which you don't have edit rights"	https://github.com/oppia/oppia/issues/4931
+oppia	oppia	674	Portfolio page navigation gets hidden	https://github.com/oppia/oppia/issues/4893
+oppia	oppia	674	Enable learnerDashboard e2e travis test and AdminPage.js test cleanup.	https://github.com/oppia/oppia/issues/4887
+oppia	oppia	674	Multiple choice responses are not displayed correctly in the statistics tab	https://github.com/oppia/oppia/issues/4662
+oppia	oppia	674	"It's impossible to have a hint consisting solely of a rich text component"	https://github.com/oppia/oppia/issues/4661
+oppia	oppia	674	The width of the collapsible block in the response is being restrained by the fixed sized div which contains the response.	https://github.com/oppia/oppia/issues/2115
+oppia	oppia	674	Write frontend validators for all interactions.	https://github.com/oppia/oppia/issues/3446
+oppia	oppia	674	Creator has to focus in fields before customizing components and interactions	https://github.com/oppia/oppia/issues/1895
+oppia	oppia	674	Making any changes to the exploration while publishing changes results in an error modal	https://github.com/oppia/oppia/issues/4417
+oppia	oppia	674	IE: Formatting issues with info card in explorations	https://github.com/oppia/oppia/issues/2831
+oppia	oppia	674	"The ""Add Response"" tab in creator view can not be scrolled down. "	https://github.com/oppia/oppia/issues/4231
+oppia	oppia	674	Create an e2e test that comprehensively tests the card layout.	https://github.com/oppia/oppia/issues/1410
+oppia	oppia	674	On the collection page implement the ring highlights behind the path.	https://github.com/oppia/oppia/issues/3548
+oppia	oppia	674	Some page content being read out of order by screen reader	https://github.com/oppia/oppia/issues/3464
+oppia	oppia	674	"Provide a warning to the exploration creator when the height of the ""content"" part of a card exceeds (approximately) 630px."	https://github.com/oppia/oppia/issues/3074
+oppia	oppia	674	Opening a new tab while in signup page causes session to expire.	https://github.com/oppia/oppia/issues/2306
+oppia	oppia	674	Exploration graph legend sometimes gets misaligned in history tab of the editor.	https://github.com/oppia/oppia/issues/2125
+oppia	oppia	674	InteractiveMap interaction: in the rule editor, clicks on the map are not displayed correctly	https://github.com/oppia/oppia/issues/1269
+oppia	oppia	674	In the statistics tab, the drop-off rate for a particular state is not always clear	https://github.com/oppia/oppia/issues/4074
+IronLanguages	ironpython3	651	PEP 3120 -- Using UTF-8 as the default source encoding	https://github.com/IronLanguages/ironpython3/issues/22
+IronLanguages	ironpython3	651	Move DLR generator scripts to DLR repo	https://github.com/IronLanguages/ironpython3/issues/156
+IronLanguages	ironpython3	651	Use TypeCache.Object	https://github.com/IronLanguages/ironpython3/issues/320
+IronLanguages	ironpython3	651	coding20731.py has different line endings	https://github.com/IronLanguages/ironpython3/issues/304
+keras-team	keras-contrib	630	create keras-contrib documentation website	https://github.com/keras-team/keras-contrib/issues/220
+keras-team	keras-contrib	630	Baseline Semantic Segmentation Example	https://github.com/keras-team/keras-contrib/issues/199
+keras-team	keras-contrib	630	fix tensorflow_backend to match keras tensorflow_backend	https://github.com/keras-team/keras-contrib/issues/166
+keras-team	keras-contrib	630	fix travis - h5py model saving issue	https://github.com/keras-team/keras-contrib/issues/157
+nccgroup	featherduster	626	Invalid method	https://github.com/nccgroup/featherduster/issues/80
+nccgroup	featherduster	626	Add recognition and decoding of websafe base64 to analysis engine	https://github.com/nccgroup/featherduster/issues/59
+nccgroup	featherduster	626	Batch GCD	https://github.com/nccgroup/featherduster/issues/27
+nccgroup	featherduster	626	"Show key being used by 'multi_byte_xor'"	https://github.com/nccgroup/featherduster/issues/55
+ShivamSarodia	ShivyC	612	Support bitwise boolean operations	https://github.com/ShivamSarodia/ShivyC/issues/94
+ShivamSarodia	ShivyC	612	Reject repeat parameter in function declaration	https://github.com/ShivamSarodia/ShivyC/issues/71
+pycontribs	jira	586	provide worklog update example	https://github.com/pycontribs/jira/issues/379
+pycontribs	jira	586	make error messages helpful	https://github.com/pycontribs/jira/issues/243
+pycontribs	jira	586	docs: no usage docs for `remote_links`	https://github.com/pycontribs/jira/issues/557
+pycontribs	jira	586	Create Issues Bug	https://github.com/pycontribs/jira/issues/498
+pycontribs	jira	586	Version type is not serializable	https://github.com/pycontribs/jira/issues/186
+spack	spack	584	Remove edit phase from MakefilePackage	https://github.com/spack/spack/issues/7513
+spack	spack	584	Using Spack in containerized environments cleanup examples	https://github.com/spack/spack/issues/7186
+spack	spack	584	Questions about extend(..., ignore=...)?	https://github.com/spack/spack/issues/2753
+spack	spack	584	boost: auto-detect and disable ~/user-config.jam	https://github.com/spack/spack/issues/888
+spack	spack	584	Add version-dependent dependencies to Spack packager documentation	https://github.com/spack/spack/issues/510
+jwkvam	bowtie	574	replace nouislider with ant slider in quickstart	https://github.com/jwkvam/bowtie/issues/167
+jwkvam	bowtie	574	latex widget	https://github.com/jwkvam/bowtie/issues/223
+jwkvam	bowtie	574	document payloads from plotly events	https://github.com/jwkvam/bowtie/issues/196
+jwkvam	bowtie	574	create multipage example app	https://github.com/jwkvam/bowtie/issues/163
+ethereum	casper	573	Deploy PURITY_CHECKER and MSG_HASHER with via compile in testing	https://github.com/ethereum/casper/issues/159
+ethereum	casper	573	Reduce max length of signature in vote message	https://github.com/ethereum/casper/issues/110
+ethereum	casper	573	Add vyper compiling instructions to README	https://github.com/ethereum/casper/issues/152
+sendgrid	sendgrid-python	558	Feature request: Support for sending email.message.EmailMessage	https://github.com/sendgrid/sendgrid-python/issues/571
+sendgrid	sendgrid-python	558	Enhancement request for examples/helpers/mail/mail_example.py	https://github.com/sendgrid/sendgrid-python/issues/566
+sendgrid	sendgrid-python	558	"sendgrid-python should define it's own Error class"	https://github.com/sendgrid/sendgrid-python/issues/315
+sendgrid	sendgrid-python	558	Updates for the new Email Activity API (beta)	https://github.com/sendgrid/sendgrid-python/issues/562
+sendgrid	sendgrid-python	558	for the love of god make it clear in the docs to base64 encode data before passing to attachment function	https://github.com/sendgrid/sendgrid-python/issues/547
+fusepy	fusepy	553	Unable to deal with non-UTF-8 filenames	https://github.com/fusepy/fusepy/issues/2
+fusepy	fusepy	553	bring system support in fusell.py to match fuse.py	https://github.com/fusepy/fusepy/issues/85
+NVIDIA	flownet2-pytorch	530	Running a FlowNet-pytorch on a single image pair	https://github.com/NVIDIA/flownet2-pytorch/issues/51
+NVIDIA	flownet2-pytorch	530	Could you provide the visualization code for the*.flo files~	https://github.com/NVIDIA/flownet2-pytorch/issues/13
+NVIDIA	flownet2-pytorch	530	error in Correlation_forward_cuda_kernel: invalid device function	https://github.com/NVIDIA/flownet2-pytorch/issues/33
+NVIDIA	flownet2-pytorch	530	Augmentation issues?	https://github.com/NVIDIA/flownet2-pytorch/issues/26
+takluyver	flit	525	"Don't print a traceback when flit knows the mistake of the user"	https://github.com/takluyver/flit/issues/174
+takluyver	flit	525	Mention filename when suggesting that user add a docstring	https://github.com/takluyver/flit/issues/175
+takluyver	flit	525	Have a more helpful message when description-file is missing	https://github.com/takluyver/flit/issues/176
+jupyterhub	binderhub	515	delete of multiple files throws errors 	https://github.com/jupyterhub/binderhub/issues/471
+jupyterhub	binderhub	515	Rename the name of the `binder-` pod	https://github.com/jupyterhub/binderhub/issues/467
+jupyterhub	binderhub	515	Travis testing of docs	https://github.com/jupyterhub/binderhub/issues/296
+jupyterhub	binderhub	515	repo filter for use with GitHub classroom	https://github.com/jupyterhub/binderhub/issues/280
+datascienceinc	Skater	514	Add support to build using Circle CI	https://github.com/datascienceinc/Skater/issues/231
+datascienceinc	Skater	514	change Interpretation to Interpreter	https://github.com/datascienceinc/Skater/issues/173
+datascienceinc	Skater	514	Add relevant asserts to the tests	https://github.com/datascienceinc/Skater/issues/122
+datascienceinc	Skater	514	Update conda with the latest binaries	https://github.com/datascienceinc/Skater/issues/223
+datascienceinc	Skater	514	ability to filter features in feature importance plots	https://github.com/datascienceinc/Skater/issues/169

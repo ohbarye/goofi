@@ -1,0 +1,48 @@
+owner	name	stars	title	url
+fish-shell	fish-shell	9829	Simplify language used in documentation	https://github.com/fish-shell/fish-shell/issues/740
+fish-shell	fish-shell	9829	Strange argv handling in fish_vi_key_bindings	https://github.com/fish-shell/fish-shell/issues/5028
+fish-shell	fish-shell	9829	Documentation request: providing completion support from Python scripts?	https://github.com/fish-shell/fish-shell/issues/1217
+fish-shell	fish-shell	9829	rsync completions include --remove-sent-files but not --remove-source-files	https://github.com/fish-shell/fish-shell/issues/4863
+fish-shell	fish-shell	9829	Add setting the vi-mode cursor shape variables to the documentation	https://github.com/fish-shell/fish-shell/issues/4723
+fish-shell	fish-shell	9829	Completions for ulimit and umask	https://github.com/fish-shell/fish-shell/issues/737
+fish-shell	fish-shell	9829	$fish_color_search_match only supports background colors	https://github.com/fish-shell/fish-shell/issues/2442
+fish-shell	fish-shell	9829	"helping new users used to writing ""if $status"""	https://github.com/fish-shell/fish-shell/issues/2773
+fish-shell	fish-shell	9829	Make autosuggestions from history case-insensitive	https://github.com/fish-shell/fish-shell/issues/3126
+fish-shell	fish-shell	9829	`bind` documentation incorrect with respect to the available functions	https://github.com/fish-shell/fish-shell/issues/2914
+fish-shell	fish-shell	9829	do not assume /tmp is a valid location for temporary files	https://github.com/fish-shell/fish-shell/issues/3845
+fish-shell	fish-shell	9829	Included themes should define colors for special characters	https://github.com/fish-shell/fish-shell/issues/406
+CISOfy	lynis	4734	Gather info on expired passwords and locked accounts	https://github.com/CISOfy/lynis/issues/474
+CISOfy	lynis	4734	DBS-1816: mysql root user with empty password check not working correctly	https://github.com/CISOfy/lynis/issues/288
+CISOfy	lynis	4734	Wrong results with OpenNTPD	https://github.com/CISOfy/lynis/issues/518
+CISOfy	lynis	4734	"Suggestion: added Lynis tests when ""Cockpit"" is installed"	https://github.com/CISOfy/lynis/issues/429
+rvm	rvm	3946	"Error running '__rvm_make -j4' - Ruby 2.5.0 on macOS 10.13.2"	https://github.com/rvm/rvm/issues/4271
+rvm	rvm	3946	"1.9.3 Error running '__rvm_make -j4'"	https://github.com/rvm/rvm/issues/4200
+rvm	rvm	3946	gpg: WARNING: This key is not certified with a trusted signature	https://github.com/rvm/rvm/issues/4250
+rvm	rvm	3946	"Can't install jruby-head on Cygwin/Windows 7 x64"	https://github.com/rvm/rvm/issues/4279
+denysdovhan	spaceship-prompt	3891	Tests: Coverage	https://github.com/denysdovhan/spaceship-prompt/issues/458
+denysdovhan	spaceship-prompt	3891	Different colors for different git status	https://github.com/denysdovhan/spaceship-prompt/issues/397
+denysdovhan	spaceship-prompt	3891	Install via Homebrew	https://github.com/denysdovhan/spaceship-prompt/issues/90
+denysdovhan	spaceship-prompt	3891	Ｖ Vagrant support	https://github.com/denysdovhan/spaceship-prompt/issues/76
+denysdovhan	spaceship-prompt	3891	Truncate directories before Mercurial repo	https://github.com/denysdovhan/spaceship-prompt/issues/305
+denysdovhan	spaceship-prompt	3891	🐪 Perl support	https://github.com/denysdovhan/spaceship-prompt/issues/83
+asdf-vm	asdf	3160	Add a reinstall command	https://github.com/asdf-vm/asdf/issues/244
+asdf-vm	asdf	3160	Add ability to list all installed versions of all packages	https://github.com/asdf-vm/asdf/issues/307
+asdf-vm	asdf	3160	Feature: do not create new .tool-versions if it exists in parent dir	https://github.com/asdf-vm/asdf/issues/65
+jupyter	docker-stacks	2929	"Use conda-forge's tini"	https://github.com/jupyter/docker-stacks/issues/478
+jupyter	docker-stacks	2929	openjdk-9-jre-headless upgrade	https://github.com/jupyter/docker-stacks/issues/475
+concourse	concourse	2860	fly set-pipeline shows unneccessary diffs for large numbers	https://github.com/concourse/concourse/issues/1952
+concourse	concourse	2860	GitHub auth should be case-insensitive for orgs and teams	https://github.com/concourse/concourse/issues/472
+concourse	concourse	2860	Show clear error message when `CONCOURSE_EXTERNAL_URI` is malformed	https://github.com/concourse/concourse/issues/1668
+concourse	concourse	2860	Expand Teams integration with CF UAA to SpaceManagers and SpaceAuditors	https://github.com/concourse/concourse/issues/1722
+concourse	concourse	2860	atc to support multiple metric emitters at once?	https://github.com/concourse/concourse/issues/1881
+cknadler	vim-anywhere	2686	Better GIF and Pictures	https://github.com/cknadler/vim-anywhere/issues/57
+cknadler	vim-anywhere	2686	Add OSX support to pull request #65	https://github.com/cknadler/vim-anywhere/issues/70
+drwetter	testssl.sh	2237	request for adding EV cert OIDs from browser vendors	https://github.com/drwetter/testssl.sh/issues/967
+drwetter	testssl.sh	2237	Manpage, helping hand needed	https://github.com/drwetter/testssl.sh/issues/790
+postmarketOS	pmbootstrap	1011	add static type checks with mypy and PEP-484	https://github.com/postmarketOS/pmbootstrap/issues/1289
+postmarketOS	pmbootstrap	1011	Include url to device wiki page in deviceinfo	https://github.com/postmarketOS/pmbootstrap/issues/434
+postmarketOS	pmbootstrap	1011	make it easier to create patches	https://github.com/postmarketOS/pmbootstrap/issues/971
+slacka	WoeUSB	991	"WoeUSB doesn't clean-up temp directories"	https://github.com/slacka/WoeUSB/issues/189
+slacka	WoeUSB	991	"Readme needs to clarify that wxGTK3-devel isn't the only dependency on Fedora"	https://github.com/slacka/WoeUSB/issues/119
+slacka	WoeUSB	991	CLI: Intepreter Compatibility Checking	https://github.com/slacka/WoeUSB/issues/169
+slacka	WoeUSB	991	Auto-detect required partition size of UEFI:NTFS partition	https://github.com/slacka/WoeUSB/issues/184

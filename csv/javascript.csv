@@ -1,0 +1,1478 @@
+owner	name	stars	title	url
+vuejs	vue	103892	warn if $set is used on a property that already exist	https://github.com/vuejs/vue/issues/8129
+vuejs	vue	103892	Creating a component named map should warn the user (as with button)	https://github.com/vuejs/vue/issues/8025
+vuejs	vue	103892	Make the warning messages more explicit	https://github.com/vuejs/vue/issues/7764
+vuejs	vue	103892	2.5.14 introduces TypeError bind is not a function	https://github.com/vuejs/vue/issues/8017
+facebook	react	103700	Nicer Formatting of SSR Validation	https://github.com/facebook/react/issues/10085
+facebook	react	103700	"Ignore <noscript> content on the client and don't warn about mismatches "	https://github.com/facebook/react/issues/11423
+facebook	react	103700	Children of option tags flattened when select has value	https://github.com/facebook/react/issues/11602
+facebook	react	103700	False positive getDefaultProps warning when mixing development and production versions	https://github.com/facebook/react/issues/9999
+nodejs	node	50510	Inconsistent documentation: hostname vs host	https://github.com/nodejs/node/issues/20892
+nodejs	node	50510	Debugging: name every function	https://github.com/nodejs/node/issues/8913
+nodejs	node	50510	dns.js not properly iterating through DNS array	https://github.com/nodejs/node/issues/21391
+nodejs	node	50510	No DNS Search Domain support in C-Ares calls	https://github.com/nodejs/node/issues/17850
+nodejs	node	50510	Offset must be >= 0 && <= 0 Out of range 0 :-)	https://github.com/nodejs/node/issues/21193
+nodejs	node	50510	doc: how to use advanced features of `configure` on Windows	https://github.com/nodejs/node/issues/17331
+nodejs	node	50510	getHeader() returns undefined after using writeHead() in a certain circumstance	https://github.com/nodejs/node/issues/10354
+nodejs	node	50510	doc: explicitly mention that the explanation of an synchronous fs API live in the docs of the async API	https://github.com/nodejs/node/issues/21197
+nodejs	node	50510	Document how to get swap endian for the Buffer class	https://github.com/nodejs/node/issues/12813
+nodejs	node	50510	module.children behavior does not match documentation (only tracks first requires)	https://github.com/nodejs/node/issues/9371
+nodejs	node	50510	Cannot properly close/cleanup character device ReadStream (process hangs)	https://github.com/nodejs/node/issues/15439
+nodejs	node	50510	Degraded performance of ia32 builds on x64 Windows and undocumented build parameter	https://github.com/nodejs/node/issues/11500
+nodejs	node	50510	Add lint rule to enforce snake_case in file names	https://github.com/nodejs/node/issues/20446
+nodejs	node	50510	doc: guide/topic on how to use streams	https://github.com/nodejs/node/issues/8646
+mui-org	material-ui	37877	[docs] Table virtualized	https://github.com/mui-org/material-ui/issues/7450
+mui-org	material-ui	37877	SVG Icons: Unable to Supply <defs> Element	https://github.com/mui-org/material-ui/issues/4489
+mui-org	material-ui	37877	CircularProgress sizing issue in a Dialog	https://github.com/mui-org/material-ui/issues/11837
+mui-org	material-ui	37877	SubMenu should not overlap parent menu	https://github.com/mui-org/material-ui/issues/11723
+mui-org	material-ui	37877	[Grid] Allow items to be containers as well [enhancement]	https://github.com/mui-org/material-ui/issues/7744
+mui-org	material-ui	37877	"MenuItem not inheriting ""disableGutters"" correctly"	https://github.com/mui-org/material-ui/issues/11658
+mui-org	material-ui	37877	PersistentDrawer demo limits page height to drawer height	https://github.com/mui-org/material-ui/issues/11179
+mui-org	material-ui	37877	"ExpansionPanel renders components even when it's closed."	https://github.com/mui-org/material-ui/issues/10569
+mui-org	material-ui	37877	[Drawer] persistent=true open=false, component visible after adding props/children that increase size	https://github.com/mui-org/material-ui/issues/10183
+GoogleChrome	puppeteer	33767	Cache Chromium	https://github.com/GoogleChrome/puppeteer/issues/2759
+GoogleChrome	puppeteer	33767	"Failed to download Chromium r536395! Set ""PUPPETEER_SKIP_CHROMIUM_DOWNLOAD"" env variable to skip download."	https://github.com/GoogleChrome/puppeteer/issues/2173
+GoogleChrome	puppeteer	33767	"page.goto doesn't clear internal timeout when the browser is closed"	https://github.com/GoogleChrome/puppeteer/issues/2721
+GoogleChrome	puppeteer	33767	Method to show if element is displayed	https://github.com/GoogleChrome/puppeteer/issues/2629
+GoogleChrome	puppeteer	33767	[Feature] Add page.waitForRequest() and page.waitForResponse()	https://github.com/GoogleChrome/puppeteer/issues/2362
+GoogleChrome	puppeteer	33767	More flexible dumpio	https://github.com/GoogleChrome/puppeteer/issues/1292
+GoogleChrome	puppeteer	33767	Serialize Uint8Arrays better	https://github.com/GoogleChrome/puppeteer/issues/2427
+GoogleChrome	puppeteer	33767	element.screenshot() stalls and the browser window turns grey	https://github.com/GoogleChrome/puppeteer/issues/2276
+GoogleChrome	puppeteer	33767	Can I get Remote Address with puppteer？	https://github.com/GoogleChrome/puppeteer/issues/2171
+impress	impress.js	33662	Add impress:substep:enter and impress:substep:leave events	https://github.com/impress/impress.js/issues/695
+impress	impress.js	33662	Introduce optional but standard css file for plugin related css	https://github.com/impress/impress.js/issues/681
+impress	impress.js	33662	Remove bower.json	https://github.com/impress/impress.js/issues/665
+impress	impress.js	33662	Test coverage for all plugins	https://github.com/impress/impress.js/issues/659
+impress	impress.js	33662	Shift + Spacebar should take back to the previous slide.	https://github.com/impress/impress.js/issues/248
+impress	impress.js	33662	"'?' key should pop up keyboard shortcut help window"	https://github.com/impress/impress.js/issues/220
+yarnpkg	yarn	32067	"Workspaces don't run lifecycle scripts when linking local packages"	https://github.com/yarnpkg/yarn/issues/3911
+yarnpkg	yarn	32067	custom node_modules folder breaks .bin since yarn 0.25.4	https://github.com/yarnpkg/yarn/issues/3724
+yarnpkg	yarn	32067	"Can't install package from private GitHub repository with Yarn but can with NPM"	https://github.com/yarnpkg/yarn/issues/4360
+yarnpkg	yarn	32067	yarn upgrade-interactive fails with Invalid version: undefined error if a dependency has only prerelease versions	https://github.com/yarnpkg/yarn/issues/5955
+yarnpkg	yarn	32067	Running `yarn link` multiple times return non clear message	https://github.com/yarnpkg/yarn/issues/5991
+yarnpkg	yarn	32067	Yarn outdated is not colorblind friendly	https://github.com/yarnpkg/yarn/issues/5990
+yarnpkg	yarn	32067	Yarn install ECONNREFUSED 151.101.36.162:443 issue (proposed fix)	https://github.com/yarnpkg/yarn/issues/5299
+yarnpkg	yarn	32067	Symlinking packages may lead to invalid states	https://github.com/yarnpkg/yarn/issues/937
+yarnpkg	yarn	32067	Yarn install shell script uninstalls before successful download	https://github.com/yarnpkg/yarn/issues/2808
+yarnpkg	yarn	32067	Registry settings on .npmrc file being ignored	https://github.com/yarnpkg/yarn/issues/3612
+yarnpkg	yarn	32067	`yarn list --depth 0` list all installed dependencies in node_modules beside in package.json	https://github.com/yarnpkg/yarn/issues/3569
+yarnpkg	yarn	32067	Yarn missing python flag	https://github.com/yarnpkg/yarn/issues/3519
+yarnpkg	yarn	32067	upgrade-interactive should do engine checks before showing the prompt	https://github.com/yarnpkg/yarn/issues/5902
+yarnpkg	yarn	32067	`upgrade-interactive` always shows dependency installed via Git as outdated	https://github.com/yarnpkg/yarn/issues/4896
+yarnpkg	yarn	32067	Yarn pack is ignoring .npmignore files	https://github.com/yarnpkg/yarn/issues/685
+yarnpkg	yarn	32067	Trailing slash breaks workspace features when yarn run inside workspace folder	https://github.com/yarnpkg/yarn/issues/5816
+yarnpkg	yarn	32067	Files are extracted before their hashes are checked.	https://github.com/yarnpkg/yarn/issues/4638
+yarnpkg	yarn	32067	Yarn does not symlink missing binaries	https://github.com/yarnpkg/yarn/issues/3421
+yarnpkg	yarn	32067	"""Couldn't publish package"""	https://github.com/yarnpkg/yarn/issues/2717
+yarnpkg	yarn	32067	yarn install --flat should probably show the reason why a package is required	https://github.com/yarnpkg/yarn/issues/3013
+yarnpkg	yarn	32067	"can't resolve merge conflicts with --install.frozen-lockfile in .yarnrc"	https://github.com/yarnpkg/yarn/issues/5382
+yarnpkg	yarn	32067	Path *bug* using wrong node binary.	https://github.com/yarnpkg/yarn/issues/5789
+yarnpkg	yarn	32067	`yarn add` in workspace adds to `dependencies` when it should update `devDependencies`	https://github.com/yarnpkg/yarn/issues/4971
+yarnpkg	yarn	32067	yarn self-update should update using the same installation method originally used	https://github.com/yarnpkg/yarn/issues/1139
+yarnpkg	yarn	32067	yarn install --production does an engine check on devDependencies	https://github.com/yarnpkg/yarn/issues/5796
+yarnpkg	yarn	32067	"Yarn check [--integrity [--verbose]] fail and messages aren't helpful in the slightest"	https://github.com/yarnpkg/yarn/issues/2287
+yarnpkg	yarn	32067	"Yarn install in v1.6.0 with dependency from private repo starting with `ssh+git` fails ""Invalid protocol: ssh+git:""."	https://github.com/yarnpkg/yarn/issues/5766
+yarnpkg	yarn	32067	yarn --modules-folder lib/ add requirejs	https://github.com/yarnpkg/yarn/issues/5715
+yarnpkg	yarn	32067	Cannot force color output when stdout is not a tty	https://github.com/yarnpkg/yarn/issues/5733
+yarnpkg	yarn	32067	Should not copy `node_modules` of `file:` dependencies	https://github.com/yarnpkg/yarn/issues/3344
+yarnpkg	yarn	32067	"yarn remove doesn't warn about workspace root like yarn add does (add -W flag)"	https://github.com/yarnpkg/yarn/issues/5611
+yarnpkg	yarn	32067	yarn run --non-interactive prompts and errors	https://github.com/yarnpkg/yarn/issues/5655
+yarnpkg	yarn	32067	yarn does not respect npm globalconfig	https://github.com/yarnpkg/yarn/issues/5543
+yarnpkg	yarn	32067	impossible to update package without pulling in updates of all dependencies	https://github.com/yarnpkg/yarn/issues/5475
+yarnpkg	yarn	32067	Use fs.copyFile with UV_FS_COPYFILE_FICLONE flag when ready	https://github.com/yarnpkg/yarn/issues/5456
+yarnpkg	yarn	32067	`yarn tag list` prompts for NPM credentials	https://github.com/yarnpkg/yarn/issues/5325
+yarnpkg	yarn	32067	`yarn install` ignores `files` from local dependencies	https://github.com/yarnpkg/yarn/issues/2822
+yarnpkg	yarn	32067	Yarn does not remove old package name from yarn.lock when install from git repo	https://github.com/yarnpkg/yarn/issues/2840
+yarnpkg	yarn	32067	Packages with build artifacts missing, but listed in .yarn-integrity, should be rebuilt.	https://github.com/yarnpkg/yarn/issues/3781
+yarnpkg	yarn	32067	Retry using different registry mirror if registry.yarnpkg.com fails?	https://github.com/yarnpkg/yarn/issues/3396
+yarnpkg	yarn	32067	yarn list show dependencies of all packages in the workspace	https://github.com/yarnpkg/yarn/issues/5174
+yarnpkg	yarn	32067	How to use --modules-folder flag?	https://github.com/yarnpkg/yarn/issues/1684
+yarnpkg	yarn	32067	Private npm registry authentication issue on yarn.lock and package.json semver mismatch	https://github.com/yarnpkg/yarn/issues/5256
+yarnpkg	yarn	32067	feature: Implement `yarn global config set|get`	https://github.com/yarnpkg/yarn/issues/1037
+yarnpkg	yarn	32067	yarn global add . fails	https://github.com/yarnpkg/yarn/issues/3256
+yarnpkg	yarn	32067	[feature] improve resolution deduping	https://github.com/yarnpkg/yarn/issues/3778
+yarnpkg	yarn	32067	Windows gets unlink error when running yarn while an executable is running	https://github.com/yarnpkg/yarn/issues/2685
+yarnpkg	yarn	32067	`yarn add --cwd invalid-dir` should warn/fail	https://github.com/yarnpkg/yarn/issues/5206
+yarnpkg	yarn	32067	XDG compliance	https://github.com/yarnpkg/yarn/issues/2334
+yarnpkg	yarn	32067	False resolutions entry for bower-components	https://github.com/yarnpkg/yarn/issues/5161
+yarnpkg	yarn	32067	Finding a way to determine whether a package was run with `yarn create` or `npx`	https://github.com/yarnpkg/yarn/issues/5063
+yarnpkg	yarn	32067	Missing global dependency generates unhelpful message	https://github.com/yarnpkg/yarn/issues/5134
+yarnpkg	yarn	32067	Issue with offline installation of @types/node	https://github.com/yarnpkg/yarn/issues/4266
+yarnpkg	yarn	32067	Should yarn run ignore .cmd files for binary scripts on Windows?	https://github.com/yarnpkg/yarn/issues/624
+yarnpkg	yarn	32067	Deduplicate `yarn licenses list`	https://github.com/yarnpkg/yarn/issues/5074
+yarnpkg	yarn	32067	Sort options and commands in the help output	https://github.com/yarnpkg/yarn/issues/5050
+yarnpkg	yarn	32067	extra color for bolded text in the output	https://github.com/yarnpkg/yarn/issues/1123
+yarnpkg	yarn	32067	Fix code duplications in the repo	https://github.com/yarnpkg/yarn/issues/4950
+yarnpkg	yarn	32067	Yarn ignores invalid command line arguments	https://github.com/yarnpkg/yarn/issues/2600
+yarnpkg	yarn	32067	yarn upgrade should not install non-listed packages	https://github.com/yarnpkg/yarn/issues/3176
+yarnpkg	yarn	32067	use workers to unzip tarballs	https://github.com/yarnpkg/yarn/issues/3360
+yarnpkg	yarn	32067	`yarn add pkg` should default to the version used in the other workspaces instead of latest	https://github.com/yarnpkg/yarn/issues/4154
+yarnpkg	yarn	32067	yarn publish changes version with wrong password	https://github.com/yarnpkg/yarn/issues/1675
+yarnpkg	yarn	32067	Documentation: yarn licenses generate-disclaimer wrong description	https://github.com/yarnpkg/yarn/issues/3797
+yarnpkg	yarn	32067	Yarn install should warn or replace when old version are already installed	https://github.com/yarnpkg/yarn/issues/3807
+yarnpkg	yarn	32067	[upgrade-interactive] Add a flag for pre-release	https://github.com/yarnpkg/yarn/issues/3698
+yarnpkg	yarn	32067	"`yarn help init` doesn't output any help"	https://github.com/yarnpkg/yarn/issues/4935
+yarnpkg	yarn	32067	Merge conflicts in cache for packages installed via Git	https://github.com/yarnpkg/yarn/issues/2845
+yarnpkg	yarn	32067	Feedback lacking when `yarn publish` is not provided a new version	https://github.com/yarnpkg/yarn/issues/2940
+yarnpkg	yarn	32067	Possibility to add warning when running yarn in directory containing node_modules but missing yarn.lock	https://github.com/yarnpkg/yarn/issues/3373
+yarnpkg	yarn	32067	Error adding remote tarball package	https://github.com/yarnpkg/yarn/issues/3160
+yarnpkg	yarn	32067	Yarn should make better use of `dist-tags`	https://github.com/yarnpkg/yarn/issues/4208
+yarnpkg	yarn	32067	"Yarn doesn't set `$npm_package_directories` env vars"	https://github.com/yarnpkg/yarn/issues/2886
+yarnpkg	yarn	32067	Confusing order of CLI flags	https://github.com/yarnpkg/yarn/issues/4470
+yarnpkg	yarn	32067	Zip support	https://github.com/yarnpkg/yarn/issues/1483
+yarnpkg	yarn	32067	Publish local tarball to offline mirror	https://github.com/yarnpkg/yarn/issues/2381
+yarnpkg	yarn	32067	Chore: create test cases for `--non-interactive` and `isCI`	https://github.com/yarnpkg/yarn/issues/3838
+yarnpkg	yarn	32067	yarn 1.0.1 is generating extraneous dependencies	https://github.com/yarnpkg/yarn/issues/4417
+yarnpkg	yarn	32067	"Yarn add fails if package url should be fetched using ""git config --global url"""	https://github.com/yarnpkg/yarn/issues/2614
+yarnpkg	yarn	32067	Specifying hash in the package json is not working	https://github.com/yarnpkg/yarn/issues/3109
+yarnpkg	yarn	32067	yarn fails to install packages with github tarball dependencies	https://github.com/yarnpkg/yarn/issues/3243
+yarnpkg	yarn	32067	Yarn Offline Install with GitHub Hash Fails	https://github.com/yarnpkg/yarn/issues/4710
+yarnpkg	yarn	32067	strange latency with yarn install	https://github.com/yarnpkg/yarn/issues/4718
+yarnpkg	yarn	32067	Provide feedback when scoped npm packages fail to publish accurately, related to #521	https://github.com/yarnpkg/yarn/issues/2991
+yarnpkg	yarn	32067	"bundledDependencies don't get packed as of >= v0.19.0"	https://github.com/yarnpkg/yarn/issues/2636
+yarnpkg	yarn	32067	yarn publish creates wrong tar content	https://github.com/yarnpkg/yarn/issues/1269
+yarnpkg	yarn	32067	Bad file paths when publishing on Windows (backslash in package file paths)	https://github.com/yarnpkg/yarn/issues/3031
+yarnpkg	yarn	32067	"On 'yarn install', yarn should report on bandwidth usage along with time taken"	https://github.com/yarnpkg/yarn/issues/3347
+yarnpkg	yarn	32067	Autoclean deprecated cache folders (OS X, linux, etc)	https://github.com/yarnpkg/yarn/issues/3733
+yarnpkg	yarn	32067	Remove or make the out of date warning less in-your-face for patch releases	https://github.com/yarnpkg/yarn/issues/3718
+yarnpkg	yarn	32067	Login not supported with —non-interactive 	https://github.com/yarnpkg/yarn/issues/3450
+yarnpkg	yarn	32067	"Command-specific flags `--ignore-scripts` shouldn't be shown with `yarn help`"	https://github.com/yarnpkg/yarn/issues/2735
+yarnpkg	yarn	32067	Feature request: Add who requested package from original dependencies in verbose	https://github.com/yarnpkg/yarn/issues/3488
+yarnpkg	yarn	32067	Standalone JS build (`yarn-0.14.0.js`) needs license file	https://github.com/yarnpkg/yarn/issues/549
+yarnpkg	yarn	32067	Use shortand for gitlab dependencies	https://github.com/yarnpkg/yarn/issues/2774
+yarnpkg	yarn	32067	Inconsistent config strings	https://github.com/yarnpkg/yarn/issues/4496
+yarnpkg	yarn	32067	Multiple sub-scripts do not output progressively	https://github.com/yarnpkg/yarn/issues/4423
+yarnpkg	yarn	32067	yarn why <pkg> should list all instances of a package inside the dependency tree	https://github.com/yarnpkg/yarn/issues/3228
+yarnpkg	yarn	32067	Support --arch and --target_arch to build modules for other architectures	https://github.com/yarnpkg/yarn/issues/2221
+yarnpkg	yarn	32067	switch to node-tar@3 if it got faster than tar-fs	https://github.com/yarnpkg/yarn/issues/3380
+babel	babel	28166	Tighten up parsing of Flow TypeCasts	https://github.com/babel/babel/issues/6698
+babel	babel	28166	@babel/core `cwd` option is not documented	https://github.com/babel/babel/issues/7918
+babel	babel	28166	[preset-env] target.node=true should use package.engines.node	https://github.com/babel/babel/issues/7277
+babel	babel	28166	Incorrect parse error thrown for unexpected Flow code	https://github.com/babel/babel/issues/7954
+babel	babel	28166	injecting external-helpers in a node app	https://github.com/babel/babel/issues/7357
+babel	babel	28166	Validation error when using JSXSpreadChild	https://github.com/babel/babel/issues/7069
+babel	babel	28166	Unexpected completion value using `insertAfter` in nested JSXElement	https://github.com/babel/babel/issues/6464
+zeit	next.js	26451	UI to show that code is compiling in the browser window	https://github.com/zeit/next.js/issues/4626
+zeit	next.js	26451	"Using <title> in _document.js's <Head> tag should show a warning to use _app.js instead"	https://github.com/zeit/next.js/issues/4596
+zeit	next.js	26451	ctx.query undefined during dev and using exportPathMap	https://github.com/zeit/next.js/issues/4615
+zeit	next.js	26451	Logic of with-react-i18next is incompatible with _app.js	https://github.com/zeit/next.js/issues/4532
+zeit	next.js	26451	sw-precache-webpack-plugin navigateFallback setting not working in example nextjs implementation.	https://github.com/zeit/next.js/issues/4464
+zeit	next.js	26451	Improve example of with-ant-design-less	https://github.com/zeit/next.js/issues/4582
+zeit	next.js	26451	with-ant-design bundle file is too big	https://github.com/zeit/next.js/issues/4101
+zeit	next.js	26451	Typescript examples are broken	https://github.com/zeit/next.js/issues/4528
+zeit	next.js	26451	Wrong imports in with-redux/lib/with-redux-store.js	https://github.com/zeit/next.js/issues/4507
+zeit	next.js	26451	Update with-universal-configuration example	https://github.com/zeit/next.js/issues/4498
+zeit	next.js	26451	Error when building project with inferno aliases	https://github.com/zeit/next.js/issues/4031
+zeit	next.js	26451	Replace `on-demand-retries` XHR ping with websocket	https://github.com/zeit/next.js/issues/4495
+zeit	next.js	26451	styled-component overridden on hot reload	https://github.com/zeit/next.js/issues/4068
+zeit	next.js	26451	aws-serverless-express and serverless example	https://github.com/zeit/next.js/issues/4482
+zeit	next.js	26451	"Koa Isomorphic App 404's after npm run build"	https://github.com/zeit/next.js/issues/4441
+zeit	next.js	26451	with-react-helmet bug in production mode	https://github.com/zeit/next.js/issues/3534
+zeit	next.js	26451	with-react-intl example: use react-intl-translations-manager instead of custom script	https://github.com/zeit/next.js/issues/1990
+zeit	next.js	26451	with-react-native-web - example - Expected server HTML to contain a matching <div> in <div>.	https://github.com/zeit/next.js/issues/4465
+zeit	next.js	26451	Next 5.0+ and Styletron server-side rendering is broken	https://github.com/zeit/next.js/issues/4216
+zeit	next.js	26451	Can not execute `with-relay-modern` according to README by error	https://github.com/zeit/next.js/issues/4251
+zeit	next.js	26451	example using-nerv not working	https://github.com/zeit/next.js/issues/3868
+zeit	next.js	26451	`shallowEquals` throws when using custom server and not passing an object for query to `app.render`	https://github.com/zeit/next.js/issues/2943
+zeit	next.js	26451	Suggested documentation improvements	https://github.com/zeit/next.js/issues/1069
+zeit	next.js	26451	Browser Back Button does not trigger window.onbeforeunload	https://github.com/zeit/next.js/issues/2694
+zeit	next.js	26451	Anyone have an example of how to implement subscriptions?	https://github.com/zeit/next.js/issues/3261
+zeit	next.js	26451	How to use a local IP address instead of localhost ?	https://github.com/zeit/next.js/issues/4025
+zeit	next.js	26451	"Add README section: ""Asset Management/Optimisation"""	https://github.com/zeit/next.js/issues/3265
+zeit	next.js	26451	Document how to do stuff differently server-side vs. client-side	https://github.com/zeit/next.js/issues/1229
+zeit	next.js	26451	Example app: fb-like chat tabs	https://github.com/zeit/next.js/issues/245
+TryGhost	Ghost	25949	Remove xmlrpc ping service	https://github.com/TryGhost/Ghost/issues/9644
+TryGhost	Ghost	25949	`{{url}}` helper shows incorrect url when subdirectory equals post slug	https://github.com/TryGhost/Ghost/issues/9687
+TryGhost	Ghost	25949	"Need to click submit button twice in ""Invite user"" modal with validation error"	https://github.com/TryGhost/Ghost/issues/7131
+TryGhost	Ghost	25949	Invite user modal: Field focus and tabbing	https://github.com/TryGhost/Ghost/issues/7132
+TryGhost	Ghost	25949	Malformed markup on team page	https://github.com/TryGhost/Ghost/issues/9581
+TryGhost	Ghost	25949	Mobile responsive issues in admin area	https://github.com/TryGhost/Ghost/issues/9239
+TryGhost	Ghost	25949	"Adding punctuation to the end of a slug doesn't update the slug field"	https://github.com/TryGhost/Ghost/issues/9269
+storybooks	storybook	25044	[addon-a11y] Usability	https://github.com/storybooks/storybook/issues/3641
+storybooks	storybook	25044	Warning for wrongly-imported addons	https://github.com/storybooks/storybook/issues/3765
+storybooks	storybook	25044	Chromeless Support for Storyshots	https://github.com/storybooks/storybook/issues/3623
+storybooks	storybook	25044	Proposal: Image snapshots with webdriverio for cross-browser visual regression testing	https://github.com/storybooks/storybook/issues/3734
+storybooks	storybook	25044	Setting publicPath almost works.	https://github.com/storybooks/storybook/issues/3172
+serverless	serverless	24157	--template-path out of memory error when referencing the home dir (~/...)	https://github.com/serverless/serverless/issues/4724
+serverless	serverless	24157	CLI argument being converted to number and rounded up	https://github.com/serverless/serverless/issues/5050
+serverless	serverless	24157	Quick-start documentation pages links broken in Github	https://github.com/serverless/serverless/issues/3916
+serverless	serverless	24157	functions with dot in name	https://github.com/serverless/serverless/issues/3665
+serverless	serverless	24157	C# example for Azure	https://github.com/serverless/serverless/issues/4875
+serverless	serverless	24157	Keys of `event.headers` should be lower cased	https://github.com/serverless/serverless/issues/2765
+serverless	serverless	24157	Custom LAMBDA_TASK_ROOT for invoke local	https://github.com/serverless/serverless/issues/3520
+serverless	serverless	24157	Support VPC integration type for APIG	https://github.com/serverless/serverless/issues/4508
+serverless	serverless	24157	"Can't parse variable system when a second argument is hard-coded"	https://github.com/serverless/serverless/issues/4624
+serverless	serverless	24157	C# missing documentation details	https://github.com/serverless/serverless/issues/3853
+serverless	serverless	24157	Validate dependancies are present before deploying	https://github.com/serverless/serverless/issues/4075
+serverless	serverless	24157	"Undefined variables being casted to the ""undefined"" string"	https://github.com/serverless/serverless/issues/3491
+serverless	serverless	24157	Remove deprecated SError reference	https://github.com/serverless/serverless/issues/3175
+serverless	serverless	24157	Update test glob pattern to correctly exclude node_modules directories	https://github.com/serverless/serverless/issues/3417
+serverless	serverless	24157	build.sh uses `apt-get` in C# project on OSX	https://github.com/serverless/serverless/issues/3271
+serverless	serverless	24157	Move service validations in services validate method	https://github.com/serverless/serverless/issues/3163
+serverless	serverless	24157	"Cannot use "" in body for scheduling"	https://github.com/serverless/serverless/issues/3069
+serverless	serverless	24157	"Make it easier to remove services from CF that you don't have files for locally"	https://github.com/serverless/serverless/issues/2202
+serverless	serverless	24157	Update docs for new API Gateway integration types	https://github.com/serverless/serverless/issues/3646
+serverless	serverless	24157	DX: Consistent error messages when running commands without serverless.yml	https://github.com/serverless/serverless/issues/2116
+serverless	serverless	24157	Add more documentation about --verbose mode for info plugin	https://github.com/serverless/serverless/issues/3485
+serverless	serverless	24157	Improvements to csharp documentation	https://github.com/serverless/serverless/issues/3396
+serverless	serverless	24157	Add tests for virtualenv support in invoke local 	https://github.com/serverless/serverless/issues/3350
+serverless	serverless	24157	Document logical id generation for path variables in urls	https://github.com/serverless/serverless/issues/3343
+serverless	serverless	24157	wish: document whether .serverless should be checked into Git	https://github.com/serverless/serverless/issues/3137
+serverless	serverless	24157	VPC Configuration Role Docs	https://github.com/serverless/serverless/issues/3076
+serverless	serverless	24157	Region handling should respect other config parameters and not set a default region	https://github.com/serverless/serverless/issues/2151
+zeit	hyper	24153	need better instructions for Linux install	https://github.com/zeit/hyper/issues/1229
+zeit	hyper	24153	Upgrade to Electron v2	https://github.com/zeit/hyper/issues/2966
+zeit	hyper	24153	Create options around scrollback buffer	https://github.com/zeit/hyper/issues/280
+zeit	hyper	24153	Cannot create windows on macOS (with Little Snitch)	https://github.com/zeit/hyper/issues/1829
+zeit	hyper	24153	"Setting bell to false doesn't prevent sounds on Window 10"	https://github.com/zeit/hyper/issues/1613
+zeit	hyper	24153	Add startup/working directory config	https://github.com/zeit/hyper/issues/3000
+zeit	hyper	24153	"Hyper CLI command not installed if /usr/local/bin doesn't exist"	https://github.com/zeit/hyper/issues/2829
+zeit	hyper	24153	Add flow/typescript toolchain/workflow	https://github.com/zeit/hyper/issues/2702
+zeit	hyper	24153	Make fullscreen look pretty (Title bar is transparent and overlaps content on fullscreen)	https://github.com/zeit/hyper/issues/5
+zeit	hyper	24153	Use Hyper CLI to open multiple windows and tabs with configuration	https://github.com/zeit/hyper/issues/462
+zeit	hyper	24153	Move app version string from app/package.json to root package.json	https://github.com/zeit/hyper/issues/2894
+zeit	hyper	24153	Add Hyper CLI to user PATH without reboot needing	https://github.com/zeit/hyper/issues/2823
+zeit	hyper	24153	Unfocus term when window is unfocused	https://github.com/zeit/hyper/issues/2738
+zeit	hyper	24153	Document that plugins can require Electron	https://github.com/zeit/hyper/issues/398
+zeit	hyper	24153	Hanging when behind a proxy with authentication	https://github.com/zeit/hyper/issues/1612
+zeit	hyper	24153	Retain commented out plugins when installing/uninstalling plugins from the cli	https://github.com/zeit/hyper/issues/2756
+zeit	hyper	24153	Auto-update if all windows closed	https://github.com/zeit/hyper/issues/1325
+zeit	hyper	24153	To support a single cross-platform settings file some of the settings should be platform specific (like in VS Code)	https://github.com/zeit/hyper/issues/2584
+zeit	hyper	24153	Prompt before closing the app when a process is running	https://github.com/zeit/hyper/issues/684
+zeit	hyper	24153	Crashes on open with invalid config	https://github.com/zeit/hyper/issues/1589
+zeit	hyper	24153	"How to change default windowSize on macOS isn't apparent/explained"	https://github.com/zeit/hyper/issues/1393
+zeit	hyper	24153	"Add support for a iTerm 2-escue 'Smart window placement' option"	https://github.com/zeit/hyper/issues/683
+gatsbyjs	gatsby	22662	[1.0] Plugins wishlist (and example sites)	https://github.com/gatsbyjs/gatsby/issues/1199
+gatsbyjs	gatsby	22662	Add a note to the top of parts 5, 6, and 7 that they make sense only if you start with part 4 and go all the way through.	https://github.com/gatsbyjs/gatsby/issues/5612
+gatsbyjs	gatsby	22662	"Tutorials: say ""edit the GraphQL query"""	https://github.com/gatsbyjs/gatsby/issues/5609
+gatsbyjs	gatsby	22662	Emphasize file names	https://github.com/gatsbyjs/gatsby/issues/5608
+gatsbyjs	gatsby	22662	Document typical directory structure of a Gatsby project	https://github.com/gatsbyjs/gatsby/issues/5694
+gatsbyjs	gatsby	22662	Move official starters into monorepo	https://github.com/gatsbyjs/gatsby/issues/1545
+gatsbyjs	gatsby	22662	"Add script to find Gatsby plugins w/o the ""gatsby-plugin"" keyword and add comment to repo suggesting they add it"	https://github.com/gatsbyjs/gatsby/issues/5211
+gatsbyjs	gatsby	22662	"Gatsby doesn't redirect in the browser on the initial render which means a 404 is temporarily shown"	https://github.com/gatsbyjs/gatsby/issues/5329
+gatsbyjs	gatsby	22662	"[gatsby-source-wordpress] Option to ""include"" routes, rather than only exclude routes"	https://github.com/gatsbyjs/gatsby/issues/5308
+gatsbyjs	gatsby	22662	Use microbundle to bundle all browser code	https://github.com/gatsbyjs/gatsby/issues/4345
+gatsbyjs	gatsby	22662	"Search for package descriptions that still have ""stub description"" in them and write proper descriptions"	https://github.com/gatsbyjs/gatsby/issues/5073
+gatsbyjs	gatsby	22662	Improve gatsby-dev docs	https://github.com/gatsbyjs/gatsby/issues/4946
+gatsbyjs	gatsby	22662	Code blocks highlight all keywords even in which are enclosed in HTML tags	https://github.com/gatsbyjs/gatsby/issues/4002
+gatsbyjs	gatsby	22662	Starter download analytics	https://github.com/gatsbyjs/gatsby/issues/1546
+Leaflet	Leaflet	21873	Map.flyTo does not respect Pan options noMoveStart	https://github.com/Leaflet/Leaflet/issues/5396
+Leaflet	Leaflet	21873	Transform-origin on .leaflet-zoom-animated breaks TransformMarker	https://github.com/Leaflet/Leaflet/issues/3800
+Leaflet	Leaflet	21873	Popup content select in IE11 with touch support	https://github.com/Leaflet/Leaflet/issues/3149
+markedjs	marked	16597	[Architecture]: Capture high-level as-is class diagram 	https://github.com/markedjs/marked/issues/1130
+markedjs	marked	16597	Defibrillator challenge	https://github.com/markedjs/marked/issues/1216
+markedjs	marked	16597	"You're friend here is only mostly dead..."	https://github.com/markedjs/marked/issues/1106
+markedjs	marked	16597	Coding standards	https://github.com/markedjs/marked/issues/1089
+angular	material	16230	toolbar: failure to remove md-has-open-menu selector	https://github.com/angular/material/issues/11235
+angular	material	16230	"theme: enableBrowserColor fails silently if HEX color doesn't have a # at the start"	https://github.com/angular/material/issues/11259
+angular	material	16230	virtual-repeat-container: cannot click links when used with <tbody>	https://github.com/angular/material/issues/10599
+angular	material	16230	sidenav: backdrop stays translucent when md-is-locked-open changes to false	https://github.com/angular/material/issues/9377
+angular	material	16230	feat(slider): make changeAmount multiplier configurable when using meta/ctrl/alt with left/right arrow keys	https://github.com/angular/material/issues/10148
+angular	material	16230	feat(contact-chips): add support for md-on-add/remove/select	https://github.com/angular/material/issues/10051
+less	less.js	15588	TO DO: Update less-preview with all releases of Less from 2.5.3 to 3.0	https://github.com/less/less.js/issues/3194
+less	less.js	15588	[Feature Proposal] Better-optimized SVG encoding than URL-encoding and base64	https://github.com/less/less.js/issues/3105
+parse-community	parse-server	15207	Cache grows when not using enableSingleSchemaCache	https://github.com/parse-community/parse-server/issues/4247
+parse-community	parse-server	15207	Support BIT operator	https://github.com/parse-community/parse-server/issues/4563
+parse-community	parse-server	15207	"How to use Parse.Query with pagination and order by pointer's field"	https://github.com/parse-community/parse-server/issues/1908
+parse-community	parse-server	15207	fix for PublicApiRouter.js	https://github.com/parse-community/parse-server/issues/4538
+parse-community	parse-server	15207	preventLoginWithUnverifiedEmail not Working	https://github.com/parse-community/parse-server/issues/2863
+parse-community	parse-server	15207	Feature request : default values and required for object fields	https://github.com/parse-community/parse-server/issues/3587
+parse-community	parse-server	15207	ignore invalid relation datatype objectId	https://github.com/parse-community/parse-server/issues/4408
+parse-community	parse-server	15207	"feature request: improved error reporting when 'invalid session token' logged"	https://github.com/parse-community/parse-server/issues/4330
+parse-community	parse-server	15207	Override sending email verification function	https://github.com/parse-community/parse-server/issues/4226
+parse-community	parse-server	15207	checkResetTokenValidity throws undefined	https://github.com/parse-community/parse-server/issues/4267
+parse-community	parse-server	15207	Add endpoints to support Cloud Code viewer in dashboard.	https://github.com/parse-community/parse-server/issues/895
+parse-community	parse-server	15207	Reset password for a user that sign via Facebook	https://github.com/parse-community/parse-server/issues/3357
+parse-community	parse-server	15207	Enhancement: Enhance query by using column values for comparision	https://github.com/parse-community/parse-server/issues/2920
+parse-community	parse-server	15207	I18n support for emails	https://github.com/parse-community/parse-server/issues/2886
+parse-community	parse-server	15207	Parse Server much slower than Parse.com with same database	https://github.com/parse-community/parse-server/issues/2654
+parse-community	parse-server	15207	RestQuery includes are run in sequence, they should run in parallel / batch	https://github.com/parse-community/parse-server/issues/2656
+parse-community	parse-server	15207	Collapse $all queries when possible	https://github.com/parse-community/parse-server/issues/1571
+parse-community	parse-server	15207	Collapse $and queries when possible	https://github.com/parse-community/parse-server/issues/1570
+sequelize	sequelize	14796	Comment property	https://github.com/sequelize/sequelize/issues/4386
+sequelize	sequelize	14796	"useless ""scope defaultScope already exists"" exception"	https://github.com/sequelize/sequelize/issues/9407
+sequelize	sequelize	14796	Suggestion: Remove all aliases in v5	https://github.com/sequelize/sequelize/issues/9372
+sequelize	sequelize	14796	add association hooks	https://github.com/sequelize/sequelize/issues/9113
+sequelize	sequelize	14796	"Cannot read property 'key' of undefined"	https://github.com/sequelize/sequelize/issues/7932
+sequelize	sequelize	14796	MySQL UUIDs stored as CHAR(36)	https://github.com/sequelize/sequelize/issues/4997
+sequelize	sequelize	14796	queryInterface.removeConstraint in Mysql lowercases table name	https://github.com/sequelize/sequelize/issues/8981
+sequelize	sequelize	14796	Close properly Sqlite connections	https://github.com/sequelize/sequelize/issues/6798
+sequelize	sequelize	14796	Need a VARBINARY data type	https://github.com/sequelize/sequelize/issues/5981
+redux-saga	redux-saga	13844	Update docs to v1 API	https://github.com/redux-saga/redux-saga/issues/1478
+redux-saga	redux-saga	13844	Update GitBooks	https://github.com/redux-saga/redux-saga/issues/1469
+redux-saga	redux-saga	13844	Explain root sagas and sagaMiddleware.run better	https://github.com/redux-saga/redux-saga/issues/1316
+redux-saga	redux-saga	13844	Add Contributing Guideline	https://github.com/redux-saga/redux-saga/issues/1287
+redux-saga	redux-saga	13844	"redux-saga doesn't play well with webpack/sinon/mocha"	https://github.com/redux-saga/redux-saga/issues/1240
+redux-saga	redux-saga	13844	Consider adding `safe` effect wrapper	https://github.com/redux-saga/redux-saga/issues/1250
+redux-saga	redux-saga	13844	document how to test eventChannel	https://github.com/redux-saga/redux-saga/issues/631
+redux-saga	redux-saga	13844	"Call doesn't return if yields takeEvery inside."	https://github.com/redux-saga/redux-saga/issues/883
+redux-saga	redux-saga	13844	[docs] setContext / getContext	https://github.com/redux-saga/redux-saga/issues/943
+redux-saga	redux-saga	13844	Add docs to devdocs.io	https://github.com/redux-saga/redux-saga/issues/1069
+redux-saga	redux-saga	13844	Add test for createMockTask	https://github.com/redux-saga/redux-saga/issues/1059
+redux-saga	redux-saga	13844	[docs] upload (with progress) example	https://github.com/redux-saga/redux-saga/issues/1023
+redux-saga	redux-saga	13844	Cleanup the cancellable-counter example	https://github.com/redux-saga/redux-saga/issues/1093
+redux-saga	redux-saga	13844	takeLatest parameter error should be more specific	https://github.com/redux-saga/redux-saga/issues/1241
+GoogleChrome	lighthouse	13835	Audit doctype	https://github.com/GoogleChrome/lighthouse/issues/5213
+GoogleChrome	lighthouse	13835	 False positive blocking scripts	https://github.com/GoogleChrome/lighthouse/issues/2502
+GoogleChrome	lighthouse	13835	Consistent long frame warning.	https://github.com/GoogleChrome/lighthouse/issues/924
+GoogleChrome	lighthouse	13835	DBW: audit to check if app is respecting `Save-Data: on` header	https://github.com/GoogleChrome/lighthouse/issues/718
+GoogleChrome	lighthouse	13835	DBW: helpText should provide browser share for suggested API	https://github.com/GoogleChrome/lighthouse/issues/704
+GoogleChrome	lighthouse	13835	CRX: investigate CSS light animation showing up in trace.	https://github.com/GoogleChrome/lighthouse/issues/1417
+GoogleChrome	lighthouse	13835	Reevaluate stronger CSP for extension; remove `unsafe-eval`	https://github.com/GoogleChrome/lighthouse/issues/1823
+GoogleChrome	lighthouse	13835	Possible Viewer 2.0 Improvements	https://github.com/GoogleChrome/lighthouse/issues/2591
+GoogleChrome	lighthouse	13835	generate html API docs for artifacts, driver, etc	https://github.com/GoogleChrome/lighthouse/issues/2463
+GoogleChrome	lighthouse	13835	CRX: show banner/warning about variable results compared to CLI	https://github.com/GoogleChrome/lighthouse/issues/1426
+react-navigation	react-navigation	12232	Cannot Properly Center Title on Android	https://github.com/react-navigation/react-navigation/issues/1728
+react-navigation	react-navigation	12232	Increase hitSlop and pressRetentionOffset for navbar buttons	https://github.com/react-navigation/react-navigation/issues/287
+react-navigation	react-navigation	12232	Accessibility Review	https://github.com/react-navigation/react-navigation/issues/58
+ampproject	amphtml	11696	Console Warning amp-sidebar.js:303 [Violation] 	https://github.com/ampproject/amphtml/issues/16079
+ampproject	amphtml	11696	Allow custom scope registration within amp-install-serviceworker Component	https://github.com/ampproject/amphtml/issues/14418
+ampproject	amphtml	11696	Input type number badInput validation will show valueMissing error message	https://github.com/ampproject/amphtml/issues/11049
+ampproject	amphtml	11696	Add user timeline support to AMP-TWITTER	https://github.com/ampproject/amphtml/issues/300
+ampproject	amphtml	11696	"amp-twitter widget doesn't support Moments"	https://github.com/ampproject/amphtml/issues/13521
+ampproject	amphtml	11696	implement pinch zoom on <amp-image-lightbox>	https://github.com/ampproject/amphtml/issues/9891
+ampproject	amphtml	11696	Add Vkontake and Baidu to amp-social-share	https://github.com/ampproject/amphtml/issues/2756
+ampproject	amphtml	11696	Introduce new URL macro `PAGE_VIEW_ID_64`	https://github.com/ampproject/amphtml/issues/13282
+ampproject	amphtml	11696	amp-carousel autoplay not playing with 2 images	https://github.com/ampproject/amphtml/issues/5164
+eslint	eslint	11643	"""Working with custom formatters"" page is out of date"	https://github.com/eslint/eslint/issues/9950
+eslint	eslint	11643	require-await  Potential pitfall if used.  Doc update maybe?	https://github.com/eslint/eslint/issues/9540
+dawnlabs	carbon	11535	Integration Tests	https://github.com/dawnlabs/carbon/issues/136
+dawnlabs	carbon	11535	How change watermark?	https://github.com/dawnlabs/carbon/issues/395
+vuetifyjs	vuetify	11302	[Bug Report] Sorting issue for non-english locales	https://github.com/vuetifyjs/vuetify/issues/3672
+vuetifyjs	vuetify	11302	"[Bug Report] ""display: inline-block"" CSS property on <v-menu> component"	https://github.com/vuetifyjs/vuetify/issues/3645
+vuetifyjs	vuetify	11302	"[Bug Report] Dialog transitions can't be disabled"	https://github.com/vuetifyjs/vuetify/issues/3924
+vuetifyjs	vuetify	11302	[Feature Request] v-select aria roles	https://github.com/vuetifyjs/vuetify/issues/3999
+vuetifyjs	vuetify	11302	[Bug Report] text not horizontally centered to v-progress-circular	https://github.com/vuetifyjs/vuetify/issues/4285
+vuetifyjs	vuetify	11302	[Bug Report] Long title in toolbar squeezes icon hover container	https://github.com/vuetifyjs/vuetify/issues/3412
+vuetifyjs	vuetify	11302	[Bug Report] Text in a v-list cannot be selected for copy and paste	https://github.com/vuetifyjs/vuetify/issues/3669
+vuetifyjs	vuetify	11302	[Bug Report] [v-dialog] Dialog allows clicking while the dialog is animating to close.	https://github.com/vuetifyjs/vuetify/issues/3696
+vuetifyjs	vuetify	11302	[Bug Report] Vertical dynamic stepper	https://github.com/vuetifyjs/vuetify/issues/3904
+vuetifyjs	vuetify	11302	[Bug Report] Title is not being shifted to the right on app bar with extension	https://github.com/vuetifyjs/vuetify/issues/3974
+vuetifyjs	vuetify	11302	[Task] Update tests to use new icon events	https://github.com/vuetifyjs/vuetify/issues/4265
+vuetifyjs	vuetify	11302	"[Chore] Deprecate issue-generator and use github's issue templates instead"	https://github.com/vuetifyjs/vuetify/issues/4242
+vuetifyjs	vuetify	11302	[Bug Report] Navbar does not respect clipped-right	https://github.com/vuetifyjs/vuetify/issues/4142
+vuetifyjs	vuetify	11302	[Feature-Request] Flexible Slots for prepend-and append-icon in v-list-group	https://github.com/vuetifyjs/vuetify/issues/3039
+vuetifyjs	vuetify	11302	[Feature Request] New button variant: plain (no background hover)	https://github.com/vuetifyjs/vuetify/issues/3026
+strongloop	loopback	11227	"Logout fails for model based on User (other than model called ""user"")"	https://github.com/strongloop/loopback/issues/398
+strongloop	loopback	11227	Sliding expiration of access token	https://github.com/strongloop/loopback/issues/257
+Meituan-Dianping	mpvue	10751	mpvue 合作项目征集	https://github.com/Meituan-Dianping/mpvue/issues/21
+Meituan-Dianping	mpvue	10751	mpvue 技术交流群	https://github.com/Meituan-Dianping/mpvue/issues/14
+winstonjs	winston	10593	Winston 3.0.0-rc1 feedback	https://github.com/winstonjs/winston/issues/1159
+winstonjs	winston	10593	3.0.0 winston.query throws exception for File Transport	https://github.com/winstonjs/winston/issues/1130
+winstonjs	winston	10593	"Colorize doesn't work on transports.Console"	https://github.com/winstonjs/winston/issues/1095
+winstonjs	winston	10593	Batch-Configuration of category loggers	https://github.com/winstonjs/winston/issues/970
+vuejs	vue-router	10268	[Docs] Incomplete Navigation Resolution Flow	https://github.com/vuejs/vue-router/issues/2184
+vuejs	vue-router	10268	"Throw exception or provide info message when route's component is null"	https://github.com/vuejs/vue-router/issues/2038
+Automattic	wp-calypso	10044	Site picker chokes when path does not include registered route	https://github.com/Automattic/wp-calypso/issues/11543
+Automattic	wp-calypso	10044	Reader: post-normalizer use first usable media.  Video being first should trump gallery	https://github.com/Automattic/wp-calypso/issues/12772
+Automattic	wp-calypso	10044	Border color: transparentize( lighten( $gray, 20% ), .5 )	https://github.com/Automattic/wp-calypso/issues/17770
+Automattic	wp-calypso	10044	Media: Number selected badge text overflow with >3 digits	https://github.com/Automattic/wp-calypso/issues/20956
+Automattic	wp-calypso	10044	Posts: Controls overlap in header on small landscape viewports for multi-author sites	https://github.com/Automattic/wp-calypso/issues/16921
+Automattic	wp-calypso	10044	Media: Search Icon Overlaps DropDown Menu in Small Screen Size	https://github.com/Automattic/wp-calypso/issues/21231
+Automattic	wp-calypso	10044	"Reader Search: Better ""no results"" state"	https://github.com/Automattic/wp-calypso/issues/16603
+Automattic	wp-calypso	10044	My Sites: Tooltip on site icon not useful when focus is on site already	https://github.com/Automattic/wp-calypso/issues/16911
+Automattic	wp-calypso	10044	Editor: linking to a file overwrites selection	https://github.com/Automattic/wp-calypso/issues/15033
+Automattic	wp-calypso	10044	App Prompt: Buttons may be out of view when in landscape	https://github.com/Automattic/wp-calypso/issues/16556
+Automattic	wp-calypso	10044	"Settings: WordPress.com Toolbar settings should probably go in ""general"""	https://github.com/Automattic/wp-calypso/issues/16631
+Automattic	wp-calypso	10044	Media: selections are not cleared	https://github.com/Automattic/wp-calypso/issues/17240
+Automattic	wp-calypso	10044	Publicize: Re-publicize showing as only available to Premium	https://github.com/Automattic/wp-calypso/issues/14307
+js-cookie	js-cookie	9770	FAQ: Cookie obfuscates another one with the same name	https://github.com/js-cookie/js-cookie/issues/226
+js-cookie	js-cookie	9770	"Document correct ES6 module usage to avoid ""SyntaxError: import not found: default"""	https://github.com/js-cookie/js-cookie/issues/423
+necolas	react-native-web	9546	iOS Safari: scroll events pass through a View absolutely positioned over a ScrollView	https://github.com/necolas/react-native-web/issues/865
+necolas	react-native-web	9546	Image: new babel/webpack loader	https://github.com/necolas/react-native-web/issues/237
+NodeBB	NodeBB	8826	Running an upgrade should also append its output to logs	https://github.com/NodeBB/NodeBB/issues/5584
+NodeBB	NodeBB	8826	Allow NodeBB to specify log file destination	https://github.com/NodeBB/NodeBB/issues/5498
+onivim	oni	8346	Tutorial Proposal: Finding within a line - `f`, `F`, `;`, and `,`	https://github.com/onivim/oni/issues/1978
+onivim	oni	8346	"Add styling option for ""dirty"" marker in tabs"	https://github.com/onivim/oni/issues/1580
+processing	p5.js	8282	[mozsprint] documentation jam!	https://github.com/processing/p5.js/issues/2865
+processing	p5.js	8282	reference items that need examples	https://github.com/processing/p5.js/issues/1954
+processing	p5.js	8282	textureWrap() or similar for webgl mode	https://github.com/processing/p5.js/issues/2189
+processing	p5.js	8282	image() + createGraphics() not working properly on HDPI retina displays	https://github.com/processing/p5.js/issues/2838
+processing	p5.js	8282	Clarify text() documentation for default position and alignment	https://github.com/processing/p5.js/issues/2854
+processing	p5.js	8282	Feature request: lights() function from Processing	https://github.com/processing/p5.js/issues/2645
+processing	p5.js	8282	smooth/noSmooth not defined in WebGL	https://github.com/processing/p5.js/issues/2528
+processing	p5.js	8282	`quad()` documentation missing description	https://github.com/processing/p5.js/issues/2899
+processing	p5.js	8282	Default framerate in frameRate() reference	https://github.com/processing/p5.js/issues/2901
+processing	p5.js	8282	Implement image() for webgl mode	https://github.com/processing/p5.js/issues/2182
+react-toolbox	react-toolbox	7970	Autocomplete with Google Places API Web Service - not showing dropdown list	https://github.com/react-toolbox/react-toolbox/issues/1844
+react-toolbox	react-toolbox	7970	"[Website] 404 on <List /> Component's playground sample images"	https://github.com/react-toolbox/react-toolbox/issues/1823
+react-toolbox	react-toolbox	7970	Input label opacity	https://github.com/react-toolbox/react-toolbox/issues/1343
+react-toolbox	react-toolbox	7970	Tabs class	https://github.com/react-toolbox/react-toolbox/issues/1510
+react-toolbox	react-toolbox	7970	react-css-themr should be in peerDependencies	https://github.com/react-toolbox/react-toolbox/issues/1378
+react-toolbox	react-toolbox	7970	required attribute not functioning for Dropdown	https://github.com/react-toolbox/react-toolbox/issues/1789
+react-toolbox	react-toolbox	7970	Datepicker - blinking input cursor in IE11	https://github.com/react-toolbox/react-toolbox/issues/1808
+react-toolbox	react-toolbox	7970	Too large list text causes right icon to disappear	https://github.com/react-toolbox/react-toolbox/issues/1350
+react-toolbox	react-toolbox	7970	Allow setting id	https://github.com/react-toolbox/react-toolbox/issues/1351
+react-toolbox	react-toolbox	7970	"Link ""opacity not active"" should be a variable"	https://github.com/react-toolbox/react-toolbox/issues/1353
+react-toolbox	react-toolbox	7970	RadioGroup & RadioButton docs say `value` can be `Any`, but prop types validation expects `string`	https://github.com/react-toolbox/react-toolbox/issues/1580
+react-toolbox	react-toolbox	7970	Broken AppBar in small screen on doc site	https://github.com/react-toolbox/react-toolbox/issues/1599
+react-toolbox	react-toolbox	7970	Inputs should have hover effect	https://github.com/react-toolbox/react-toolbox/issues/1638
+react-toolbox	react-toolbox	7970	How can i make a radiogroup indeterminate?	https://github.com/react-toolbox/react-toolbox/issues/1788
+react-toolbox	react-toolbox	7970	Link text has text-transform: capitalize, contrary to Material specs	https://github.com/react-toolbox/react-toolbox/issues/1774
+tensorflow	tfjs	7858	JS tf.oneHot disagrees with PY tf.oneHot on NaN input	https://github.com/tensorflow/tfjs/issues/442
+tensorflow	tfjs	7858	tf.ClipByValue() does not work as expected for the parameters (0, 1)	https://github.com/tensorflow/tfjs/issues/311
+tensorflow	tfjs	7858	.vscode/settings.json missing setting	https://github.com/tensorflow/tfjs/issues/404
+tensorflow	tfjs	7858	layers API limited number of optimizers by name	https://github.com/tensorflow/tfjs/issues/401
+tensorflow	tfjs	7858	batchNormalization has different parameter order than tensorflow	https://github.com/tensorflow/tfjs/issues/314
+tensorflow	tfjs	7858	Implement tf.layers.dot() (Dot Merge Layer) 	https://github.com/tensorflow/tfjs/issues/19
+tensorflow	tfjs	7858	Add dropout to tfjs-core.	https://github.com/tensorflow/tfjs/issues/117
+tensorflow	tfjs	7858	Add more benchmarks.	https://github.com/tensorflow/tfjs/issues/77
+olistic	warriorjs	7838	Add flag to CLI to generate text READMEs	https://github.com/olistic/warriorjs/issues/47
+olistic	warriorjs	7838	README should show all levels when entering epic mode	https://github.com/olistic/warriorjs/issues/159
+olistic	warriorjs	7838	Check if unit is alive after effects	https://github.com/olistic/warriorjs/issues/63
+Laverna	laverna	7809	Style of tags and a tag-bug	https://github.com/Laverna/laverna/issues/552
+Laverna	laverna	7809	Wrong placement of list numbering.	https://github.com/Laverna/laverna/issues/781
+facebook	Docusaurus	7785	"Nested folder named ""static"" inside static files folder causes build error"	https://github.com/facebook/Docusaurus/issues/525
+facebook	Docusaurus	7785	"Create default ""Contributing to the docs"" README from docusaurus-init"	https://github.com/facebook/Docusaurus/issues/246
+facebook	Docusaurus	7785	Document the ability to provide a custom layout	https://github.com/facebook/Docusaurus/issues/737
+facebook	Docusaurus	7785	Use url-join to resolve URLs	https://github.com/facebook/Docusaurus/issues/754
+facebook	Docusaurus	7785	Try new Live Reload ports if default is taken	https://github.com/facebook/Docusaurus/issues/731
+facebook	Docusaurus	7785	Generated static files are not optimized	https://github.com/facebook/Docusaurus/issues/568
+facebook	Docusaurus	7785	onPageNav menu mobile button should not show when user did not enable onPageNav in siteConfig	https://github.com/facebook/Docusaurus/issues/761
+facebook	Docusaurus	7785	Organize siteConfig.js options documentation page better	https://github.com/facebook/Docusaurus/issues/436
+facebook	Docusaurus	7785	Add page ratings	https://github.com/facebook/Docusaurus/issues/219
+facebook	Docusaurus	7785	Update a specific docs version with latest content from docs folder	https://github.com/facebook/Docusaurus/issues/345
+facebook	Docusaurus	7785	Easier way to support redirects	https://github.com/facebook/Docusaurus/issues/248
+facebook	Docusaurus	7785	Check links before starting the site	https://github.com/facebook/Docusaurus/issues/210
+facebook	Docusaurus	7785	Mobile safari nav header vertically misaligned	https://github.com/facebook/Docusaurus/issues/254
+c3js	c3	7783	Modify internal.resizeFunction.remove()	https://github.com/c3js/c3/issues/2290
+c3js	c3	7783	Add example of arc chart with fullCircle: true	https://github.com/c3js/c3/issues/2289
+fastify	fastify	7341	Use symbols to avoid exposing internal properties in fastify main object	https://github.com/fastify/fastify/issues/788
+fastify	fastify	7341	beforeHandler for NotFoundHandler	https://github.com/fastify/fastify/issues/713
+fastify	fastify	7341	Extendable response received logs	https://github.com/fastify/fastify/issues/830
+fastify	fastify	7341	Parsed request query should support bracket and indexed array formats	https://github.com/fastify/fastify/issues/726
+fastify	fastify	7341	uws.http experimentation?	https://github.com/fastify/fastify/issues/365
+reactioncommerce	reaction	7287	Show app version in Dashboard	https://github.com/reactioncommerce/reaction/issues/1948
+reactioncommerce	reaction	7287	Add Loggly configuration / status UI	https://github.com/reactioncommerce/reaction/issues/2165
+Semantic-Org	Semantic-UI-React	7187	"Checkbox: onClick doesn't fire when inside a Dropdown"	https://github.com/Semantic-Org/Semantic-UI-React/issues/2121
+Semantic-Org	Semantic-UI-React	7187	Blank screen when resizing web page	https://github.com/Semantic-Org/Semantic-UI-React/issues/2756
+Semantic-Org	Semantic-UI-React	7187	RFC: Standardize width props	https://github.com/Semantic-Org/Semantic-UI-React/issues/406
+Semantic-Org	Semantic-UI-React	7187	feat(Dropdown): support MenuItem and Button types	https://github.com/Semantic-Org/Semantic-UI-React/issues/642
+Semantic-Org	Semantic-UI-React	7187	Search: Accessibility issue when screen-reader reads out search results	https://github.com/Semantic-Org/Semantic-UI-React/issues/1578
+Semantic-Org	Semantic-UI-React	7187	Advertise all underlying propTypes and typings in wrapper components	https://github.com/Semantic-Org/Semantic-UI-React/issues/1169
+Semantic-Org	Semantic-UI-React	7187	Popup in Fixed Menu positioning	https://github.com/Semantic-Org/Semantic-UI-React/issues/1126
+Semantic-Org	Semantic-UI-React	7187	Prepare for upcoming react lifecycle deprecations introduced in 16.3	https://github.com/Semantic-Org/Semantic-UI-React/issues/2732
+tgriesser	knex	7160	Using defaultTo in text is being ignored.	https://github.com/tgriesser/knex/issues/2649
+tgriesser	knex	7160	How to use raw() in returning?	https://github.com/tgriesser/knex/issues/2571
+tgriesser	knex	7160	List tables	https://github.com/tgriesser/knex/issues/360
+tgriesser	knex	7160	table.index() not adding SPATIAL index for geometry column	https://github.com/tgriesser/knex/issues/2532
+tgriesser	knex	7160	Source is not transpiled to lib/ when running tests	https://github.com/tgriesser/knex/issues/2541
+tgriesser	knex	7160	Unable to create nvarchar(max) for mssql	https://github.com/tgriesser/knex/issues/2533
+tgriesser	knex	7160	Column names in standard query methods?	https://github.com/tgriesser/knex/issues/730
+tgriesser	knex	7160	Migrate to the desired migration.	https://github.com/tgriesser/knex/issues/1550
+tgriesser	knex	7160	Error when unable to connect to Oracle database	https://github.com/tgriesser/knex/issues/2455
+tgriesser	knex	7160	"multiple .returning can't be used, unlike .select"	https://github.com/tgriesser/knex/issues/2337
+tgriesser	knex	7160	truncate() on SQLite does not reset the id value in the sqlite_sequence any longer	https://github.com/tgriesser/knex/issues/2312
+tgriesser	knex	7160	"include passed bindings when ""Error: Undefined binding(s)"" is thrown"	https://github.com/tgriesser/knex/issues/2295
+atlassian	react-beautiful-dnd	7142	Move from react-motion to react-spring?	https://github.com/atlassian/react-beautiful-dnd/issues/437
+atlassian	react-beautiful-dnd	7142	"Add support for id's of type number"	https://github.com/atlassian/react-beautiful-dnd/issues/274
+atlassian	react-beautiful-dnd	7142	Reordering horizontal lists does not work if draggable is rendered outside of viewport (ignoreContainerClipping broken?)	https://github.com/atlassian/react-beautiful-dnd/issues/268
+Microsoft	ChakraCore	7138	RtlVirtualUnwind last parameter is optional and not needed here.	https://github.com/Microsoft/ChakraCore/issues/5314
+Microsoft	ChakraCore	7138	JSRT: JsDeleteIndexedProperty does not tell successful or not	https://github.com/Microsoft/ChakraCore/issues/504
+Microsoft	ChakraCore	7138	Lexical Declarations cannot appear after a label	https://github.com/Microsoft/ChakraCore/issues/352
+Microsoft	ChakraCore	7138	PAL: wfopen support longer mode strings and improve compatibility	https://github.com/Microsoft/ChakraCore/issues/3176
+Microsoft	ChakraCore	7138	RegExp: /u pattern with \u{HexDigits} production with codepoint >0x10FFFF should throw SyntaxError	https://github.com/Microsoft/ChakraCore/issues/2753
+Microsoft	ChakraCore	7138	Adding small REPL for development purpose	https://github.com/Microsoft/ChakraCore/issues/1619
+Microsoft	ChakraCore	7138	Convert JavascriptString::EntryLocaleCompare to use PlatformAgnostic::UnicodeText::LogicalCompareString when Intl is not enabled	https://github.com/Microsoft/ChakraCore/issues/4841
+Microsoft	ChakraCore	7138	Implement JavascriptArray::GetLocaleSeparator for Linux/macOS	https://github.com/Microsoft/ChakraCore/issues/4840
+Microsoft	ChakraCore	7138	"Setting whether a function body's native entry point is used should be BGJIT_STATS agnostic"	https://github.com/Microsoft/ChakraCore/issues/122
+Microsoft	ChakraCore	7138	Jenkins CI should signal error if there are invalid characters (non-ASCII etc) in a source file	https://github.com/Microsoft/ChakraCore/issues/4268
+Microsoft	ChakraCore	7138	Optimize OP_LdCustomSpreadIteratorList for arguments object	https://github.com/Microsoft/ChakraCore/issues/1230
+Microsoft	ChakraCore	7138	Use /Zc:strictStrings flag in VC builds.	https://github.com/Microsoft/ChakraCore/issues/1942
+Microsoft	ChakraCore	7138	Remove EnableJitInDiagMode from the code	https://github.com/Microsoft/ChakraCore/issues/4311
+Microsoft	ChakraCore	7138	Augment EOL Check to catch missing newline at EOF	https://github.com/Microsoft/ChakraCore/issues/496
+Microsoft	ChakraCore	7138	Functions returned by Function.prototype.bind() have non-configurable lengths	https://github.com/Microsoft/ChakraCore/issues/4122
+nhnent	tui.editor	6655	Suggestion: use Blob + Window.URL instead of base64	https://github.com/nhnent/tui.editor/issues/48
+nhnent	tui.editor	6655	add an option for initial HTML text	https://github.com/nhnent/tui.editor/issues/116
+nhnent	tui.editor	6655	Need PlaceHolder for the Editor	https://github.com/nhnent/tui.editor/issues/117
+nhnent	tui.editor	6655	i18n for your language wanted	https://github.com/nhnent/tui.editor/issues/37
+nock	nock	6451	Remove AIRPLANE mode for testing - make all tests run offline	https://github.com/nock/nock/issues/1077
+nock	nock	6451	nock back : Is there a persist mode ?	https://github.com/nock/nock/issues/338
+google	boardgame.io	6359	Turn Order Customizations	https://github.com/google/boardgame.io/issues/154
+google	boardgame.io	6359	Add api endpoint to list available games, stats etc...	https://github.com/google/boardgame.io/issues/214
+google	boardgame.io	6359	Timer	https://github.com/google/boardgame.io/issues/92
+marko-js	marko	6345	Deprecate auto-patched express	https://github.com/marko-js/marko/issues/869
+marko-js	marko	6345	Tests fail on Windows	https://github.com/marko-js/marko/issues/679
+marko-js	marko	6345	[Docs] Add docs for boolean attributes	https://github.com/marko-js/marko/issues/800
+marko-js	marko	6345	Improve test coverage	https://github.com/marko-js/marko/issues/468
+marktext	marktext	6191	What do you want to do with plugins?	https://github.com/marktext/marktext/issues/375
+marktext	marktext	6191	Long filenames destroy the titlebar layout	https://github.com/marktext/marktext/issues/339
+marktext	marktext	6191	Where can I find the documents or user manual?	https://github.com/marktext/marktext/issues/253
+marktext	marktext	6191	What preperations should I do if I want to contribute my code for this project?	https://github.com/marktext/marktext/issues/246
+marktext	marktext	6191	How to enable `斗图` in Mark Text?	https://github.com/marktext/marktext/issues/184
+node-red	node-red	6135	"NR editor search doesn't find matches in the rules of Change and Switch nodes"	https://github.com/node-red/node-red/issues/1446
+node-red	node-red	6135	improvements to programmatic flows API - addflow/removeflow	https://github.com/node-red/node-red/issues/1372
+node-red	node-red	6135	Prevent Following Redirect	https://github.com/node-red/node-red/issues/615
+angular-fullstack	generator-angular-fullstack	6030	[canary] Update npm dependencies	https://github.com/angular-fullstack/generator-angular-fullstack/issues/2691
+angular-fullstack	generator-angular-fullstack	6030	Question about first page load speed.	https://github.com/angular-fullstack/generator-angular-fullstack/issues/2661
+angular-fullstack	generator-angular-fullstack	6030	Incorrect usage of Promise and safeCb in code using auth.service.ts (canary)	https://github.com/angular-fullstack/generator-angular-fullstack/issues/2682
+webpack-contrib	webpack-bundle-analyzer	5978	Document webpack-dev-server interplay only displaying stat sizes	https://github.com/webpack-contrib/webpack-bundle-analyzer/issues/191
+webpack-contrib	webpack-bundle-analyzer	5978	Improve documentation to show you can provide absolute filepaths	https://github.com/webpack-contrib/webpack-bundle-analyzer/issues/186
+drcmda	react-spring	5972	react-spring needs tests badly, asking for help ...	https://github.com/drcmda/react-spring/issues/102
+drcmda	react-spring	5972	Feature Request: Typescript Support	https://github.com/drcmda/react-spring/issues/26
+HabitRPG	habitica	5970	Text overflow in failed login notification	https://github.com/HabitRPG/habitica/issues/10447
+HabitRPG	habitica	5970	"Ctrl+Enter and similar hotkeys don't work to send private messages"	https://github.com/HabitRPG/habitica/issues/10413
+HabitRPG	habitica	5970	Copy as To-Do has wrong URLs for messages copied from Party and Tavern	https://github.com/HabitRPG/habitica/issues/10016
+svgdotjs	svg.js	5818	Allow for random colour generation	https://github.com/svgdotjs/svg.js/issues/791
+svgdotjs	svg.js	5818	`fill()` and `stroke()` should act as getters.	https://github.com/svgdotjs/svg.js/issues/789
+svgdotjs	svg.js	5818	The `size()` method on `SVG.Circle` should be able to accept only one argument.	https://github.com/svgdotjs/svg.js/issues/788
+svgdotjs	svg.js	5818	Add support for new colour spaces	https://github.com/svgdotjs/svg.js/issues/790
+badges	shields	5767	Support authentication for private nexus repo	https://github.com/badges/shields/issues/1699
+badges	shields	5767	Repology badges	https://github.com/badges/shields/issues/929
+badges	shields	5767	Gitlab CI and Gitlab support	https://github.com/badges/shields/issues/541
+badges	shields	5767	Homebrew Cask	https://github.com/badges/shields/issues/1638
+badges	shields	5767	Please add snyk.io Badge	https://github.com/badges/shields/issues/1642
+badges	shields	5767	Add shield to display npm install size	https://github.com/badges/shields/issues/1701
+badges	shields	5767	Feature request: add a version shield for FreeBSD ports	https://github.com/badges/shields/issues/1693
+badges	shields	5767	Add Transifex service	https://github.com/badges/shields/issues/497
+badges	shields	5767	Provide high resolution favicon	https://github.com/badges/shields/issues/1497
+badges	shields	5767	support for GitHub Milestones	https://github.com/badges/shields/issues/1209
+badges	shields	5767	Specify country or region for iTunes Store 	https://github.com/badges/shields/issues/1503
+badges	shields	5767	Add Core Infrastructure Initiative (CII) Best Practices badge	https://github.com/badges/shields/issues/1530
+badges	shields	5767	semantic colorschemes & color keywords	https://github.com/badges/shields/issues/1522
+badges	shields	5767	Feature Request: ismaintained	https://github.com/badges/shields/issues/807
+badges	shields	5767	Add Concourse badges	https://github.com/badges/shields/issues/1521
+badges	shields	5767	Bintray package download stats badge 	https://github.com/badges/shields/issues/1193
+badges	shields	5767	Add flattr.com support	https://github.com/badges/shields/issues/389
+badges	shields	5767	Any plan for support sonarcloud.io?	https://github.com/badges/shields/issues/1075
+badges	shields	5767	Add Google Play store badge	https://github.com/badges/shields/issues/358
+badges	shields	5767	Distelli support?	https://github.com/badges/shields/issues/594
+badges	shields	5767	offer badge for launchpad PPA	https://github.com/badges/shields/issues/560
+badges	shields	5767	Support for MyGet Vsix feed	https://github.com/badges/shields/issues/1184
+badges	shields	5767	[Request] Add clojars downloads badge	https://github.com/badges/shields/issues/1152
+badges	shields	5767	Trello Support	https://github.com/badges/shields/issues/1056
+badges	shields	5767	OrgManager Badge	https://github.com/badges/shields/issues/943
+badges	shields	5767	Semver tags not updating for /github/tag	https://github.com/badges/shields/issues/875
+badges	shields	5767	[FEATURE] Support for userscript version	https://github.com/badges/shields/issues/829
+badges	shields	5767	Wercker badges dont work	https://github.com/badges/shields/issues/825
+badges	shields	5767	Feature Request: opencollective	https://github.com/badges/shields/issues/808
+badges	shields	5767	Badge support: Codebeat	https://github.com/badges/shields/issues/784
+badges	shields	5767	pyversions shows pre-release version numbers	https://github.com/badges/shields/issues/775
+badges	shields	5767	"Request: 'Time passed since'  shield"	https://github.com/badges/shields/issues/749
+badges	shields	5767	dependencyci.com Support 	https://github.com/badges/shields/issues/748
+badges	shields	5767	"Code coverage color doesn't correspond to colors of Scrutinizer badge"	https://github.com/badges/shields/issues/735
+badges	shields	5767	Support for ZenHub	https://github.com/badges/shields/issues/715
+badges	shields	5767	Add a shield for github activity, per-branch.	https://github.com/badges/shields/issues/714
+badges	shields	5767	Add WordPress Active Installs badge	https://github.com/badges/shields/issues/662
+badges	shields	5767	Joind.in integration	https://github.com/badges/shields/issues/651
+badges	shields	5767	Support for donorbox.org	https://github.com/badges/shields/issues/629
+badges	shields	5767	Gitbook build state badges	https://github.com/badges/shields/issues/569
+badges	shields	5767	AppVeyor build artifact-based badges	https://github.com/badges/shields/issues/555
+badges	shields	5767	Status badge for each OS on Travis	https://github.com/badges/shields/issues/554
+badges	shields	5767	"Support packages from Meteor's Atmosphere repo"	https://github.com/badges/shields/issues/549
+badges	shields	5767	AppHarbor	https://github.com/badges/shields/issues/525
+badges	shields	5767	Add landscape.io	https://github.com/badges/shields/issues/493
+badges	shields	5767	Add saucelabs	https://github.com/badges/shields/issues/487
+badges	shields	5767	sloc badge	https://github.com/badges/shields/issues/390
+badges	shields	5767	Add Mingle support	https://github.com/badges/shields/issues/381
+badges	shields	5767	Add support for quay.io	https://github.com/badges/shields/issues/357
+badges	shields	5767	Add support for puppet forge	https://github.com/badges/shields/issues/353
+badges	shields	5767	Add support for drone.io	https://github.com/badges/shields/issues/294
+badges	shields	5767	Github revision count	https://github.com/badges/shields/issues/244
+badges	shields	5767	rt.cpan.org issue count	https://github.com/badges/shields/issues/207
+badges	shields	5767	VersionEye: Badge for the number of references	https://github.com/badges/shields/issues/155
+badges	shields	5767	Add MediaWiki extension usage counts from WikiApiary	https://github.com/badges/shields/issues/146
+badges	shields	5767	Left and right label values as params? 	https://github.com/badges/shields/issues/815
+jupyterlab	jupyterlab	5675	.tsv file extension support 	https://github.com/jupyterlab/jupyterlab/issues/4226
+jupyterlab	jupyterlab	5675	Understand audio and video formats the browser can handle	https://github.com/jupyterlab/jupyterlab/issues/3860
+jupyterlab	jupyterlab	5675	Feature request, detect if file exists and `CreateOrOpen`	https://github.com/jupyterlab/jupyterlab/issues/4637
+jupyterlab	jupyterlab	5675	Keyboard shortcut to add commonly used character sequences. 	https://github.com/jupyterlab/jupyterlab/issues/4519
+jupyterlab	jupyterlab	5675	JupyterLab editor does not recognize f95 file extension	https://github.com/jupyterlab/jupyterlab/issues/4553
+jupyterlab	jupyterlab	5675	jupyterlab markdown highlight not working as it does in classic	https://github.com/jupyterlab/jupyterlab/issues/4549
+jupyterlab	jupyterlab	5675	Automatic export to executable script by default	https://github.com/jupyterlab/jupyterlab/issues/4563
+jupyterlab	jupyterlab	5675	Ability to Reload Editor Contents from Disk	https://github.com/jupyterlab/jupyterlab/issues/4154
+jupyterlab	jupyterlab	5675	"Use phosphor's uuid function"	https://github.com/jupyterlab/jupyterlab/issues/4579
+jupyterlab	jupyterlab	5675	Update Docs for New Shortcuts	https://github.com/jupyterlab/jupyterlab/issues/4583
+jupyterlab	jupyterlab	5675	"Simplify FAQ given that it's Now In the Docs"	https://github.com/jupyterlab/jupyterlab/issues/4584
+jupyterlab	jupyterlab	5675	Create iframe extension	https://github.com/jupyterlab/jupyterlab/issues/2369
+jupyterlab	jupyterlab	5675	Hash in token prevents opening terminal window	https://github.com/jupyterlab/jupyterlab/issues/4504
+jupyterlab	jupyterlab	5675	"'Show in file browser'"	https://github.com/jupyterlab/jupyterlab/issues/4472
+jupyterlab	jupyterlab	5675	Terminal scrollback increase?	https://github.com/jupyterlab/jupyterlab/issues/3985
+jupyterlab	jupyterlab	5675	customizable scrolling	https://github.com/jupyterlab/jupyterlab/issues/4429
+jupyterlab	jupyterlab	5675	Inspector improvements	https://github.com/jupyterlab/jupyterlab/issues/2826
+jupyterlab	jupyterlab	5675	[feature request] Switching between last used tabs	https://github.com/jupyterlab/jupyterlab/issues/4177
+jupyterlab	jupyterlab	5675	Terminal option/alt as meta key?	https://github.com/jupyterlab/jupyterlab/issues/4236
+jupyterlab	jupyterlab	5675	New view for file in separate panel	https://github.com/jupyterlab/jupyterlab/issues/4256
+jupyterlab	jupyterlab	5675	"Feature Request: Rulers in text editor with CodeMirror's display/rulers.js addon"	https://github.com/jupyterlab/jupyterlab/issues/4179
+jupyterlab	jupyterlab	5675	Close tabs to the right/others	https://github.com/jupyterlab/jupyterlab/issues/4124
+jupyterlab	jupyterlab	5675	"Add an ""open with"" submenu for folders in the file browser context menu."	https://github.com/jupyterlab/jupyterlab/issues/3775
+jupyterlab	jupyterlab	5675	Stretch factor of left column of settings panel.	https://github.com/jupyterlab/jupyterlab/issues/2971
+jupyterlab	jupyterlab	5675	Visual cue in command palette when the command is run	https://github.com/jupyterlab/jupyterlab/issues/1095
+botpress	botpress	5568	[Feature Request] Actions – Namespace/Group Registered Functions	https://github.com/botpress/botpress/issues/506
+botpress	botpress	5568	"TODO: changing bot's license"	https://github.com/botpress/botpress/issues/630
+botpress	botpress	5568	Add a global UI alert (toast) feature that modules can easily use	https://github.com/botpress/botpress/issues/40
+botpress	botpress	5568	Add default README in created modules	https://github.com/botpress/botpress/issues/30
+tweenjs	tween.js	5547	Most examples broken!	https://github.com/tweenjs/tween.js/issues/369
+tweenjs	tween.js	5547	"yoyo doesn't work for Tweening of Arrays"	https://github.com/tweenjs/tween.js/issues/284
+tweenjs	tween.js	5547	Use best practices in examples	https://github.com/tweenjs/tween.js/issues/219
+tweenjs	tween.js	5547	Link to live examples from README.md	https://github.com/tweenjs/tween.js/issues/109
+tweenjs	tween.js	5547	Add interpolation tests	https://github.com/tweenjs/tween.js/issues/245
+tweenjs	tween.js	5547	"repeat with yoyo doesn't work properly"	https://github.com/tweenjs/tween.js/issues/173
+netlify	netlify-cms	5541	CollectionName not prepended to branch names in Editorial Workflow mode	https://github.com/netlify/netlify-cms/issues/1396
+netlify	netlify-cms	5541	Toolbar button for inserting a horizontal rule	https://github.com/netlify/netlify-cms/issues/1378
+netlify	netlify-cms	5541	Add help text to fields	https://github.com/netlify/netlify-cms/issues/552
+netlify	netlify-cms	5541	"'boolean' widget without default value behaves strangely"	https://github.com/netlify/netlify-cms/issues/1424
+netlify	netlify-cms	5541	"Specifying a default value doesn't work for fields in editor components"	https://github.com/netlify/netlify-cms/issues/1406
+netlify	netlify-cms	5541	Create a user guide for content editors	https://github.com/netlify/netlify-cms/issues/1340
+netlify	netlify-cms	5541	Feature Request: Custom Logo for login page	https://github.com/netlify/netlify-cms/issues/964
+netlify	netlify-cms	5541	Smarter list widget additions	https://github.com/netlify/netlify-cms/issues/1244
+netlify	netlify-cms	5541	Date widget inside list widget not showing default date value	https://github.com/netlify/netlify-cms/issues/1117
+netlify	netlify-cms	5541	Flexible Layouts Custom Widget	https://github.com/netlify/netlify-cms/issues/1066
+netlify	netlify-cms	5541	Open content editor to a specific entry by path	https://github.com/netlify/netlify-cms/issues/697
+netlify	netlify-cms	5541	Unsaved changes indicator styling	https://github.com/netlify/netlify-cms/issues/1031
+netlify	netlify-cms	5541	Document config option to hide preview by default.	https://github.com/netlify/netlify-cms/issues/949
+netlify	netlify-cms	5541	"Nested fields in the entry editor aren't validated"	https://github.com/netlify/netlify-cms/issues/467
+netlify	netlify-cms	5541	Accept CMS config in multiple formats	https://github.com/netlify/netlify-cms/issues/386
+netlify	netlify-cms	5541	Unpublishing for the editorial workflow	https://github.com/netlify/netlify-cms/issues/727
+netlify	netlify-cms	5541	Confusing behavior when you add collection config without creating entry file	https://github.com/netlify/netlify-cms/issues/929
+netlify	netlify-cms	5541	Allow setting config URL with link element in head	https://github.com/netlify/netlify-cms/issues/1132
+netlify	netlify-cms	5541	"Relation widget crashes if `valueField` doesn't return string or component."	https://github.com/netlify/netlify-cms/issues/1116
+netlify	netlify-cms	5541	Relation Widget Fails Without Intelligent Error Message	https://github.com/netlify/netlify-cms/issues/1074
+netlify	netlify-cms	5541	"Can't un-blockquote a quote in editor"	https://github.com/netlify/netlify-cms/issues/761
+netlify	netlify-cms	5541	Inform user (or create redirect) when changing the title of a collection item	https://github.com/netlify/netlify-cms/issues/336
+netlify	netlify-cms	5541	Add widget doc demo collection to example config	https://github.com/netlify/netlify-cms/issues/910
+netlify	netlify-cms	5541	"Add more descriptive repo ""Not Found"" error."	https://github.com/netlify/netlify-cms/issues/545
+netlify	netlify-cms	5541	Generate sprites for svg icons	https://github.com/netlify/netlify-cms/issues/903
+netlify	netlify-cms	5541	Git Gateway: Incorrect author for file deletion.	https://github.com/netlify/netlify-cms/issues/819
+netlify	netlify-cms	5541	Should not alter abbr/acronym Markdown extra syntax	https://github.com/netlify/netlify-cms/issues/777
+netlify	netlify-cms	5541	List of datetime crashes	https://github.com/netlify/netlify-cms/issues/634
+netlify	netlify-cms	5541	Long post titles can lead to invalid hostnames in Netlify deploy previews	https://github.com/netlify/netlify-cms/issues/526
+netlify	netlify-cms	5541	location / map widget. Any interest?	https://github.com/netlify/netlify-cms/issues/434
+netlify	netlify-cms	5541	Error message for config issues	https://github.com/netlify/netlify-cms/issues/487
+beautify-web	js-beautify	5516	Less: Where is my space?	https://github.com/beautify-web/js-beautify/issues/1411
+beautify-web	js-beautify	5516	Array of objects in JSON	https://github.com/beautify-web/js-beautify/issues/1402
+beautify-web	js-beautify	5516	Disable/Skip HTML single-line comment 	https://github.com/beautify-web/js-beautify/issues/426
+beautify-web	js-beautify	5516	Add function default_options() to beautifier.js	https://github.com/beautify-web/js-beautify/issues/1364
+beautify-web	js-beautify	5516	Javascript ++ Operator get wrong indent	https://github.com/beautify-web/js-beautify/issues/1283
+beautify-web	js-beautify	5516	Scripts refuse to load due to unsafe eval	https://github.com/beautify-web/js-beautify/issues/1319
+beautify-web	js-beautify	5516	unindent_chained_methods breaks indentation for if statements without brackets 	https://github.com/beautify-web/js-beautify/issues/1378
+beautify-web	js-beautify	5516	function parameters merged into single line when starting with ! or [	https://github.com/beautify-web/js-beautify/issues/1374
+beautify-web	js-beautify	5516	"Add ""--debug"" option to enable generating debugging output"	https://github.com/beautify-web/js-beautify/issues/1372
+beautify-web	js-beautify	5516	"CSS selector issue (header > div[class~=""div-all""]) in SCSS file"	https://github.com/beautify-web/js-beautify/issues/1373
+beautify-web	js-beautify	5516	URGENT: @extend with :hover, :focus and so on...	https://github.com/beautify-web/js-beautify/issues/1331
+beautify-web	js-beautify	5516	Improperly detected unpack deletes part of input	https://github.com/beautify-web/js-beautify/issues/1350
+beautify-web	js-beautify	5516	js-beautify 1.7.5 breaks some correct JS code when run with -X	https://github.com/beautify-web/js-beautify/issues/1334
+beautify-web	js-beautify	5516	Negative numbers removes newlines in arrays	https://github.com/beautify-web/js-beautify/issues/1288
+beautify-web	js-beautify	5516	"Add ""Create Issue for Unexpected Output"" button to website"	https://github.com/beautify-web/js-beautify/issues/1371
+beautify-web	js-beautify	5516	Add combobox to control type of beautification	https://github.com/beautify-web/js-beautify/issues/1370
+beautify-web	js-beautify	5516	Add Options textbox to website for debugging	https://github.com/beautify-web/js-beautify/issues/1369
+beautify-web	js-beautify	5516	js-beautify adds a space between # and include	https://github.com/beautify-web/js-beautify/issues/1114
+beautify-web	js-beautify	5516	"Missing space between ""else"" and ""if""."	https://github.com/beautify-web/js-beautify/issues/1107
+cs01	gdbgui	5456	show number of times breakpoint was hit (use`times` field on breakpoint)	https://github.com/cs01/gdbgui/issues/187
+cs01	gdbgui	5456	add conditional breakpoint UI support	https://github.com/cs01/gdbgui/issues/185
+este	este	5442	Wrong url query must not break the app	https://github.com/este/este/issues/1554
+este	este	5442	Replace nprogress with custom universal component and use it in withMutation	https://github.com/este/este/issues/1552
+este	este	5442	Track client / server errors	https://github.com/este/este/issues/1459
+este	este	5442	Custom 404 page	https://github.com/este/este/issues/1485
+PrismJS	prism	5420	Allow copy-to-clipboard texts to be translated	https://github.com/PrismJS/prism/issues/1438
+PrismJS	prism	5420	Make plugins Command Line and Autoloader compatible	https://github.com/PrismJS/prism/issues/1416
+PrismJS	prism	5420	Documentation: Manual highlighting	https://github.com/PrismJS/prism/issues/1402
+PrismJS	prism	5420	Feature request - Line Highlight Plugin JS API	https://github.com/PrismJS/prism/issues/1093
+PrismJS	prism	5420	Add contributing docs	https://github.com/PrismJS/prism/issues/309
+PrismJS	prism	5420	Toolbar overlay slider	https://github.com/PrismJS/prism/issues/1380
+sindresorhus	refined-github	5346	Notifications re-sorted in unclear order, unable to disable it	https://github.com/sindresorhus/refined-github/issues/1372
+sindresorhus	refined-github	5346	Feature Request: In the activity feed make PR numbers link to the PR	https://github.com/sindresorhus/refined-github/issues/1354
+sindresorhus	refined-github	5346	Default to Sources in the user repository tab	https://github.com/sindresorhus/refined-github/issues/1048
+sindresorhus	refined-github	5346	Add delete button to files in a PR	https://github.com/sindresorhus/refined-github/issues/1127
+sindresorhus	refined-github	5346	Markdown rich diff tooltip appears underneath diff settings bar	https://github.com/sindresorhus/refined-github/issues/1295
+sindresorhus	refined-github	5346	When opening the Files Changed tab in certain ways some aspects of Refined GitHub do not get applied	https://github.com/sindresorhus/refined-github/issues/1290
+sindresorhus	refined-github	5346	List of all the available features 	https://github.com/sindresorhus/refined-github/issues/1275
+sindresorhus	refined-github	5346	"Button to switch base and head in ""Compare"" page"	https://github.com/sindresorhus/refined-github/issues/1217
+sindresorhus	refined-github	5346	"Hide ""edited wiki"" in Browse activity"	https://github.com/sindresorhus/refined-github/issues/1208
+sindresorhus	refined-github	5346	Autoload contribution activities on scroll down	https://github.com/sindresorhus/refined-github/issues/861
+sindresorhus	refined-github	5346	Make tall code blocks scrollable	https://github.com/sindresorhus/refined-github/issues/1123
+sindresorhus	refined-github	5346	Confirm dialog before closing the window if unsaved changes	https://github.com/sindresorhus/refined-github/issues/1037
+angular-ui	ui-grid	5144	ui grid selection column row height	https://github.com/angular-ui/ui-grid/issues/5175
+angular-ui	ui-grid	5144	transform:Y	https://github.com/angular-ui/ui-grid/issues/6240
+angular-ui	ui-grid	5144	"Remove 'replace' from directives"	https://github.com/angular-ui/ui-grid/issues/4024
+angular-ui	ui-grid	5144	Dynamic handling of grid options, and document how to avoid watchers (ng-if, ng-class, ng-show etc)	https://github.com/angular-ui/ui-grid/issues/1819
+angular-ui	ui-grid	5144	Create e2e tests for tutorials	https://github.com/angular-ui/ui-grid/issues/1581
+angular-ui	ui-grid	5144	Rewrite notifyDataChange to be a grid eventing process instead	https://github.com/angular-ui/ui-grid/issues/3603
+angular-ui	ui-grid	5144	"Sort out the ""stable"" portion of the ui-grid.info site when we release 3.0"	https://github.com/angular-ui/ui-grid/issues/3444
+angular-ui	ui-grid	5144	Could we change the Scrollbar style of UI Grid 	https://github.com/angular-ui/ui-grid/issues/4016
+angular-ui	ui-grid	5144	sort & grouping properties not fully documented	https://github.com/angular-ui/ui-grid/issues/4098
+angular-ui	ui-grid	5144	Server side data using scroller	https://github.com/angular-ui/ui-grid/issues/4336
+angular-ui	ui-grid	5144	Better Documentation Style Request	https://github.com/angular-ui/ui-grid/issues/6010
+angular-ui	ui-grid	5144	expandableRow.shouldRenderFiller()	https://github.com/angular-ui/ui-grid/issues/6134
+angular-ui	ui-grid	5144	"Export Options doesn't work in all browsers"	https://github.com/angular-ui/ui-grid/issues/6365
+angular-ui	ui-grid	5144	Need good table examples With Huge Export Options For Reference	https://github.com/angular-ui/ui-grid/issues/6366
+angular-ui	ui-grid	5144	cellNav.getFocusedCell() always return null on first click	https://github.com/angular-ui/ui-grid/issues/4467
+angular-ui	ui-grid	5144	[BUG] Header cell menu and sorting direction arrow are over each other	https://github.com/angular-ui/ui-grid/issues/4082
+angular-ui	ui-grid	5144	the property menuShown should be sync with real state of column menu	https://github.com/angular-ui/ui-grid/issues/4107
+angular-ui	ui-grid	5144	Adding a row changes the selected cell with ui-grid-cellNav	https://github.com/angular-ui/ui-grid/issues/4738
+angular-ui	ui-grid	5144	Selected row count in grid footer not updated when rows deleted programmatically 	https://github.com/angular-ui/ui-grid/issues/4100
+angular-ui	ui-grid	5144	Pagination: pageSize only works when passed in as a String	https://github.com/angular-ui/ui-grid/issues/3924
+angular-ui	ui-grid	5144	"Cannot read property 'colDef' of undefined with pinned column"	https://github.com/angular-ui/ui-grid/issues/3935
+angular-ui	ui-grid	5144	"Horizontal scroll position on restore state doesn't work"	https://github.com/angular-ui/ui-grid/issues/3944
+angular-ui	ui-grid	5144	Table with fewer shows empty space between rows and footer[where pagination controls are placed]	https://github.com/angular-ui/ui-grid/issues/3977
+angular-ui	ui-grid	5144	Select All does not persist across all Pagination pages	https://github.com/angular-ui/ui-grid/issues/3749
+angular-ui	ui-grid	5144	uiGridConstants.filter.CONTAINS not working for date filters	https://github.com/angular-ui/ui-grid/issues/3807
+angular-ui	ui-grid	5144	When enableGroupHeaderSelection is false, can we not display the check icon on the group header row?	https://github.com/angular-ui/ui-grid/issues/3861
+angular-ui	ui-grid	5144	"Controller 'uiGridRenderContainer', required by directive 'uiGridHeaderCell', can't be found!"	https://github.com/angular-ui/ui-grid/issues/3655
+angular-ui	ui-grid	5144	"Behavior 'Expand All' with angular animate 1.3.15 and ui-grid 3.0.0-RC21 "	https://github.com/angular-ui/ui-grid/issues/3696
+angular-ui	ui-grid	5144	Added columns not getting restored.	https://github.com/angular-ui/ui-grid/issues/3476
+angular-ui	ui-grid	5144	[BUG]: RTL column menu wrong positioning	https://github.com/angular-ui/ui-grid/issues/3460
+angular-ui	ui-grid	5144	Aggregate value not updating when model changing	https://github.com/angular-ui/ui-grid/issues/3443
+angular-ui	ui-grid	5144	3.0.0-RC.20 row header got focused when tab off the previous row	https://github.com/angular-ui/ui-grid/issues/3389
+angular-ui	ui-grid	5144	Unable to disable vertical Scroll [since v3.0.0-rc.20-89461bc]	https://github.com/angular-ui/ui-grid/issues/3370
+angular-ui	ui-grid	5144	Dropdown cell template is now shown	https://github.com/angular-ui/ui-grid/issues/3020
+angular-ui	ui-grid	5144	Negative viewport height	https://github.com/angular-ui/ui-grid/issues/3034
+angular-ui	ui-grid	5144	[BUG] Open/close expandable selects the row	https://github.com/angular-ui/ui-grid/issues/3214
+angular-ui	ui-grid	5144	Pagination missing rows	https://github.com/angular-ui/ui-grid/issues/3227
+angular-ui	ui-grid	5144	1px padding-top on ui-grid-canvas	https://github.com/angular-ui/ui-grid/issues/3275
+angular-ui	ui-grid	5144	"Last few subgrids in expandable grid don't align with their ""+"" icon"	https://github.com/angular-ui/ui-grid/issues/2863
+angular-ui	ui-grid	5144	pagination control overlaps with the horizontal scroll bar in IE11	https://github.com/angular-ui/ui-grid/issues/2848
+angular-ui	ui-grid	5144	Issue with ui-grid-pagination and ui-grid-auto-resize with 100% height	https://github.com/angular-ui/ui-grid/issues/2818
+angular-ui	ui-grid	5144	Cursor changes to pointer while hovering over a column header during column resizing	https://github.com/angular-ui/ui-grid/issues/2194
+angular-ui	ui-grid	5144	"Column menu: clicking on an editable cell doesn't close menu"	https://github.com/angular-ui/ui-grid/issues/2114
+angular-ui	ui-grid	5144	expanded/collapsed state not restored on saveState.restore	https://github.com/angular-ui/ui-grid/issues/6718
+angular-ui	ui-grid	5144	Filtering setting the form dirty	https://github.com/angular-ui/ui-grid/issues/4705
+angular-ui	ui-grid	5144	Hide aggregation types	https://github.com/angular-ui/ui-grid/issues/4674
+angular-ui	ui-grid	5144	Move Expand/Collapse column to the Right.	https://github.com/angular-ui/ui-grid/issues/4669
+angular-ui	ui-grid	5144	problem with importing csv files with different headers	https://github.com/angular-ui/ui-grid/issues/4628
+angular-ui	ui-grid	5144	Changing number of columns throws an exception	https://github.com/angular-ui/ui-grid/issues/4598
+angular-ui	ui-grid	5144	headerCellTemplate does not work when using dynamic columnDefs	https://github.com/angular-ui/ui-grid/issues/4576
+angular-ui	ui-grid	5144	Invalid arguments provided in click handler of selectionSelectAllButtons & treeBaseExpandAllButtons	https://github.com/angular-ui/ui-grid/issues/4551
+angular-ui	ui-grid	5144	After cell edit, lost the edit mode  	https://github.com/angular-ui/ui-grid/issues/4518
+angular-ui	ui-grid	5144	Undefined variables for external scope directive in the footer template 	https://github.com/angular-ui/ui-grid/issues/4507
+angular-ui	ui-grid	5144	UI Issue with injecting custom filters template	https://github.com/angular-ui/ui-grid/issues/4498
+angular-ui	ui-grid	5144	Internal filtering of Dates	https://github.com/angular-ui/ui-grid/issues/4454
+angular-ui	ui-grid	5144	exporterCsvFilename and exporterPdfFilename to accept function	https://github.com/angular-ui/ui-grid/issues/4446
+angular-ui	ui-grid	5144	"Default sort in columnDefs isn't present when onRegisterApi function is called"	https://github.com/angular-ui/ui-grid/issues/4390
+angular-ui	ui-grid	5144	Save columns state not working	https://github.com/angular-ui/ui-grid/issues/4370
+angular-ui	ui-grid	5144	When explicit row height set, mouse wheel scroll doesnt work.	https://github.com/angular-ui/ui-grid/issues/4351
+angular-ui	ui-grid	5144	Custom Select Rows	https://github.com/angular-ui/ui-grid/issues/4331
+angular-ui	ui-grid	5144	CSV is undefined when using requireJS	https://github.com/angular-ui/ui-grid/issues/4322
+angular-ui	ui-grid	5144	Its not possible to refocus a cell	https://github.com/angular-ui/ui-grid/issues/4312
+angular-ui	ui-grid	5144	height calculation error produces extra white space below the last row, with option enableFiltering: true	https://github.com/angular-ui/ui-grid/issues/4275
+angular-ui	ui-grid	5144	Sorting is not saved in state first time	https://github.com/angular-ui/ui-grid/issues/4187
+angular-ui	ui-grid	5144	Pagination includes sub grid in page size	https://github.com/angular-ui/ui-grid/issues/4168
+angular-ui	ui-grid	5144	programmatic setting focus (gridApi.focus()) and/or setting tabIndex gridApi.setTabIndex(123) 	https://github.com/angular-ui/ui-grid/issues/4149
+angular-ui	ui-grid	5144	saveState method not working on tree view feature	https://github.com/angular-ui/ui-grid/issues/4145
+angular-ui	ui-grid	5144	Grouping aggregation functions break when grouping by the column they were applied too.	https://github.com/angular-ui/ui-grid/issues/4142
+angular-ui	ui-grid	5144	Group aggregates with filters rendering blank header rows	https://github.com/angular-ui/ui-grid/issues/4679
+angular-ui	ui-grid	5144	Enable/Disable expandable feature dynamically	https://github.com/angular-ui/ui-grid/issues/4011
+angular-ui	ui-grid	5144	remove mousedown hack from cell navigation	https://github.com/angular-ui/ui-grid/issues/4707
+angular-ui	ui-grid	5144	Pagination breaks when items per page is changed to 25 from 10 and user was on last page	https://github.com/angular-ui/ui-grid/issues/4713
+angular-ui	ui-grid	5144	"can't use html file as template for custom filter"	https://github.com/angular-ui/ui-grid/issues/4730
+angular-ui	ui-grid	5144	Grid autoAdjustHeight missing PaginationControls Height	https://github.com/angular-ui/ui-grid/issues/4960
+angular-ui	ui-grid	5144	Erratically jumping header during column moving, if there is pinned column	https://github.com/angular-ui/ui-grid/issues/4973
+angular-ui	ui-grid	5144	ui-grid-viewport too small with responsive components in the headers	https://github.com/angular-ui/ui-grid/issues/5036
+angular-ui	ui-grid	5144	Grid & column menu display issues	https://github.com/angular-ui/ui-grid/issues/5039
+angular-ui	ui-grid	5144	Grid data binding to object property not working	https://github.com/angular-ui/ui-grid/issues/6719
+angular-ui	ui-grid	5144	Since that the treeView module uses treeBase module, saveState module is broken	https://github.com/angular-ui/ui-grid/issues/4742
+angular-ui	ui-grid	5144	"Duplicate IDs when using ""ui-grid-selection"""	https://github.com/angular-ui/ui-grid/issues/6096
+angular-ui	ui-grid	5144	pdf export exporterFieldCallback 	https://github.com/angular-ui/ui-grid/issues/4793
+angular-ui	ui-grid	5144	Group header rows cannot be edited, and if using the selection feature, cannot be selected <INVALID>	https://github.com/angular-ui/ui-grid/issues/6698
+angular-ui	ui-grid	5144	"Unable to perform mouse ""drag"" on grid with cell navigation"	https://github.com/angular-ui/ui-grid/issues/4800
+angular-ui	ui-grid	5144	"handleWindowResize doesn't work properly when footer visibility changes at runtime"	https://github.com/angular-ui/ui-grid/issues/4801
+angular-ui	ui-grid	5144	Bug : leaveOpen option in Grid Menu is not working when columns are resized	https://github.com/angular-ui/ui-grid/issues/4856
+angular-ui	ui-grid	5144	Problems with cellnav module and ui-bootstrap dropdown components	https://github.com/angular-ui/ui-grid/issues/4890
+angular-ui	ui-grid	5144	minWidth does not work with percent values	https://github.com/angular-ui/ui-grid/issues/4912
+angular-ui	ui-grid	5144	"Summary header(max, avg) not displayed when 'columnDefs' has 'cellFilter'"	https://github.com/angular-ui/ui-grid/issues/5149
+angular-ui	ui-grid	5144	Editing a cell partially in view fails	https://github.com/angular-ui/ui-grid/issues/5161
+angular-ui	ui-grid	5144	minRowsToShow broken with filtering enabled	https://github.com/angular-ui/ui-grid/issues/5058
+angular-ui	ui-grid	5144	uiGridValidateService.setValidator have newValue & oldValue param values reversed	https://github.com/angular-ui/ui-grid/issues/5059
+angular-ui	ui-grid	5144	Adding a ng-dblclick on rows causes cell selection on mousedown	https://github.com/angular-ui/ui-grid/issues/5060
+angular-ui	ui-grid	5144	UI Grid column auto width, two bugs are detected (with demo)	https://github.com/angular-ui/ui-grid/issues/5072
+angular-ui	ui-grid	5144	uigrid rows not rendered	https://github.com/angular-ui/ui-grid/issues/5073
+angular-ui	ui-grid	5144	Header Column labels not being set	https://github.com/angular-ui/ui-grid/issues/5078
+angular-ui	ui-grid	5144	ng-if causing problems for rowsRendered	https://github.com/angular-ui/ui-grid/issues/5089
+angular-ui	ui-grid	5144	Grouppriority default treeAggregationFn overwrite bug	https://github.com/angular-ui/ui-grid/issues/5123
+angular-ui	ui-grid	5144	Header row only 10px high when grouping and loading data asynchronously.	https://github.com/angular-ui/ui-grid/issues/5139
+angular-ui	ui-grid	5144	ui grid resize on window resize inconsistent	https://github.com/angular-ui/ui-grid/issues/5176
+angular-ui	ui-grid	5144	uiGridValidateService clearError bug	https://github.com/angular-ui/ui-grid/issues/5201
+reactjs	react-rails	5025	Is ReactRailsUJS.serverRender intended to be overridable?	https://github.com/reactjs/react-rails/issues/864
+reactjs	react-rails	5025	Better handling for compilation errors	https://github.com/reactjs/react-rails/issues/630
+reactjs	react-rails	5025	One of the test suite deps has a regression	https://github.com/reactjs/react-rails/issues/892
+reactjs	react-rails	5025	Javascript runtime required in production	https://github.com/reactjs/react-rails/issues/886
+reactjs	react-rails	5025	Importing node_modules	https://github.com/reactjs/react-rails/issues/879
+stylelint	stylelint	5010	Fix false positives for variables in selector-type-case	https://github.com/stylelint/stylelint/issues/3391
+stylelint	stylelint	5010	Fix false positives for prefers-reduced-motion media in media-feature-name-no-unknown	https://github.com/stylelint/stylelint/issues/3396
+stylelint	stylelint	5010	Fix false positives for nested rule-sets prefixed with comments in block-opening-brace-newline-after	https://github.com/stylelint/stylelint/issues/3366
+stylelint	stylelint	5010	Add ignoreValues: [] to font-family-no-missing-generic-family-keyword	https://github.com/stylelint/stylelint/issues/3288
+stylelint	stylelint	5010	Standardize object input for rules	https://github.com/stylelint/stylelint/issues/3372
+stylelint	stylelint	5010	Add autofix to declaration-block-no-redundant-longhand-properties	https://github.com/stylelint/stylelint/issues/3304
+stylelint	stylelint	5010	Disable --fix while using a processor and display message	https://github.com/stylelint/stylelint/issues/3223
+stylelint	stylelint	5010	Fix error for double slash comments in indentation	https://github.com/stylelint/stylelint/issues/3244
+stylelint	stylelint	5010	Add tests for parent directory files input	https://github.com/stylelint/stylelint/issues/3273
+stylelint	stylelint	5010	Add autofix to font-weight-notation	https://github.com/stylelint/stylelint/issues/3158
+stylelint	stylelint	5010	"Add ignore: [""inside-calc""] to length-zero-no-unit"	https://github.com/stylelint/stylelint/issues/3037
+stylelint	stylelint	5010	Add linebreaks	https://github.com/stylelint/stylelint/issues/3114
+stylelint	stylelint	5010	Fix autofix for multiline at-rules in indentation	https://github.com/stylelint/stylelint/issues/3274
+stylelint	stylelint	5010	Consistently check that selectors are standard before passing to the parser	https://github.com/stylelint/stylelint/issues/3130
+stylelint	stylelint	5010	Fix stylelint-disable-line commands within selector and value lists being ignored	https://github.com/stylelint/stylelint/issues/3111
+stylelint	stylelint	5010	"Fix ""memory leaks"" in tests"	https://github.com/stylelint/stylelint/issues/3124
+stylelint	stylelint	5010	Fix false positives for at-rules in indentation	https://github.com/stylelint/stylelint/issues/3231
+stylelint	stylelint	5010	Add ignoreAtRules: [] to at-rule-name-newline-after and block-opening-brace-newline-before	https://github.com/stylelint/stylelint/issues/2789
+stylelint	stylelint	5010	Display a violation at 1:1 for each file instead of throwing an error on unrecognised rules	https://github.com/stylelint/stylelint/issues/3147
+stylelint	stylelint	5010	Add ignoreProperties: [] to selector-no-vendor-prefix	https://github.com/stylelint/stylelint/issues/3197
+stylelint	stylelint	5010	"Add ignore: [""selectors-within-list""] to no-descending-specificity"	https://github.com/stylelint/stylelint/issues/3196
+stylelint	stylelint	5010	Add block-opening-brace-empty-line-before	https://github.com/stylelint/stylelint/issues/3154
+stylelint	stylelint	5010	Add --print-config flag	https://github.com/stylelint/stylelint/issues/3127
+stylelint	stylelint	5010	Support regex literals in all options that accept regexes	https://github.com/stylelint/stylelint/issues/3008
+stylelint	stylelint	5010	Fix false positives for shared-line comments in value-list-comma-newline-after	https://github.com/stylelint/stylelint/issues/2906
+stylelint	stylelint	5010	"Add except: [""inside-block""] to rule-empty-line-before"	https://github.com/stylelint/stylelint/issues/2887
+stylelint	stylelint	5010	Fix false positives for nested properties in max-nesting-depth	https://github.com/stylelint/stylelint/issues/3030
+stylelint	stylelint	5010	False negatives for top-level rules with nested rules selector-max-* 	https://github.com/stylelint/stylelint/issues/2990
+stylelint	stylelint	5010	Add ignoreUnits: [] to number-max-precision	https://github.com/stylelint/stylelint/issues/2785
+stylelint	stylelint	5010	Add ignoreRules: [] to max-nesting-depth	https://github.com/stylelint/stylelint/issues/2696
+stylelint	stylelint	5010	Fix false positives for pseudo classes in no-descending-specificity	https://github.com/stylelint/stylelint/issues/2489
+stylelint	stylelint	5010	"Add except: [""first-nested-and-blockless""] option to at-rule-empty-line-before"	https://github.com/stylelint/stylelint/issues/2480
+stylelint	stylelint	5010	Cross-reference in docs the whitespace rules that relate to each other	https://github.com/stylelint/stylelint/issues/2067
+stylelint	stylelint	5010	Better test the CLI	https://github.com/stylelint/stylelint/issues/2046
+OpenZeppelin	openzeppelin-solidity	4975	Examples on TokenTimeLock and TokenVesting	https://github.com/OpenZeppelin/openzeppelin-solidity/issues/706
+OpenZeppelin	openzeppelin-solidity	4975	Increase test coverage to 95%	https://github.com/OpenZeppelin/openzeppelin-solidity/issues/551
+OpenZeppelin	openzeppelin-solidity	4975	"Tests to check if child classes don't modify superclass-behaviour in unwanted ways"	https://github.com/OpenZeppelin/openzeppelin-solidity/issues/501
+OpenZeppelin	openzeppelin-solidity	4975	Write an implementation of an ether timelock	https://github.com/OpenZeppelin/openzeppelin-solidity/issues/239
+OpenZeppelin	openzeppelin-solidity	4975	Add stepped function helpers	https://github.com/OpenZeppelin/openzeppelin-solidity/issues/95
+OpenZeppelin	openzeppelin-solidity	4975	Add reason string for all assertions/requires	https://github.com/OpenZeppelin/openzeppelin-solidity/issues/888
+OpenZeppelin	openzeppelin-solidity	4975	Airdrop contract(s) using SignatureBouncer	https://github.com/OpenZeppelin/openzeppelin-solidity/issues/928
+OpenZeppelin	openzeppelin-solidity	4975	Add ECRecovery#ethSignedMessage for bytes type	https://github.com/OpenZeppelin/openzeppelin-solidity/issues/890
+OpenZeppelin	openzeppelin-solidity	4975	Add ERC20 support to SplitPayment	https://github.com/OpenZeppelin/openzeppelin-solidity/issues/898
+OpenZeppelin	openzeppelin-solidity	4975	Internal `ownedTokensIndex` not properly cleared when removing a token from its owner in ERC721	https://github.com/OpenZeppelin/openzeppelin-solidity/issues/839
+OpenZeppelin	openzeppelin-solidity	4975	Create a subcontract of StandardToken that rejects holding funds	https://github.com/OpenZeppelin/openzeppelin-solidity/issues/442
+styleguidist	react-styleguidist	4970	h5 should be different from body text	https://github.com/styleguidist/react-styleguidist/issues/994
+styleguidist	react-styleguidist	4970	oneOf(Object.keys(SIZES)) is propTypes	https://github.com/styleguidist/react-styleguidist/issues/986
+styleguidist	react-styleguidist	4970	Isolate components with `position: fixed`	https://github.com/styleguidist/react-styleguidist/issues/930
+styleguidist	react-styleguidist	4970	Style guide for Styleguidist UI	https://github.com/styleguidist/react-styleguidist/issues/897
+styleguidist	react-styleguidist	4970	Create an option for a compiler	https://github.com/styleguidist/react-styleguidist/issues/462
+styleguidist	react-styleguidist	4970	Option to open a browser	https://github.com/styleguidist/react-styleguidist/issues/918
+styleguidist	react-styleguidist	4970	Improve accessibility	https://github.com/styleguidist/react-styleguidist/issues/879
+styleguidist	react-styleguidist	4970	Drop webpack 3 support	https://github.com/styleguidist/react-styleguidist/issues/915
+styleguidist	react-styleguidist	4970	Improve single-component usage	https://github.com/styleguidist/react-styleguidist/issues/195
+styleguidist	react-styleguidist	4970	End-to-end tests with Cypress	https://github.com/styleguidist/react-styleguidist/issues/776
+mweststrate	immer	4885	Change source code to TypeScript	https://github.com/mweststrate/immer/issues/67
+mweststrate	immer	4885	[TypeScript] Produced draft is read-only if original state is read-only	https://github.com/mweststrate/immer/issues/97
+laurent22	joplin	4538	Theme support for desktop apps	https://github.com/laurent22/joplin/issues/93
+laurent22	joplin	4538	On the desktop app, create a screen that list all the resouces	https://github.com/laurent22/joplin/issues/592
+laurent22	joplin	4538	Request: Web Clipper Extension + Integration	https://github.com/laurent22/joplin/issues/135
+laurent22	joplin	4538	Export Human-readable Filenames and Folders	https://github.com/laurent22/joplin/issues/316
+laurent22	joplin	4538	[Feature Request] Show version on mobile apps	https://github.com/laurent22/joplin/issues/233
+copy	v86	4498	Please consider providing an option to use a different network relay address	https://github.com/copy/v86/issues/209
+copy	v86	4498	Implement basic ANSI escape support in textarea console	https://github.com/copy/v86/issues/203
+jupyter	notebook	4303	"[feature request] add ""Pause"" button to Notebook"	https://github.com/jupyter/notebook/issues/2363
+jupyter	notebook	4303	Add more Prometheus metrics	https://github.com/jupyter/notebook/issues/3682
+jupyter	notebook	4303	"Wishlist: Usability of new ""Find and Replace"" dialog for finding strings"	https://github.com/jupyter/notebook/issues/1238
+jupyter	notebook	4303	"Write test for ""Find and replace in selected cell apply on all cells"""	https://github.com/jupyter/notebook/issues/838
+jupyter	notebook	4303	Convert JS tests to Selenium	https://github.com/jupyter/notebook/issues/3335
+jupyter	notebook	4303	Log on disk path of files served when using --debug	https://github.com/jupyter/notebook/issues/857
+jupyter	notebook	4303	Improve keyboard shortcut discoverability	https://github.com/jupyter/notebook/issues/2759
+jupyter	notebook	4303	metadata {editable:false} should extend to tags and slideshow	https://github.com/jupyter/notebook/issues/3322
+jupyter	notebook	4303	List of notebook files should include more file information	https://github.com/jupyter/notebook/issues/396
+jupyter	notebook	4303	Hilight TODO comments	https://github.com/jupyter/notebook/issues/1092
+jupyter	notebook	4303	Closing many notebooks at once	https://github.com/jupyter/notebook/issues/970
+jupyter	notebook	4303	Accessibility color contrast issues in style.min.css	https://github.com/jupyter/notebook/issues/3218
+jupyter	notebook	4303	Review docs on troubleshooting and correcting a stale JS build	https://github.com/jupyter/notebook/issues/872
+MrSwitch	hello.js	4272	Instagram - Logout Method no longer works	https://github.com/MrSwitch/hello.js/issues/545
+MrSwitch	hello.js	4272	VK change API add required parameter	https://github.com/MrSwitch/hello.js/issues/544
+MrSwitch	hello.js	4272	Login with Amazon with redirect	https://github.com/MrSwitch/hello.js/issues/539
+MrSwitch	hello.js	4272	Support on auth.error event	https://github.com/MrSwitch/hello.js/issues/541
+MrSwitch	hello.js	4272	Steam integration	https://github.com/MrSwitch/hello.js/issues/530
+MrSwitch	hello.js	4272	HTTP Error 400. The size of the request headers is too long. - Azure B2C	https://github.com/MrSwitch/hello.js/issues/525
+MrSwitch	hello.js	4272	Yahoo via OAuth2	https://github.com/MrSwitch/hello.js/issues/192
+MrSwitch	hello.js	4272	"Uncaught TypeError: Cannot use 'in' operator to search for 'feed' in Not Found"	https://github.com/MrSwitch/hello.js/issues/330
+MrSwitch	hello.js	4272	Tumblr: GET works, but not POST	https://github.com/MrSwitch/hello.js/issues/415
+mattgodbolt	compiler-explorer	4248	Script to fetch include paths from compile_commands.json	https://github.com/mattgodbolt/compiler-explorer/issues/953
+mattgodbolt	compiler-explorer	4248	Truncate error messages	https://github.com/mattgodbolt/compiler-explorer/issues/311
+mattgodbolt	compiler-explorer	4248	Support of cursorline/textbox/bold highlighting of current assembly instructions	https://github.com/mattgodbolt/compiler-explorer/issues/859
+mattgodbolt	compiler-explorer	4248	Add borders to first & last linked code	https://github.com/mattgodbolt/compiler-explorer/issues/796
+shipitjs	shipit	4223	mv: illegal option -- T	https://github.com/shipitjs/shipit/issues/173
+shipitjs	shipit	4223	Workspace setting not being respected	https://github.com/shipitjs/shipit/issues/194
+HospitalRun	hospitalrun-frontend	4222	move to uuid module	https://github.com/HospitalRun/hospitalrun-frontend/issues/1157
+HospitalRun	hospitalrun-frontend	4222	Invoices and Pricing do not use translations file	https://github.com/HospitalRun/hospitalrun-frontend/issues/1437
+HospitalRun	hospitalrun-frontend	4222	Fix deprecations from deprecation-workflow (and probably remove it at all)	https://github.com/HospitalRun/hospitalrun-frontend/issues/1370
+withspectrum	spectrum	3922	Add cropping step while uploading profile photos	https://github.com/withspectrum/spectrum/issues/3369
+withspectrum	spectrum	3922	Mention typeahead	https://github.com/withspectrum/spectrum/issues/2649
+withspectrum	spectrum	3922	Implement Pull to Refresh in thread feeds	https://github.com/withspectrum/spectrum/issues/3263
+withspectrum	spectrum	3922	Block request to GraphQL API if no db connection is available	https://github.com/withspectrum/spectrum/issues/2544
+withspectrum	spectrum	3922	Mobile apps	https://github.com/withspectrum/spectrum/issues/1803
+withspectrum	spectrum	3922	[Mobile v1] Thread view	https://github.com/withspectrum/spectrum/issues/2331
+withspectrum	spectrum	3922	e2e tests	https://github.com/withspectrum/spectrum/issues/1804
+withspectrum	spectrum	3922	[Mobile v1] Notifications	https://github.com/withspectrum/spectrum/issues/2332
+withspectrum	spectrum	3922	Improve embed UX	https://github.com/withspectrum/spectrum/issues/2020
+withspectrum	spectrum	3922	"Send web push notification if tab isn't focussed"	https://github.com/withspectrum/spectrum/issues/1941
+withspectrum	spectrum	3922	Style unsubscribe page	https://github.com/withspectrum/spectrum/issues/1954
+withspectrum	spectrum	3922	Thread composer is barely usable on mobile	https://github.com/withspectrum/spectrum/issues/2492
+withspectrum	spectrum	3922	Fix the UX of thread composer to prevent accidental community/channel posts	https://github.com/withspectrum/spectrum/issues/2872
+withspectrum	spectrum	3922	Sort all the things by rep	https://github.com/withspectrum/spectrum/issues/2394
+withspectrum	spectrum	3922	Dynamically create meta images for threads	https://github.com/withspectrum/spectrum/issues/2682
+withspectrum	spectrum	3922	"Hide the ""new content"" indicator when the thread feed is scrolled to the top"	https://github.com/withspectrum/spectrum/issues/2007
+withspectrum	spectrum	3922	Re-add the rep counter in digest emails	https://github.com/withspectrum/spectrum/issues/1925
+withspectrum	spectrum	3922	Improve DM empty state	https://github.com/withspectrum/spectrum/issues/2684
+withspectrum	spectrum	3922	Implement rate limiting for our Node servers	https://github.com/withspectrum/spectrum/issues/2776
+withspectrum	spectrum	3922	"Composer doesn't set defaults correctly on community view"	https://github.com/withspectrum/spectrum/issues/2683
+withspectrum	spectrum	3922	Mark message notifications as seen if thread.lastSeen > message.timestamp	https://github.com/withspectrum/spectrum/issues/2574
+withspectrum	spectrum	3922	Prevent external resources from loading over http	https://github.com/withspectrum/spectrum/issues/2238
+withspectrum	spectrum	3922	More consistent search behavior	https://github.com/withspectrum/spectrum/issues/2214
+withspectrum	spectrum	3922	Nicer SSR error page	https://github.com/withspectrum/spectrum/issues/2150
+withspectrum	spectrum	3922	Revert failing iframes to links	https://github.com/withspectrum/spectrum/issues/2149
+withspectrum	spectrum	3922	Spinner changes button sizes	https://github.com/withspectrum/spectrum/issues/1919
+devtools-html	debugger.html	3833	[CodeHealth] Improve our Test Coverage 🤡 	https://github.com/devtools-html/debugger.html/issues/5100
+devtools-html	debugger.html	3833	[Editor] Dark theme makes selection not visible on breakpoint	https://github.com/devtools-html/debugger.html/issues/6329
+devtools-html	debugger.html	3833	[Tabs] Improve truncation of long filenames, smaller max tab size 	https://github.com/devtools-html/debugger.html/issues/5019
+devtools-html	debugger.html	3833	[Welcome] Feature debugger playground & MDN docs	https://github.com/devtools-html/debugger.html/issues/4649
+hackmdio	hackmd	3735	Provide documentation for auth providers	https://github.com/hackmdio/hackmd/issues/583
+hackmdio	hackmd	3735	Exported PDF does not include images	https://github.com/hackmdio/hackmd/issues/820
+hackmdio	hackmd	3735	Font files become 404 when setup in subdirectory	https://github.com/hackmdio/hackmd/issues/616
+hackmdio	hackmd	3735	Moving detail description to docs	https://github.com/hackmdio/hackmd/issues/334
+hackmdio	hackmd	3735	how to use a custom S3 endpoint?	https://github.com/hackmdio/hackmd/issues/696
+hackmdio	hackmd	3735	Feature request: Unicode url names of pages in free url mode	https://github.com/hackmdio/hackmd/issues/729
+hackmdio	hackmd	3735	support PlantUML	https://github.com/hackmdio/hackmd/issues/362
+hackmdio	hackmd	3735	fork audreyt/pad2an to be used in hackmd	https://github.com/hackmdio/hackmd/issues/457
+hackmdio	hackmd	3735	Change spellcheck language	https://github.com/hackmdio/hackmd/issues/647
+hackmdio	hackmd	3735	[Feature Request] API to download HTML	https://github.com/hackmdio/hackmd/issues/515
+Foundry376	Mailspring	3576	Wrong notification assignment on Elementary OS	https://github.com/Foundry376/Mailspring/issues/623
+Foundry376	Mailspring	3576	Feature Request - Built in attachment viewer	https://github.com/Foundry376/Mailspring/issues/234
+Foundry376	Mailspring	3576	[Feature Request] Set custom notification sound for new emails	https://github.com/Foundry376/Mailspring/issues/415
+Foundry376	Mailspring	3576	"Doesn't start in background"	https://github.com/Foundry376/Mailspring/issues/153
+Foundry376	Mailspring	3576	Tray icon is too small at Gnome Shell 	https://github.com/Foundry376/Mailspring/issues/648
+Foundry376	Mailspring	3576	Icon appearance bad on HDPI	https://github.com/Foundry376/Mailspring/issues/670
+Foundry376	Mailspring	3576	[Feature Request] Vertically stacked messages pane / reading pane ala Mail.app	https://github.com/Foundry376/Mailspring/issues/116
+Foundry376	Mailspring	3576	moka icons	https://github.com/Foundry376/Mailspring/issues/534
+Foundry376	Mailspring	3576	Feature request: Gnome Online Accounts integration	https://github.com/Foundry376/Mailspring/issues/466
+Foundry376	Mailspring	3576	"The app's unread badge only reflects the currently selected mailbox "	https://github.com/Foundry376/Mailspring/issues/70
+Foundry376	Mailspring	3576	"Subfolders don't nest in the left sidebar unless a parent folder or label with the base path is present"	https://github.com/Foundry376/Mailspring/issues/250
+Foundry376	Mailspring	3576	Mouse back/forward buttons do nothing	https://github.com/Foundry376/Mailspring/issues/210
+Foundry376	Mailspring	3576	[Feature Request] Ability to change name of the attachment file	https://github.com/Foundry376/Mailspring/issues/342
+Foundry376	Mailspring	3576	[Feature request] Allow jumping to labels like Gmail does using G + L, then type the label name.	https://github.com/Foundry376/Mailspring/issues/347
+Foundry376	Mailspring	3576	Feature Request: Live Tile	https://github.com/Foundry376/Mailspring/issues/202
+Foundry376	Mailspring	3576	Spam folders replaced by Junk E-mail after second Gmail account was added	https://github.com/Foundry376/Mailspring/issues/60
+Foundry376	Mailspring	3576	[Feature Request] Ctrl+Tab Inbox Switching	https://github.com/Foundry376/Mailspring/issues/39
+gchq	CyberChef	3533	Operation request: Set theory ops	https://github.com/gchq/CyberChef/issues/236
+gchq	CyberChef	3533	"Operation request: Improve 'Parse IP range' input options"	https://github.com/gchq/CyberChef/issues/270
+gchq	CyberChef	3533	Operation request: CSV to JSON	https://github.com/gchq/CyberChef/issues/277
+gchq	CyberChef	3533	Operation request: Improvements to Regex highlighting	https://github.com/gchq/CyberChef/issues/279
+gchq	CyberChef	3533	Misc: Support for negative values in Drop and Take Bytes operations	https://github.com/gchq/CyberChef/issues/266
+gchq	CyberChef	3533	Misc: Wikipedia links in operation descriptions	https://github.com/gchq/CyberChef/issues/265
+gchq	CyberChef	3533	Misc: Update HMAC to accept keys in different formats	https://github.com/gchq/CyberChef/issues/263
+gchq	CyberChef	3533	Operation request: Protocol Data Unit (PDU) encoder/decoder	https://github.com/gchq/CyberChef/issues/256
+node-serialport	node-serialport	3420	Best practices for sequences of events	https://github.com/node-serialport/node-serialport/issues/811
+node-serialport	node-serialport	3420	Document `hupcl`	https://github.com/node-serialport/node-serialport/issues/1294
+kriasoft	react-firebase-starter	3370	Add optimisticUpdater to LikeStory mutation	https://github.com/kriasoft/react-firebase-starter/issues/297
+kriasoft	react-firebase-starter	3370	Allow to use SSL certificates via .env/.env.local files	https://github.com/kriasoft/react-firebase-starter/issues/290
+kriasoft	react-firebase-starter	3370	Fix ESLint warnings	https://github.com/kriasoft/react-firebase-starter/issues/192
+eventbrite	britecharts	3330	Support negative values	https://github.com/eventbrite/britecharts/issues/338
+eventbrite	britecharts	3330	Add human formatted values to Bar Chart yAxis	https://github.com/eventbrite/britecharts/issues/380
+eventbrite	britecharts	3330	Split Documentation in Tutorials, How To Guides, Reference and Discussions	https://github.com/eventbrite/britecharts/issues/349
+eventbrite	britecharts	3330	Enable number formatting on all chart types.	https://github.com/eventbrite/britecharts/issues/350
+verdaccio	verdaccio	3321	License field is not correct aligned on UI	https://github.com/verdaccio/verdaccio/issues/761
+verdaccio	verdaccio	3321	Capitalise name of logged in user in header	https://github.com/verdaccio/verdaccio/issues/752
+verdaccio	verdaccio	3321	Improve website SEO	https://github.com/verdaccio/verdaccio/issues/760
+verdaccio	verdaccio	3321	Allow use custom logo and theme	https://github.com/verdaccio/verdaccio/issues/357
+verdaccio	verdaccio	3321	Web UI Search Pings Proxy	https://github.com/verdaccio/verdaccio/issues/385
+verdaccio	verdaccio	3321	npm token create password (npm token)	https://github.com/verdaccio/verdaccio/issues/541
+zeit	styled-jsx	3253	Better plugins authoring experience when having placeholders 	https://github.com/zeit/styled-jsx/issues/431
+zeit	styled-jsx	3253	Styled jsx with plugins without next.js	https://github.com/zeit/styled-jsx/issues/323
+AnalyticalGraphicsInc	cesium	3241	Rename ApproximateTerrainHeights functions	https://github.com/AnalyticalGraphicsInc/cesium/issues/6674
+AnalyticalGraphicsInc	cesium	3241	Non-normalized AlignedAxis Is Ignored	https://github.com/AnalyticalGraphicsInc/cesium/issues/6596
+AnalyticalGraphicsInc	cesium	3241	GeocoderViewModel.search command not executed when user clicks a suggestion	https://github.com/AnalyticalGraphicsInc/cesium/issues/6313
+AnalyticalGraphicsInc	cesium	3241	Consistent boilerplate code in Sandcastle demos	https://github.com/AnalyticalGraphicsInc/cesium/issues/6338
+AnalyticalGraphicsInc	cesium	3241	"CreditDisplay.addDefaultCredit can't be shown in the lightbox"	https://github.com/AnalyticalGraphicsInc/cesium/issues/6215
+AnalyticalGraphicsInc	cesium	3241	Bring back reference doc for built-in GLSL functions/uniforms/constants/etc	https://github.com/AnalyticalGraphicsInc/cesium/issues/6185
+AnalyticalGraphicsInc	cesium	3241	Video sound starts playing when loading Sandcastle in IE and Edge	https://github.com/AnalyticalGraphicsInc/cesium/issues/4609
+AnalyticalGraphicsInc	cesium	3241	Coding Guide: only write to properties once in a constructor function?	https://github.com/AnalyticalGraphicsInc/cesium/issues/6139
+AnalyticalGraphicsInc	cesium	3241	Remove 3D Tiles deprecation warnings	https://github.com/AnalyticalGraphicsInc/cesium/issues/5363
+AnalyticalGraphicsInc	cesium	3241	"GeoJsonDataSource sourceUri parameter isn't used"	https://github.com/AnalyticalGraphicsInc/cesium/issues/6108
+AnalyticalGraphicsInc	cesium	3241	Cesium learning materials update	https://github.com/AnalyticalGraphicsInc/cesium/issues/5207
+AnalyticalGraphicsInc	cesium	3241	Release zip is missing .jshintrc	https://github.com/AnalyticalGraphicsInc/cesium/issues/3911
+AnalyticalGraphicsInc	cesium	3241	Corridor renders from Primitive API but not Entity API	https://github.com/AnalyticalGraphicsInc/cesium/issues/4829
+AnalyticalGraphicsInc	cesium	3241	Rename PerspectiveFrustum.fov to PerspectiveFrustum.fieldOfView	https://github.com/AnalyticalGraphicsInc/cesium/issues/5650
+AnalyticalGraphicsInc	cesium	3241	Create one liner to render canvas to image	https://github.com/AnalyticalGraphicsInc/cesium/issues/5938
+AnalyticalGraphicsInc	cesium	3241	Replace atan in polyline dash vertex shader with fast approximation	https://github.com/AnalyticalGraphicsInc/cesium/issues/5545
+AnalyticalGraphicsInc	cesium	3241	Create a sandcastle demo for the PropertyPosition	https://github.com/AnalyticalGraphicsInc/cesium/issues/5748
+AnalyticalGraphicsInc	cesium	3241	Create a sandcastle example for side-by-side 2D / 3D camera view	https://github.com/AnalyticalGraphicsInc/cesium/issues/5749
+AnalyticalGraphicsInc	cesium	3241	Create a sandcastle example showing how to do visibility testing with picking	https://github.com/AnalyticalGraphicsInc/cesium/issues/5751
+AnalyticalGraphicsInc	cesium	3241	"Add ""disableSecurity"" option to InfoBox"	https://github.com/AnalyticalGraphicsInc/cesium/issues/5446
+AnalyticalGraphicsInc	cesium	3241	Replace explicit checks for DeveloperErrors with calls to the new Check type	https://github.com/AnalyticalGraphicsInc/cesium/issues/4794
+AnalyticalGraphicsInc	cesium	3241	JSDoc Issues	https://github.com/AnalyticalGraphicsInc/cesium/issues/1859
+AnalyticalGraphicsInc	cesium	3241	Fix jsDoc to allow @exception tag on ECMAScript 5 properties...	https://github.com/AnalyticalGraphicsInc/cesium/issues/832
+AnalyticalGraphicsInc	cesium	3241	Improve GEE test coverage	https://github.com/AnalyticalGraphicsInc/cesium/issues/5348
+AnalyticalGraphicsInc	cesium	3241	Remove Safari 9 WebGL constants workaround	https://github.com/AnalyticalGraphicsInc/cesium/issues/5315
+AnalyticalGraphicsInc	cesium	3241	Learning materials for the property system / time dynamic data	https://github.com/AnalyticalGraphicsInc/cesium/issues/5300
+AnalyticalGraphicsInc	cesium	3241	Location of the Cesium version number in cesium.js	https://github.com/AnalyticalGraphicsInc/cesium/issues/5222
+AnalyticalGraphicsInc	cesium	3241	Zoom is slower when close to a model	https://github.com/AnalyticalGraphicsInc/cesium/issues/5131
+AnalyticalGraphicsInc	cesium	3241	Add DistanceDisplayCondition to CZML	https://github.com/AnalyticalGraphicsInc/cesium/issues/4744
+AnalyticalGraphicsInc	cesium	3241	Raise WMTS imagery provider tile count threshold	https://github.com/AnalyticalGraphicsInc/cesium/issues/4372
+AnalyticalGraphicsInc	cesium	3241	Check matrix multiplication in shaders	https://github.com/AnalyticalGraphicsInc/cesium/issues/4250
+AnalyticalGraphicsInc	cesium	3241	Mapbox Classic will be deprecated	https://github.com/AnalyticalGraphicsInc/cesium/issues/4015
+AnalyticalGraphicsInc	cesium	3241	Test createVerticesFromHeightMap and createVerticesFromQuantizedTerrainMesh	https://github.com/AnalyticalGraphicsInc/cesium/issues/3902
+AnalyticalGraphicsInc	cesium	3241	Cannot use CSS sprites in ProviderViewModel	https://github.com/AnalyticalGraphicsInc/cesium/issues/3792
+AnalyticalGraphicsInc	cesium	3241	Remove need to check ready before calling getGeometryInstanceAttributes	https://github.com/AnalyticalGraphicsInc/cesium/issues/2174
+AnalyticalGraphicsInc	cesium	3241	"Replace ""can support 2xx HTTP status (other than 200)"" test"	https://github.com/AnalyticalGraphicsInc/cesium/issues/3757
+AnalyticalGraphicsInc	cesium	3241	Update Sandcastle examples to match most common use cases	https://github.com/AnalyticalGraphicsInc/cesium/issues/4472
+AnalyticalGraphicsInc	cesium	3241	"Can't create a ShadowMap object using public API"	https://github.com/AnalyticalGraphicsInc/cesium/issues/4010
+log4js-node	log4js-node	3228	DeprecationWarning: Custom inspection function on Objects via .inspect() is deprecated	https://github.com/log4js-node/log4js-node/issues/707
+log4js-node	log4js-node	3228	Automated test for typescript definition	https://github.com/log4js-node/log4js-node/issues/570
+log4js-node	log4js-node	3228	FeatureRequest: nolog in general config	https://github.com/log4js-node/log4js-node/issues/640
+ember-cli	ember-cli	3225	build-perf guide needs to explain build vs rebuild	https://github.com/ember-cli/ember-cli/issues/6713
+ember-cli	ember-cli	3225	Without `yarn` globally available, `npm test` fails	https://github.com/ember-cli/ember-cli/issues/7484
+ember-cli	ember-cli	3225	generating a route with initial slash causes an error	https://github.com/ember-cli/ember-cli/issues/7603
+ember-cli	ember-cli	3225	Prevent generation of .js.js files	https://github.com/ember-cli/ember-cli/issues/7699
+ember-cli	ember-cli	3225	"Newly generated addon with one component won't compile"	https://github.com/ember-cli/ember-cli/issues/4436
+ember-cli	ember-cli	3225	move ember-cli-build.js to inside dummy folder for addons	https://github.com/ember-cli/ember-cli/issues/7486
+ember-cli	ember-cli	3225	Windows Symlink / Windows Creators edition	https://github.com/ember-cli/ember-cli/issues/7072
+ember-cli	ember-cli	3225	Update `lib/broccoli/ember-addon.js` to forward `vendor` tree.	https://github.com/ember-cli/ember-cli/issues/7505
+ember-cli	ember-cli	3225	Config is encoded to meta tag with deprecated `escape` method	https://github.com/ember-cli/ember-cli/issues/6598
+ember-cli	ember-cli	3225	"""ember install"" with repo URL should guess package name from URL"	https://github.com/ember-cli/ember-cli/issues/6833
+ember-cli	ember-cli	3225	Fix up test issues	https://github.com/ember-cli/ember-cli/issues/6565
+ember-cli	ember-cli	3225	Test Coverage Mega Thread	https://github.com/ember-cli/ember-cli/issues/5487
+ember-cli	ember-cli	3225	consider cleanup of watch-detector	https://github.com/ember-cli/ember-cli/issues/6311
+ember-cli	ember-cli	3225	Generating in-repo-addon and destroying leaves traces	https://github.com/ember-cli/ember-cli/issues/6037
+shentao	vue-multiselect	3216	"Accessing `getOptionLabel` within the ""tag"" slot"	https://github.com/shentao/vue-multiselect/issues/739
+shentao	vue-multiselect	3216	Typescript support	https://github.com/shentao/vue-multiselect/issues/696
+shentao	vue-multiselect	3216	Consider switching the no results message to use v-if	https://github.com/shentao/vue-multiselect/issues/666
+shentao	vue-multiselect	3216	Feature: beforeDestroy event	https://github.com/shentao/vue-multiselect/issues/610
+shentao	vue-multiselect	3216	Allow a custom (modifier) class for multiselect	https://github.com/shentao/vue-multiselect/issues/667
+wellcaffeinated	PhysicsJS	3171	Renderer#resize() issues	https://github.com/wellcaffeinated/PhysicsJS/issues/135
+wellcaffeinated	PhysicsJS	3171	Set body on top	https://github.com/wellcaffeinated/PhysicsJS/issues/159
+wellcaffeinated	PhysicsJS	3171	Canvas sizing & placement for the canvas renderer	https://github.com/wellcaffeinated/PhysicsJS/issues/186
+wellcaffeinated	PhysicsJS	3171	Body not waking up with applyForce	https://github.com/wellcaffeinated/PhysicsJS/issues/137
+directus	directus	3160	Issues with svg preview	https://github.com/directus/directus/issues/2062
+directus	directus	3160	Public group has options for nav override	https://github.com/directus/directus/issues/2012
+directus	directus	3160	Item Listing: item highlighting not working	https://github.com/directus/directus/issues/1979
+bitinn	node-fetch	3158	"Post body data example doesn't work, Content-Length is not specified"	https://github.com/bitinn/node-fetch/issues/368
+bitinn	node-fetch	3158	.textConverted needs to install the package encoding separately	https://github.com/bitinn/node-fetch/issues/412
+bitinn	node-fetch	3158	When users clone(), automatically create streams with custom highWaterMark	https://github.com/bitinn/node-fetch/issues/386
+jhen0409	react-native-debugger	3142	Chrome DevTools as webview in application	https://github.com/jhen0409/react-native-debugger/issues/186
+jhen0409	react-native-debugger	3142	Upgrade remotedev-app to v0.11	https://github.com/jhen0409/react-native-debugger/issues/160
+jhen0409	react-native-debugger	3142	Remember port when restarting after update	https://github.com/jhen0409/react-native-debugger/issues/176
+jhen0409	react-native-debugger	3142	Merge debugger-proxy of RN packager into debugger client	https://github.com/jhen0409/react-native-debugger/issues/174
+jhen0409	react-native-debugger	3142	[macOS] Migrate Touch Bar implementation from renderer to main process	https://github.com/jhen0409/react-native-debugger/issues/167
+jhen0409	react-native-debugger	3142	Add example for mobx-state-tree	https://github.com/jhen0409/react-native-debugger/issues/166
+cucumber	cucumber-js	3122	deprecate JSON formatter	https://github.com/cucumber/cucumber-js/issues/1007
+cucumber	cucumber-js	3122	Test output gets mixed up when run in parallel	https://github.com/cucumber/cucumber-js/issues/859
+isomorphic-git	isomorphic-git	3083	deleteBranch	https://github.com/isomorphic-git/isomorphic-git/issues/40
+isomorphic-git	isomorphic-git	3083	moveBranch	https://github.com/isomorphic-git/isomorphic-git/issues/39
+isomorphic-git	isomorphic-git	3083	Make git.log not include errors for shallow commits and depth not specified	https://github.com/isomorphic-git/isomorphic-git/issues/245
+isomorphic-git	isomorphic-git	3083	Checkout filepath	https://github.com/isomorphic-git/isomorphic-git/issues/201
+isomorphic-git	isomorphic-git	3083	Add an FAQ with examples to the website	https://github.com/isomorphic-git/isomorphic-git/issues/191
+isomorphic-git	isomorphic-git	3083	clone certificate issue	https://github.com/isomorphic-git/isomorphic-git/issues/202
+isomorphic-git	isomorphic-git	3083	git reset	https://github.com/isomorphic-git/isomorphic-git/issues/129
+isomorphic-git	isomorphic-git	3083	tags	https://github.com/isomorphic-git/isomorphic-git/issues/15
+mapbox	mapbox-gl-js	3069	False positive detection of missing CSS	https://github.com/mapbox/mapbox-gl-js/issues/6820
+mapbox	mapbox-gl-js	3069	Fixing matrix errors	https://github.com/mapbox/mapbox-gl-js/issues/6782
+mapbox	mapbox-gl-js	3069	validate sprite when `icon-image` is used	https://github.com/mapbox/mapbox-gl-js/issues/6823
+mapbox	mapbox-gl-js	3069	Display better message + emit error when bad args are passed to map camera events	https://github.com/mapbox/mapbox-gl-js/issues/4385
+mapbox	mapbox-gl-js	3069	Add a way to set initial map bounds	https://github.com/mapbox/mapbox-gl-js/issues/1970
+mapbox	mapbox-gl-js	3069	"Expose a ""statechange"" event on GeolocateControl"	https://github.com/mapbox/mapbox-gl-js/issues/5136
+mapbox	mapbox-gl-js	3069	Do not handle video loading errors	https://github.com/mapbox/mapbox-gl-js/issues/5646
+mapbox	mapbox-gl-js	3069	Attribution shows even when layer not visible	https://github.com/mapbox/mapbox-gl-js/issues/6281
+mapbox	mapbox-gl-js	3069	"Don't zoom the map if scroll is initiated outside of the map"	https://github.com/mapbox/mapbox-gl-js/issues/824
+mapbox	mapbox-gl-js	3069	Map navigation controls not visible in windows high contrast mode	https://github.com/mapbox/mapbox-gl-js/issues/5784
+mapbox	mapbox-gl-js	3069	"Make ""devicePixelRatio"" user-configurable"	https://github.com/mapbox/mapbox-gl-js/issues/1953
+mapbox	mapbox-gl-js	3069	"Document ""*-transition"" properties"	https://github.com/mapbox/mapbox-gl-js/issues/4081
+mapbox	mapbox-gl-js	3069	map stuck in DragRotate when mouse up occurs outside an iframe	https://github.com/mapbox/mapbox-gl-js/issues/4622
+mapbox	mapbox-gl-js	3069	"Cache-defeating URL parameters aren't passed to sprite URLs"	https://github.com/mapbox/mapbox-gl-js/issues/5550
+mapbox	mapbox-gl-js	3069	Documentation doesn’t cross-link required properties	https://github.com/mapbox/mapbox-gl-js/issues/4131
+mapbox	mapbox-gl-js	3069	showTileBoundaries debug option should read from a source whose min/maxzoom include current zoom if available	https://github.com/mapbox/mapbox-gl-js/issues/4830
+mapbox	mapbox-gl-js	3069	Box zoom resets map bearing	https://github.com/mapbox/mapbox-gl-js/issues/4221
+mapbox	mapbox-gl-js	3069	make AttributionControl with compact option accessible	https://github.com/mapbox/mapbox-gl-js/issues/3959
+mapbox	mapbox-gl-js	3069	"Add an error message for calling ""GeoJSONSource#setData"" for a style that doesn't exist "	https://github.com/mapbox/mapbox-gl-js/issues/2602
+mapbox	mapbox-gl-js	3069	"Calling Map#setLayoutProperty for 'text-field' or 'icon-image' triggers an exception"	https://github.com/mapbox/mapbox-gl-js/issues/2407
+mapbox	mapbox-gl-js	3069	Allow users to re-enable browser-native contextmenu	https://github.com/mapbox/mapbox-gl-js/issues/2301
+mapbox	mapbox-gl-js	3069	Add a max-width to popup containers	https://github.com/mapbox/mapbox-gl-js/issues/1862
+mapbox	mapbox-gl-js	3069	"Display an error message when fitBounds' padding is larger than map"	https://github.com/mapbox/mapbox-gl-js/issues/1776
+mapbox	mapbox-gl-js	3069	Verify WebGL contexts have the context attributes we require	https://github.com/mapbox/mapbox-gl-js/issues/2295
+mapbox	mapbox-gl-js	3069	"Ignore ""holes"" in query*Features collision detection"	https://github.com/mapbox/mapbox-gl-js/issues/2293
+aws	aws-amplify	3010	 Auth.currentAuthenticatedUser() Not Returning or Throwing a Catchable Error	https://github.com/aws/aws-amplify/issues/1002
+aws	aws-amplify	3010	PubSub connection does not reconnect after connection lost	https://github.com/aws/aws-amplify/issues/1016
+aws	aws-amplify	3010	"Signing-out throws 'Warning: Can't call setState(or forceUpdate) on...'"	https://github.com/aws/aws-amplify/issues/1012
+aws	aws-amplify	3010	Way to change user password as an admin using developer credentials (Cognito)	https://github.com/aws/aws-amplify/issues/1013
+aws	aws-amplify	3010	Does this work in china?	https://github.com/aws/aws-amplify/issues/1005
+aws	aws-amplify	3010	Uncaught TypeError via Buffer on import of aws-amplify	https://github.com/aws/aws-amplify/issues/1010
+aws	aws-amplify	3010	Handling authentication offline	https://github.com/aws/aws-amplify/issues/1006
+aws	aws-amplify	3010	Cognito: unable to login with email if user attempts to update email address	https://github.com/aws/aws-amplify/issues/987
+aws	aws-amplify	3010	vue starter -- typescript support?	https://github.com/aws/aws-amplify/issues/1004
+aws	aws-amplify	3010	"I keep getting undefined is not an object (evaluating 'RNPushNotification.initialize')"	https://github.com/aws/aws-amplify/issues/790
+aws	aws-amplify	3010	[Typing Issue] EventAttributes interface should require value to be `string` not `any`	https://github.com/aws/aws-amplify/issues/734
+aws	aws-amplify	3010	Fix sendCustomChallengeAnswer typings	https://github.com/aws/aws-amplify/issues/595
+aws	aws-amplify	3010	Adding a validationData support for Auth.signIn?	https://github.com/aws/aws-amplify/issues/394
+sitespeedio	sitespeed.io	2854	Use Grafana annotations	https://github.com/sitespeedio/sitespeed.io/issues/1826
+sitespeedio	sitespeed.io	2854	Allow to exclude URLs from crawling	https://github.com/sitespeedio/sitespeed.io/issues/1929
+nteract	hydrogen	2797	Add information about incompatible packages view to docs troubleshooting page	https://github.com/nteract/hydrogen/issues/1264
+nteract	hydrogen	2797	Support MagicPython per default	https://github.com/nteract/hydrogen/issues/1065
+nteract	hydrogen	2797	Audit our Documentation	https://github.com/nteract/hydrogen/issues/827
+nteract	hydrogen	2797	Watch kernel and runtime directories for updates	https://github.com/nteract/hydrogen/issues/35
+nteract	hydrogen	2797	Improve test coverage	https://github.com/nteract/hydrogen/issues/813
+nteract	hydrogen	2797	Add more examples on how to use Hydrogen	https://github.com/nteract/hydrogen/issues/787
+nteract	hydrogen	2797	Create a new to programming section	https://github.com/nteract/hydrogen/issues/702
+nteract	hydrogen	2797	"Mozilla's Global Sprint (June 1st and 2nd 2017)"	https://github.com/nteract/hydrogen/issues/828
+kubernetes	dashboard	2795	funky pod name causes problem for dashboard	https://github.com/kubernetes/dashboard/issues/3032
+kubernetes	dashboard	2795	Support metrics API	https://github.com/kubernetes/dashboard/issues/2986
+kubernetes	dashboard	2795	cronjob page to allow the creation of jobs from cronjobs	https://github.com/kubernetes/dashboard/issues/3080
+kubernetes	dashboard	2795	History of jobs in Cron Jobs view	https://github.com/kubernetes/dashboard/issues/2786
+kubernetes	dashboard	2795	Handle Kubernetes API server failover	https://github.com/kubernetes/dashboard/issues/3008
+kubernetes	dashboard	2795	"Add option to disable ""Skip"" button on login screen"	https://github.com/kubernetes/dashboard/issues/2672
+kubernetes	dashboard	2795	"Viewing a pod with OwnerReferences ""kind"": ""Pod"" causes a 500"	https://github.com/kubernetes/dashboard/issues/3030
+kubernetes	dashboard	2795	Display limit/request lines on pod/node CPU and memory usage graphs	https://github.com/kubernetes/dashboard/issues/3037
+kubernetes	dashboard	2795	Signin with the kubeconfig created with gcloud container clusters get-credentials doesnt work	https://github.com/kubernetes/dashboard/issues/2849
+kubernetes	dashboard	2795	edit a Secret should base64 decode the values then encode them on save	https://github.com/kubernetes/dashboard/issues/2782
+kubernetes	dashboard	2795	Jobs are not displayed as failed after reaching backoff limit	https://github.com/kubernetes/dashboard/issues/2788
+kubernetes	dashboard	2795	Custom ordering for replicasets	https://github.com/kubernetes/dashboard/issues/882
+Vincit	objection.js	2777	Setup travis to run tests on mssql	https://github.com/Vincit/objection.js/issues/899
+Vincit	objection.js	2777	Problem with $relatedQuery typings	https://github.com/Vincit/objection.js/issues/856
+mozilla-neutrino	neutrino-dev	2660	@neutrinojs/library - compile to standard ES5	https://github.com/mozilla-neutrino/neutrino-dev/issues/781
+mozilla-neutrino	neutrino-dev	2660	Web preset option to enable sourcemaps in production	https://github.com/mozilla-neutrino/neutrino-dev/issues/676
+mozilla-neutrino	neutrino-dev	2660	Provide example for resolving module paths to source dir (FAQ?)	https://github.com/mozilla-neutrino/neutrino-dev/issues/747
+mozilla-neutrino	neutrino-dev	2660	Setting options.output to relative directory above project directory causes clean middleware to not work	https://github.com/mozilla-neutrino/neutrino-dev/issues/362
+mozilla-neutrino	neutrino-dev	2660	README hierarchy - Quickstart/installation	https://github.com/mozilla-neutrino/neutrino-dev/issues/644
+mozilla-neutrino	neutrino-dev	2660	See if any of the neutrino-middleware-eslint defaults are unnecessary	https://github.com/mozilla-neutrino/neutrino-dev/issues/383
+mozilla-neutrino	neutrino-dev	2660	Reducing the potential for confusion if configuring ESLint outside of Neutrino	https://github.com/mozilla-neutrino/neutrino-dev/issues/382
+mozilla-neutrino	neutrino-dev	2660	Provide option to render CLI using webpack-dashboard	https://github.com/mozilla-neutrino/neutrino-dev/issues/357
+mozilla	send	2650	Hack the favicon to show visual progress	https://github.com/mozilla/send/issues/803
+mozilla	send	2650	[Integration-Test] Add test for number of downloads.	https://github.com/mozilla/send/issues/810
+adazzle	react-data-grid	2648	Documentation for Dummies. Yes, for Dummies	https://github.com/adazzle/react-data-grid/issues/1155
+adazzle	react-data-grid	2648	There is no documentation on the schema of the columns parameter	https://github.com/adazzle/react-data-grid/issues/1166
+adazzle	react-data-grid	2648	"There's no ""Jump to source"" file under the Programmatic Scrolling Example."	https://github.com/adazzle/react-data-grid/issues/1159
+adazzle	react-data-grid	2648	"Grouping fails when dragging column - Cannot read property 'types' of undefined (undefined = dataTransfer)"	https://github.com/adazzle/react-data-grid/issues/1014
+adazzle	react-data-grid	2648	AutoCompleteFilter fails if cell value is NULL	https://github.com/adazzle/react-data-grid/issues/1031
+callstack	haul	2436	Update `init` commad to create new format of configuration	https://github.com/callstack/haul/issues/441
+callstack	haul	2436	Compile source	https://github.com/callstack/haul/issues/416
+callstack	haul	2436	Update docs with `reload` feature explained	https://github.com/callstack/haul/issues/249
+callstack	haul	2436	`haul init` clobbers existing project.ext.react gradle config	https://github.com/callstack/haul/issues/376
+callstack	haul	2436	Properly document all CLI options	https://github.com/callstack/haul/issues/375
+callstack	haul	2436	Stop transpiling `import` to `require`	https://github.com/callstack/haul/issues/194
+callstack	haul	2436	DevServer return incorrect Content-Type for assets files	https://github.com/callstack/haul/issues/335
+callstack	haul	2436	Document how to not exclude node_modules	https://github.com/callstack/haul/issues/156
+Roshanjossey	first-contributions	2401	Add country flags to quick access translated versions	https://github.com/Roshanjossey/first-contributions/issues/4966
+Roshanjossey	first-contributions	2401	Make your first pull request	https://github.com/Roshanjossey/first-contributions/issues/490
+Roshanjossey	first-contributions	2401	add IntelliJ IDEs tutorial (WebStorm/PhpStorm/PyCharm etc)	https://github.com/Roshanjossey/first-contributions/issues/4072
+Roshanjossey	first-contributions	2401	Add projects to project list	https://github.com/Roshanjossey/first-contributions/issues/1721
+Roshanjossey	first-contributions	2401	Translations are not up-to-date	https://github.com/Roshanjossey/first-contributions/issues/96
+Roshanjossey	first-contributions	2401	Add more content to additional material	https://github.com/Roshanjossey/first-contributions/issues/802
+developit	microbundle	2215	Add Vue.js support	https://github.com/developit/microbundle/issues/96
+developit	microbundle	2215	How to consume different bundles from package.json	https://github.com/developit/microbundle/issues/91
+gpbl	react-day-picker	2203	Year and month navigation	https://github.com/gpbl/react-day-picker/issues/722
+gpbl	react-day-picker	2203	Highlight selected week number	https://github.com/gpbl/react-day-picker/issues/727
+gpbl	react-day-picker	2203	A setting to quickly enable switching years	https://github.com/gpbl/react-day-picker/issues/682
+gpbl	react-day-picker	2203	"Replace navbar's CSS background with an actual SVG"	https://github.com/gpbl/react-day-picker/issues/708
+gpbl	react-day-picker	2203	"Localization: Could not find a declaration file for module 'react-day-picker/moment'"	https://github.com/gpbl/react-day-picker/issues/593
+MetaMask	metamask-extension	2171	Amalgamate ‘getCurrentCurrency’ and ‘getConvertedCurrency’	https://github.com/MetaMask/metamask-extension/issues/4623
+MetaMask	metamask-extension	2171	Convert gas-fee-display-v2.js to follow pattern in the send/ directory	https://github.com/MetaMask/metamask-extension/issues/4622
+MetaMask	metamask-extension	2171	Version 4.x no longer compiling to es5	https://github.com/MetaMask/metamask-extension/issues/3505
+MetaMask	metamask-extension	2171	Permit sending to zero address for burn	https://github.com/MetaMask/metamask-extension/issues/4567
+MetaMask	metamask-extension	2171	Discard rejected transactions from history	https://github.com/MetaMask/metamask-extension/issues/3896
+MetaMask	metamask-extension	2171	"UX: Add warning to ""Create account"""	https://github.com/MetaMask/metamask-extension/issues/4207
+MetaMask	metamask-extension	2171	NewUI: Indicate loading when confirmation screen is starting up	https://github.com/MetaMask/metamask-extension/issues/4195
+MetaMask	metamask-extension	2171	BigNumber casting issue	https://github.com/MetaMask/metamask-extension/issues/4307
+MetaMask	metamask-extension	2171	Custom RPC URL fails with uppercase HTTP	https://github.com/MetaMask/metamask-extension/issues/4253
+MetaMask	metamask-extension	2171	there should maybe be a warning when sending ether to yourself	https://github.com/MetaMask/metamask-extension/issues/1929
+MetaMask	metamask-extension	2171	New Warning for High Gas Prices	https://github.com/MetaMask/metamask-extension/issues/2258
+MetaMask	metamask-extension	2171	Add a prefix to window.log	https://github.com/MetaMask/metamask-extension/issues/2523
+MetaMask	metamask-extension	2171	Buy Screen - Use ShapeShift Shifty Button	https://github.com/MetaMask/metamask-extension/issues/1872
+MetaMask	metamask-extension	2171	"Don't use ellipses in multiple places in the UI "	https://github.com/MetaMask/metamask-extension/issues/1891
+conversejs	converse.js	2037	Use jsdoc to generate API documentation	https://github.com/conversejs/converse.js/issues/1100
+conversejs	converse.js	2037	On servers with both an IRC gateway and a MUC service, prefill the second for rooms	https://github.com/conversejs/converse.js/issues/1014
+conversejs	converse.js	2037	URLs in the topic / subject are not linkified	https://github.com/conversejs/converse.js/issues/1063
+conversejs	converse.js	2037	"/topic without argument sets topic to ""undefined"""	https://github.com/conversejs/converse.js/issues/1064
+conversejs	converse.js	2037	"Message from non-roster contacts don't appear in fullscreen view_mode"	https://github.com/conversejs/converse.js/issues/1021
+conversejs	converse.js	2037	Send an inactive chatstate when the user switches to another tab	https://github.com/conversejs/converse.js/issues/1058
+conversejs	converse.js	2037	"Setting 'show_send_button'='true' does nothing"	https://github.com/conversejs/converse.js/issues/1033
+conversejs	converse.js	2037	locked_domain should not disallow domain-part in username.	https://github.com/conversejs/converse.js/issues/917
+tommikaikkonen	redux-orm	1976	Set an explicit exception if the Model.modelName property is undefined	https://github.com/tommikaikkonen/redux-orm/issues/197
+tommikaikkonen	redux-orm	1976	feature request - toRefMap	https://github.com/tommikaikkonen/redux-orm/issues/14
+react-ga	react-ga	1933	Handle initialize() being called multiple times with same trackingId	https://github.com/react-ga/react-ga/issues/267
+react-ga	react-ga	1933	Support initialize call without id or expose a bool to check if ga has been initialized?	https://github.com/react-ga/react-ga/issues/255
+react-ga	react-ga	1933	"Cannot find namespace 'React'."	https://github.com/react-ga/react-ga/issues/213
+react-ga	react-ga	1933	Location parameter in ReactGA.pageview function.	https://github.com/react-ga/react-ga/issues/210
+react-ga	react-ga	1933	Reset testModeApi	https://github.com/react-ga/react-ga/issues/235
+react-ga	react-ga	1933	Use babel-env instead of preset es2015	https://github.com/react-ga/react-ga/issues/195
+react-ga	react-ga	1933	 ReactGA.initialize window is not defined	https://github.com/react-ga/react-ga/issues/98
+mavoweb	mavo	1912	Change mv-github-commit-prefix to mv-github-commit-message	https://github.com/mavoweb/mavo/issues/353
+mavoweb	mavo	1912	"Hide or Grey ""Save"" when no data is changed?"	https://github.com/mavoweb/mavo/issues/328
+mavoweb	mavo	1912	Editing widget for durations	https://github.com/mavoweb/mavo/issues/47
+mavoweb	mavo	1912	search(object, needle) should search everything in the object	https://github.com/mavoweb/mavo/issues/342
+mavoweb	mavo	1912	[data-actions] Make initial data the first argument to add()	https://github.com/mavoweb/mavo/issues/344
+mavoweb	mavo	1912	[data-actions] move(property, collection) should be equal to add(property, collection) if property not a collection item	https://github.com/mavoweb/mavo/issues/346
+mavoweb	mavo	1912	Improve Github pull request flow	https://github.com/mavoweb/mavo/issues/336
+mavoweb	mavo	1912	Multiple mv-aliases	https://github.com/mavoweb/mavo/issues/177
+mavoweb	mavo	1912	Custom error messages	https://github.com/mavoweb/mavo/issues/101
+reactjs	reactjs.org	1869	Official React Conf seems unindexed by Google	https://github.com/reactjs/reactjs.org/issues/410
+reactjs	reactjs.org	1869	Document (non-)interaction between native and synthetic events	https://github.com/reactjs/reactjs.org/issues/68
+reactjs	reactjs.org	1869	Accessibility: Add a link to skip the twitter blocks	https://github.com/reactjs/reactjs.org/issues/445
+reactjs	reactjs.org	1869	Test Utils page is available in Google search results, but the front-end redirects the visitor	https://github.com/reactjs/reactjs.org/issues/605
+reactjs	reactjs.org	1869	Run examples in Markdown through Prettier	https://github.com/reactjs/reactjs.org/issues/310
+reactjs	reactjs.org	1869	Add ES5 example to Tutorial	https://github.com/reactjs/reactjs.org/issues/73
+reactjs	reactjs.org	1869	Add Flow types to website source	https://github.com/reactjs/reactjs.org/issues/24
+reactjs	reactjs.org	1869	Add Error Handling to FAQ	https://github.com/reactjs/reactjs.org/issues/309
+reactjs	reactjs.org	1869	Document simulating browser events	https://github.com/reactjs/reactjs.org/issues/352
+reactjs	reactjs.org	1869	Add error boundaries and exception tracking to the website	https://github.com/reactjs/reactjs.org/issues/9
+reactjs	reactjs.org	1869	Mention that `Component.render` could return iterator	https://github.com/reactjs/reactjs.org/issues/286
+reactjs	reactjs.org	1869	Links in without extension disable navigation	https://github.com/reactjs/reactjs.org/issues/241
+reactjs	reactjs.org	1869	New guides wanted	https://github.com/reactjs/reactjs.org/issues/83
+reactjs	reactjs.org	1869	Document how React treats different attributes	https://github.com/reactjs/reactjs.org/issues/80
+reactjs	reactjs.org	1869	Improve/create documentation for ReactTestUtils.renderIntoDocument()	https://github.com/reactjs/reactjs.org/issues/28
+reactjs	reactjs.org	1869	"Restructure docs to provide ""paths"" for guidance?"	https://github.com/reactjs/reactjs.org/issues/22
+ballercat	walt	1809	Top Level StringLiteral constants	https://github.com/ballercat/walt/issues/115
+ballercat	walt	1809	Benchmark requests	https://github.com/ballercat/walt/issues/112
+ballercat	walt	1809	Language Feature Document	https://github.com/ballercat/walt/issues/73
+ballercat	walt	1809	Expose memory.grow, memory.size, memory.dataLength	https://github.com/ballercat/walt/issues/79
+ballercat	walt	1809	Built in Closure plugin into loader	https://github.com/ballercat/walt/issues/71
+ballercat	walt	1809	Port simple heap for closure plugin	https://github.com/ballercat/walt/issues/70
+ballercat	walt	1809	Optimizer	https://github.com/ballercat/walt/issues/63
+zenoamaro	react-quill	1787	Custom Editing Area losing focus in React 16	https://github.com/zenoamaro/react-quill/issues/309
+zenoamaro	react-quill	1787	Documentation error	https://github.com/zenoamaro/react-quill/issues/355
+zenoamaro	react-quill	1787	Paste something will trigger the blur event.	https://github.com/zenoamaro/react-quill/issues/276
+Codeception	CodeceptJS	1717	switchTo Protractor	https://github.com/Codeception/CodeceptJS/issues/375
+Codeception	CodeceptJS	1717	Right Click with protractor	https://github.com/Codeception/CodeceptJS/issues/227
+akxcv	vuera	1711	Attribute hyphenation	https://github.com/akxcv/vuera/issues/40
+akxcv	vuera	1711	ReactDOM.createPortal instead of ReactDOM.render	https://github.com/akxcv/vuera/issues/17
+akxcv	vuera	1711	Distribution file compatibility	https://github.com/akxcv/vuera/issues/29
+akxcv	vuera	1711	Benchmark	https://github.com/akxcv/vuera/issues/16
+pod4g	hiper	1649	chrome/firefox extension would be extra valuable.	https://github.com/pod4g/hiper/issues/8
+pod4g	hiper	1649	Think about a webpack plugin? 	https://github.com/pod4g/hiper/issues/3
+openstreetmap	iD	1609	Add name field to natural=cliff preset	https://github.com/openstreetmap/iD/issues/5095
+openstreetmap	iD	1609	Numeric preset fields should localize numbers	https://github.com/openstreetmap/iD/issues/3615
+maptalks	maptalks.js	1568	关于maptalks图层上绘制子画布和自定义的动画	https://github.com/maptalks/maptalks.js/issues/701
+maptalks	maptalks.js	1568	不支持wmts吗？	https://github.com/maptalks/maptalks.js/issues/599
+raphamorim	react-tv	1548	Add more examples	https://github.com/raphamorim/react-tv/issues/118
+raphamorim	react-tv	1548	Fix Flow task	https://github.com/raphamorim/react-tv/issues/30
+raphamorim	react-tv	1548	Heads up for canvas	https://github.com/raphamorim/react-tv/issues/49
+Zarel	Pokemon-Showdown	1519	Known Mechanics Bugs	https://github.com/Zarel/Pokemon-Showdown/issues/2367
+Zarel	Pokemon-Showdown	1519	Ideas for new developers	https://github.com/Zarel/Pokemon-Showdown/issues/2444
+DivanteLtd	vue-storefront	1495	Add more integration tests	https://github.com/DivanteLtd/vue-storefront/issues/1274
+DivanteLtd	vue-storefront	1495	Contentful / Headless CMS integration	https://github.com/DivanteLtd/vue-storefront/issues/697
+DivanteLtd	vue-storefront	1495	Checkout: required (red label) missing on country select 	https://github.com/DivanteLtd/vue-storefront/issues/1227
+DivanteLtd	vue-storefront	1495	"Adjustments on ""Search sidebar widget"" component"	https://github.com/DivanteLtd/vue-storefront/issues/971
+DivanteLtd	vue-storefront	1495	Rename API urls /api/changePassword and /api/resetPassword	https://github.com/DivanteLtd/vue-storefront/issues/981
+DivanteLtd	vue-storefront	1495	Create Wordpress Integration extension	https://github.com/DivanteLtd/vue-storefront/issues/812
+DivanteLtd	vue-storefront	1495	Adding Hotjar trackign code	https://github.com/DivanteLtd/vue-storefront/issues/840
+DivanteLtd	vue-storefront	1495	Integration with Intercom	https://github.com/DivanteLtd/vue-storefront/issues/858
+DivanteLtd	vue-storefront	1495	Add PayPal support 	https://github.com/DivanteLtd/vue-storefront/issues/793
+DivanteLtd	vue-storefront	1495	"[docs] Update 'Working With data'"	https://github.com/DivanteLtd/vue-storefront/issues/719
+DivanteLtd	vue-storefront	1495	Add Stripe support via Payment request API	https://github.com/DivanteLtd/vue-storefront/issues/792
+DivanteLtd	vue-storefront	1495	Fix checkout form in mobile	https://github.com/DivanteLtd/vue-storefront/issues/912
+DivanteLtd	vue-storefront	1495	Add support for virtual products	https://github.com/DivanteLtd/vue-storefront/issues/699
+DivanteLtd	vue-storefront	1495	Unit tests for Category Page core component	https://github.com/DivanteLtd/vue-storefront/issues/859
+DivanteLtd	vue-storefront	1495	Integrate Algolia search instead of current Search Component	https://github.com/DivanteLtd/vue-storefront/issues/764
+DivanteLtd	vue-storefront	1495	Check if components are following single source of truth rule	https://github.com/DivanteLtd/vue-storefront/issues/887
+DivanteLtd	vue-storefront	1495	Design video banner component	https://github.com/DivanteLtd/vue-storefront/issues/873
+DivanteLtd	vue-storefront	1495	Add dynamic port allocation	https://github.com/DivanteLtd/vue-storefront/issues/849
+DivanteLtd	vue-storefront	1495	Add integration with Nosto recommendations	https://github.com/DivanteLtd/vue-storefront/issues/363
+DivanteLtd	vue-storefront	1495	Add product reviews sync to mage2nosql	https://github.com/DivanteLtd/vue-storefront/issues/647
+DivanteLtd	vue-storefront	1495	Create list of all event across all the components and stores	https://github.com/DivanteLtd/vue-storefront/issues/776
+DivanteLtd	vue-storefront	1495	"Add default user's country selection based on browser language"	https://github.com/DivanteLtd/vue-storefront/issues/312
+DivanteLtd	vue-storefront	1495	Add the photo zoom feature on the product card	https://github.com/DivanteLtd/vue-storefront/issues/197
+marionebl	commitlint	1478	"Webstorm / IntellIJ generated commit message ""Merge remote-tracking branch 'origin/master'"" fails"	https://github.com/marionebl/commitlint/issues/315
+marionebl	commitlint	1478	"Change the word 'missing' to 'invalid'"	https://github.com/marionebl/commitlint/issues/313
+marionebl	commitlint	1478	docs: mention commitizen in prompt guide	https://github.com/marionebl/commitlint/issues/184
+marionebl	commitlint	1478	prompt-cli: check stage before entering prompt 	https://github.com/marionebl/commitlint/issues/51
+webpack-contrib	mini-css-extract-plugin	1403	"SourceMaps for imported SASS partials don't work"	https://github.com/webpack-contrib/mini-css-extract-plugin/issues/123
+webpack-contrib	mini-css-extract-plugin	1403	[docs]: how to override webpack.output.publicPath	https://github.com/webpack-contrib/mini-css-extract-plugin/issues/44
+webpack-contrib	mini-css-extract-plugin	1403	Hot Reload plan?	https://github.com/webpack-contrib/mini-css-extract-plugin/issues/34
+db-migrate	node-db-migrate	1375	Allow column comments	https://github.com/db-migrate/node-db-migrate/issues/558
+db-migrate	node-db-migrate	1375	db-migrate fails to show version if database.json missing	https://github.com/db-migrate/node-db-migrate/issues/568
+db-migrate	node-db-migrate	1375	Move templates to plugins	https://github.com/db-migrate/node-db-migrate/issues/514
+db-migrate	node-db-migrate	1375	Add executeAfter setting to scope configuration	https://github.com/db-migrate/node-db-migrate/issues/511
+db-migrate	node-db-migrate	1375	Add group setting to scope config	https://github.com/db-migrate/node-db-migrate/issues/510
+db-migrate	node-db-migrate	1375	Add excludeFromAll setting to scope config	https://github.com/db-migrate/node-db-migrate/issues/509
+db-migrate	node-db-migrate	1375	EventEmitter memory leaks	https://github.com/db-migrate/node-db-migrate/issues/421
+db-migrate	node-db-migrate	1375	"Is there a way to hook into an ""afterMigrate"" event?"	https://github.com/db-migrate/node-db-migrate/issues/384
+db-migrate	node-db-migrate	1375	Add a docker configuration to ease testing	https://github.com/db-migrate/node-db-migrate/issues/372
+db-migrate	node-db-migrate	1375	"Support ""databaseless"" execution commands"	https://github.com/db-migrate/node-db-migrate/issues/338
+ml5js	ml5-library	1374	Write and publish as standard JS modules.	https://github.com/ml5js/ml5-library/issues/139
+ml5js	ml5-library	1374	Promises?	https://github.com/ml5js/ml5-library/issues/143
+ml5js	ml5-library	1374	Investigate Observable for tutorials / examples	https://github.com/ml5js/ml5-library/issues/54
+ml5js	ml5-library	1374	Unit Testing and CI	https://github.com/ml5js/ml5-library/issues/41
+openseadragon	openseadragon	1367	Accessing a TileSource instance and a question about docs	https://github.com/openseadragon/openseadragon/issues/1477
+openseadragon	openseadragon	1367	Can I control how the full-res image is displayed - unaliased??	https://github.com/openseadragon/openseadragon/issues/1463
+openseadragon	openseadragon	1367	"Be able to add new buttons to the viewer's ButtonGroup"	https://github.com/openseadragon/openseadragon/issues/1430
+openseadragon	openseadragon	1367	"Test failure in Firefox:  ""Events: Viewer: preventDefaultAction in dblClickHandlerRerun"""	https://github.com/openseadragon/openseadragon/issues/1372
+openseadragon	openseadragon	1367	Question:  FitHorizontally, but display top row of images	https://github.com/openseadragon/openseadragon/issues/839
+openseadragon	openseadragon	1367	Can we change MaxZoomPixelRatio after tiles are already loaded without re-render?	https://github.com/openseadragon/openseadragon/issues/1359
+openseadragon	openseadragon	1367	"""global"" fully-loaded support for the Viewer"	https://github.com/openseadragon/openseadragon/issues/1257
+openseadragon	openseadragon	1367	Question: Detecting FullScreen	https://github.com/openseadragon/openseadragon/issues/1320
+openseadragon	openseadragon	1367	Toggle keyboard support?	https://github.com/openseadragon/openseadragon/issues/794
+openseadragon	openseadragon	1367	Expose navigation button event handlers as external API methods.	https://github.com/openseadragon/openseadragon/issues/489
+openseadragon	openseadragon	1367	Make it clear how to modify tiles on tile load	https://github.com/openseadragon/openseadragon/issues/1084
+openseadragon	openseadragon	1367	Mobile gestureSettingsTouch	https://github.com/openseadragon/openseadragon/issues/1034
+openseadragon	openseadragon	1367	More unit tests!	https://github.com/openseadragon/openseadragon/issues/306
+openseadragon	openseadragon	1367	HTML needs to be escaped in comments	https://github.com/openseadragon/openseadragon/issues/410
+openseadragon	openseadragon	1367	"Custom location navigator position is changed from 'fixed' to 'relative'"	https://github.com/openseadragon/openseadragon/issues/496
+bpmn-io	bpmn-js	1366	I can model the message marker of a message flow	https://github.com/bpmn-io/bpmn-js/issues/447
+bpmn-io	bpmn-js	1366	I can model data object markers	https://github.com/bpmn-io/bpmn-js/issues/381
+bpmn-io	bpmn-js	1366	Fix external label size	https://github.com/bpmn-io/bpmn-js/issues/701
+bpmn-io	bpmn-js	1366	Mobile click on elements not always working 	https://github.com/bpmn-io/bpmn-js/issues/449
+bpmn-io	bpmn-js	1366	Add mouse move styling to lasso tool 	https://github.com/bpmn-io/bpmn-js/issues/173
+bpmn-io	bpmn-js	1366	"Empty line at the end of description didn't vanish after deletion"	https://github.com/bpmn-io/bpmn-js/issues/763
+bpmn-io	bpmn-js	1366	Show ID + name tooltip for elements on Canvas	https://github.com/bpmn-io/bpmn-js/issues/530
+securingsincity	react-ace	1209	Disable annotations (useWorker not working)	https://github.com/securingsincity/react-ace/issues/275
+securingsincity	react-ace	1209	Get editor from onFocus function	https://github.com/securingsincity/react-ace/issues/389
+securingsincity	react-ace	1209	redo() does not call onChange callback	https://github.com/securingsincity/react-ace/issues/292
+bkimminich	juice-shop	1133	"Editing Admin's reviews is not listed as a challenge"	https://github.com/bkimminich/juice-shop/issues/538
+bkimminich	juice-shop	1133	String-based operators challenge	https://github.com/bkimminich/juice-shop/issues/451
+sendgrid	sendgrid-nodejs	1117	Updates for the new Email Activity API (beta)	https://github.com/sendgrid/sendgrid-nodejs/issues/669
+sendgrid	sendgrid-nodejs	1117	Allow method chaining in @sendgrid/mail	https://github.com/sendgrid/sendgrid-nodejs/issues/682
+sendgrid	sendgrid-nodejs	1117	Update Documentation so That Using Substitutions is Easier	https://github.com/sendgrid/sendgrid-nodejs/issues/681
+EFForg	privacybadger	1112	Whitelisted wildcard (start with *.) domains disable Badger on all sites with the same base domains	https://github.com/EFForg/privacybadger/issues/1519
+EFForg	privacybadger	1112	Replacement widget icons are outdated	https://github.com/EFForg/privacybadger/issues/1857
+EFForg	privacybadger	1112	Add option to disable sending the Do Not Track (DNT) signal	https://github.com/EFForg/privacybadger/issues/2038
+EFForg	privacybadger	1112	Reduce confusion around Whitelisted Domains	https://github.com/EFForg/privacybadger/issues/2045
+EFForg	privacybadger	1112	First-party scripts should not run when privacy badger is disabled	https://github.com/EFForg/privacybadger/issues/2025
+EFForg	privacybadger	1112	"[Firefox] ""Move to Menu"" breaks layout"	https://github.com/EFForg/privacybadger/issues/1120
+EFForg	privacybadger	1112	Improve error reporting usability by saving in-progress error reports	https://github.com/EFForg/privacybadger/issues/1965
+EFForg	privacybadger	1112	Fix docs and possibly code to support running functional tests on macOS	https://github.com/EFForg/privacybadger/issues/1896
+EFForg	privacybadger	1112	Support Twitter Lite/Twitter PWA t.co link expanding	https://github.com/EFForg/privacybadger/issues/1886
+EFForg	privacybadger	1112	Tracking Domains options page tab only uses half the page	https://github.com/EFForg/privacybadger/issues/1599
+poooi	poi	1060	希望增加两个小功能	https://github.com/poooi/poi/issues/1625
+poooi	poi	1060	170930 近代化改修更新相关	https://github.com/poooi/poi/issues/1593
+poooi	poi	1060	关于老板键的小bug	https://github.com/poooi/poi/issues/1607
+Laravel-Backpack	CRUD	1012	Custom notification in case destroy() failed	https://github.com/Laravel-Backpack/CRUD/issues/715
+Laravel-Backpack	CRUD	1012	[Feature Request] CRUD field type - phone	https://github.com/Laravel-Backpack/CRUD/issues/1202
+ExpressGateway	express-gateway	992	Bug : HTTP_PROXY env variable malformed URI makes EG crash with no notice	https://github.com/ExpressGateway/express-gateway/issues/737
+ExpressGateway	express-gateway	992	"Plugin settings schema validation doesn't work."	https://github.com/ExpressGateway/express-gateway/issues/756
+ExpressGateway	express-gateway	992	Consent page improvements: minimal style + scope show	https://github.com/ExpressGateway/express-gateway/issues/739
+ks888	LambStatus	966	/incidents API improvements	https://github.com/ks888/LambStatus/issues/99
+ks888	LambStatus	966	Delete stack fails	https://github.com/ks888/LambStatus/issues/69
+textlint	textlint	961	Show message when `textlint --init`	https://github.com/textlint/textlint/issues/504
+textlint	textlint	961	Support .textlintignore	https://github.com/textlint/textlint/issues/500
+textlint	textlint	961	.textlintrc should be encoded as UTF-8	https://github.com/textlint/textlint/issues/298
+textlint	textlint	961	textlint --debug should include textlint version	https://github.com/textlint/textlint/issues/505
+textlint	textlint	961	Add warning for specified unavailable formatter	https://github.com/textlint/textlint/issues/462
+textlint	textlint	961	Convert tests to TypeScript	https://github.com/textlint/textlint/issues/369
+textlint	textlint	961	Introduce dependency-cruiser	https://github.com/textlint/textlint/issues/373
+textlint	textlint	961	Import * to monorepo	https://github.com/textlint/textlint/issues/270
+textlint	textlint	961	Provide `:exit` as constants	https://github.com/textlint/textlint/issues/267
+blockstack	blockstack-browser	956	Reveal private keys within the Browser	https://github.com/blockstack/blockstack-browser/issues/1261
+blockstack	blockstack-browser	956	Add Windows Installation Instructions.	https://github.com/blockstack/blockstack-browser/issues/886
+blockstack	blockstack-browser	956	Open a Bitcoin block explorer when you click on a Bitcoin address in a profile	https://github.com/blockstack/blockstack-browser/issues/996
+blockstack	blockstack-browser	956	Open an Ethereum block explorer when you click on an Ethereum address in a profile	https://github.com/blockstack/blockstack-browser/issues/997
+blockstack	blockstack-browser	956	Documentation for api configuration	https://github.com/blockstack/blockstack-browser/issues/520
+blockstack	blockstack-browser	956	"Add ""Send All"" Feature to the Browser Wallet"	https://github.com/blockstack/blockstack-browser/issues/903
+blockstack	blockstack-browser	956	Local Core Endpoint Should be Configurable	https://github.com/blockstack/blockstack-browser/issues/819
+blockstack	blockstack-browser	956	Absolute path support for imports	https://github.com/blockstack/blockstack-browser/issues/825
+blockstack	blockstack-browser	956	Sort social proof lists in consistent order	https://github.com/blockstack/blockstack-browser/issues/709
+wesbos	keycodes	938	German umlauts not recognized	https://github.com/wesbos/keycodes/issues/3
+wesbos	keycodes	938	Several keys with identical key codes in AZERTY	https://github.com/wesbos/keycodes/issues/88
+wesbos	keycodes	938	Azerty keymaps (Linux)	https://github.com/wesbos/keycodes/issues/23
+wesbos	keycodes	938	Missing keycode 218	https://github.com/wesbos/keycodes/issues/150
+wesbos	keycodes	938	Missing keycode for Compose key	https://github.com/wesbos/keycodes/issues/187
+wesbos	keycodes	938	Missing keycode & 10 more bugs	https://github.com/wesbos/keycodes/issues/166
+wesbos	keycodes	938	Missing keycode 241	https://github.com/wesbos/keycodes/issues/192
+wesbos	keycodes	938	Zoom says CTRL	https://github.com/wesbos/keycodes/issues/131
+wesbos	keycodes	938	Missing keycode 241	https://github.com/wesbos/keycodes/issues/222
+wesbos	keycodes	938	Missing keycode 152	https://github.com/wesbos/keycodes/issues/225
+wesbos	keycodes	938	Missing keycode ${e.keyCode}	https://github.com/wesbos/keycodes/issues/165
+wesbos	keycodes	938	Missing keycode	https://github.com/wesbos/keycodes/issues/102
+wesbos	keycodes	938	Missing keycode 229	https://github.com/wesbos/keycodes/issues/79
+wesbos	keycodes	938	Turkish characters all missing	https://github.com/wesbos/keycodes/issues/172
+react-materialize	react-materialize	931	DatePicker reopens when changing tabs.	https://github.com/react-materialize/react-materialize/issues/468
+react-materialize	react-materialize	931	Support `onClick` for <NavItem/>	https://github.com/react-materialize/react-materialize/issues/465
+outline	outline	876	Redirect to document after duplicating	https://github.com/outline/outline/issues/673
+outline	outline	876	CMD+K should trigger search	https://github.com/outline/outline/issues/671
+sindresorhus	refined-twitter	846	"Remove ""and others follow"" from stream"	https://github.com/sindresorhus/refined-twitter/issues/112
+sindresorhus	refined-twitter	846	820px is too narrow for global-nav container	https://github.com/sindresorhus/refined-twitter/issues/86
+home-sweet-gnome	dash-to-panel	842	Options in menu duplicates dissapear	https://github.com/home-sweet-gnome/dash-to-panel/issues/197
+home-sweet-gnome	dash-to-panel	842	Provide maximum width for the App Menu text	https://github.com/home-sweet-gnome/dash-to-panel/issues/110
+julien-lafont	Mocky	831	Ability to generate response from existing response	https://github.com/julien-lafont/Mocky/issues/16
+julien-lafont	Mocky	831	Parameter to randomly generate an error response	https://github.com/julien-lafont/Mocky/issues/20
+radi-js	radi	811	Feature Request: Custom Attributes	https://github.com/radi-js/radi/issues/23
+radi-js	radi	811	Is it planned to support the SSR?	https://github.com/radi-js/radi/issues/14
+cam-inc	viron	804	Weather Forecast UI Component.	https://github.com/cam-inc/viron/issues/268
+cam-inc	viron	804	Set endpoint-matter list of links and display it somewhere.(top right side of header, maybe.)	https://github.com/cam-inc/viron/issues/272
+cam-inc	viron	804	Permeate gb color of Modal UI components if mobile device used.	https://github.com/cam-inc/viron/issues/274
+cam-inc	viron	804	Change BG image of menu(left-side column) for each one of endpoints.	https://github.com/cam-inc/viron/issues/258
+cam-inc	viron	804	Add supplementary information about media object. E.g. size of image.	https://github.com/cam-inc/viron/issues/266
+cam-inc	viron	804	New component card to display Twitter timeline.	https://github.com/cam-inc/viron/issues/246
+cam-inc	viron	804	Url on the bottom of Media UI Component overflows when Base64 is used.	https://github.com/cam-inc/viron/issues/244
+cam-inc	viron	804	Add a new Note component card.	https://github.com/cam-inc/viron/issues/242
+cam-inc	viron	804	Show horizontal scroll bar on Table component cards.	https://github.com/cam-inc/viron/issues/243
+cam-inc	viron	804	"Apply better design for component's error messages."	https://github.com/cam-inc/viron/issues/260
+cam-inc	viron	804	Differentiate the design of categories in left column menu.	https://github.com/cam-inc/viron/issues/262
+cam-inc	viron	804	Calendar component card.	https://github.com/cam-inc/viron/issues/304
+sysgears	apollo-universal-starter-kit	803	Add Firebase authentication	https://github.com/sysgears/apollo-universal-starter-kit/issues/752
+sysgears	apollo-universal-starter-kit	803	Add Material UI integration	https://github.com/sysgears/apollo-universal-starter-kit/issues/751
+sysgears	apollo-universal-starter-kit	803	Add GDPR compliance	https://github.com/sysgears/apollo-universal-starter-kit/issues/744
+sysgears	apollo-universal-starter-kit	803	Server error responses not translated	https://github.com/sysgears/apollo-universal-starter-kit/issues/720
+sysgears	apollo-universal-starter-kit	803	Switch from Enzyme to react-testing-library for React tests	https://github.com/sysgears/apollo-universal-starter-kit/issues/712
+sysgears	apollo-universal-starter-kit	803	Update Comment Error	https://github.com/sysgears/apollo-universal-starter-kit/issues/691
+sysgears	apollo-universal-starter-kit	803	Add New User Not Working	https://github.com/sysgears/apollo-universal-starter-kit/issues/692
+sysgears	apollo-universal-starter-kit	803	"Display ""No Posts"" Message"	https://github.com/sysgears/apollo-universal-starter-kit/issues/693
+renovateapp	renovate	751	Port ensureIssue/ensureIssueClosing to GitLab	https://github.com/renovateapp/renovate/issues/1587
+renovateapp	renovate	751	Add GitLab API 429 retries	https://github.com/renovateapp/renovate/issues/1578
+renovateapp	renovate	751	"Automerge doesn't work if the CI first fails but fixed in another update"	https://github.com/renovateapp/renovate/issues/1381
+renovateapp	renovate	751	Log Measurement of Available API Calls Remaining	https://github.com/renovateapp/renovate/issues/1516
+renovateapp	renovate	751	Add retries to docker registry lookups	https://github.com/renovateapp/renovate/issues/1701
+renovateapp	renovate	751	Port branchList to GitLab	https://github.com/renovateapp/renovate/issues/1588
+renovateapp	renovate	751	Harmonize platform return values	https://github.com/renovateapp/renovate/issues/1537
+renovateapp	renovate	751	Gracefully Handle npm Rate Limiting	https://github.com/renovateapp/renovate/issues/754
+renovateapp	renovate	751	GitHub 5xx errors should warn, not error	https://github.com/renovateapp/renovate/issues/1249
+pusher	react-slack-clone	746	Message sharing	https://github.com/pusher/react-slack-clone/issues/18
+pusher	react-slack-clone	746	Live location sharing	https://github.com/pusher/react-slack-clone/issues/17
+pusher	react-slack-clone	746	Message replies	https://github.com/pusher/react-slack-clone/issues/19
+pusher	react-slack-clone	746	Custom status message	https://github.com/pusher/react-slack-clone/issues/16
+pusher	react-slack-clone	746	Custom emoji picker component	https://github.com/pusher/react-slack-clone/issues/15
+pusher	react-slack-clone	746	Search	https://github.com/pusher/react-slack-clone/issues/20
+nodejs	nodejs.org	729	doc-eventLoop	https://github.com/nodejs/nodejs.org/issues/1573
+nodejs	nodejs.org	729	More user friendly stream docs	https://github.com/nodejs/nodejs.org/issues/1595
+nodejs	nodejs.org	729	Add translation workflow to website repository	https://github.com/nodejs/nodejs.org/issues/972
+apollographql	graphql-tag	719	"Can't use .gql file within .vue file in Nuxt (""Syntax Error GraphQL Unexpected Name 'var'"")"	https://github.com/apollographql/graphql-tag/issues/191
+apollographql	graphql-tag	719	Feature request: Perform a deep freeze on the AST stored in the docCache	https://github.com/apollographql/graphql-tag/issues/123
+prebid	Prebid.js	676	Our version of gulp-webdriver depends on github dependency which sometimes fails	https://github.com/prebid/Prebid.js/issues/2138
+prebid	Prebid.js	676	Notify bidder on adRenderFailed event	https://github.com/prebid/Prebid.js/issues/2303
+prakhar1989	react-tags	670	Displaying tags below input field	https://github.com/prakhar1989/react-tags/issues/297
+prakhar1989	react-tags	670	Documenting option defaults	https://github.com/prakhar1989/react-tags/issues/257
+prakhar1989	react-tags	670	allowUnique	https://github.com/prakhar1989/react-tags/issues/258
+conorhastings	react-syntax-highlighter	635	some styles of Prism is missing	https://github.com/conorhastings/react-syntax-highlighter/issues/119
+conorhastings	react-syntax-highlighter	635	Feature request: add support for `className` property on wrapped lines	https://github.com/conorhastings/react-syntax-highlighter/issues/120
+minimalchat	client	626	Support gravatar images for operators	https://github.com/minimalchat/client/issues/45
+minimalchat	client	626	"Support dynamic headline ""Chat with John"""	https://github.com/minimalchat/client/issues/46
+minimalchat	client	626	After refresh, ordering of messages appears random	https://github.com/minimalchat/client/issues/44
+prettier	prettier-atom	626	support disabling specific ESLint rule fixes	https://github.com/prettier/prettier-atom/issues/413
+prettier	prettier-atom	626	Support prettier-tslint	https://github.com/prettier/prettier-atom/issues/302
+prettier	prettier-atom	626	"Support Atom IDE's built-in code formatting"	https://github.com/prettier/prettier-atom/issues/391
+prettier	prettier-atom	626	Option to format on Open	https://github.com/prettier/prettier-atom/issues/319
+prettier	prettier-atom	626	Add local dependencies to prettier:debug output	https://github.com/prettier/prettier-atom/issues/222
+serverless	components	616	Add an aws-sns-topic component	https://github.com/serverless/components/issues/174
+serverless	components	616	Add aws-sns-subscription components	https://github.com/serverless/components/issues/175
+serverless	components	616	Update the aws-s3-bucket component to mirror the AWS sdk	https://github.com/serverless/components/issues/203
+serverless	components	616	Add support for an authorizer property to the rest-api component	https://github.com/serverless/components/issues/204
+dynamoosejs	dynamoose	606	Design Dynamoose icon	https://github.com/dynamoosejs/dynamoose/issues/372
+dynamoosejs	dynamoose	606	No Documentation on What IAM Permissions are Required	https://github.com/dynamoosejs/dynamoose/issues/292
+maputnik	editor	592	Input field accessibility	https://github.com/maputnik/editor/issues/319
+maputnik	editor	592	get name from package.json 	https://github.com/maputnik/editor/issues/251
+FortAwesome	react-fontawesome	582	Remove humps from the package.json dependencies	https://github.com/FortAwesome/react-fontawesome/issues/114
+FortAwesome	react-fontawesome	582	Add table of contents to README	https://github.com/FortAwesome/react-fontawesome/issues/109
+thierryc	Sketch-Find-And-Replace	557	Sketch-Find-And-Replace 2.0	https://github.com/thierryc/Sketch-Find-And-Replace/issues/65
+thierryc	Sketch-Find-And-Replace	557	Sketch find and replace Website (GHPAGE)	https://github.com/thierryc/Sketch-Find-And-Replace/issues/60
+thierryc	Sketch-Find-And-Replace	557	fix runner install	https://github.com/thierryc/Sketch-Find-And-Replace/issues/39
+thierryc	Sketch-Find-And-Replace	557	Update documentation for regex	https://github.com/thierryc/Sketch-Find-And-Replace/issues/41
+plotly	falcon-sql-client	543	Feature request: Apache Drill connector without S3	https://github.com/plotly/falcon-sql-client/issues/450
+plotly	falcon-sql-client	543	New Database Connectors	https://github.com/plotly/falcon-sql-client/issues/345
+plotly	falcon-sql-client	543	Support for Vertica	https://github.com/plotly/falcon-sql-client/issues/344
+plotly	falcon-sql-client	543	Connector for DynamoDB	https://github.com/plotly/falcon-sql-client/issues/302
+plotly	falcon-sql-client	543	Refactor Preview.react.js and Settings.react.js	https://github.com/plotly/falcon-sql-client/issues/362
+plotly	falcon-sql-client	543	Add support for Firebird	https://github.com/plotly/falcon-sql-client/issues/297
+silexlabs	Silex	538	Heroku one-click deploy fails	https://github.com/silexlabs/Silex/issues/741
+silexlabs	Silex	538	Get rid of closure compiler for type checking	https://github.com/silexlabs/Silex/issues/740
+silexlabs	Silex	538	ES6 syntax	https://github.com/silexlabs/Silex/issues/739
+silexlabs	Silex	538	ES6 classes	https://github.com/silexlabs/Silex/issues/738
+silexlabs	Silex	538	Feature request: new the text editor	https://github.com/silexlabs/Silex/issues/662
+silexlabs	Silex	538	Official silex website is wrong: Wordpress is foss	https://github.com/silexlabs/Silex/issues/658
+silexlabs	Silex	538	Appel aux designers pro ou amateurs !	https://github.com/silexlabs/Silex/issues/714
+silexlabs	Silex	538	Designers help wanted	https://github.com/silexlabs/Silex/issues/713
+silexlabs	Silex	538	feature request: simple analytics in Silex	https://github.com/silexlabs/Silex/issues/645
+silexlabs	Silex	538	Visible en desktop	https://github.com/silexlabs/Silex/issues/660
+opencomponents	oc	529	Handling failed render in oc-client	https://github.com/opencomponents/oc/issues/492
+opencomponents	oc	529	reusable OC eslint config	https://github.com/opencomponents/oc/issues/518
+opencomponents	oc	529	Allow re-render in the client-side with different parameters	https://github.com/opencomponents/oc/issues/295
+quran	quran.com-frontend	524	Changing Surah while playing is throwing error/plus continue playing current surah	https://github.com/quran/quran.com-frontend/issues/525
+quran	quran.com-frontend	524	Stop button in audio player	https://github.com/quran/quran.com-frontend/issues/673
+quran	quran.com-frontend	524	UI: Add hizb and juz in ayah and reading mode	https://github.com/quran/quran.com-frontend/issues/371
+adsbypasser	adsbypasser	523	[Request] 94lauin.com	https://github.com/adsbypasser/adsbypasser/issues/1835
+adsbypasser	adsbypasser	523	@noframes	https://github.com/adsbypasser/adsbypasser/issues/1741
+adsbypasser	adsbypasser	523	[Request] s.yukisubs.com	https://github.com/adsbypasser/adsbypasser/issues/1799
+adsbypasser	adsbypasser	523	[Request] links.fiuxy.bz	https://github.com/adsbypasser/adsbypasser/issues/1702
+atom	github	516	View Push/Pull operations output	https://github.com/atom/github/issues/987
+atom	github	516	Add blank line between title and message in commits	https://github.com/atom/github/issues/791
+atom	github	516	"Add ""checkout"" command to checkout new and existing branches"	https://github.com/atom/github/issues/926
+atom	github	516	When viewing undo discard conflicts in a new file, set path to project folder	https://github.com/atom/github/issues/601
+moaazsidat	react-native-qrcode-scanner	516	Looking for an Android developer as a core contributor	https://github.com/moaazsidat/react-native-qrcode-scanner/issues/59
+moaazsidat	react-native-qrcode-scanner	516	Can the dimensions of the camera scanner become smaller when in a smaller View?	https://github.com/moaazsidat/react-native-qrcode-scanner/issues/65
+moaazsidat	react-native-qrcode-scanner	516	How do I use this component with ReactNavigation?	https://github.com/moaazsidat/react-native-qrcode-scanner/issues/27
+SoapBox	linkifyjs	503	Option to cut link text to N symbols	https://github.com/SoapBox/linkifyjs/issues/79
+SoapBox	linkifyjs	503	React Router Linkify component	https://github.com/SoapBox/linkifyjs/issues/169
+SoapBox	linkifyjs	503	linkify  convert any word preceded  by // to a link	https://github.com/SoapBox/linkifyjs/issues/206
+SoapBox	linkifyjs	503	Ignore elements with specifed class	https://github.com/SoapBox/linkifyjs/issues/181
+SoapBox	linkifyjs	503	linkifyHtml returning empty string with <!DOCTYPE html> tag	https://github.com/SoapBox/linkifyjs/issues/203
