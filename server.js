@@ -67,10 +67,19 @@ class GoodFirstIssueFinder {
 
 app.get('/issues', async (req, res) => {
   const language = req.query.language;
-  const finder = new GoodFirstIssueFinder(client, language);
-  const result = await finder.run(req.query.endCursor);
-  res.header('Content-Type', 'application/json; charset=utf-8');
-  res.send(result);
+  if (language) {
+    const finder = new GoodFirstIssueFinder(client, language);
+    const result = await finder.run(req.query.endCursor);
+    res.header('Content-Type', 'application/json; charset=utf-8');
+    res.send(result);
+  } else {
+    res.header('Content-Type', 'application/json; charset=utf-8');
+    res.send({ error: 'please set "language"' });
+  }
+});
+
+app.get('*', function(req, res){
+  res.send('Not Found', 404);
 });
 
 app.listen(3000, function () {
