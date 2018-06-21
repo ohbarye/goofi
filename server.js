@@ -65,7 +65,6 @@ class GoodFirstIssueFinder {
   }
 }
 
-
 app.get('/issues', async (req, res) => {
   const language = req.query.language;
   const finder = new GoodFirstIssueFinder(client, language);
