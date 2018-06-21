@@ -1,6 +1,7 @@
 const axios = require('axios');
 const express = require('express');
 const app = express();
+const PORT = process.env.PORT || 5000;
 
 const gitHubAuthToken = process.env.GITHUB_AUTH_TOKEN;
 
@@ -82,6 +83,6 @@ app.get('*', function(req, res){
   res.send('Not Found', 404);
 });
 
-app.listen(3000, function () {
+app.listen(PORT, function () {
   console.log('Example app listening on port 3000!')
 });

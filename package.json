@@ -2,7 +2,10 @@
   "name": "goofi",
   "version": "1.0.0",
   "description": "This is how to find good first issues in GitHub",
-  "main": "index.js",
+  "engines": {
+    "node": "8.9.1"
+  },
+  "main": "server.js",
   "scripts": {
     "start": "node server.js"
   },
