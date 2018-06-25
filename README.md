@@ -6,8 +6,21 @@ See this job's result: https://docs.google.com/spreadsheets/d/1-2jhSCFZUWyFsubCn
 
 ## Usage
 
+### Common
+
 ```
 $ git clone git@github.com:ohbarye/goofi.git
 $ cd goofi && npm install
-$ LANGUAGE=javascript,typescript,ruby,go,java,python,shell GITHUB_AUTH_TOKEN=<your token> node index.js
+```
+
+### Job
+
+$ LANGUAGE=javascript,typescript,ruby,go,java,python,shell GITHUB_AUTH_TOKEN=<your token> npm run job
+```
+
+### Server
+
+```
+$ LANGUAGE=javascript,typescript,ruby,go,java,python,shell GITHUB_AUTH_TOKEN=<your token> npm start
+$ open http://localhost:3000/issues?language=javascript
 ```

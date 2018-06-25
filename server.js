@@ -1,7 +1,7 @@
 const axios = require('axios');
 const express = require('express');
 const app = express();
-const PORT = process.env.PORT || 5000;
+const PORT = process.env.PORT || 3000;
 
 const gitHubAuthToken = process.env.GITHUB_AUTH_TOKEN;
 

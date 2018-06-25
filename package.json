@@ -7,7 +7,8 @@
   },
   "main": "server.js",
   "scripts": {
-    "start": "node server.js"
+    "start": "node server.js",
+    "job": "node job.js"
   },
   "repository": {
     "type": "git",
