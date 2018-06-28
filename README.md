@@ -2,15 +2,7 @@
 
 Let's find good first issues to contribute OSS. 
 
-This is a simple script to list issues labelled as "good first issue" in repositories with over 500 stars. This script lists the repository name, owner, and URL for each issue. The languages searched include the following:
-* JavaScript
-* TypeScript
-* Ruby
-* Go
-* Java
-* Python
-* Shell
-
+This is a simple script to list issues labelled as "good first issue" in repositories with over 500 stars. This script lists the repository name, owner, and URL for each issue. Any language that can be recognized by GitHub can be searched.
 
 See this job's result: https://docs.google.com/spreadsheets/d/1-2jhSCFZUWyFsubCnGiX-xui9nA76M783Z2SOfVrEU4/edit#gid=440574128
 
