@@ -1,4 +1,5 @@
 import AppBar from '@material-ui/core/AppBar';
+import CircularProgress from '@material-ui/core/CircularProgress';
 import FormControl from '@material-ui/core/FormControl';
 import MenuItem from '@material-ui/core/MenuItem';
 import Paper from '@material-ui/core/Paper';
@@ -9,7 +10,8 @@ import Typography from '@material-ui/core/Typography';
 import * as React from 'react';
 import './App.css';
 
-import RepositoryList from "./RepositoryList";
+import RepositoryCard from "./RepositoryCard";
+import { octokit } from '../utils/GitHubClient';
 
 // TODO Try Downshift https://material-ui.com/demos/autocomplete/#react-autosuggest
 const languages = [
@@ -43,22 +45,50 @@ interface Props extends WithStyles<typeof styles> {}
 
 interface State {
   language: string;
+  loading: boolean;
+  repos: object[];
 }
 
 class App extends React.Component<Props, State> {
   constructor(props: Props) {
     super(props);
     this.state = {
+      loading: true,
+      repos: [],
       language: 'javascript',
     };
     this.handleChange = this.handleChange.bind(this);
   }
 
-  public handleChange(event: any) {
+  public async fetchRepos(language: string = this.state!.language) {
+    const q = `good-first-issues:>1 language:${language} stars:>500`;
+    const sort = 'stars';
+    const order = 'desc';
+    const perPage = 20;
+    const page = 1;
+    const result = await octokit.search.repos({q, sort, order, per_page: perPage, page});
+
     this.setState((prevState) => {
       return {
         ...prevState,
-        language: event.target.value,
+        loading: false,
+        repos: result.data.items,
+      }
+    })
+  }
+
+  public componentDidMount() {
+    this.fetchRepos()
+  }
+
+  public handleChange(event: any) {
+    const language = event.target.value;
+    this.fetchRepos(language);
+    this.setState((prevState) => {
+      return {
+        ...prevState,
+        language,
+        loading: true,
       };
     });
   }
@@ -91,7 +121,8 @@ class App extends React.Component<Props, State> {
           </Toolbar>
         </AppBar>
         <div className={classes.body}>
-          <RepositoryList language={this.state!.language} />
+          {this.state!.loading && <CircularProgress />}
+          {!this.state!.loading && this.state!.repos.map((repo: any) => <RepositoryCard key={repo.id} repo={repo} />)}
         </div>
       </Paper>
     );
