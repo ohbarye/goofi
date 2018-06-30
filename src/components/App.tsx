@@ -13,7 +13,10 @@ import RepositoryList from "./RepositoryList";
 
 const styles = {
   body: {
-    marginTop: '64px',
+    paddingBottom: '16px',
+    paddingLeft: '16px',
+    paddingRight: '16px',
+    paddingTop: '80px',
   },
 };
 
@@ -51,7 +54,7 @@ class App extends React.Component<Props, State> {
               Good First Issues
             </Typography>
 
-            <FormControl >
+            <FormControl>
               <Select
                 value={this.state!.language}
                 onChange={this.handleChange}
@@ -59,14 +62,13 @@ class App extends React.Component<Props, State> {
                   id: 'language',
                   name: 'language',
                 }}
-                color={"inherit"}
+                color="inherit"
               >
                 <MenuItem value={'javascript'}>JavaScript</MenuItem>
                 <MenuItem value={'go'}>Go</MenuItem>
                 <MenuItem value={'ruby'}>Ruby</MenuItem>
               </Select>
             </FormControl>
-
           </Toolbar>
         </AppBar>
         <div className={classes.body}>
