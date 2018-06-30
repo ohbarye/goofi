@@ -1,56 +1,80 @@
-import * as Octokit from '@octokit/rest';
+import AppBar from '@material-ui/core/AppBar';
+import FormControl from '@material-ui/core/FormControl';
+import MenuItem from '@material-ui/core/MenuItem';
+import Paper from '@material-ui/core/Paper';
+import Select from '@material-ui/core/Select';
+import { withStyles, WithStyles } from '@material-ui/core/styles';
+import Toolbar from '@material-ui/core/Toolbar';
+import Typography from '@material-ui/core/Typography';
 import * as React from 'react';
 import './App.css';
 
-import logo from './logo.svg';
+import RepositoryList from "./RepositoryList";
 
-const octokit = new Octokit();
+const styles = {
+  body: {
+    marginTop: '64px',
+  },
+};
+
+interface Props extends WithStyles<typeof styles> {}
 
 interface State {
   language: string;
-  repos: object[];
 }
 
-class App extends React.Component<{}, State> {
-  constructor(props: {}) {
+class App extends React.Component<Props, State> {
+  constructor(props: Props) {
     super(props);
     this.state = {
       language: 'javascript',
-      repos: [],
     };
+    this.handleChange = this.handleChange.bind(this);
   }
 
-  public async componentDidMount() {
-    const q = `good-first-issues:>1 language:language stars:>500`;
-    const sort = 'stars';
-    const order = 'desc';
-    const perPage = 100;
-    const page = 1;
-    const result = await octokit.search.repos({q, sort, order, per_page: perPage, page});
-
-    this.setState({ repos: result.data.items})
+  public handleChange(event: any) {
+    this.setState((prevState) => {
+      return {
+        ...prevState,
+        language: event.target.value,
+      };
+    });
   }
 
   public render() {
+    const { classes } = this.props;
     return (
-      <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <h1 className="App-title">Welcome to React</h1>
-        </header>
-        <p className="App-intro">
-          To get started, edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <div>
-          <ul>
-            {this.state && this.state.repos &&
-               this.state.repos.map((repo: any) => <li key={repo.id}>{repo.name}</li>)
-            }
-          </ul>
+      <Paper className="App" elevation={1}>
+        <AppBar>
+          <Toolbar>
+            <Typography variant="title" color="inherit">
+              Good First Issues
+            </Typography>
+
+            <FormControl >
+              <Select
+                value={this.state!.language}
+                onChange={this.handleChange}
+                inputProps={{
+                  id: 'language',
+                  name: 'language',
+                }}
+                color={"inherit"}
+              >
+                <MenuItem value={'javascript'}>JavaScript</MenuItem>
+                <MenuItem value={'go'}>Go</MenuItem>
+                <MenuItem value={'ruby'}>Ruby</MenuItem>
+              </Select>
+            </FormControl>
+
+          </Toolbar>
+        </AppBar>
+        <div className={classes.body}>
+          <RepositoryList language={this.state!.language} />
         </div>
-      </div>
+      </Paper>
     );
   }
 }
 
-export default App;
+export default withStyles(styles)(App);
