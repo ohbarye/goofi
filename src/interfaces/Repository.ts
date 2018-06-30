@@ -10,4 +10,5 @@ export interface Repository {
   id: string;
   name: string;
   owner: User;
+  stargazers_count: number;
 }
