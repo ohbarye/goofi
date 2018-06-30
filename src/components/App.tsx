@@ -3,7 +3,7 @@ import FormControl from '@material-ui/core/FormControl';
 import MenuItem from '@material-ui/core/MenuItem';
 import Paper from '@material-ui/core/Paper';
 import Select from '@material-ui/core/Select';
-import { withStyles, WithStyles } from '@material-ui/core/styles';
+import { withStyles, WithStyles, StyleRulesCallback } from '@material-ui/core/styles';
 import Toolbar from '@material-ui/core/Toolbar';
 import Typography from '@material-ui/core/Typography';
 import * as React from 'react';
@@ -11,14 +11,33 @@ import './App.css';
 
 import RepositoryList from "./RepositoryList";
 
-const styles = {
+// TODO Try Downshift https://material-ui.com/demos/autocomplete/#react-autosuggest
+const languages = [
+  { value: 'javascript', name: 'JavaScript' },
+  { value: 'go', name: 'Go' },
+  { value: 'java', name: 'Java' },
+  { value: 'python', name: 'Python' },
+  { value: 'ruby', name: 'Ruby' },
+  { value: 'shell', name: 'Shell' },
+  { value: 'typescript', name: 'TypeScript' },
+  { value: 'swift', name: 'Swift' },
+];
+
+const styles: StyleRulesCallback = theme => ({
   body: {
     paddingBottom: '16px',
     paddingLeft: '16px',
     paddingRight: '16px',
     paddingTop: '80px',
   },
-};
+  select: {
+    color: '#fff',
+  },
+  title: {
+    flex: '1',
+    textAlign: 'left',
+  },
+});
 
 interface Props extends WithStyles<typeof styles> {}
 
@@ -50,7 +69,7 @@ class App extends React.Component<Props, State> {
       <Paper className="App" elevation={1}>
         <AppBar>
           <Toolbar>
-            <Typography variant="title" color="inherit">
+            <Typography variant="title" color="inherit" className={classes.title}>
               Good First Issues
             </Typography>
 
@@ -62,11 +81,11 @@ class App extends React.Component<Props, State> {
                   id: 'language',
                   name: 'language',
                 }}
-                color="inherit"
+                className={classes.select}
               >
-                <MenuItem value={'javascript'}>JavaScript</MenuItem>
-                <MenuItem value={'go'}>Go</MenuItem>
-                <MenuItem value={'ruby'}>Ruby</MenuItem>
+                {languages.map((language) => (
+                  <MenuItem key={language.value} value={language.value}>{language.name}</MenuItem>)
+                )}
               </Select>
             </FormControl>
           </Toolbar>
