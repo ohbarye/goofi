@@ -15,13 +15,22 @@ $ cd goofi && npm install
 
 ### Job
 
-```
+```shell
+$ cd job
 $ LANGUAGE=javascript,typescript,ruby,go,java,python,shell GITHUB_AUTH_TOKEN=<your token> npm run job
 ```
 
-### Server
+### Run API Server
 
-```
+```shell
+$ cd api
 $ GITHUB_AUTH_TOKEN=<your token> npm start
 $ open http://localhost:3000/issues?language=javascript
+```
+
+To deploy API to heroku:
+
+```shell
+# At root directory
+$ git push --force heroku `git subtree split --prefix api HEAD`:master
 ```
