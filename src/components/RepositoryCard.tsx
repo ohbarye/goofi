@@ -43,10 +43,10 @@ const RepositoryCard: React.SFC<Props> = (props: Props) => (
   <ExpansionPanel>
     <ExpansionPanelSummary expandIcon={<ExpandMoreIcon />}>
       <Grid container={true} spacing={8}>
-        <Grid item={true} xs={2} sm={1} md={1}>
+        <Grid item={true} xs={4} sm={2} md={1}>
           <Avatar alt="avatar" src={props.repo.owner.avatar_url} className={props.classes.avatar}/>
         </Grid>
-        <Grid item={true} xs={10} sm={4} md={3}>
+        <Grid item={true} xs={8} sm={4} md={3}>
           <Typography color="default" className={props.classes.repositoryName} variant={'body2'}>
             <a href={props.repo.owner.html_url} target='_blank'>{props.repo.owner.login}</a>/
             <a href={props.repo.html_url} target='_blank'>{props.repo.name}</a>
@@ -56,7 +56,7 @@ const RepositoryCard: React.SFC<Props> = (props: Props) => (
             {props.repo.stargazers_count}
           </Typography>
         </Grid>
-        <Grid item={true} xs={12} sm={7} md={8} className={props.classes.verticalCenter}>
+        <Grid item={true} xs={12} sm={6} md={8} className={props.classes.verticalCenter}>
           <Typography color="default" className={props.classes.repositoryDescription}>
             {props.repo.description}
           </Typography>
