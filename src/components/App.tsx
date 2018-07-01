@@ -61,14 +61,12 @@ class App extends React.Component<Props, State> {
   }
 
   public async fetchRepos(language: string = this.state!.language) {
-    // const q = `good-first-issues:>1 language:${language} stars:>500`;
-    // const sort = 'stars';
-    // const order = 'desc';
-    // const perPage = 20;
-    // const page = 1;
-    // const result = await octokit.search.repos({q, sort, order, per_page: perPage, page});
-
-    const response = await apiClient.get(`issues?language=${language}`);
+    const perPage = 20;
+    const params = {
+      language,
+      perPage,
+    };
+    const response = await apiClient.get('issues', {params});
     const repos = response.data.data.search.nodes;
 
     this.setState((prevState) => {
