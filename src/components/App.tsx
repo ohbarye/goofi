@@ -61,7 +61,7 @@ class App extends React.Component<Props, State> {
   }
 
   public async fetchRepos(language: string = this.state!.language) {
-    const perPage = 2;
+    const perPage = 20;
     const params = {
       language,
       perPage,

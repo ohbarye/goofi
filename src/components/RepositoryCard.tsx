@@ -93,7 +93,12 @@ const RepositoryCard: React.SFC<Props> = (props: Props) => (
     <Divider />
     <ExpansionPanelDetails>
       <List component="nav" className={props.classes.issueList}>
-        {props.repo.issues.nodes.map((issue: Issue, i) => <IssueItem key={i} issue={issue} />)}
+        {props.repo.issues.nodes.map((issue: Issue, i) => (
+          <IssueItem
+            key={i}
+            issue={issue}
+            ownerAvatarUrl={props.repo.owner.avatarUrl}/>
+        ))}
       </List>
     </ExpansionPanelDetails>
   </ExpansionPanel>

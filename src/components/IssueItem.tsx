@@ -31,15 +31,17 @@ const styles: StyleRulesCallback = theme => ({
 
 interface Props extends WithStyles<typeof styles> {
   issue: Issue;
+  ownerAvatarUrl: string;
 }
 
 const IssueItem: React.SFC<Props> = (props: Props) => {
   const updatedAt = new Date(props.issue.updatedAt).toLocaleString();
+  const avatarUrl = props.issue.author ? props.issue.author.avatarUrl : props.ownerAvatarUrl;
   return (
     <a href={props.issue.url} target={'_blank'} className={props.classes.link}>
       <ListItem button={true} className={props.classes.listItem}>
         <ListItemIcon>
-          <Avatar alt="avatar" src={props.issue.author.avatarUrl} className={props.classes.avatar}/>
+          <Avatar alt="avatar" src={avatarUrl} className={props.classes.avatar}/>
         </ListItemIcon>
         <ListItemText
           className={props.classes.listItemText}
