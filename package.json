@@ -1,7 +1,10 @@
 {
   "name": "goofi",
-  "version": "0.1.0",
-  "private": true,
+  "repository": "https://github.com/ohbarye/goofi",
+  "description": "Let's contribute to OSS. Here is how to find good first issues in GitHub. ",
+  "author": "Masato Ohba <over.rye@gmail.com> (https://ohbarye.github.io/)",
+  "version": "1.0.0",
+  "license": "MIT",
   "dependencies": {
     "@material-ui/core": "^1.3.0",
     "@material-ui/icons": "^1.1.0",
