@@ -44,8 +44,13 @@ class GoodFirstIssueFinder {
           nodes {
             ... on Repository {
               owner {
+                id
+                avatarUrl
                 login
+                url
               }
+              id
+              description
               name
               url
               issues(first: 100, labels: ["good first issue"], states: OPEN, orderBy: {field: UPDATED_AT, direction: DESC}) {
