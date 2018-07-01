@@ -61,7 +61,7 @@ class App extends React.Component<Props, State> {
   }
 
   public async fetchRepos(language: string = this.state!.language) {
-    const perPage = 20;
+    const perPage = 2;
     const params = {
       language,
       perPage,
@@ -123,7 +123,8 @@ class App extends React.Component<Props, State> {
         </AppBar>
         <div className={classes.body}>
           {this.state!.loading && <CircularProgress />}
-          {!this.state!.loading && this.state!.repos.map((repo: any) => <RepositoryCard key={repo.id} repo={repo} />)}
+          {!this.state!.loading && this.state!.repos.map((repo: any, i: number) => (
+            <RepositoryCard key={repo.id} repo={repo} />))}
         </div>
       </Paper>
     );

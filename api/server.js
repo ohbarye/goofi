@@ -59,6 +59,10 @@ class GoodFirstIssueFinder {
                 nodes {
                   title
                   url
+                  author {
+                    avatarUrl
+                  }
+                  updatedAt
                 }
               }
               stargazers {

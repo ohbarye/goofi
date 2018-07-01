@@ -3,13 +3,19 @@ import ExpansionPanel from '@material-ui/core/ExpansionPanel';
 import ExpansionPanelDetails from '@material-ui/core/ExpansionPanelDetails';
 import ExpansionPanelSummary from '@material-ui/core/ExpansionPanelSummary';
 import Grid from '@material-ui/core/Grid';
+import List from '@material-ui/core/List';
+import ListItem from '@material-ui/core/ListItem';
+import ListItemIcon from '@material-ui/core/ListItemIcon';
+import ListItemText from '@material-ui/core/ListItemText';
 import Typography from '@material-ui/core/Typography';
+import Divider from '@material-ui/core/Divider';
 import { withStyles, WithStyles, StyleRulesCallback } from '@material-ui/core/styles';
 import ExpandMoreIcon from '@material-ui/icons/ExpandMore';
 import Star from '@material-ui/icons/Star';
 import yellow from '@material-ui/core/colors/yellow';
 import * as React from 'react';
-import { Repository } from "../interfaces/Repository";
+import { Repository, Issue } from "../interfaces/Repository";
+import IssueItem from "./IssueItem";
 
 const styles: StyleRulesCallback = theme => ({
   avatar: {
@@ -32,7 +38,19 @@ const styles: StyleRulesCallback = theme => ({
     width: '14px',
     height: '14px',
     marginRight: '4px',
-  }
+  },
+  repositoryListItem: {
+    padding: '0px',
+  },
+  repositoryListItemText: {
+    [theme.breakpoints.down('xs')]: {
+      paddingLeft: '0px',
+      paddingRight: '0px',
+    }
+  },
+  issueList: {
+    width: '100%',
+  },
 });
 
 interface Props extends WithStyles<typeof styles> {
@@ -43,18 +61,27 @@ const RepositoryCard: React.SFC<Props> = (props: Props) => (
   <ExpansionPanel>
     <ExpansionPanelSummary expandIcon={<ExpandMoreIcon />}>
       <Grid container={true} spacing={8}>
-        <Grid item={true} xs={4} sm={2} md={1}>
-          <Avatar alt="avatar" src={props.repo.owner.avatarUrl} className={props.classes.avatar}/>
-        </Grid>
-        <Grid item={true} xs={8} sm={4} md={3}>
-          <Typography color="default" className={props.classes.repositoryName} variant={'body2'}>
-            <a href={props.repo.owner.url} target='_blank'>{props.repo.owner.login}</a>/
-            <a href={props.repo.url} target='_blank'>{props.repo.name}</a>
-          </Typography>
-          <Typography className={props.classes.verticalCenter} color={'textSecondary'}>
-            <Star className={props.classes.star}/>
-            {props.repo.stargazers.totalCount}
-          </Typography>
+        <Grid item={true} xs={12} sm={6} md={4}>
+          <ListItem className={props.classes.repositoryListItem}>
+            <ListItemIcon>
+              <Avatar alt="avatar" src={props.repo.owner.avatarUrl} className={props.classes.avatar}/>
+            </ListItemIcon>
+            <ListItemText
+              className={props.classes.repositoryListItemText}
+              primary={
+                <span className={props.classes.repositoryName}>
+                  <a href={props.repo.owner.url} target='_blank'>{props.repo.owner.login}</a>/
+                  <a href={props.repo.url} target='_blank'>{props.repo.name}</a>
+                </span>
+              }
+              secondary={
+                <span className={props.classes.verticalCenter}>
+                  <Star className={props.classes.star}/>
+                  {props.repo.stargazers.totalCount}
+                </span>
+              }
+            />
+          </ListItem>
         </Grid>
         <Grid item={true} xs={12} sm={6} md={8} className={props.classes.verticalCenter}>
           <Typography color="default" className={props.classes.repositoryDescription}>
@@ -63,11 +90,11 @@ const RepositoryCard: React.SFC<Props> = (props: Props) => (
         </Grid>
       </Grid>
     </ExpansionPanelSummary>
+    <Divider />
     <ExpansionPanelDetails>
-      <Typography>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse malesuada lacus ex,
-        sit amet blandit leo lobortis eget.
-      </Typography>
+      <List component="nav" className={props.classes.issueList}>
+        {props.repo.issues.nodes.map((issue: Issue, i) => <IssueItem key={i} issue={issue} />)}
+      </List>
     </ExpansionPanelDetails>
   </ExpansionPanel>
 );
