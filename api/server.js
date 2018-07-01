@@ -1,5 +1,6 @@
 const axios = require('axios');
 const express = require('express');
+const cors = require('cors')
 const app = express();
 const PORT = process.env.PORT || 3000;
 
@@ -71,7 +72,7 @@ class GoodFirstIssueFinder {
   }
 }
 
-app.get('/issues', async (req, res) => {
+app.get('/issues', cors(), async (req, res) => {
   const language = req.query.language;
   if (language) {
     const finder = new GoodFirstIssueFinder(client, language);
