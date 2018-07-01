@@ -1,12 +1,12 @@
 # Goofi
 
-Let's find good first issues to contribute OSS.
+Let's contribute to OSS. Here is how to find good first issues in GitHub.
 
-This is a simple script to list issues labelled as "good first issue" in repositories with over 500 stars. This script lists the repository name, owner, and URL for each issue. Any language that can be recognized by GitHub can be searched.
+This is a simple app to list issues labelled as "good first issue" in repositories with over 500 stars.
 
-See this job's result: https://docs.google.com/spreadsheets/d/1-2jhSCFZUWyFsubCnGiX-xui9nA76M783Z2SOfVrEU4/edit#gid=440574128
+![image](https://user-images.githubusercontent.com/1811616/42136471-fee7003e-7d96-11e8-8580-9da1532bdb28.png)
 
-## Usage
+## Development
 
 ```shell
 $ git clone git@github.com:ohbarye/goofi.git
@@ -31,15 +31,19 @@ $ open http://localhost:5000/issues?language=javascript
 
 ### Job
 
+Get a list with CSV format.
+
 ```shell
 $ cd job
 $ yarn
-$ LANGUAGE=javascript,typescript,ruby,go,java,python,shell GITHUB_AUTH_TOKEN=<your token> npm run job
+$ LANGUAGE=javascript,typescript,ruby,go,java,python,shell GITHUB_AUTH_TOKEN=<your token> yarn job
+
+# See csv/ directory
 ```
 
 ## Release
 
-### Run Frontend App
+### Frontend App
 
 ```shell
 # At root directory
