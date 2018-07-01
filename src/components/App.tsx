@@ -8,7 +8,6 @@ import { withStyles, WithStyles, StyleRulesCallback } from '@material-ui/core/st
 import Toolbar from '@material-ui/core/Toolbar';
 import Typography from '@material-ui/core/Typography';
 import * as React from 'react';
-import './App.css';
 
 import RepositoryCard from "./RepositoryCard";
 import { apiClient } from '../utils/ApiClient';
@@ -31,6 +30,7 @@ const styles: StyleRulesCallback = theme => ({
     paddingLeft: '16px',
     paddingRight: '16px',
     paddingTop: '80px',
+    textAlign: 'center',
   },
   select: {
     color: '#fff',
@@ -61,7 +61,7 @@ class App extends React.Component<Props, State> {
   }
 
   public async fetchRepos(language: string = this.state!.language) {
-    const perPage = 20;
+    const perPage = 10;
     const params = {
       language,
       perPage,
@@ -97,7 +97,7 @@ class App extends React.Component<Props, State> {
   public render() {
     const { classes } = this.props;
     return (
-      <Paper className="App" elevation={1}>
+      <Paper elevation={1}>
         <AppBar>
           <Toolbar>
             <Typography variant="title" color="inherit" className={classes.title}>
