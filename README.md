@@ -8,24 +8,25 @@ See this job's result: https://docs.google.com/spreadsheets/d/1-2jhSCFZUWyFsubCn
 
 ## Usage
 
-```
+```shell
 $ git clone git@github.com:ohbarye/goofi.git
-$ cd goofi && npm install
+$ cd goofi
 ```
 
-### Job
+### Run React App
 
 ```shell
-$ cd job
-$ LANGUAGE=javascript,typescript,ruby,go,java,python,shell GITHUB_AUTH_TOKEN=<your token> npm run job
+$ yarn
+$ yarn start
 ```
 
 ### Run API Server
 
 ```shell
 $ cd api
+$ yarn
 $ GITHUB_AUTH_TOKEN=<your token> npm start
-$ open http://localhost:3000/issues?language=javascript
+$ open http://localhost:5000/issues?language=javascript
 ```
 
 To deploy API to heroku:
@@ -33,4 +34,12 @@ To deploy API to heroku:
 ```shell
 # At root directory
 $ git push --force heroku `git subtree split --prefix api HEAD`:master
+```
+
+### Job
+
+```shell
+$ cd job
+$ yarn
+$ LANGUAGE=javascript,typescript,ruby,go,java,python,shell GITHUB_AUTH_TOKEN=<your token> npm run job
 ```
