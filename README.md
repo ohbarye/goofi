@@ -13,7 +13,7 @@ $ git clone git@github.com:ohbarye/goofi.git
 $ cd goofi
 ```
 
-### Run React App
+### Run Frontend App
 
 ```shell
 $ yarn
@@ -29,17 +29,30 @@ $ GITHUB_AUTH_TOKEN=<your token> npm start
 $ open http://localhost:5000/issues?language=javascript
 ```
 
-To deploy API to heroku:
-
-```shell
-# At root directory
-$ git push --force heroku `git subtree split --prefix api HEAD`:master
-```
-
 ### Job
 
 ```shell
 $ cd job
 $ yarn
 $ LANGUAGE=javascript,typescript,ruby,go,java,python,shell GITHUB_AUTH_TOKEN=<your token> npm run job
+```
+
+## Release
+
+### Run Frontend App
+
+```shell
+# At root directory
+$ yarn build
+
+# Then push master. It's automatically deployed as GitHub pages.
+```
+
+### API
+
+To deploy API to heroku:
+
+```shell
+# At root directory
+$ git push --force heroku `git subtree split --prefix api HEAD`:master
 ```
