@@ -26,6 +26,7 @@
     "webpack",
     "jest",
     "src/setupTests.ts",
+    "api",
     "job"
   ]
 }

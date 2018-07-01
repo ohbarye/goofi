@@ -1,14 +1,17 @@
 interface User {
-  avatar_url: string;
-  html_url: string;
+  id: string;
+  avatarUrl: string;
+  url: string;
   login: string;
 }
 
 export interface Repository {
   description: string;
-  html_url: string;
+  url: string;
   id: string;
   name: string;
   owner: User;
-  stargazers_count: number;
+  stargazers: {
+    totalCount: number;
+  };
 }

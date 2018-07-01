@@ -11,7 +11,7 @@ import * as React from 'react';
 import './App.css';
 
 import RepositoryCard from "./RepositoryCard";
-import { octokit } from '../utils/GitHubClient';
+import { apiClient } from '../utils/ApiClient';
 
 // TODO Try Downshift https://material-ui.com/demos/autocomplete/#react-autosuggest
 const languages = [
@@ -61,18 +61,21 @@ class App extends React.Component<Props, State> {
   }
 
   public async fetchRepos(language: string = this.state!.language) {
-    const q = `good-first-issues:>1 language:${language} stars:>500`;
-    const sort = 'stars';
-    const order = 'desc';
-    const perPage = 20;
-    const page = 1;
-    const result = await octokit.search.repos({q, sort, order, per_page: perPage, page});
+    // const q = `good-first-issues:>1 language:${language} stars:>500`;
+    // const sort = 'stars';
+    // const order = 'desc';
+    // const perPage = 20;
+    // const page = 1;
+    // const result = await octokit.search.repos({q, sort, order, per_page: perPage, page});
+
+    const response = await apiClient.get(`issues?language=${language}`);
+    const repos = response.data.data.search.nodes;
 
     this.setState((prevState) => {
       return {
         ...prevState,
         loading: false,
-        repos: result.data.items,
+        repos,
       }
     })
   }
