@@ -14,7 +14,7 @@ import ExpandMoreIcon from '@material-ui/icons/ExpandMore';
 import Star from '@material-ui/icons/Star';
 import yellow from '@material-ui/core/colors/yellow';
 import * as React from 'react';
-import { Repository, Issue } from "../interfaces/Repository";
+import { Repository, Issue } from "../interfaces";
 import IssueItem from "./IssueItem";
 
 const styles: StyleRulesCallback = theme => ({

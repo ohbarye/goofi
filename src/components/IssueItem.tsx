@@ -5,7 +5,7 @@ import ListItemIcon from '@material-ui/core/ListItemIcon';
 import ListItemText from '@material-ui/core/ListItemText';
 import { withStyles, WithStyles, StyleRulesCallback } from '@material-ui/core/styles';
 import * as React from 'react';
-import { Issue } from "../interfaces/Repository";
+import { Issue } from "../interfaces";
 
 const styles: StyleRulesCallback = theme => ({
   link: {

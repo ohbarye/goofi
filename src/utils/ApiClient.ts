@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const baseURL = process.env.API_END_POINT || 'http://localhost:5000'; // 'https://goofi-server.herokuapp.com/'
+const baseURL = process.env.NODE_ENV === 'production' ? 'https://goofi-server.herokuapp.com/' : 'http://localhost:5000';
 
 export const apiClient = axios.create({
   baseURL,
