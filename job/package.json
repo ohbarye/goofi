@@ -1,0 +1,25 @@
+{
+  "name": "goofi",
+  "version": "1.0.0",
+  "description": "This is how to find good first issues in GitHub",
+  "engines": {
+    "node": ">=8.9.1"
+  },
+  "scripts": {
+    "job": "node job.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/ohbarye/goofi.git"
+  },
+  "author": "ohbarye",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ohbarye/goofi/issues"
+  },
+  "homepage": "https://github.com/ohbarye/goofi#readme",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "fast-csv": "^2.4.1"
+  }
+}
