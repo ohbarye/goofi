@@ -22,6 +22,7 @@ const languages = [
   { value: 'shell', name: 'Shell' },
   { value: 'typescript', name: 'TypeScript' },
   { value: 'swift', name: 'Swift' },
+  { value: 'rust', name: 'Rust' },
 ];
 
 const styles: StyleRulesCallback = theme => ({
