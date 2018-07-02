@@ -34,18 +34,18 @@ interface Props extends WithStyles<typeof styles> {
   ownerAvatarUrl: string;
 }
 
-const IssueItem: React.SFC<Props> = (props: Props) => {
-  const updatedAt = new Date(props.issue.updatedAt).toLocaleString();
-  const avatarUrl = props.issue.author ? props.issue.author.avatarUrl : props.ownerAvatarUrl;
+const IssueItem: React.SFC<Props> = ({ issue, ownerAvatarUrl, classes }: Props) => {
+  const updatedAt = new Date(issue.updatedAt).toLocaleString();
+  const avatarUrl = issue.author ? issue.author.avatarUrl : ownerAvatarUrl;
   return (
-    <a href={props.issue.url} target={'_blank'} className={props.classes.link}>
-      <ListItem button={true} className={props.classes.listItem}>
+    <a href={issue.url} target={'_blank'} className={classes.link}>
+      <ListItem button={true} className={classes.listItem}>
         <ListItemIcon>
-          <Avatar alt="avatar" src={avatarUrl} className={props.classes.avatar}/>
+          <Avatar alt="avatar" src={avatarUrl} className={classes.avatar}/>
         </ListItemIcon>
         <ListItemText
-          className={props.classes.listItemText}
-          primary={props.issue.title}
+          className={classes.listItemText}
+          primary={issue.title}
           secondary={`Updated at ${updatedAt}`}/>
       </ListItem>
       <Divider />
