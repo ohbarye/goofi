@@ -3,7 +3,6 @@ import ExpansionPanel from '@material-ui/core/ExpansionPanel';
 import ExpansionPanelDetails from '@material-ui/core/ExpansionPanelDetails';
 import ExpansionPanelSummary from '@material-ui/core/ExpansionPanelSummary';
 import Grid from '@material-ui/core/Grid';
-import List from '@material-ui/core/List';
 import ListItem from '@material-ui/core/ListItem';
 import ListItemIcon from '@material-ui/core/ListItemIcon';
 import ListItemText from '@material-ui/core/ListItemText';
@@ -14,8 +13,8 @@ import ExpandMoreIcon from '@material-ui/icons/ExpandMore';
 import Star from '@material-ui/icons/Star';
 import yellow from '@material-ui/core/colors/yellow';
 import * as React from 'react';
-import { Repository, Issue } from "../interfaces";
-import IssueItem from "./IssueItem";
+import { Repository } from "../interfaces";
+import IssueList from "./IssueList";
 
 const styles: StyleRulesCallback = theme => ({
   avatar: {
@@ -47,9 +46,6 @@ const styles: StyleRulesCallback = theme => ({
       paddingLeft: '0px',
       paddingRight: '0px',
     }
-  },
-  issueList: {
-    width: '100%',
   },
 });
 
@@ -92,14 +88,7 @@ const RepositoryCard: React.SFC<Props> = ({ repo, classes }: Props) => (
     </ExpansionPanelSummary>
     <Divider />
     <ExpansionPanelDetails>
-      <List component="nav" className={classes.issueList}>
-        {repo.issues.nodes.map((issue: Issue, i) => (
-          <IssueItem
-            key={i}
-            issue={issue}
-            ownerAvatarUrl={repo.owner.avatarUrl}/>
-        ))}
-      </List>
+      <IssueList issues={repo.issues.nodes} ownerAvatarUrl={repo.owner.avatarUrl}/>
     </ExpansionPanelDetails>
   </ExpansionPanel>
 );
