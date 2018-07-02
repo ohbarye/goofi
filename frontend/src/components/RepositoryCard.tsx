@@ -57,47 +57,47 @@ interface Props extends WithStyles<typeof styles> {
   repo: Repository;
 }
 
-const RepositoryCard: React.SFC<Props> = (props: Props) => (
+const RepositoryCard: React.SFC<Props> = ({ repo, classes }: Props) => (
   <ExpansionPanel>
     <ExpansionPanelSummary expandIcon={<ExpandMoreIcon />}>
       <Grid container={true} spacing={8}>
         <Grid item={true} xs={12} sm={6} md={4}>
-          <ListItem className={props.classes.repositoryListItem}>
+          <ListItem className={classes.repositoryListItem}>
             <ListItemIcon>
-              <Avatar alt="avatar" src={props.repo.owner.avatarUrl} className={props.classes.avatar}/>
+              <Avatar alt="avatar" src={repo.owner.avatarUrl} className={classes.avatar}/>
             </ListItemIcon>
             <ListItemText
-              className={props.classes.repositoryListItemText}
+              className={classes.repositoryListItemText}
               primary={
-                <span className={props.classes.repositoryName}>
-                  <a href={props.repo.owner.url} target='_blank'>{props.repo.owner.login}</a>/
-                  <a href={props.repo.url} target='_blank'>{props.repo.name}</a>
+                <span className={classes.repositoryName}>
+                  <a href={repo.owner.url} target='_blank'>{repo.owner.login}</a>/
+                  <a href={repo.url} target='_blank'>{repo.name}</a>
                 </span>
               }
               secondary={
-                <span className={props.classes.verticalCenter}>
-                  <Star className={props.classes.star}/>
-                  {props.repo.stargazers.totalCount}
+                <span className={classes.verticalCenter}>
+                  <Star className={classes.star}/>
+                  {repo.stargazers.totalCount}
                 </span>
               }
             />
           </ListItem>
         </Grid>
-        <Grid item={true} xs={12} sm={6} md={8} className={props.classes.verticalCenter}>
-          <Typography color="default" className={props.classes.repositoryDescription}>
-            {props.repo.description}
+        <Grid item={true} xs={12} sm={6} md={8} className={classes.verticalCenter}>
+          <Typography color="default" className={classes.repositoryDescription}>
+            {repo.description}
           </Typography>
         </Grid>
       </Grid>
     </ExpansionPanelSummary>
     <Divider />
     <ExpansionPanelDetails>
-      <List component="nav" className={props.classes.issueList}>
-        {props.repo.issues.nodes.map((issue: Issue, i) => (
+      <List component="nav" className={classes.issueList}>
+        {repo.issues.nodes.map((issue: Issue, i) => (
           <IssueItem
             key={i}
             issue={issue}
-            ownerAvatarUrl={props.repo.owner.avatarUrl}/>
+            ownerAvatarUrl={repo.owner.avatarUrl}/>
         ))}
       </List>
     </ExpansionPanelDetails>
