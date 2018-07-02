@@ -16,6 +16,7 @@ $ cd goofi
 ### Run Frontend App
 
 ```shell
+$ cd frontend
 $ yarn
 $ yarn start
 ```
