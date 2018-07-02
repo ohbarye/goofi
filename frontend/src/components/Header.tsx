@@ -8,7 +8,7 @@ import { withStyles, WithStyles, StyleRulesCallback } from '@material-ui/core/st
 import * as React from 'react';
 
 // TODO Try Downshift https://material-ui.com/demos/autocomplete/#react-autosuggest
-const languages = [
+const languageOptions = [
   { value: 'javascript', name: 'JavaScript' },
   { value: 'go', name: 'Go' },
   { value: 'java', name: 'Java' },
@@ -31,11 +31,11 @@ const styles: StyleRulesCallback = theme => ({
 });
 
 interface Props extends WithStyles<typeof styles> {
-  currentLanguage: string;
+  language: string;
   handleChange: (event: any) => void;
 }
 
-const Header: React.SFC<Props> = ({ currentLanguage, handleChange, classes }: Props) => {
+const Header: React.SFC<Props> = ({ language, handleChange, classes }: Props) => {
   return (
     <AppBar>
       <Toolbar>
@@ -45,7 +45,7 @@ const Header: React.SFC<Props> = ({ currentLanguage, handleChange, classes }: Pr
 
         <FormControl>
           <Select
-            value={currentLanguage}
+            value={language}
             onChange={handleChange}
             inputProps={{
               id: 'language',
@@ -53,8 +53,8 @@ const Header: React.SFC<Props> = ({ currentLanguage, handleChange, classes }: Pr
             }}
             className={classes.select}
           >
-            {languages.map((language) => (
-              <MenuItem key={language.value} value={language.value}>{language.name}</MenuItem>)
+            {languageOptions.map((languageOption) => (
+              <MenuItem key={languageOption.value} value={languageOption.value}>{languageOption.name}</MenuItem>)
             )}
           </Select>
         </FormControl>

@@ -60,7 +60,7 @@ class App extends React.Component<{}, State> {
   public render() {
     return (
       <Paper elevation={1}>
-        <Header currentLanguage={this.state!.language} handleChange={this.handleChange}/>
+        <Header language={this.state!.language} handleChange={this.handleChange}/>
         <RepositoryList loading={this.state!.loading} repos={this.state!.repos}/>
       </Paper>
     );
