@@ -45,12 +45,9 @@ $ LANGUAGE=javascript,typescript,ruby,go,java,python,shell GITHUB_AUTH_TOKEN=<yo
 
 ### Frontend App
 
-```shell
-# At root directory
-$ yarn build
+Just push master. It's automatically deployed on [Netlify](https://app.netlify.com/).
 
-# Then push master. It's automatically deployed as GitHub pages.
-```
+Deploy logs: https://app.netlify.com/sites/goofi/deploys
 
 ### API
 
