@@ -1,29 +1,11 @@
-import AppBar from '@material-ui/core/AppBar';
 import CircularProgress from '@material-ui/core/CircularProgress';
-import FormControl from '@material-ui/core/FormControl';
-import MenuItem from '@material-ui/core/MenuItem';
 import Paper from '@material-ui/core/Paper';
-import Select from '@material-ui/core/Select';
 import { withStyles, WithStyles, StyleRulesCallback } from '@material-ui/core/styles';
-import Toolbar from '@material-ui/core/Toolbar';
-import Typography from '@material-ui/core/Typography';
 import * as React from 'react';
 
+import Header from "./Header";
 import RepositoryCard from "./RepositoryCard";
 import { apiClient } from '../utils/ApiClient';
-
-// TODO Try Downshift https://material-ui.com/demos/autocomplete/#react-autosuggest
-const languages = [
-  { value: 'javascript', name: 'JavaScript' },
-  { value: 'go', name: 'Go' },
-  { value: 'java', name: 'Java' },
-  { value: 'python', name: 'Python' },
-  { value: 'ruby', name: 'Ruby' },
-  { value: 'shell', name: 'Shell' },
-  { value: 'typescript', name: 'TypeScript' },
-  { value: 'swift', name: 'Swift' },
-  { value: 'rust', name: 'Rust' },
-];
 
 const styles: StyleRulesCallback = theme => ({
   body: {
@@ -32,13 +14,6 @@ const styles: StyleRulesCallback = theme => ({
     paddingRight: '16px',
     paddingTop: '80px',
     textAlign: 'center',
-  },
-  select: {
-    color: '#fff',
-  },
-  title: {
-    flex: '1',
-    textAlign: 'left',
   },
 });
 
@@ -99,29 +74,7 @@ class App extends React.Component<Props, State> {
     const { classes } = this.props;
     return (
       <Paper elevation={1}>
-        <AppBar>
-          <Toolbar>
-            <Typography variant="title" color="inherit" className={classes.title}>
-              Good First Issues
-            </Typography>
-
-            <FormControl>
-              <Select
-                value={this.state!.language}
-                onChange={this.handleChange}
-                inputProps={{
-                  id: 'language',
-                  name: 'language',
-                }}
-                className={classes.select}
-              >
-                {languages.map((language) => (
-                  <MenuItem key={language.value} value={language.value}>{language.name}</MenuItem>)
-                )}
-              </Select>
-            </FormControl>
-          </Toolbar>
-        </AppBar>
+        <Header currentLanguage={this.state!.language} handleChange={this.handleChange}/>
         <div className={classes.body}>
           {this.state!.loading && <CircularProgress />}
           {!this.state!.loading && this.state!.repos.map((repo: any, i: number) => (
