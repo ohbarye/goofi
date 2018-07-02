@@ -1,32 +1,19 @@
-import CircularProgress from '@material-ui/core/CircularProgress';
 import Paper from '@material-ui/core/Paper';
-import { withStyles, WithStyles, StyleRulesCallback } from '@material-ui/core/styles';
 import * as React from 'react';
 
 import Header from "./Header";
-import RepositoryCard from "./RepositoryCard";
+import RepositoryList from "./RepositoryList";
 import { apiClient } from '../utils/ApiClient';
-
-const styles: StyleRulesCallback = theme => ({
-  body: {
-    paddingBottom: '16px',
-    paddingLeft: '16px',
-    paddingRight: '16px',
-    paddingTop: '80px',
-    textAlign: 'center',
-  },
-});
-
-interface Props extends WithStyles<typeof styles> {}
+import { Repository } from "../interfaces";
 
 interface State {
   language: string;
   loading: boolean;
-  repos: object[];
+  repos: Repository[];
 }
 
-class App extends React.Component<Props, State> {
-  constructor(props: Props) {
+class App extends React.Component<{}, State> {
+  constructor(props: {}) {
     super(props);
     this.state = {
       loading: true,
@@ -71,18 +58,13 @@ class App extends React.Component<Props, State> {
   }
 
   public render() {
-    const { classes } = this.props;
     return (
       <Paper elevation={1}>
         <Header currentLanguage={this.state!.language} handleChange={this.handleChange}/>
-        <div className={classes.body}>
-          {this.state!.loading && <CircularProgress />}
-          {!this.state!.loading && this.state!.repos.map((repo: any, i: number) => (
-            <RepositoryCard key={repo.id} repo={repo} />))}
-        </div>
+        <RepositoryList loading={this.state!.loading} repos={this.state!.repos}/>
       </Paper>
     );
   }
 }
 
-export default withStyles(styles)(App);
+export default App;
