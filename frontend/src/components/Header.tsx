@@ -3,9 +3,12 @@ import FormControl from '@material-ui/core/FormControl';
 import MenuItem from '@material-ui/core/MenuItem';
 import Select from '@material-ui/core/Select';
 import Toolbar from '@material-ui/core/Toolbar';
+import Tooltip from '@material-ui/core/Tooltip';
 import Typography from '@material-ui/core/Typography';
+import IconButton from '@material-ui/core/IconButton';
 import { withStyles, WithStyles, StyleRulesCallback } from '@material-ui/core/styles';
 import * as React from 'react';
+import { GitHub } from './icons/GitHub'
 
 // TODO Try Downshift https://material-ui.com/demos/autocomplete/#react-autosuggest
 const languageOptions = [
@@ -58,6 +61,17 @@ const Header: React.SFC<Props> = ({ language, handleChange, classes }: Props) =>
             )}
           </Select>
         </FormControl>
+
+        <Tooltip title="GitHub repository" enterDelay={200}>
+          <IconButton
+            color='inherit'
+            component='a'
+            href='https://github.com/ohbarye/goofi'
+            target='_blank'
+          >
+            <GitHub />
+          </IconButton>
+        </Tooltip>
       </Toolbar>
     </AppBar>
   )
