@@ -1,4 +1,3 @@
-import CircularProgress from '@material-ui/core/CircularProgress';
 import { withStyles, WithStyles, StyleRulesCallback } from '@material-ui/core/styles';
 import * as React from 'react';
 import { Repository } from "../interfaces";
@@ -22,8 +21,7 @@ interface Props extends WithStyles<typeof styles> {
 const RepositoryList: React.SFC<Props> = ({ loading, repos, classes }: Props) => {
   return (
     <div className={classes.body}>
-      {loading ? <CircularProgress /> :
-        repos.map((repo: Repository) => <RepositoryCard key={repo.id} repo={repo} />)}
+      {repos.map((repo: Repository) => <RepositoryCard key={repo.id} repo={repo} />)}
     </div>
   )
 };
