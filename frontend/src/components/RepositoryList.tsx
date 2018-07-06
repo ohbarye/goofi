@@ -8,7 +8,7 @@ const styles: StyleRulesCallback = theme => ({
     paddingBottom: '16px',
     paddingLeft: '16px',
     paddingRight: '16px',
-    paddingTop: '85px',
+    paddingTop: '16px',
     textAlign: 'center',
   },
 });

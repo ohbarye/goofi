@@ -7,6 +7,8 @@ import { apiClient } from '../utils/ApiClient';
 import { Repository } from "../interfaces";
 import ButtonArea from "./ButtonArea";
 import Grid from "@material-ui/core/Grid";
+import { StyleRulesCallback } from "@material-ui/core/styles";
+import { WithStyles, withStyles } from "@material-ui/core";
 
 interface State {
   language: string;
@@ -19,8 +21,18 @@ interface State {
   repositoryCount: number;
 }
 
-class App extends React.Component<{}, State> {
-  constructor(props: {}) {
+
+const styles: StyleRulesCallback = theme => ({
+  paper: {
+    backgroundColor: '#efefef',
+    paddingTop: '70px',
+  },
+});
+
+interface Props extends WithStyles<typeof styles> {}
+
+class App extends React.Component<Props, State> {
+  constructor(props: Props) {
     super(props);
     this.state = {
       loading: true,
@@ -85,7 +97,7 @@ class App extends React.Component<{}, State> {
   }
 
   public componentDidMount() {
-    this.fetchRepos()
+    this.fetchRepos();
   }
 
   public handleChange(event: any) {
@@ -94,13 +106,12 @@ class App extends React.Component<{}, State> {
   }
 
   public handleClick() {
-    this.fetchRepos()
+    this.fetchRepos();
   }
-
 
   public render() {
     return (
-      <Paper elevation={1}>
+      <Paper elevation={1} className={this.props.classes.paper}>
         <Header
           language={this.state!.language}
           handleChange={this.handleChange}
@@ -118,4 +129,4 @@ class App extends React.Component<{}, State> {
   }
 }
 
-export default App;
+export default withStyles(styles)(App);
