@@ -16,7 +16,7 @@ interface State {
     endCursor?: string;
     hasNextPage: boolean;
   };
-  repositoryCount?: number;
+  repositoryCount: number;
 }
 
 class App extends React.Component<{}, State> {
@@ -30,7 +30,7 @@ class App extends React.Component<{}, State> {
         endCursor: undefined,
         hasNextPage: true,
       },
-      repositoryCount: undefined,
+      repositoryCount: 0,
     };
     this.handleChange = this.handleChange.bind(this);
     this.handleClick = this.handleClick.bind(this);
@@ -56,7 +56,7 @@ class App extends React.Component<{}, State> {
             endCursor: undefined,
             hasNextPage: true,
           },
-          repositoryCount: undefined,
+          repositoryCount: 0,
         };
       });
     }
@@ -97,10 +97,16 @@ class App extends React.Component<{}, State> {
     this.fetchRepos()
   }
 
+
   public render() {
     return (
       <Paper elevation={1}>
-        <Header language={this.state!.language} handleChange={this.handleChange}/>
+        <Header
+          language={this.state!.language}
+          handleChange={this.handleChange}
+          fetchedRepositoryCount={this.state!.repos.length}
+          totalRepositoryCount={this.state!.repositoryCount}
+        />
         <Grid container={true} justify={'center'}>
           <Grid item={true} xs={12} sm={10} md={10} lg={8}>
             <RepositoryList loading={this.state!.loading} repos={this.state!.repos}/>

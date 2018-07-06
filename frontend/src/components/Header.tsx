@@ -9,6 +9,7 @@ import IconButton from '@material-ui/core/IconButton';
 import { withStyles, WithStyles, StyleRulesCallback } from '@material-ui/core/styles';
 import * as React from 'react';
 import { GitHub } from './icons/GitHub'
+import LinearProgress from "@material-ui/core/LinearProgress";
 
 // TODO Try Downshift https://material-ui.com/demos/autocomplete/#react-autosuggest
 const languageOptions = [
@@ -36,9 +37,20 @@ const styles: StyleRulesCallback = theme => ({
 interface Props extends WithStyles<typeof styles> {
   language: string;
   handleChange: (event: any) => void;
+  fetchedRepositoryCount: number;
+  totalRepositoryCount: number;
 }
 
-const Header: React.SFC<Props> = ({ language, handleChange, classes }: Props) => {
+
+const progress = (fetchedReposCount: number, repositoryCount: number): number => {
+  if (repositoryCount === 0) {
+    return 0;
+  }
+
+  return fetchedReposCount / repositoryCount * 100;
+}
+
+const Header: React.SFC<Props> = ({ language, handleChange, classes, fetchedRepositoryCount, totalRepositoryCount }: Props) => {
   return (
     <AppBar>
       <Toolbar>
@@ -73,6 +85,9 @@ const Header: React.SFC<Props> = ({ language, handleChange, classes }: Props) =>
           </IconButton>
         </Tooltip>
       </Toolbar>
+      <Tooltip title={`${fetchedRepositoryCount} / ${totalRepositoryCount}`} enterDelay={200} placement="bottom-end">
+        <LinearProgress color="secondary" variant="determinate" value={progress(fetchedRepositoryCount, totalRepositoryCount)} />
+      </Tooltip>
     </AppBar>
   )
 };
