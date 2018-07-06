@@ -36,18 +36,36 @@ class App extends React.Component<{}, State> {
   }
 
   public async fetchRepos(language: string = this.state!.language) {
-    this.setState((prevState) => {
-      return {
-        ...prevState,
-        loading: true,
-      }
-    });
 
-    const perPage = 10;
+    if (language === this.state!.language) {
+      this.setState((prevState) => {
+        return {
+          ...prevState,
+          loading: true,
+        }
+      });
+    } else {
+      this.setState((prevState) => {
+        return {
+          ...prevState,
+          language,
+          repos: [],
+          loading: true,
+          pageInfo: {
+            endCursor: undefined,
+            hasNextPage: true,
+          },
+          repositoryCount: undefined,
+        };
+      });
+    }
+
+    const endCursor = language === this.state!.language ? this.state!.pageInfo.endCursor : undefined;
+
     const params = {
+      endCursor,
       language,
-      perPage,
-      endCursor: this.state!.pageInfo.endCursor,
+      perPage: 10,
     };
     const response = await apiClient.get('issues', {params});
     const repos = response.data.data.search.nodes;
@@ -71,19 +89,6 @@ class App extends React.Component<{}, State> {
 
   public handleChange(event: any) {
     const language = event.target.value;
-    this.setState((prevState) => {
-      return {
-        ...prevState,
-        language,
-        repos: [],
-        loading: true,
-        pageInfo: {
-          endCursor: undefined,
-          hasNextPage: true,
-        },
-        repositoryCount: undefined,
-      };
-    });
     this.fetchRepos(language);
   }
 
