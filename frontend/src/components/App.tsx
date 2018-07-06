@@ -6,6 +6,7 @@ import RepositoryList from "./RepositoryList";
 import { apiClient } from '../utils/ApiClient';
 import { Repository } from "../interfaces";
 import ButtonArea from "./ButtonArea";
+import Grid from "@material-ui/core/Grid";
 
 interface State {
   language: string;
@@ -100,8 +101,12 @@ class App extends React.Component<{}, State> {
     return (
       <Paper elevation={1}>
         <Header language={this.state!.language} handleChange={this.handleChange}/>
-        <RepositoryList loading={this.state!.loading} repos={this.state!.repos}/>
-        <ButtonArea loading={this.state!.loading} handleClick={this.handleClick} hasNextPage={this.state!.pageInfo.hasNextPage}/>
+        <Grid container={true} justify={'center'}>
+          <Grid item={true} xs={12} sm={10} md={10} lg={8}>
+            <RepositoryList loading={this.state!.loading} repos={this.state!.repos}/>
+            <ButtonArea loading={this.state!.loading} handleClick={this.handleClick} hasNextPage={this.state!.pageInfo.hasNextPage}/>
+          </Grid>
+        </Grid>
       </Paper>
     );
   }
