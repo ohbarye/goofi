@@ -27,6 +27,7 @@ const styles: StyleRulesCallback = theme => ({
   },
   repositoryName: {
     textAlign: 'left',
+    wordBreak: 'break-all',
   },
   verticalCenter: {
     display: 'flex',
