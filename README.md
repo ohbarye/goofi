@@ -4,7 +4,7 @@ Let's contribute to OSS. Here is how to find good first issues in GitHub.
 
 This is a simple app to list issues labelled as "good first issue" in repositories with over 500 stars.
 
-![image](https://user-images.githubusercontent.com/1811616/42136471-fee7003e-7d96-11e8-8580-9da1532bdb28.png)
+![image](https://user-images.githubusercontent.com/1811616/42405589-0130aafc-81d4-11e8-967a-e665a04ecb9c.png)
 
 ## Development
 
