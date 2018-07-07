@@ -46,6 +46,9 @@ const styles: StyleRulesCallback = theme => ({
       paddingRight: '0px',
     }
   },
+  panelDetails: {
+    padding: '16px 24px',
+  },
 });
 
 interface Props extends WithStyles<typeof styles> {
@@ -85,8 +88,13 @@ const RepositoryCard: React.SFC<Props> = ({ repo, classes }: Props) => (
       </Grid>
     </ExpansionPanelSummary>
     <Divider />
-    <ExpansionPanelDetails>
-      <IssueList issues={repo.issues.nodes} ownerAvatarUrl={repo.owner.avatarUrl}/>
+    <ExpansionPanelDetails className={classes.panelDetails}>
+      {repo.issues.totalCount === 0 ?
+          <Typography color="default">
+            Oops, this repository has no good first issues for now. Let's wait for their update.
+          </Typography>
+        : <IssueList issues={repo.issues.nodes} ownerAvatarUrl={repo.owner.avatarUrl}/>
+      }
     </ExpansionPanelDetails>
   </ExpansionPanel>
 );

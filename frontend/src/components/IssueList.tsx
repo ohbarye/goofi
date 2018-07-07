@@ -7,6 +7,8 @@ import IssueItem from "./IssueItem";
 const styles: StyleRulesCallback = theme => ({
   issueList: {
     width: '100%',
+    paddingTop: '0px',
+    paddingBottom: '0px',
   },
 });
 
