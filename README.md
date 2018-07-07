@@ -8,20 +8,27 @@ This is a simple app to list issues labelled as "good first issue" in repositori
 
 ## Development
 
+You can bootstrap everything with docker-compose.
+
 ```shell
-$ git clone git@github.com:ohbarye/goofi.git
-$ cd goofi
+$ git clone git@github.com:ohbarye/goofi.git && cd goofi
+$ echo GITHUB_AUTH_TOKEN=<your token> > .env
+$ docker-compose up -d
+$ open http://localhost:3000
 ```
 
-### Run Frontend App
+### Without docker-compose
+
+#### Run Frontend App
 
 ```shell
 $ cd frontend
 $ yarn
 $ yarn start
+$ open http://localhost:3000
 ```
 
-### Run API Server
+#### Run API Server
 
 ```shell
 $ cd api

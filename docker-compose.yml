@@ -1,0 +1,23 @@
+version: '3'
+services:
+  frontend:
+    image: "node:8-alpine"
+    user: "node"
+    working_dir: /home/frontend
+    volumes:
+      - ./frontend/:/home/frontend
+    ports:
+      - "3000:3000"
+    command: "yarn start"
+
+  api:
+    image: "node:8-alpine"
+    user: "node"
+    working_dir: /home/api
+    environment:
+      - GITHUB_AUTH_TOKEN=${GITHUB_AUTH_TOKEN}
+    volumes:
+      - ./api/:/home/api
+    ports:
+      - "5000:5000"
+    command: "yarn start"

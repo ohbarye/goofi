@@ -6,6 +6,10 @@ const PORT = process.env.PORT || 5000;
 
 const gitHubAuthToken = process.env.GITHUB_AUTH_TOKEN;
 
+if (!gitHubAuthToken) {
+  throw new Error('GITHUB_AUTH_TOKEN is not provided! Please set the token with ENV.')
+}
+
 const client = axios.create({
   baseURL: 'https://api.github.com/',
   timeout: 60000,
