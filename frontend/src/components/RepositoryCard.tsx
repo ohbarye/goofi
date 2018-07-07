@@ -23,11 +23,9 @@ const styles: StyleRulesCallback = theme => ({
   },
   repositoryDescription: {
     textAlign: 'left',
-    wordBreak: 'break-all',
   },
   repositoryName: {
     textAlign: 'left',
-    wordBreak: 'break-all',
   },
   verticalCenter: {
     display: 'flex',
@@ -67,8 +65,7 @@ const RepositoryCard: React.SFC<Props> = ({ repo, classes }: Props) => (
               className={classes.repositoryListItemText}
               primary={
                 <span className={classes.repositoryName}>
-                  <a href={repo.owner.url} target='_blank'>{repo.owner.login}</a>/
-                  <a href={repo.url} target='_blank'>{repo.name}</a>
+                  <a href={repo.owner.url} target='_blank'>{repo.owner.login}</a> / <a href={repo.url} target='_blank'>{repo.name}</a>
                 </span>
               }
               secondary={
