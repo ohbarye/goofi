@@ -62,6 +62,7 @@ Deploy logs: https://app.netlify.com/sites/goofi/deploys
 To deploy API to heroku:
 
 ```shell
-# At root directory
-$ git push --force heroku `git subtree split --prefix api HEAD`:master
+$ git push heroku master
 ```
+
+This app uses [heroku-buildpack-monorepo](https://elements.heroku.com/buildpacks/lstoll/heroku-buildpack-monorepo) to deploy sub directory.
