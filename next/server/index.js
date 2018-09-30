@@ -1,7 +1,7 @@
 const axios = require('axios');
 const express = require('express');
+const next = require('next');
 const cors = require('cors');
-const app = express();
 const PORT = process.env.PORT || 5000;
 
 const gitHubAuthToken = process.env.GITHUB_AUTH_TOKEN;
@@ -80,27 +80,46 @@ class GoodFirstIssueFinder {
   }
 }
 
-app.get('/issues', cors(), async (req, res) => {
-  const {
-    language,
-    endCursor,
-    perPage,
-  } = req.query;
-  if (language) {
-    const finder = new GoodFirstIssueFinder(client, language);
-    const result = await finder.run(endCursor, perPage);
-    res.header('Content-Type', 'application/json; charset=utf-8');
-    res.send(result);
-  } else {
-    res.header('Content-Type', 'application/json; charset=utf-8');
-    res.status(400).send({ error: 'please set "language"' });
+const port = parseInt(process.env.PORT, 10) || 3000;
+const dev = process.env.NODE_ENV !== 'production';
+const app = next({ dev });
+const handle = app.getRequestHandler();
+
+app.prepare().then(() => {
+  const server = express();
+
+  server.use(cors());
+
+  if (!dev) {
+    server.get('*', (_, res, next) => {
+      res.setHeader('Cache-Control', 'max-age=43200, immutable');
+      next();
+    });
   }
-});
 
-app.get('*', function(req, res){
-  res.status(404).send('Not Found');
-});
+  server.get('/issues', cors(), async (req, res) => {
+    const {
+      language,
+      endCursor,
+      perPage,
+    } = req.query;
+    if (language) {
+      const finder = new GoodFirstIssueFinder(client, language);
+      const result = await finder.run(endCursor, perPage);
+      res.header('Content-Type', 'application/json; charset=utf-8');
+      res.send(result);
+    } else {
+      res.header('Content-Type', 'application/json; charset=utf-8');
+      res.status(400).send({ error: 'please set "language"' });
+    }
+  });
 
-app.listen(PORT, function () {
-  console.log(`Example app listening on port ${PORT}!`)
+  server.get('*', (req, res) => {
+    return handle(req, res);
+  });
+
+  server.listen(port, err => {
+    if (err) throw err;
+    console.log(`Ready on http://localhost:${port}`);
+  });
 });
