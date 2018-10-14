@@ -46,41 +46,25 @@ class Index extends React.Component<Props, State> {
     this.handleClick = this.handleClick.bind(this);
   }
 
-  public async fetchRepos(language: string = this.state!.language) {
-    if (language === this.state!.language) {
-      this.setState((prevState) => {
-        return {
-          ...prevState,
-          loading: true,
-        }
-      });
-    } else {
-      this.setState((prevState) => {
-        return {
-          ...prevState,
-          language,
-          repos: [],
-          loading: true,
-          pageInfo: {
-            endCursor: undefined,
-            hasNextPage: true,
-          },
-          repositoryCount: 0,
-        };
-      });
-    }
-
-    const endCursor = language === this.state!.language ? this.state!.pageInfo.endCursor : undefined;
+  public async fetchMoreRepos(language: string = this.state!.language) {
+    this.setState((prevState) => {
+      return {
+        ...prevState,
+        loading: true,
+      }
+    });
+    const endCursor = this.state!.pageInfo.endCursor;
 
     const params = {
       endCursor,
       language,
       perPage: 10,
     };
+
     const response = await apiClient.get('issues', {params});
-    const repos = response.data.data.search.nodes;
-    const pageInfo = response.data.data.search.pageInfo;
-    const repositoryCount = response.data.data.search.repositoryCount;
+    const repos = response.data.repositories;
+    const pageInfo = response.data.pageInfo;
+    const repositoryCount = response.data.repositoryCount;
 
     this.setState((prevState) => {
       return {
@@ -94,7 +78,7 @@ class Index extends React.Component<Props, State> {
   }
 
   public handleClick() {
-    this.fetchRepos();
+    this.fetchMoreRepos();
   }
 
   public render() {

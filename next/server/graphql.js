@@ -135,7 +135,7 @@ const getResult = async ({ language, endCursor, perPage }) => {
   const key = `language=${language}&endCursor=${endCursor}&perPage=${perPage}`;
 
   if (cache.has(key)) {
-    console.log(`RENDER CACHE HIT: ${key}`);
+    console.log(`cache hit: ${key}`);
 
     return cache.get(key);
   }
@@ -145,49 +145,48 @@ const getResult = async ({ language, endCursor, perPage }) => {
 
   cache.set(key, result);
 
+  console.log(`cache miss: ${key}`);
+
   return result;
 };
+
+const getGoodFirstIssues = async ({language, endCursor, perPage}) => {
+  const queryResponse = await getResult({language, endCursor, perPage});
+
+  const formattedResponse = {
+    ...queryResponse.data.search,
+    repositories: queryResponse.data.search.nodes.map((repository) => {
+      return {
+        ...repository,
+        stargazerCount: repository.stargazers.totalCount,
+        issueCount: repository.issues.totalCount,
+        issues: repository.issues.nodes.map((issue) => {
+          return {
+            ...issue,
+            author: issue.author ? {
+              avatarUrl: issue.author.avatarUrl
+            } : null,
+          }
+        }),
+      }
+    }),
+  };
+
+  delete formattedResponse.nodes; // Reduce payload
+  return formattedResponse;
+};
+
 const resolvers = {
   Query: {
     async goodFirstIssues(root, args, context) {
       const { language = 'javascript', endCursor, perPage = 10 } = args;
-      const result = await getResult({language, endCursor, perPage});
-
-      return {
-        pageInfo: result.data.search.pageInfo,
-        repositoryCount: result.data.search.repositoryCount,
-        repositories: result.data.search.nodes.map((repository) => {
-          return {
-            id: repository.id,
-            description: repository.description,
-            name: repository.name,
-            url: repository.url,
-            stargazerCount: repository.stargazers.totalCount,
-            owner: {
-              id: repository.owner.id,
-              avatarUrl: repository.owner.avatarUrl,
-              login: repository.owner.login,
-              url: repository.owner.url,
-            },
-            issueCount: repository.issues.totalCount,
-            issues: repository.issues.nodes.map((issue) => {
-              return {
-                id: issue.id,
-                title: issue.title,
-                url: issue.url,
-                author:
-                  issue.author ? {
-                    avatarUrl: issue.author.avatarUrl
-                  } : null,
-                updatedAt: issue.updatedAt,
-              }
-            }),
-          }
-        }),
-      }
+      return await getGoodFirstIssues({language, endCursor, perPage});
     },
   },
 };
 
 const apolloServer = new ApolloServer({ typeDefs, resolvers });
-module.exports = apolloServer;
+module.exports = {
+  apolloServer,
+  getGoodFirstIssues,
+};
