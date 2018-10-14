@@ -12,7 +12,7 @@ You can bootstrap everything with docker-compose.
 
 ```shell
 $ git clone git@github.com:ohbarye/goofi.git && cd goofi
-$ echo GITHUB_AUTH_TOKEN=<your token> > .env
+$ echo GITHUB_ACCESS_TOKEN=<your token> > .env
 $ docker-compose up -d
 $ open http://localhost:3000
 ```
@@ -33,7 +33,7 @@ $ open http://localhost:3000
 ```shell
 $ cd api
 $ yarn
-$ GITHUB_AUTH_TOKEN=<your token> npm start
+$ GITHUB_ACCESS_TOKEN=<your token> npm start
 $ open http://localhost:5000/issues?language=javascript
 ```
 
@@ -44,7 +44,7 @@ Get a list with CSV format.
 ```shell
 $ cd job
 $ yarn
-$ LANGUAGE=javascript,typescript,ruby,go,java,python,shell GITHUB_AUTH_TOKEN=<your token> yarn job
+$ LANGUAGE=javascript,typescript,ruby,go,java,python,shell GITHUB_ACCESS_TOKEN=<your token> yarn job
 
 # See csv/ directory
 ```

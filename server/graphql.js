@@ -117,7 +117,7 @@ class GoodFirstIssueFinder {
   }
 }
 
-const gitHubAuthToken = process.env.GITHUB_AUTH_TOKEN;
+const gitHubAuthToken = process.env.GITHUB_ACCESS_TOKEN;
 const client = axios.create({
   baseURL: 'https://api.github.com/',
   timeout: 60000,

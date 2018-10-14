@@ -11,6 +11,12 @@ if (!process.browser) {
 }
 
 function create(initialState) {
+  console.log('initttttttttttttttttttttttttttttttttttttttttttttttttttt')
+  console.log(initialState)
+  console.log(process.browser)
+  console.log(publicRuntimeConfig)
+  console.log(fetch)
+  console.log('initttttttttttttttttttttttttttttttttttttttttttttttttttt')
   return new ApolloClient({
     connectToDevTools: process.browser,
     ssrMode: !process.browser,

@@ -3,6 +3,8 @@
     "goofi.now.sh"
   ],
   "env": {
+    "NODE_ENV": "production",
+    "PORT": "80",
     "GITHUB_ACCESS_TOKEN": "@github-access-token"
   }
 }

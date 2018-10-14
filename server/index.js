@@ -5,8 +5,8 @@ const { join } = require('path');
 const wrap = require('await-wrap');
 const { apolloServer, getGoodFirstIssues } = require('./graphql');
 
-if (!process.env.GITHUB_AUTH_TOKEN) {
-  throw new Error('GITHUB_AUTH_TOKEN is not provided! Please set the token with ENV.')
+if (!process.env.GITHUB_ACCESS_TOKEN) {
+  throw new Error('GITHUB_ACCESS_TOKEN is not provided! Please set the token with ENV.')
 }
 
 const port = parseInt(process.env.PORT, 10) || 3000;
@@ -31,8 +31,11 @@ app.prepare().then(() => {
 
   server.get('/service-worker.js', ServiceWorker(app));
   server.get('/', async (req, res) => {
+    console.log('///////////////////// 1      ////////////////////////////////')
     const { err, data } = await wrap(app.renderToHTML(req, res, '/'));
+    console.log('/////////////////////// 2   //////////////////////////////')
     if (err) return app.renderError(err, req, res, '/');
+    console.log('//////////////////////////   3  ///////////////////////////')
     return res.send(data);
   });
 
