@@ -56,47 +56,47 @@ interface Props extends WithStyles<typeof styles> {
 }
 
 const RepositoryCard: React.SFC<Props> = ({ repo, classes }: Props) => (
-  <ExpansionPanel>
-    <ExpansionPanelSummary expandIcon={<ExpandMoreIcon />}>
-      <Grid container={true} spacing={8}>
-        <Grid item={true} xs={12} sm={6} md={4}>
-          <ListItem className={classes.repositoryListItem}>
-            <ListItemIcon>
-              <Avatar alt="avatar" src={repo.owner.avatarUrl} className={classes.avatar}/>
-            </ListItemIcon>
-            <ListItemText
-              className={classes.repositoryListItemText}
-              primary={
-                <span className={classes.repositoryName}>
+    <ExpansionPanel>
+      <ExpansionPanelSummary expandIcon={<ExpandMoreIcon />}>
+        <Grid container={true} spacing={8}>
+          <Grid item={true} xs={12} sm={6} md={4}>
+            <ListItem className={classes.repositoryListItem}>
+              <ListItemIcon>
+                <Avatar alt="avatar" src={repo.owner.avatarUrl} className={classes.avatar}/>
+              </ListItemIcon>
+              <ListItemText
+                className={classes.repositoryListItemText}
+                primary={
+                  <span className={classes.repositoryName}>
                   <a href={repo.owner.url} target='_blank'>{repo.owner.login}</a> / <a href={repo.url} target='_blank'>{repo.name}</a>
                 </span>
-              }
-              secondary={
-                <span className={classes.verticalCenter}>
+                }
+                secondary={
+                  <span className={classes.verticalCenter}>
                   <Star className={classes.star}/>
-                  {repo.stargazers.totalCount}
+                    {repo.stargazerCount}
                 </span>
-              }
-            />
-          </ListItem>
+                }
+              />
+            </ListItem>
+          </Grid>
+          <Grid item={true} xs={12} sm={6} md={8} className={classes.verticalCenter}>
+            <Typography color="default" className={classes.repositoryDescription}>
+              {repo.description}
+            </Typography>
+          </Grid>
         </Grid>
-        <Grid item={true} xs={12} sm={6} md={8} className={classes.verticalCenter}>
-          <Typography color="default" className={classes.repositoryDescription}>
-            {repo.description}
-          </Typography>
-        </Grid>
-      </Grid>
-    </ExpansionPanelSummary>
-    <Divider />
-    <ExpansionPanelDetails className={classes.panelDetails}>
-      {repo.issues.totalCount === 0 ?
+      </ExpansionPanelSummary>
+      <Divider />
+      <ExpansionPanelDetails className={classes.panelDetails}>
+        {repo.issueCount === 0 ?
           <Typography color="default">
             Oops, this repository has no good first issues for now. Let's wait for their update.
           </Typography>
-        : <IssueList issues={repo.issues.nodes} ownerAvatarUrl={repo.owner.avatarUrl}/>
-      }
-    </ExpansionPanelDetails>
-  </ExpansionPanel>
+          : <IssueList issues={repo.issues} ownerAvatarUrl={repo.owner.avatarUrl}/>
+        }
+      </ExpansionPanelDetails>
+    </ExpansionPanel>
 );
 
 export default withStyles(styles)(RepositoryCard);

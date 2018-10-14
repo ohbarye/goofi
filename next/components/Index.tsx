@@ -21,7 +21,6 @@ interface State {
   repositoryCount: number;
 }
 
-
 const styles: StyleRulesCallback = theme => ({
   paper: {
     backgroundColor: '#efefef',
@@ -29,20 +28,19 @@ const styles: StyleRulesCallback = theme => ({
   },
 });
 
-interface Props extends WithStyles<typeof styles> {}
+interface Props extends WithStyles<typeof styles> {
+  goodFirstIssues: any;
+}
 
 class Index extends React.Component<Props, State> {
   constructor(props: Props) {
     super(props);
     this.state = {
-      loading: true,
-      repos: [],
+      loading: false,
+      repos: props.goodFirstIssues.repositories,
       language: 'javascript',
-      pageInfo: {
-        endCursor: undefined,
-        hasNextPage: true,
-      },
-      repositoryCount: 0,
+      pageInfo: {...props.goodFirstIssues.pageInfo},
+      repositoryCount: props.goodFirstIssues.repositoryCount,
     };
     this.handleChange = this.handleChange.bind(this);
     this.handleClick = this.handleClick.bind(this);
@@ -96,9 +94,9 @@ class Index extends React.Component<Props, State> {
     });
   }
 
-  public componentDidMount() {
-    this.fetchRepos();
-  }
+  // public componentDidMount() {
+  //   this.fetchRepos();
+  // }
 
   public handleChange(event: any) {
     const language = event.target.value;
