@@ -2,7 +2,6 @@ const axios = require('axios');
 const express = require('express');
 const next = require('next');
 const cors = require('cors');
-const PORT = process.env.PORT || 5000;
 
 const gitHubAuthToken = process.env.GITHUB_AUTH_TOKEN;
 
