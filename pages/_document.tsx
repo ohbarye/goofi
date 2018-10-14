@@ -1,20 +1,9 @@
 import React from 'react'
 import Document, { Head, Main, NextScript } from 'next/document'
-import { extractCritical } from 'emotion-server';
 import flush from 'styled-jsx/server';
 
 // Document component is strongly typed with `@types/next`
 class MyDocument extends Document {
-  static getInitialProps({ renderPage }) {
-    const page = renderPage();
-    const styles = extractCritical(page.html);
-
-    return {
-      ...page,
-      ...styles,
-    };
-  }
-
   render () {
     const { pageContext } = this.props;
 
