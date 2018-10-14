@@ -28,10 +28,7 @@
     "apollo-server-express": "^2.1.0",
     "await-wrap": "^0.1.0",
     "axios": "^0.18.0",
-    "body-parser": "^1.18.3",
     "cors": "^2.8.4",
-    "emotion": "^9.2.12",
-    "emotion-server": "^9.2.12",
     "express": "^4.16.3",
     "graphql": "^14.0.2",
     "graphql-tag": "^2.10.0",
@@ -50,7 +47,6 @@
     "@types/next": "^6.1.7",
     "@types/react": "^16.4.14",
     "@types/react-dom": "16.0.7",
-    "babel-plugin-emotion": "^9.2.11",
     "typescript": "3.0.3"
   },
   "license": "MIT"

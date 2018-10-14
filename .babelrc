@@ -2,8 +2,5 @@
   "presets": [
     "next/babel",
     "@zeit/next-typescript/babel"
-  ],
-  "plugins": [
-    ["emotion", { "inline": true }]
   ]
 }

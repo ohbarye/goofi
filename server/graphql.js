@@ -1,9 +1,6 @@
 const axios = require('axios');
-const fetch = require('isomorphic-unfetch');
-const { stringify } = require('querystring');
 const LRUCache = require('lru-cache');
 const { ApolloServer } = require('apollo-server-express');
-const dev = process.env.NODE_ENV !== 'production';
 
 const cache = new LRUCache({
   max: 150,
