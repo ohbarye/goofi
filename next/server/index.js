@@ -4,9 +4,8 @@ const next = require('next');
 const cors = require('cors');
 const LRUCache = require('lru-cache');
 const { join } = require('path');
-const { graphqlExpress } = require('apollo-server-express');
-const bodyParser = require('body-parser');
 const apolloServer = require('./graphql');
+const render = require('./render');
 
 const gitHubAuthToken = process.env.GITHUB_AUTH_TOKEN;
 
@@ -95,6 +94,8 @@ const dev = process.env.NODE_ENV !== 'production';
 const app = next({ dev });
 const handle = app.getRequestHandler();
 
+const RenderCache = render(app);
+
 const getResult = async ({ language, endCursor, perPage }) => {
   const key = `language=${language}&endCursor=${endCursor}&perPage=${perPage}`;
 
@@ -136,6 +137,8 @@ app.prepare().then(() => {
   });
 
   server.get('/service-worker.js', ServiceWorker(app));
+  server.get('/', (req, res) => RenderCache(req, res, '/'));
+
   server.get('*', (req, res) => {
     return handle(req, res);
   });
