@@ -8,15 +8,27 @@ type Props = {
   time: number,
 };
 
-export default class IndexPage extends React.Component<Props> {
-  static async getInitialProps(ctx: Object): Object {
-    const { query } = ctx;
+const getParams = (query) => {
+  if (query) {
     const { language = 'javascript', endCursor, perPage } = query;
     return {
       language,
       endCursor,
       perPage,
-    }
+    };
+  } else {
+    return {
+      language: 'javascript',
+      endCursor: undefined,
+      perPage: 10,
+    };
+  }
+};
+
+export default class IndexPage extends React.Component<Props> {
+  static async getInitialProps({ req }): Object {
+    const { query } = req;
+    return getParams(query);
   }
 
   render() {
