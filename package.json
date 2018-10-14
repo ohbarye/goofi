@@ -1,11 +1,24 @@
 {
-  "name": "with-typescript",
+  "name": "goofi",
   "version": "1.0.0",
+  "description": "This is how to find good first issues in GitHub",
+  "author": "ohbarye",
+  "bugs": {
+    "url": "https://github.com/ohbarye/goofi/issues"
+  },
+  "homepage": "https://github.com/ohbarye/goofi#readme",
+  "engines": {
+    "node": ">=8.9.1"
+  },
   "scripts": {
     "dev": "node ./server/index.js",
     "build": "next build",
     "start": "next start",
     "type-check": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/ohbarye/goofi.git"
   },
   "dependencies": {
     "@material-ui/core": "^3.1.1",
@@ -40,5 +53,5 @@
     "babel-plugin-emotion": "^9.2.11",
     "typescript": "3.0.3"
   },
-  "license": "ISC"
+  "license": "MIT"
 }
