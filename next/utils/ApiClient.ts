@@ -1,6 +1,9 @@
 import axios from 'axios';
+import getConfig from "next/config";
+const { publicRuntimeConfig } = getConfig();
 
-const baseURL = process.env.NODE_ENV === 'production' ? 'https://goofi-server.herokuapp.com/' : 'http://localhost:3000';
+console.log(publicRuntimeConfig);
+const baseURL = publicRuntimeConfig.api;
 
 export const apiClient = axios.create({
   baseURL,

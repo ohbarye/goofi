@@ -1,19 +1,31 @@
-import App from '../components/App';
-import CssBaseline from '@material-ui/core/CssBaseline';
-import { MuiThemeProvider, createMuiTheme } from '@material-ui/core/styles';
-import purple from '@material-ui/core/colors/blue';
-import green from '@material-ui/core/colors/orange';
+import Index from '../components/Index';
 
-const theme = createMuiTheme({
-  palette: {
-    primary: purple,
-    secondary: green,
-  },
-});
+type Props = {
+  children: React.Element<any>,
+  language: string,
+  time: number,
+};
 
-export default () => (
-  <MuiThemeProvider theme={theme}>
-    <CssBaseline />
-    <App />
-  </MuiThemeProvider>
-)
+export default class IndexPage extends React.Component<Props> {
+  static async getInitialProps(ctx: Object): Object {
+    const { query } = ctx;
+    const { language, endCursor, perPage } = query;
+    return {
+      language,
+      endCursor,
+      perPage,
+    }
+  }
+
+  render() {
+    return (
+      <Query query={GET_REPOS} variables={{ language, time }}>
+        {({ data: { repos } }) => <Index repos={repos} {...this.props} />}
+      </Query>
+    );
+  }
+}
+
+// export default () => (
+//   <Index />
+// )

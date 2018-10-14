@@ -31,7 +31,7 @@ const styles: StyleRulesCallback = theme => ({
 
 interface Props extends WithStyles<typeof styles> {}
 
-class App extends React.Component<Props, State> {
+class Index extends React.Component<Props, State> {
   constructor(props: Props) {
     super(props);
     this.state = {
@@ -129,4 +129,4 @@ class App extends React.Component<Props, State> {
   }
 }
 
-export default withStyles(styles)(App);
+export default withStyles(styles)(Index);

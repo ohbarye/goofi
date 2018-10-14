@@ -2,7 +2,8 @@ const axios = require('axios');
 const express = require('express');
 const next = require('next');
 const cors = require('cors');
-const PORT = process.env.PORT || 5000;
+const LRUCache = require('lru-cache');
+const { join } = require('path');
 
 const gitHubAuthToken = process.env.GITHUB_AUTH_TOKEN;
 
@@ -18,6 +19,11 @@ const client = axios.create({
     'Accept': 'application/json',
     'Authorization': `Bearer ${gitHubAuthToken}`,
   },
+});
+
+const cache = new LRUCache({
+  max: 150,
+  maxAge: 1000 * 60 * 60 * 6, // 6 hour cache
 });
 
 class GoodFirstIssueFinder {
@@ -85,17 +91,27 @@ const dev = process.env.NODE_ENV !== 'production';
 const app = next({ dev });
 const handle = app.getRequestHandler();
 
+const getResult = async ({ language, endCursor, perPage }) => {
+  const key = `language=${language}&endCursor=${endCursor}&perPage=${perPage}`;
+
+  if (cache.has(key)) {
+    console.log(`RENDER CACHE HIT: ${key}`);
+
+    return cache.get(key);
+  }
+
+  const finder = new GoodFirstIssueFinder(client, language);
+  const result = await finder.run(endCursor, perPage);
+
+  cache.set(key, result);
+
+  return result;
+};
+
 app.prepare().then(() => {
   const server = express();
 
   server.use(cors());
-
-  if (!dev) {
-    server.get('*', (_, res, next) => {
-      res.setHeader('Cache-Control', 'max-age=43200, immutable');
-      next();
-    });
-  }
 
   server.get('/issues', cors(), async (req, res) => {
     const {
@@ -104,8 +120,8 @@ app.prepare().then(() => {
       perPage,
     } = req.query;
     if (language) {
-      const finder = new GoodFirstIssueFinder(client, language);
-      const result = await finder.run(endCursor, perPage);
+      const result = await getResult({language, endCursor, perPage});
+
       res.header('Content-Type', 'application/json; charset=utf-8');
       res.send(result);
     } else {
@@ -114,6 +130,7 @@ app.prepare().then(() => {
     }
   });
 
+  server.get('/service-worker.js', ServiceWorker(app));
   server.get('*', (req, res) => {
     return handle(req, res);
   });
@@ -123,3 +140,9 @@ app.prepare().then(() => {
     console.log(`Ready on http://localhost:${port}`);
   });
 });
+
+const ServiceWorker = app => (req, res) => {
+  const filePath = join(__dirname, '../', '.next', 'service-worker.js');
+
+  app.serveStatic(req, res, filePath);
+};
