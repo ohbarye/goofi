@@ -1,23 +1,13 @@
 version: '3'
 services:
-  frontend:
+  app:
     image: "node:8-alpine"
     user: "node"
-    working_dir: /home/frontend
-    volumes:
-      - ./frontend/:/home/frontend
-    ports:
-      - "3000:3000"
-    command: "yarn start"
-
-  api:
-    image: "node:8-alpine"
-    user: "node"
-    working_dir: /home/api
+    working_dir: /home/goofi
     environment:
       - GITHUB_AUTH_TOKEN=${GITHUB_AUTH_TOKEN}
     volumes:
-      - ./api/:/home/api
+      - .:/home/goofi
     ports:
-      - "5000:5000"
-    command: "yarn start"
+      - "3000:3000"
+    command: "yarn dev"
