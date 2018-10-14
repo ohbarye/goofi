@@ -4,6 +4,9 @@ const next = require('next');
 const cors = require('cors');
 const LRUCache = require('lru-cache');
 const { join } = require('path');
+const { graphqlExpress } = require('apollo-server-express');
+const bodyParser = require('body-parser');
+const apolloServer = require('./graphql');
 
 const gitHubAuthToken = process.env.GITHUB_AUTH_TOKEN;
 
@@ -67,6 +70,7 @@ class GoodFirstIssueFinder {
               issues(first: 100, labels: ["good first issue"], states: OPEN, orderBy: {field: UPDATED_AT, direction: DESC}) {
                 totalCount
                 nodes {
+                  id
                   title
                   url
                   author {
@@ -110,6 +114,7 @@ const getResult = async ({ language, endCursor, perPage }) => {
 
 app.prepare().then(() => {
   const server = express();
+  apolloServer.applyMiddleware({ app: server, path: '/graphql' });
 
   server.use(cors());
 

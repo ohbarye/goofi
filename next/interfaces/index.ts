@@ -23,11 +23,7 @@ export interface Repository {
   id: string;
   name: string;
   owner: User;
-  issues: {
-    nodes: Issue[];
-    totalCount: number;
-  };
-  stargazers: {
-    totalCount: number;
-  };
+  issueCount: number;
+  issues: Issue[];
+  stargazerCount: number;
 }
