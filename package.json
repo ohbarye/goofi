@@ -13,7 +13,7 @@
   "scripts": {
     "dev": "node ./server/index.js",
     "build": "next build",
-    "start": "next start",
+    "start": "NODE_ENV=production node ./server/index.js",
     "type-check": "tsc"
   },
   "repository": {

@@ -5,7 +5,7 @@ services:
     user: "node"
     working_dir: /home/goofi
     environment:
-      - GITHUB_AUTH_TOKEN=${GITHUB_AUTH_TOKEN}
+      - GITHUB_ACCESS_TOKEN=${GITHUB_ACCESS_TOKEN}
     volumes:
       - .:/home/goofi
     ports:

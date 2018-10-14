@@ -5,8 +5,8 @@ const { join } = require('path');
 const wrap = require('await-wrap');
 const { apolloServer, getGoodFirstIssues } = require('./graphql');
 
-if (!process.env.GITHUB_AUTH_TOKEN) {
-  throw new Error('GITHUB_AUTH_TOKEN is not provided! Please set the token with ENV.')
+if (!process.env.GITHUB_ACCESS_TOKEN) {
+  throw new Error('GITHUB_ACCESS_TOKEN is not provided! Please set the token with ENV.')
 }
 
 const port = parseInt(process.env.PORT, 10) || 3000;
