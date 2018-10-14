@@ -29,6 +29,7 @@ const styles: StyleRulesCallback = theme => ({
 });
 
 interface Props extends WithStyles<typeof styles> {
+  language: string;
   goodFirstIssues: any;
 }
 
@@ -37,17 +38,15 @@ class Index extends React.Component<Props, State> {
     super(props);
     this.state = {
       loading: false,
+      language: props.language,
       repos: props.goodFirstIssues.repositories,
-      language: 'javascript',
       pageInfo: {...props.goodFirstIssues.pageInfo},
       repositoryCount: props.goodFirstIssues.repositoryCount,
     };
-    this.handleChange = this.handleChange.bind(this);
     this.handleClick = this.handleClick.bind(this);
   }
 
   public async fetchRepos(language: string = this.state!.language) {
-
     if (language === this.state!.language) {
       this.setState((prevState) => {
         return {
@@ -94,15 +93,6 @@ class Index extends React.Component<Props, State> {
     });
   }
 
-  // public componentDidMount() {
-  //   this.fetchRepos();
-  // }
-
-  public handleChange(event: any) {
-    const language = event.target.value;
-    this.fetchRepos(language);
-  }
-
   public handleClick() {
     this.fetchRepos();
   }
@@ -112,7 +102,6 @@ class Index extends React.Component<Props, State> {
       <Paper elevation={1} className={this.props.classes.paper}>
         <Header
           language={this.state!.language}
-          handleChange={this.handleChange}
           fetchedRepositoryCount={this.state!.repos.length}
           totalRepositoryCount={this.state!.repositoryCount}
         />
