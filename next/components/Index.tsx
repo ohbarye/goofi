@@ -29,6 +29,7 @@ const styles: StyleRulesCallback = theme => ({
 });
 
 interface Props extends WithStyles<typeof styles> {
+  language: string;
   goodFirstIssues: any;
 }
 
@@ -37,51 +38,33 @@ class Index extends React.Component<Props, State> {
     super(props);
     this.state = {
       loading: false,
+      language: props.language,
       repos: props.goodFirstIssues.repositories,
-      language: 'javascript',
       pageInfo: {...props.goodFirstIssues.pageInfo},
       repositoryCount: props.goodFirstIssues.repositoryCount,
     };
-    this.handleChange = this.handleChange.bind(this);
     this.handleClick = this.handleClick.bind(this);
   }
 
-  public async fetchRepos(language: string = this.state!.language) {
-
-    if (language === this.state!.language) {
-      this.setState((prevState) => {
-        return {
-          ...prevState,
-          loading: true,
-        }
-      });
-    } else {
-      this.setState((prevState) => {
-        return {
-          ...prevState,
-          language,
-          repos: [],
-          loading: true,
-          pageInfo: {
-            endCursor: undefined,
-            hasNextPage: true,
-          },
-          repositoryCount: 0,
-        };
-      });
-    }
-
-    const endCursor = language === this.state!.language ? this.state!.pageInfo.endCursor : undefined;
+  public async fetchMoreRepos(language: string = this.state!.language) {
+    this.setState((prevState) => {
+      return {
+        ...prevState,
+        loading: true,
+      }
+    });
+    const endCursor = this.state!.pageInfo.endCursor;
 
     const params = {
       endCursor,
       language,
       perPage: 10,
     };
+
     const response = await apiClient.get('issues', {params});
-    const repos = response.data.data.search.nodes;
-    const pageInfo = response.data.data.search.pageInfo;
-    const repositoryCount = response.data.data.search.repositoryCount;
+    const repos = response.data.repositories;
+    const pageInfo = response.data.pageInfo;
+    const repositoryCount = response.data.repositoryCount;
 
     this.setState((prevState) => {
       return {
@@ -94,17 +77,8 @@ class Index extends React.Component<Props, State> {
     });
   }
 
-  // public componentDidMount() {
-  //   this.fetchRepos();
-  // }
-
-  public handleChange(event: any) {
-    const language = event.target.value;
-    this.fetchRepos(language);
-  }
-
   public handleClick() {
-    this.fetchRepos();
+    this.fetchMoreRepos();
   }
 
   public render() {
@@ -112,7 +86,6 @@ class Index extends React.Component<Props, State> {
       <Paper elevation={1} className={this.props.classes.paper}>
         <Header
           language={this.state!.language}
-          handleChange={this.handleChange}
           fetchedRepositoryCount={this.state!.repos.length}
           totalRepositoryCount={this.state!.repositoryCount}
         />

@@ -36,7 +36,7 @@ export default class IndexPage extends React.Component<Props> {
 
     return (
       <Query query={GET_REPOS} variables={{ language, endCursor, perPage }}>
-        {({ data: { goodFirstIssues } }) => <Index goodFirstIssues={goodFirstIssues} {...this.props} />}
+        {({ data: { goodFirstIssues } }) => <Index goodFirstIssues={goodFirstIssues} language={language} {...this.props} />}
       </Query>
     );
   }

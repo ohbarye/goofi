@@ -2,7 +2,6 @@ import axios from 'axios';
 import getConfig from "next/config";
 const { publicRuntimeConfig } = getConfig();
 
-console.log(publicRuntimeConfig);
 const baseURL = publicRuntimeConfig.api;
 
 export const apiClient = axios.create({

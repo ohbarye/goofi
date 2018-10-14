@@ -69,8 +69,6 @@ class MyDocument extends Document {
 
 const clientSideJS = `
   document.addEventListener('DOMContentLoaded', event => {
-    document.querySelector('form[name=tune]').addEventListener('change', () => document.tune.submit())
-
     if ('serviceWorker' in navigator) {
       window.addEventListener('load', () => {
         navigator.serviceWorker.register('/service-worker.js').then(registration => {
