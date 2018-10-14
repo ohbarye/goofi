@@ -41,6 +41,11 @@ export default class MyDocument extends Document {
           <Main />
           <NextScript />
 
+          <script
+            type="text/javascript"
+            dangerouslySetInnerHTML={{ __html: clientSideJS }}
+          />
+
           {/* Global site tag (gtag.js) - Google Analytics */}
           <script
             async
@@ -56,6 +61,22 @@ export default class MyDocument extends Document {
     )
   }
 }
+
+const clientSideJS = `
+  document.addEventListener('DOMContentLoaded', event => {
+    document.querySelector('form[name=tune]').addEventListener('change', () => document.tune.submit())
+
+    if ('serviceWorker' in navigator) {
+      window.addEventListener('load', () => {
+        navigator.serviceWorker.register('/service-worker.js').then(registration => {
+          console.log('SW registered: ', registration)
+        }).catch(registrationError => {
+          console.log('SW registration failed: ', registrationError)
+        })
+      })
+    }
+  })
+`;
 
 const GA = `
   window.dataLayer = window.dataLayer || [];

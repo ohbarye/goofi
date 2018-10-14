@@ -59,19 +59,21 @@ const Header: React.SFC<Props> = ({ language, handleChange, classes, fetchedRepo
         </Typography>
 
         <FormControl>
-          <Select
-            value={language}
-            onChange={handleChange}
-            inputProps={{
-              id: 'language',
-              name: 'language',
-            }}
-            className={classes.select}
-          >
-            {languageOptions.map((languageOption) => (
-              <MenuItem key={languageOption.value} value={languageOption.value}>{languageOption.name}</MenuItem>)
-            )}
-          </Select>
+          <form name="tune" method="GET">
+            <Select
+              value={language}
+              onChange={handleChange}
+              inputProps={{
+                id: 'language',
+                name: 'language',
+              }}
+              className={classes.select}
+            >
+              {languageOptions.map((languageOption) => (
+                <MenuItem key={languageOption.value} value={languageOption.value}>{languageOption.name}</MenuItem>)
+              )}
+            </Select>
+          </form>
         </FormControl>
 
         <Tooltip title="GitHub repository" enterDelay={200}>
