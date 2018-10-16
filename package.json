@@ -25,6 +25,7 @@
     "@material-ui/icons": "^3.0.1",
     "@zeit/next-typescript": "^1.1.1",
     "apollo-boost": "^0.1.16",
+    "apollo-link-schema": "^1.1.1",
     "apollo-server-express": "^2.1.0",
     "await-wrap": "^0.1.0",
     "axios": "^0.18.0",

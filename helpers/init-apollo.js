@@ -1,7 +1,9 @@
-import { HttpLink, InMemoryCache, ApolloClient } from "apollo-boost";
+import { InMemoryCache, ApolloClient } from "apollo-boost";
 import fetch from "isomorphic-unfetch";
 import getConfig from "next/config";
 const { publicRuntimeConfig } = getConfig();
+import { SchemaLink } from 'apollo-link-schema';
+import { schema } from '../server/graphql';
 
 let apolloClient = null;
 
@@ -12,7 +14,7 @@ if (!process.browser) {
 
 function create(initialState) {
   console.log('initttttttttttttttttttttttttttttttttttttttttttttttttttt')
-  console.log(initialState)
+  // console.log(initialState)
   console.log(process.browser)
   console.log(publicRuntimeConfig)
   console.log(fetch)
@@ -20,10 +22,7 @@ function create(initialState) {
   return new ApolloClient({
     connectToDevTools: process.browser,
     ssrMode: !process.browser,
-    link: new HttpLink({
-      uri: `${publicRuntimeConfig.api}/graphql`,
-      credentials: "same-origin"
-    }),
+    link: new SchemaLink({ schema }),
     cache: new InMemoryCache().restore(initialState || {})
   });
 }

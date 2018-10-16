@@ -1,6 +1,8 @@
 const axios = require('axios');
 const LRUCache = require('lru-cache');
 const { ApolloServer } = require('apollo-server-express');
+const { makeExecutableSchema } = require('graphql-tools');
+
 
 const cache = new LRUCache({
   max: 150,
@@ -183,7 +185,11 @@ const resolvers = {
 };
 
 const apolloServer = new ApolloServer({ typeDefs, resolvers });
+
+const schema = makeExecutableSchema({ typeDefs });
+
 module.exports = {
   apolloServer,
   getGoodFirstIssues,
+  schema,
 };
