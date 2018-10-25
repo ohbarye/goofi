@@ -1,0 +1,9 @@
+{
+  "alias": [
+    "goofi.now.sh"
+  ],
+  "env": {
+    "PORT": "80",
+    "GITHUB_ACCESS_TOKEN": "@github-access-token"
+  }
+}
