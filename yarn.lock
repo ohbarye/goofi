@@ -812,10 +812,19 @@
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/@types/mime/-/mime-2.0.0.tgz#5a7306e367c539b9f6543499de8dd519fac37a8b"
 
-"@types/next@^6.1.7":
-  version "6.1.8"
-  resolved "https://registry.yarnpkg.com/@types/next/-/next-6.1.8.tgz#6859a2a9ae9b3b93b8294bc1bb65e9f78b7f3df5"
+"@types/next-server@*":
+  version "7.0.1"
+  resolved "https://registry.yarnpkg.com/@types/next-server/-/next-server-7.0.1.tgz#079ffbb644716fe99158d9cf969597047ae9ec06"
   dependencies:
+    "@types/node" "*"
+    "@types/react" "*"
+    "@types/react-loadable" "*"
+
+"@types/next@^7.0.3":
+  version "7.0.3"
+  resolved "https://registry.yarnpkg.com/@types/next/-/next-7.0.3.tgz#4831741dee02c463a761292176e372af072d3c39"
+  dependencies:
+    "@types/next-server" "*"
     "@types/node" "*"
     "@types/node-fetch" "*"
     "@types/react" "*"
@@ -849,6 +858,13 @@
     "@types/node" "*"
     "@types/react" "*"
 
+"@types/react-loadable@*":
+  version "5.4.1"
+  resolved "https://registry.yarnpkg.com/@types/react-loadable/-/react-loadable-5.4.1.tgz#bc76978c6d9039e5808797b5ee35f6ae18b7329f"
+  dependencies:
+    "@types/react" "*"
+    "@types/webpack" "*"
+
 "@types/react-transition-group@^2.0.8":
   version "2.0.14"
   resolved "https://registry.yarnpkg.com/@types/react-transition-group/-/react-transition-group-2.0.14.tgz#afd0cd785a97f070b55765e9f9d76ff568269001"
@@ -868,6 +884,25 @@
   dependencies:
     "@types/express-serve-static-core" "*"
     "@types/mime" "*"
+
+"@types/tapable@*":
+  version "1.0.4"
+  resolved "https://registry.yarnpkg.com/@types/tapable/-/tapable-1.0.4.tgz#b4ffc7dc97b498c969b360a41eee247f82616370"
+
+"@types/uglify-js@*":
+  version "3.0.4"
+  resolved "https://registry.yarnpkg.com/@types/uglify-js/-/uglify-js-3.0.4.tgz#96beae23df6f561862a830b4288a49e86baac082"
+  dependencies:
+    source-map "^0.6.1"
+
+"@types/webpack@*":
+  version "4.4.17"
+  resolved "https://registry.yarnpkg.com/@types/webpack/-/webpack-4.4.17.tgz#3da3e0823a051311ba510bdc32354888921fc8b4"
+  dependencies:
+    "@types/node" "*"
+    "@types/tapable" "*"
+    "@types/uglify-js" "*"
+    source-map "^0.6.0"
 
 "@types/ws@^5.1.2":
   version "5.1.2"
