@@ -32,7 +32,7 @@
     "express": "^4.16.4",
     "graphql": "^14.0.2",
     "graphql-tag": "^2.10.0",
-    "graphql-tools": "^4.0.1",
+    "graphql-tools": "^4.0.3",
     "isomorphic-unfetch": "^3.0.0",
     "jss": "^9.8.7",
     "lru-cache": "^4.1.3",
