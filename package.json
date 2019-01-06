@@ -28,7 +28,7 @@
     "apollo-server-express": "^2.1.0",
     "await-wrap": "^0.1.0",
     "axios": "^0.18.0",
-    "cors": "^2.8.4",
+    "cors": "^2.8.5",
     "express": "^4.16.4",
     "graphql": "^14.0.2",
     "graphql-tag": "^2.10.0",
