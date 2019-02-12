@@ -40,7 +40,7 @@
     "next-offline": "^3.0.3",
     "react": "^16.5.2",
     "react-apollo": "^2.2.4",
-    "react-dom": "^16.5.2",
+    "react-dom": "^16.8.1",
     "react-jss": "^8.6.1"
   },
   "devDependencies": {
