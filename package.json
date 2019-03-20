@@ -45,7 +45,7 @@
   "devDependencies": {
     "@types/next": "^6.1.7",
     "@types/react": "^16.8.3",
-    "@types/react-dom": "16.8.1",
+    "@types/react-dom": "16.8.3",
     "typescript": "3.3.3"
   },
   "license": "MIT"
