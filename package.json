@@ -38,7 +38,7 @@
     "next": "^7.0.2",
     "next-offline": "^3.0.3",
     "react": "^16.8.2",
-    "react-apollo": "^2.2.4",
+    "react-apollo": "^2.5.7",
     "react-dom": "^16.8.2",
     "react-jss": "^8.6.1"
   },
