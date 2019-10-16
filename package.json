@@ -46,7 +46,7 @@
     "@types/next": "^6.1.7",
     "@types/react": "^16.8.3",
     "@types/react-dom": "16.9.2",
-    "typescript": "3.3.3"
+    "typescript": "3.6.4"
   },
   "license": "MIT"
 }
