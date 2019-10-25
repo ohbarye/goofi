@@ -8,8 +8,15 @@ import JssProvider from 'react-jss/lib/JssProvider';
 import getPageContext from '../helpers/getPageContext';
 
 import withApolloClient from '../helpers/with-apollo';
+import { ApolloClient } from "apollo-client";
 
-class MyApp extends App {
+type Props = {
+  apolloClient: ApolloClient<any>;
+}
+
+class MyApp extends App<Props> {
+  pageContext;
+
   constructor(props) {
     super(props);
     this.pageContext = getPageContext();

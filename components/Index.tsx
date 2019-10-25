@@ -21,7 +21,7 @@ interface State {
   repositoryCount: number;
 }
 
-const styles: StyleRulesCallback = theme => ({
+const styles: StyleRulesCallback = _ => ({
   paper: {
     backgroundColor: '#efefef',
     paddingTop: '70px',

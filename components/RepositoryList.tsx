@@ -3,7 +3,7 @@ import * as React from 'react';
 import { Repository } from "../interfaces";
 import RepositoryCard from "./RepositoryCard";
 
-const styles: StyleRulesCallback = theme => ({
+const styles: StyleRulesCallback = _ => ({
   body: {
     paddingBottom: '16px',
     paddingLeft: '16px',
@@ -18,7 +18,7 @@ interface Props extends WithStyles<typeof styles> {
   repos: Repository[];
 }
 
-const RepositoryList: React.SFC<Props> = ({ loading, repos, classes }: Props) => {
+const RepositoryList: React.SFC<Props> = ({ repos, classes }: Props) => {
   return (
     <div className={classes.body}>
       {repos.map((repo: Repository) => <RepositoryCard key={repo.id} repo={repo} />)}
