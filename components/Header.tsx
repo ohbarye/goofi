@@ -16,6 +16,7 @@ const languageOptions = [
   { value: 'javascript', name: 'JavaScript' },
   { value: 'go', name: 'Go' },
   { value: 'java', name: 'Java' },
+  { value: 'kotlin', name: 'Kotlin' },
   { value: 'python', name: 'Python' },
   { value: 'ruby', name: 'Ruby' },
   { value: 'shell', name: 'Shell' },
