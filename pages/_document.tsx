@@ -3,7 +3,7 @@ import Document, { Head, Main, NextScript } from 'next/document'
 import flush from 'styled-jsx/server';
 
 // Document component is strongly typed with `@types/next`
-class MyDocument extends Document {
+class MyDocument extends Document<any> {
   render () {
     const { pageContext } = this.props;
 
@@ -79,7 +79,7 @@ const GA = `
 `;
 
 
-MyDocument.getInitialProps = ctx => {
+(MyDocument as any).getInitialProps = ctx => {
   // Resolution order
   //
   // On the server:
