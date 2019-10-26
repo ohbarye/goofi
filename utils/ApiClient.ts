@@ -1,8 +1,6 @@
 import axios from 'axios';
-import getConfig from "next/config";
-const { env } = getConfig();
 
-const baseURL = env.api;
+const baseURL = process.env.api;
 
 export const apiClient = axios.create({
   baseURL,

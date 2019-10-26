@@ -1,7 +1,5 @@
 import { HttpLink, InMemoryCache, ApolloClient } from "apollo-boost";
 import fetch from "isomorphic-unfetch";
-import getConfig from "next/config";
-const { env } = getConfig();
 
 let apolloClient = null;
 
@@ -15,7 +13,7 @@ function create(initialState) {
     connectToDevTools: process.browser,
     ssrMode: !process.browser,
     link: new HttpLink({
-      uri: `${env.api}/graphql`,
+      uri: `${process.env.api}/graphql`,
       credentials: "same-origin"
     }),
     cache: new InMemoryCache().restore(initialState || {})
