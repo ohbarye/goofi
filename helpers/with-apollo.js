@@ -17,7 +17,7 @@ export default App => {
 
       // Run all GraphQL queries in the component tree
       // and extract the resulting data
-      const apollo = initApollo()
+      const apollo = initApollo(undefined, appProps.nowUrl)
       try {
         // Run all GraphQL queries
         await getDataFromTree(
@@ -33,7 +33,7 @@ export default App => {
         // Prevent Apollo Client GraphQL errors from crashing SSR.
         // Handle them in components via the data.error prop:
         // http://dev.apollodata.com/react/api-queries.html#graphql-query-data-error
-        console.error('Error while running `getDataFromTree`', error)
+        // console.error('Error while running `getDataFromTree`', error)
       }
 
       if (!process.browser) {
@@ -55,7 +55,7 @@ export default App => {
       super(props)
       // `getDataFromTree` renders the component first, the client is passed off as a property.
       // After that rendering is done using Next's normal rendering pipeline
-      this.apolloClient = props.apolloClient || initApollo(props.apolloState.data)
+      this.apolloClient = props.apolloClient || initApollo(props.apolloState.data, props.nowUrl)
     }
 
     render () {

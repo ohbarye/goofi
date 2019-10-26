@@ -37,7 +37,9 @@ class MyApp extends App<Props> {
       pageProps = await Component.getInitialProps(ctx)
     }
 
-    return { pageProps }
+    const nowUrl = `https://${ctx.req.headers['x-now-deployment-url']}`
+
+    return { pageProps, nowUrl }
   }
 
   render () {

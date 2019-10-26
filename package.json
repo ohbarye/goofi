@@ -25,6 +25,7 @@
     "@material-ui/icons": "^3.0.1",
     "apollo-boost": "^0.1.16",
     "apollo-server-express": "^2.1.0",
+    "apollo-server-micro": "^2.9.7",
     "await-wrap": "^0.1.0",
     "axios": "^0.18.1",
     "cors": "^2.8.5",
