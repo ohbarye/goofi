@@ -10,8 +10,8 @@ This is a simple app to list issues labelled as "good first issue" in repositori
 
 ## Features
 
-- Server side rendering with Next.js
-- Deployed on [Now.sh](https://zeit.co/now)
+- Server side rendering with Next.js v9
+- Deployed on [Now.sh](https://zeit.co/now) v2
 - GraphQL and Apollo
 
 ## Development
@@ -38,7 +38,6 @@ $ open http://localhost:3000
 Run the following command to deploy to now.sh:
 
 ```shell
-$ now       # Deploy staging app
-$ now alias # Promote the staging app as production one
+$ now        # Deploy staging app
+$ now --prod # Deploy production app
 ```
-
