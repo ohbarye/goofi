@@ -54,7 +54,7 @@ const Header: React.SFC<Props> = ({ language, classes, fetchedRepositoryCount, t
   return (
     <AppBar>
       <Toolbar>
-        <Typography variant="title" color="inherit" className={classes.title}>
+        <Typography variant="h6" color="inherit" className={classes.title}>
           Good First Issues
         </Typography>
 
