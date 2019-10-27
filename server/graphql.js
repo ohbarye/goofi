@@ -1,6 +1,5 @@
-const axios = require('axios');
-const LRUCache = require('lru-cache');
-const { ApolloServer } = require('apollo-server-express');
+import axios from 'axios';
+import LRUCache from 'lru-cache';
 
 const cache = new LRUCache({
   max: 150,
@@ -9,7 +8,7 @@ const cache = new LRUCache({
 
 const graphql = query => query.join('');
 
-const typeDefs = graphql`
+export const typeDefs = graphql`
   type Query {
     goodFirstIssues(language: String!, endCursor: String, perPage: Int): GoodFirstIssues!
   }
@@ -147,7 +146,7 @@ const getResult = async ({ language, endCursor, perPage }) => {
   return result;
 };
 
-const getGoodFirstIssues = async ({language, endCursor, perPage}) => {
+export const getGoodFirstIssues = async ({language, endCursor, perPage}) => {
   const queryResponse = await getResult({language, endCursor, perPage});
 
   const formattedResponse = {
@@ -173,17 +172,11 @@ const getGoodFirstIssues = async ({language, endCursor, perPage}) => {
   return formattedResponse;
 };
 
-const resolvers = {
+export const resolvers = {
   Query: {
     async goodFirstIssues(root, args, context) {
       const { language = 'javascript', endCursor, perPage = 10 } = args;
       return await getGoodFirstIssues({language, endCursor, perPage});
     },
   },
-};
-
-const apolloServer = new ApolloServer({ typeDefs, resolvers });
-module.exports = {
-  apolloServer,
-  getGoodFirstIssues,
 };
