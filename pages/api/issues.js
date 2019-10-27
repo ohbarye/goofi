@@ -1,4 +1,4 @@
-import { getGoodFirstIssues } from '../../server/graphql';
+import { getGoodFirstIssues } from '../../helpers/graphql';
 
 export default async (req, res) => {
   const { language, endCursor, perPage } = req.query;
