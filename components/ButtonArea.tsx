@@ -31,7 +31,7 @@ const ButtonArea: React.SFC<Props> = ({ classes, handleClick, loading, hasNextPa
         <Grid item={true} xs={12} sm={4}>
           <Button
             size="large"
-            variant='raised'
+            variant='contained'
             color='primary'
             className={classes.button}
             disabled={loading || !hasNextPage}

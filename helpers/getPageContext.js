@@ -7,6 +7,9 @@ import orange from '@material-ui/core/colors/orange';
 // https://github.com/mui-org/material-ui/tree/master/examples/nextjs
 
 const theme = createMuiTheme({
+  typography: {
+    useNextVariants: true,
+  },
   palette: {
     primary: blue,
     secondary: orange,
