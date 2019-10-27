@@ -28,8 +28,7 @@ const getParams = (query) => {
 };
 
 export default class IndexPage extends Component<Props> {
-  static async getInitialProps({ req }): Promise<Object> {
-    const { query } = req;
+  static async getInitialProps({ query }): Promise<Object> {
     return getParams(query);
   }
 
