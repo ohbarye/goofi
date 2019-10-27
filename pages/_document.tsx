@@ -18,8 +18,6 @@ class MyDocument extends Document<any> {
           <meta name="author" content="Masato Ohba<over.rye@gmail.com>" />
           <meta name="application-name" content="goofi" />
 
-          <title>Good First Issues</title>
-
           <style dangerouslySetInnerHTML={{ __html: this.props.css }} />
 
           <meta name="theme-color" content={pageContext.theme.palette.primary.main} />

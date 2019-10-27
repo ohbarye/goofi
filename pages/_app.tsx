@@ -1,5 +1,6 @@
 import React from 'react';
-import App, { Container } from 'next/app';
+import App from 'next/app';
+import Head from 'next/head'
 import CssBaseline from '@material-ui/core/CssBaseline';
 import { MuiThemeProvider } from '@material-ui/core/styles';
 import { ApolloProvider } from 'react-apollo';
@@ -46,7 +47,10 @@ class MyApp extends App<Props> {
     const { Component, pageProps, apolloClient } = this.props;
 
     return (
-      <Container>
+      <>
+        <Head>
+          <title>Good First Issues</title>
+        </Head>
         <JssProvider
           registry={this.pageContext.sheetsRegistry}
           generateClassName={this.pageContext.generateClassName}
@@ -61,7 +65,7 @@ class MyApp extends App<Props> {
             </MuiThemeProvider>
           </ApolloProvider>
         </JssProvider>
-      </Container>
+        </>
     )
   }
 }
