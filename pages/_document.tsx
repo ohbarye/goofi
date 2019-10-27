@@ -3,7 +3,7 @@ import Document, { Head, Main, NextScript } from 'next/document'
 import flush from 'styled-jsx/server';
 
 // Document component is strongly typed with `@types/next`
-class MyDocument extends Document {
+class MyDocument extends Document<any> {
   render () {
     const { pageContext } = this.props;
 
@@ -17,8 +17,6 @@ class MyDocument extends Document {
           <meta name="keywords" content="OSS,JavaScript,TypeScript,GraphQL,Nodejs" />
           <meta name="author" content="Masato Ohba<over.rye@gmail.com>" />
           <meta name="application-name" content="goofi" />
-
-          <title>Good First Issues</title>
 
           <style dangerouslySetInnerHTML={{ __html: this.props.css }} />
 
@@ -79,7 +77,7 @@ const GA = `
 `;
 
 
-MyDocument.getInitialProps = ctx => {
+(MyDocument as any).getInitialProps = ctx => {
   // Resolution order
   //
   // On the server:

@@ -21,7 +21,7 @@ interface State {
   repositoryCount: number;
 }
 
-const styles: StyleRulesCallback = theme => ({
+const styles: StyleRulesCallback = _ => ({
   paper: {
     backgroundColor: '#efefef',
     paddingTop: '70px',
@@ -61,7 +61,7 @@ class Index extends React.Component<Props, State> {
       perPage: 10,
     };
 
-    const response = await apiClient.get('issues', {params});
+    const response = await apiClient.get('/api/issues', {params});
     const repos = response.data.repositories;
     const pageInfo = response.data.pageInfo;
     const repositoryCount = response.data.repositoryCount;

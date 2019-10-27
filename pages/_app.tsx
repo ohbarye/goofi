@@ -1,5 +1,6 @@
 import React from 'react';
-import App, { Container } from 'next/app';
+import App from 'next/app';
+import Head from 'next/head'
 import CssBaseline from '@material-ui/core/CssBaseline';
 import { MuiThemeProvider } from '@material-ui/core/styles';
 import { ApolloProvider } from 'react-apollo';
@@ -8,8 +9,15 @@ import JssProvider from 'react-jss/lib/JssProvider';
 import getPageContext from '../helpers/getPageContext';
 
 import withApolloClient from '../helpers/with-apollo';
+import { ApolloClient } from "apollo-client";
 
-class MyApp extends App {
+type Props = {
+  apolloClient: ApolloClient<any>;
+}
+
+class MyApp extends App<Props> {
+  pageContext;
+
   constructor(props) {
     super(props);
     this.pageContext = getPageContext();
@@ -30,14 +38,19 @@ class MyApp extends App {
       pageProps = await Component.getInitialProps(ctx)
     }
 
-    return { pageProps }
+    const nowUrl = `https://${ctx.req.headers['x-now-deployment-url']}`
+
+    return { pageProps, nowUrl }
   }
 
   render () {
     const { Component, pageProps, apolloClient } = this.props;
 
     return (
-      <Container>
+      <>
+        <Head>
+          <title>Good First Issues</title>
+        </Head>
         <JssProvider
           registry={this.pageContext.sheetsRegistry}
           generateClassName={this.pageContext.generateClassName}
@@ -52,7 +65,7 @@ class MyApp extends App {
             </MuiThemeProvider>
           </ApolloProvider>
         </JssProvider>
-      </Container>
+        </>
     )
   }
 }

@@ -1,11 +1,13 @@
+import { Component } from 'react';
 import Index from '../components/Index';
 import gql from 'graphql-tag';
 import { Query } from 'react-apollo';
 
 type Props = {
-  children: React.Element<any>,
   language: string,
   time: number,
+  endCursor?: string,
+  perPage: number,
 };
 
 const getParams = (query) => {
@@ -25,9 +27,8 @@ const getParams = (query) => {
   }
 };
 
-export default class IndexPage extends React.Component<Props> {
-  static async getInitialProps({ req }): Object {
-    const { query } = req;
+export default class IndexPage extends Component<Props> {
+  static async getInitialProps({ query }): Promise<Object> {
     return getParams(query);
   }
 

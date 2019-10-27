@@ -4,7 +4,7 @@ import * as React from 'react';
 import { Issue } from "../interfaces";
 import IssueItem from "./IssueItem";
 
-const styles: StyleRulesCallback = theme => ({
+const styles: StyleRulesCallback = _ => ({
   issueList: {
     width: '100%',
     paddingTop: '0px',

@@ -25,7 +25,7 @@ const languageOptions = [
   { value: 'rust', name: 'Rust' },
 ];
 
-const styles: StyleRulesCallback = theme => ({
+const styles: StyleRulesCallback = _ => ({
   select: {
     color: '#fff',
   },
@@ -50,7 +50,7 @@ const progress = (fetchedReposCount: number, repositoryCount: number): number =>
   return fetchedReposCount / repositoryCount * 100;
 }
 
-const Header: React.SFC<Props> = ({ language, handleChange, classes, fetchedRepositoryCount, totalRepositoryCount }: Props) => {
+const Header: React.SFC<Props> = ({ language, classes, fetchedRepositoryCount, totalRepositoryCount }: Props) => {
   return (
     <AppBar>
       <Toolbar>
@@ -62,7 +62,7 @@ const Header: React.SFC<Props> = ({ language, handleChange, classes, fetchedRepo
           <Select
             value={language}
             onChange={(event: any) => {
-              window.location = `/?language=${event.target.value}`;
+              window.location.href = `/?language=${event.target.value}`;
             }}
             inputProps={{
               id: 'language',
