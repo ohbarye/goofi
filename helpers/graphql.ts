@@ -1,16 +1,21 @@
-import axios from 'axios';
-import LRUCache from 'lru-cache';
+import axios, { AxiosInstance } from "axios";
+import LRUCache from "lru-cache";
+import { GoodFirstIssuesResponse } from "../interfaces";
 
 const cache = new LRUCache({
   max: 150,
-  maxAge: 1000 * 60 * 60 * 6, // 6 hour cache
+  maxAge: 1000 * 60 * 60 * 6 // 6 hour cache
 });
 
-const graphql = query => query.join('');
+const graphql = (query: TemplateStringsArray) => query.join("");
 
 export const typeDefs = graphql`
   type Query {
-    goodFirstIssues(language: String!, endCursor: String, perPage: Int): GoodFirstIssues!
+    goodFirstIssues(
+      language: String!
+      endCursor: String
+      perPage: Int
+    ): GoodFirstIssues!
   }
 
   type GoodFirstIssues {
@@ -18,7 +23,7 @@ export const typeDefs = graphql`
     repositoryCount: Int!
     repositories: [Repository]!
   }
-  
+
   type PageInfo {
     startCursor: String
     endCursor: String
@@ -35,18 +40,18 @@ export const typeDefs = graphql`
     issueCount: Int!
     issues: [Issue]!
   }
-  
+
   type RepositoryOwner {
     id: ID!
     avatarUrl: String!
     login: String!
     url: String!
   }
-  
+
   type Actor {
     avatarUrl: String!
   }
-  
+
   type Issue {
     title: String!
     url: String!
@@ -56,7 +61,10 @@ export const typeDefs = graphql`
 `;
 
 class GoodFirstIssueFinder {
-  constructor(client, language) {
+  client: AxiosInstance;
+  language: string;
+
+  constructor(client: AxiosInstance, language: string) {
     this.client = client;
     this.language = language;
 
@@ -64,14 +72,14 @@ class GoodFirstIssueFinder {
     this.buildQuery = this.buildQuery.bind(this);
   }
 
-  async run(endCursor = undefined, perPage = 10) {
+  async run(endCursor: string = undefined, perPage: number | string = 10) {
     const query = this.buildQuery(endCursor, perPage);
-    const response = await this.client.post('graphql', {query});
+    const response = await this.client.post("graphql", { query });
     return response.data;
   }
 
   buildQuery(endCursor, perPage) {
-    const after = endCursor ? `after:"${endCursor}",` : '';
+    const after = endCursor ? `after:"${endCursor}",` : "";
     return `
       query {
         search(first: ${perPage}, ${after} query: "language:${this.language} good-first-issues:>1 stars:>500", type: REPOSITORY) {
@@ -112,22 +120,30 @@ class GoodFirstIssueFinder {
           }
         }
       }
-    `
+    `;
   }
 }
 
 const gitHubAuthToken = process.env.GITHUB_ACCESS_TOKEN;
 const client = axios.create({
-  baseURL: 'https://api.github.com/',
+  baseURL: "https://api.github.com/",
   timeout: 60000,
   headers: {
-    'Content-Type': 'application/json',
-    'Accept': 'application/json',
-    'Authorization': `Bearer ${gitHubAuthToken}`,
-  },
+    "Content-Type": "application/json",
+    Accept: "application/json",
+    Authorization: `Bearer ${gitHubAuthToken}`
+  }
 });
 
-const getResult = async ({ language, endCursor, perPage }) => {
+const getResult = async ({
+  language,
+  endCursor,
+  perPage
+}: {
+  language: string;
+  endCursor?: string;
+  perPage?: string | number;
+}) => {
   const key = `language=${language}&endCursor=${endCursor}&perPage=${perPage}`;
 
   if (cache.has(key)) {
@@ -146,26 +162,36 @@ const getResult = async ({ language, endCursor, perPage }) => {
   return result;
 };
 
-export const getGoodFirstIssues = async ({language, endCursor, perPage}) => {
-  const queryResponse = await getResult({language, endCursor, perPage});
+export const getGoodFirstIssues = async ({
+  language,
+  endCursor,
+  perPage
+}: {
+  language: string;
+  endCursor?: string;
+  perPage?: string | number;
+}): Promise<GoodFirstIssuesResponse> => {
+  const queryResponse = await getResult({ language, endCursor, perPage });
 
   const formattedResponse = {
     ...queryResponse.data.search,
-    repositories: queryResponse.data.search.nodes.map((repository) => {
+    repositories: queryResponse.data.search.nodes.map(repository => {
       return {
         ...repository,
         stargazerCount: repository.stargazers.totalCount,
         issueCount: repository.issues.totalCount,
-        issues: repository.issues.nodes.map((issue) => {
+        issues: repository.issues.nodes.map(issue => {
           return {
             ...issue,
-            author: issue.author ? {
-              avatarUrl: issue.author.avatarUrl
-            } : null,
-          }
-        }),
-      }
-    }),
+            author: issue.author
+              ? {
+                  avatarUrl: issue.author.avatarUrl
+                }
+              : null
+          };
+        })
+      };
+    })
   };
 
   delete formattedResponse.nodes; // Reduce payload
@@ -174,9 +200,9 @@ export const getGoodFirstIssues = async ({language, endCursor, perPage}) => {
 
 export const resolvers = {
   Query: {
-    async goodFirstIssues(root, args, context) {
-      const { language = 'javascript', endCursor, perPage = 10 } = args;
-      return await getGoodFirstIssues({language, endCursor, perPage});
-    },
-  },
+    async goodFirstIssues(_root, args, _context) {
+      const { language = "javascript", endCursor, perPage = 10 } = args;
+      return await getGoodFirstIssues({ language, endCursor, perPage });
+    }
+  }
 };
