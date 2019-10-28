@@ -1,19 +1,23 @@
-import { SheetsRegistry } from 'jss';
-import { createMuiTheme, createGenerateClassName } from '@material-ui/core/styles';
-import blue from '@material-ui/core/colors/blue';
-import orange from '@material-ui/core/colors/orange';
+import { SheetsRegistry } from "jss";
+import {
+  createMuiTheme,
+  createGenerateClassName
+} from "@material-ui/core/styles";
+import blue from "@material-ui/core/colors/blue";
+import orange from "@material-ui/core/colors/orange";
+import { MaterialUIContext, GoofiGlobal } from "../interfaces";
 
 // This pattern is brought from
 // https://github.com/mui-org/material-ui/tree/master/examples/nextjs
 
 const theme = createMuiTheme({
   typography: {
-    useNextVariants: true,
+    useNextVariants: true
   },
   palette: {
     primary: blue,
-    secondary: orange,
-  },
+    secondary: orange
+  }
 });
 
 function createPageContext() {
@@ -24,11 +28,11 @@ function createPageContext() {
     // This is needed in order to inject the critical CSS.
     sheetsRegistry: new SheetsRegistry(),
     // The standard class name generator.
-    generateClassName: createGenerateClassName(),
+    generateClassName: createGenerateClassName()
   };
 }
 
-export default function getPageContext() {
+export function getMaterialUIContext(): MaterialUIContext {
   // Make sure to create a new context for every server-side request so that data
   // isn't shared between connections (which would be bad).
   if (!process.browser) {
@@ -36,9 +40,9 @@ export default function getPageContext() {
   }
 
   // Reuse context on the client-side.
-  if (!global.__INIT_MATERIAL_UI__) {
-    global.__INIT_MATERIAL_UI__ = createPageContext();
+  if (!(global as GoofiGlobal).__INIT_MATERIAL_UI__) {
+    (global as GoofiGlobal).__INIT_MATERIAL_UI__ = createPageContext();
   }
 
-  return global.__INIT_MATERIAL_UI__;
+  return (global as GoofiGlobal).__INIT_MATERIAL_UI__;
 }
