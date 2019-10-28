@@ -21,7 +21,7 @@
   },
   "dependencies": {
     "@material-ui/core": "^3.9.3",
-    "@material-ui/icons": "^3.0.1",
+    "@material-ui/icons": "^3.0.2",
     "apollo-boost": "^0.1.16",
     "apollo-server-micro": "^2.9.7",
     "axios": "^0.18.1",
