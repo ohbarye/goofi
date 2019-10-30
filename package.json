@@ -30,7 +30,7 @@
     "isomorphic-unfetch": "^3.0.0",
     "jss": "^9.8.7",
     "lru-cache": "^5.1.1",
-    "next": "^9.1.1",
+    "next": "^9.1.2",
     "next-offline": "^4.0.6",
     "react": "^16.8.2",
     "react-apollo": "^2.2.4",
