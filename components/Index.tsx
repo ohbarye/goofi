@@ -1,19 +1,29 @@
-import Paper from '@material-ui/core/Paper';
-import * as React from 'react';
+import Paper from "@material-ui/core/Paper";
+import { FC, useState, useCallback } from "react";
 
 import Header from "./Header";
 import RepositoryList from "./RepositoryList";
-import { apiClient } from '../utils/ApiClient';
-import { Repository } from "../interfaces";
+import { apiClient } from "../utils/ApiClient";
 import ButtonArea from "./ButtonArea";
 import Grid from "@material-ui/core/Grid";
 import { StyleRulesCallback } from "@material-ui/core/styles";
 import { WithStyles, withStyles } from "@material-ui/core";
+import { Repository, GoodFirstIssuesResponse } from "../interfaces";
 
-interface State {
+const styles: StyleRulesCallback = _ => ({
+  paper: {
+    backgroundColor: "#efefef",
+    paddingTop: "70px"
+  }
+});
+
+interface Props extends WithStyles<typeof styles> {
   language: string;
-  loading: boolean;
-  repos: Repository[];
+  goodFirstIssues: GoodFirstIssuesResponse;
+}
+
+interface RepositoryState {
+  repositories: Repository[];
   pageInfo: {
     endCursor?: string;
     hasNextPage: boolean;
@@ -21,83 +31,72 @@ interface State {
   repositoryCount: number;
 }
 
-const styles: StyleRulesCallback = _ => ({
-  paper: {
-    backgroundColor: '#efefef',
-    paddingTop: '70px',
-  },
-});
+const useRepositories = (
+  language: string,
+  goodFirstIssues: GoodFirstIssuesResponse
+) => {
+  const [loading, setLoading] = useState<boolean>(false);
+  const [
+    { repositories, pageInfo, repositoryCount },
+    setRepositoryState
+  ] = useState<RepositoryState>(goodFirstIssues);
 
-interface Props extends WithStyles<typeof styles> {
-  language: string;
-  goodFirstIssues: any;
-}
-
-class Index extends React.Component<Props, State> {
-  constructor(props: Props) {
-    super(props);
-    this.state = {
-      loading: false,
-      language: props.language,
-      repos: props.goodFirstIssues.repositories,
-      pageInfo: {...props.goodFirstIssues.pageInfo},
-      repositoryCount: props.goodFirstIssues.repositoryCount,
-    };
-    this.handleClick = this.handleClick.bind(this);
-  }
-
-  public async fetchMoreRepos(language: string = this.state!.language) {
-    this.setState((prevState) => {
-      return {
-        ...prevState,
-        loading: true,
+  const fetchMoreRepositories = useCallback(async () => {
+    setLoading(true);
+    const endCursor = goodFirstIssues.pageInfo.endCursor;
+    const response = await apiClient.get("/api/issues", {
+      params: {
+        endCursor,
+        language,
+        perPage: 10
       }
     });
-    const endCursor = this.state!.pageInfo.endCursor;
 
-    const params = {
-      endCursor,
-      language,
-      perPage: 10,
-    };
-
-    const response = await apiClient.get('/api/issues', {params});
-    const repos = response.data.repositories;
-    const pageInfo = response.data.pageInfo;
-    const repositoryCount = response.data.repositoryCount;
-
-    this.setState((prevState) => {
-      return {
-        ...prevState,
-        loading: false,
-        repos: prevState.repos.concat(repos),
-        pageInfo,
-        repositoryCount,
-      }
+    setRepositoryState({
+      repositories: repositories.concat(response.data.repositories),
+      pageInfo: response.data.pageInfo,
+      repositoryCount: response.data.repositoryCount
     });
-  }
+    setLoading(false);
+  }, []);
 
-  public handleClick() {
-    this.fetchMoreRepos();
-  }
+  return {
+    repositories,
+    repositoryCount,
+    loading,
+    pageInfo,
+    fetchMoreRepositories
+  };
+};
 
-  public render() {
-    return (
-      <Paper elevation={1} className={this.props.classes.paper}>
-        <Header
-          language={this.state!.language}
-          fetchedRepositoryCount={this.state!.repos.length}
-          totalRepositoryCount={this.state!.repositoryCount}
-        />
-        <Grid container={true} justify={'center'}>
-          <Grid item={true} xs={12} sm={10} md={10} lg={8}>
-            <RepositoryList loading={this.state!.loading} repos={this.state!.repos}/>
-            <ButtonArea loading={this.state!.loading} handleClick={this.handleClick} hasNextPage={this.state!.pageInfo.hasNextPage}/>
-          </Grid>
+const Index: FC<Props> = ({ classes, language, goodFirstIssues }) => {
+  const {
+    repositories,
+    repositoryCount,
+    pageInfo,
+    fetchMoreRepositories,
+    loading
+  } = useRepositories(language, goodFirstIssues);
+
+  return (
+    <Paper elevation={1} className={classes.paper}>
+      <Header
+        language={language}
+        fetchedRepositoryCount={repositories.length}
+        totalRepositoryCount={repositoryCount}
+      />
+      <Grid container={true} justify={"center"}>
+        <Grid item={true} xs={12} sm={10} md={10} lg={8}>
+          <RepositoryList loading={loading} repos={repositories} />
+          <ButtonArea
+            loading={loading}
+            handleClick={fetchMoreRepositories}
+            hasNextPage={pageInfo.hasNextPage}
+          />
         </Grid>
-      </Paper>
-    );
-  }
-}
+      </Grid>
+    </Paper>
+  );
+};
 
 export default withStyles(styles)(Index);
