@@ -48,7 +48,7 @@ const useRepositories = (
       params: {
         endCursor,
         language,
-        perPage: 10
+        perPage: 20
       }
     });
 
