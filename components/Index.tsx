@@ -1,5 +1,5 @@
 import Paper from "@material-ui/core/Paper";
-import { FC, useState, useCallback } from "react";
+import { FC, useState } from "react";
 
 import Header from "./Header";
 import RepositoryList from "./RepositoryList";
@@ -41,9 +41,9 @@ const useRepositories = (
     setRepositoryState
   ] = useState<RepositoryState>(goodFirstIssues);
 
-  const fetchMoreRepositories = useCallback(async () => {
+  const fetchMoreRepositories = async () => {
     setLoading(true);
-    const endCursor = goodFirstIssues.pageInfo.endCursor;
+    const endCursor = pageInfo.endCursor;
     const response = await apiClient.get("/api/issues", {
       params: {
         endCursor,
@@ -58,7 +58,7 @@ const useRepositories = (
       repositoryCount: response.data.repositoryCount
     });
     setLoading(false);
-  }, []);
+  };
 
   return {
     repositories,
