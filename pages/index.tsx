@@ -22,7 +22,7 @@ const getParams = (query) => {
     return {
       language: 'javascript',
       endCursor: undefined,
-      perPage: 10,
+      perPage: 20,
     };
   }
 };

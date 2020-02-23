@@ -72,7 +72,7 @@ class GoodFirstIssueFinder {
     this.buildQuery = this.buildQuery.bind(this);
   }
 
-  async run(endCursor: string = undefined, perPage: number | string = 10) {
+  async run(endCursor: string = undefined, perPage: number | string = 20) {
     const query = this.buildQuery(endCursor, perPage);
     const response = await this.client.post("graphql", { query });
     return response.data;
@@ -82,7 +82,7 @@ class GoodFirstIssueFinder {
     const after = endCursor ? `after:"${endCursor}",` : "";
     return `
       query {
-        search(first: ${perPage}, ${after} query: "language:${this.language} good-first-issues:>1 stars:>500", type: REPOSITORY) {
+        search(first: ${perPage}, ${after} query: "language:${this.language} good-first-issues:>1 stars:>100", type: REPOSITORY) {
           repositoryCount
           pageInfo {
             startCursor
@@ -201,7 +201,7 @@ export const getGoodFirstIssues = async ({
 export const resolvers = {
   Query: {
     async goodFirstIssues(_root, args, _context) {
-      const { language = "javascript", endCursor, perPage = 10 } = args;
+      const { language = "javascript", endCursor, perPage = 20 } = args;
       return await getGoodFirstIssues({ language, endCursor, perPage });
     }
   }
