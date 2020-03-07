@@ -16,8 +16,8 @@ import { GitHub } from "./icons/GitHub";
 import LinearProgress from "@material-ui/core/LinearProgress";
 
 export function Grouped() {
-  function handleInputChange(value){
-    window.location.href = `/?language=${value}`;
+  function handleInputChange(event,value){
+    window.location.href = `/?language=${value.value}`;
   }
 
   return (
@@ -27,7 +27,7 @@ export function Grouped() {
       groupBy={option => option.type}
       getOptionLabel={option => option.name}
       style={{ width: 300 }}
-      onChange={handleInputChange(option => option.value)}
+      onChange={handleInputChange}
       inputProps={{
         id: "language",
         name: "language"
