@@ -17,6 +17,7 @@ import LinearProgress from "@material-ui/core/LinearProgress";
 
 export function Grouped() {
   function handleInputChange(event,value){
+    console.log(event.value); // not required but value is needed therefore have to use this
     window.location.href = `/?language=${value.value}`;
   }
 
@@ -28,10 +29,6 @@ export function Grouped() {
       getOptionLabel={option => option.name}
       style={{ width: 300 }}
       onChange={handleInputChange}
-      inputProps={{
-        id: "language",
-        name: "language"
-      }}
       renderInput={params => <TextField {...params} label="Select Language" variant="outlined" />}
     />
   );
