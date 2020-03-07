@@ -599,7 +599,7 @@ const styles: StyleRulesCallback<Theme, Props> = _ => ({
 });
 
 interface Props extends WithStyles<typeof styles> {
-  language: string;
+  language?: string;
   fetchedRepositoryCount: number;
   totalRepositoryCount: number;
 }
