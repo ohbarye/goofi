@@ -27,7 +27,6 @@ export function Grouped(language) {
       groupBy={option => option.type}
       getOptionLabel={option => option.name}
       style={{ width: 300 }}
-      value={{language}}
       onInputChange={handleInputChange(option => option.value)}
       inputProps={{
         id: "language",
