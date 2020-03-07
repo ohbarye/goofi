@@ -11,7 +11,8 @@ import Divider from "@material-ui/core/Divider";
 import {
   withStyles,
   WithStyles,
-  StyleRulesCallback
+  StyleRulesCallback,
+  Theme
 } from "@material-ui/core/styles";
 import ExpandMoreIcon from "@material-ui/icons/ExpandMore";
 import Star from "@material-ui/icons/Star";
@@ -20,7 +21,7 @@ import * as React from "react";
 import { Repository } from "../interfaces";
 import IssueList from "./IssueList";
 
-const styles: StyleRulesCallback = theme => ({
+const styles: StyleRulesCallback<Theme, Props> = theme => ({
   avatar: {
     height: "48px",
     width: "48px"

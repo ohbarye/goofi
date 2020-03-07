@@ -2,13 +2,14 @@ import List from "@material-ui/core/List";
 import {
   withStyles,
   WithStyles,
-  StyleRulesCallback
+  StyleRulesCallback,
+  Theme
 } from "@material-ui/core/styles";
 import * as React from "react";
 import { Issue } from "../interfaces";
 import IssueItem from "./IssueItem";
 
-const styles: StyleRulesCallback = _ => ({
+const styles: StyleRulesCallback<Theme, Props> = _ => ({
   issueList: {
     width: "100%",
     paddingTop: "0px",

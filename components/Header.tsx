@@ -11,7 +11,8 @@ import IconButton from "@material-ui/core/IconButton";
 import {
   withStyles,
   WithStyles,
-  StyleRulesCallback
+  StyleRulesCallback,
+  Theme
 } from "@material-ui/core/styles";
 import * as React from "react";
 import { GitHub } from "./icons/GitHub";
@@ -593,7 +594,7 @@ const languageOptions = [
   { value: "Zimpl",  name: "Zimpl", type:"Everything else" }  
 ];
 
-const styles: StyleRulesCallback = _ => ({
+const styles: StyleRulesCallback<Theme, Props> = _ => ({
   select: {
     color: "#fff"
   },

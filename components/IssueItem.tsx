@@ -6,12 +6,13 @@ import ListItemText from "@material-ui/core/ListItemText";
 import {
   withStyles,
   WithStyles,
-  StyleRulesCallback
+  StyleRulesCallback,
+  Theme
 } from "@material-ui/core/styles";
 import * as React from "react";
 import { Issue } from "../interfaces";
 
-const styles: StyleRulesCallback = theme => ({
+const styles: StyleRulesCallback<Theme, Props> = theme => ({
   link: {
     textDecoration: "none"
   },

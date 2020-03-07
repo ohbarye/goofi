@@ -1,13 +1,14 @@
 import {
   withStyles,
   WithStyles,
-  StyleRulesCallback
+  StyleRulesCallback,
+  Theme
 } from "@material-ui/core/styles";
 import * as React from "react";
 import { Repository } from "../interfaces";
 import RepositoryCard from "./RepositoryCard";
 
-const styles: StyleRulesCallback = _ => ({
+const styles: StyleRulesCallback<Theme, Props> = _ => ({
   body: {
     paddingBottom: "16px",
     paddingLeft: "16px",

@@ -2,13 +2,14 @@ import CircularProgress from "@material-ui/core/CircularProgress";
 import {
   withStyles,
   WithStyles,
-  StyleRulesCallback
+  StyleRulesCallback,
+  Theme
 } from "@material-ui/core/styles";
 import * as React from "react";
 import Button from "@material-ui/core/Button";
 import Grid from "@material-ui/core/Grid";
 
-const styles: StyleRulesCallback = _ => ({
+const styles: StyleRulesCallback<Theme, Props> = _ => ({
   buttonArea: {
     textAlign: "center",
     paddingBottom: "24px",
