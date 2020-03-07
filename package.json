@@ -1,46 +1,47 @@
 {
-  "name": "goofi",
-  "version": "1.0.0",
-  "description": "This is how to find good first issues in GitHub",
-  "author": "ohbarye",
-  "bugs": {
-    "url": "https://github.com/ohbarye/goofi/issues"
-  },
-  "homepage": "https://github.com/ohbarye/goofi#readme",
-  "engines": {
-    "node": ">=12.13.1"
-  },
-  "scripts": {
-    "dev": "next",
-    "build": "next build",
-    "type-check": "tsc"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+ssh://git@github.com/ohbarye/goofi.git"
-  },
-  "dependencies": {
-    "@material-ui/core": "^3.9.3",
-    "@material-ui/icons": "^4.5.1",
-    "apollo-boost": "^0.1.16",
-    "apollo-server-micro": "^2.9.7",
-    "axios": "^0.18.1",
-    "graphql": "^14.5.8",
-    "graphql-tag": "^2.10.1",
-    "isomorphic-unfetch": "^3.0.0",
-    "jss": "^9.8.7",
-    "lru-cache": "^5.1.1",
-    "next": "^9.1.1",
-    "react": "^16.12.0",
-    "react-apollo": "^2.2.4",
-    "react-dom": "^16.12.0",
-    "react-jss": "^8.6.1"
-  },
-  "devDependencies": {
-    "@types/node": "^12.11.7",
-    "@types/react": "16.9.18",
-    "@types/react-dom": "^16.9.4",
-    "typescript": "^3.8.2"
-  },
-  "license": "MIT"
+    "name": "goofi",
+    "version": "1.0.0",
+    "description": "This is how to find good first issues in GitHub",
+    "author": "ohbarye",
+    "bugs": {
+        "url": "https://github.com/ohbarye/goofi/issues"
+    },
+    "homepage": "https://github.com/ohbarye/goofi#readme",
+    "engines": {
+        "node": ">=12.13.1"
+    },
+    "scripts": {
+        "dev": "next",
+        "build": "next build",
+        "type-check": "tsc"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+ssh://git@github.com/ohbarye/goofi.git"
+    },
+    "dependencies": {
+        "@material-ui/lab": "^3.9.3",
+        "@material-ui/core": "^3.9.3",
+        "@material-ui/icons": "^4.5.1",
+        "apollo-boost": "^0.1.16",
+        "apollo-server-micro": "^2.9.7",
+        "axios": "^0.18.1",
+        "graphql": "^14.5.8",
+        "graphql-tag": "^2.10.1",
+        "isomorphic-unfetch": "^3.0.0",
+        "jss": "^9.8.7",
+        "lru-cache": "^5.1.1",
+        "next": "^9.1.1",
+        "react": "^16.12.0",
+        "react-apollo": "^2.2.4",
+        "react-dom": "^16.12.0",
+        "react-jss": "^8.6.1"
+    },
+    "devDependencies": {
+        "@types/node": "^12.11.7",
+        "@types/react": "16.9.18",
+        "@types/react-dom": "^16.9.4",
+        "typescript": "^3.8.2"
+    },
+    "license": "MIT"
 }
