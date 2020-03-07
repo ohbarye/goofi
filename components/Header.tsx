@@ -15,7 +15,7 @@ import * as React from "react";
 import { GitHub } from "./icons/GitHub";
 import LinearProgress from "@material-ui/core/LinearProgress";
 
-export function Grouped(language) {
+export function Grouped() {
   function handleInputChange(value){
     window.location.href = `/?language=${value}`;
   }
@@ -27,7 +27,6 @@ export function Grouped(language) {
       groupBy={option => option.type}
       getOptionLabel={option => option.name}
       style={{ width: 300 }}
-      value={{language}}
       onInputChange={handleInputChange(option => option.value)}
       inputProps={{
         id: "language",
@@ -631,7 +630,7 @@ const Header: React.FC<Props> = ({
           Good First Issues
         </Typography>
 
-        {this.Grouped(language)}
+        {this.Grouped()}
 
         <Tooltip title="GitHub repository" enterDelay={200}>
           <IconButton
