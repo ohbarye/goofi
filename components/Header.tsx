@@ -15,9 +15,10 @@ import * as React from "react";
 import { GitHub } from "./icons/GitHub";
 import LinearProgress from "@material-ui/core/LinearProgress";
 
-export function Grouped() {
+export function Grouped(language) {
   function handleInputChange(event,value){
-    console.log(event.value); // not required but value is needed therefore have to use this
+    console.log(event.value);// not required but value is needed therefore have to use this
+    console.log(language);
     window.location.href = `/?language=${value.value}`;
   }
 
@@ -615,6 +616,7 @@ const progress = (
 };
 
 const Header: React.FC<Props> = ({
+  language,
   classes,
   fetchedRepositoryCount,
   totalRepositoryCount
@@ -626,7 +628,7 @@ const Header: React.FC<Props> = ({
           Good First Issues
         </Typography>
 
-        {this.Grouped()}
+        {this.Grouped(language)}
 
         <Tooltip title="GitHub repository" enterDelay={200}>
           <IconButton
