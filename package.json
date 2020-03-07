@@ -20,7 +20,7 @@
         "url": "git+ssh://git@github.com/ohbarye/goofi.git"
     },
     "dependencies": {
-        "@material-ui/lab": "^3.9.3",
+        "@material-ui/lab": "^4.0.0-alpha.45",
         "@material-ui/core": "^3.9.3",
         "@material-ui/icons": "^4.5.1",
         "apollo-boost": "^0.1.16",
