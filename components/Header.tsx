@@ -615,7 +615,6 @@ const progress = (
 };
 
 const Header: React.FC<Props> = ({
-  language,
   classes,
   fetchedRepositoryCount,
   totalRepositoryCount
