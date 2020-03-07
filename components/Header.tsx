@@ -599,7 +599,7 @@ const styles: StyleRulesCallback<Theme, Props> = _ => ({
 });
 
 interface Props extends WithStyles<typeof styles> {
-  language?: string;
+  language: string;
   fetchedRepositoryCount: number;
   totalRepositoryCount: number;
 }
@@ -617,14 +617,13 @@ const progress = (
 
 const Header: React.FC<Props> = ({
   language,
-  classes,
   fetchedRepositoryCount,
   totalRepositoryCount
 }: Props) => {
   return (
     <AppBar>
       <Toolbar>
-        <Typography variant="h6" color="inherit" className={classes.title}>
+        <Typography variant="h6" color="inherit">
           Good First Issues
         </Typography>
 
