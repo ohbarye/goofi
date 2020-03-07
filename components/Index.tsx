@@ -6,11 +6,11 @@ import RepositoryList from "./RepositoryList";
 import { apiClient } from "../utils/ApiClient";
 import ButtonArea from "./ButtonArea";
 import Grid from "@material-ui/core/Grid";
-import { StyleRulesCallback } from "@material-ui/core/styles";
+import { StyleRulesCallback, Theme } from "@material-ui/core/styles";
 import { WithStyles, withStyles } from "@material-ui/core";
 import { Repository, GoodFirstIssuesResponse } from "../interfaces";
 
-const styles: StyleRulesCallback = _ => ({
+const styles: StyleRulesCallback<Theme, Props> = _ => ({
   paper: {
     backgroundColor: "#efefef",
     paddingTop: "70px"
