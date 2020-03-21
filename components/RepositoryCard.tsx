@@ -76,11 +76,11 @@ const RepositoryCard: React.FC<Props> = ({ repo, classes }: Props) => (
               className={classes.repositoryListItemText}
               primary={
                 <span className={classes.repositoryName}>
-                  <a href={repo.owner.url} target="_blank">
+                  <a href={repo.owner.url} target="_blank" rel="noopener">
                     {repo.owner.login}
                   </a>{" "}
                   /{" "}
-                  <a href={repo.url} target="_blank">
+                  <a href={repo.url} target="_blank" rel="noopener">
                     {repo.name}
                   </a>
                 </span>

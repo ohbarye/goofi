@@ -46,7 +46,7 @@ const IssueItem: React.FC<Props> = ({
   const updatedAt = new Date(issue.updatedAt).toLocaleString();
   const avatarUrl = issue.author ? issue.author.avatarUrl : ownerAvatarUrl;
   return (
-    <a href={issue.url} target={"_blank"} className={classes.link}>
+    <a href={issue.url} target="_blank" className={classes.link}  rel="noopener">
       <ListItem button={true} className={classes.listItem}>
         <ListItemIcon>
           <Avatar alt="avatar" src={avatarUrl} className={classes.avatar} />
