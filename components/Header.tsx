@@ -95,6 +95,7 @@ const Header: React.FC<Props> = ({
             component="a"
             href="https://github.com/ohbarye/goofi"
             target="_blank"
+            rel="noopener"
           >
             <GitHub />
           </IconButton>
