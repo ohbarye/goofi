@@ -26,7 +26,8 @@ const languageOptions = [
   { value: "shell", name: "Shell" },
   { value: "typescript", name: "TypeScript" },
   { value: "swift", name: "Swift" },
-  { value: "rust", name: "Rust" }
+  { value: "rust", name: "Rust" },
+  { value: "ocaml", name: "OCaml" }
 ];
 
 const styles: StyleRulesCallback = _ => ({
