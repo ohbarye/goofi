@@ -4,7 +4,7 @@ import { GoodFirstIssuesResponse } from "../interfaces";
 
 const cache = new LRUCache({
   max: 150,
-  maxAge: 1000 * 60 * 60 * 6 // 6 hour cache
+  maxAge: 1000 * 60 * 60 * 6, // 6 hour cache
 });
 
 const graphql = (query: TemplateStringsArray) => query.join("");
@@ -74,7 +74,12 @@ class GoodFirstIssueFinder {
 
   async run(endCursor: string = undefined, perPage: number | string = 20) {
     const query = this.buildQuery(endCursor, perPage);
-    const response = await this.client.post("graphql", { query });
+    const response = await this.client
+      .post("graphql", { query })
+      .catch((error) => {
+        console.log(error.response);
+        throw error;
+      });
     return response.data;
   }
 
@@ -131,14 +136,14 @@ const client = axios.create({
   headers: {
     "Content-Type": "application/json",
     Accept: "application/json",
-    Authorization: `Bearer ${gitHubAuthToken}`
-  }
+    Authorization: `Bearer ${gitHubAuthToken}`,
+  },
 });
 
 const getResult = async ({
   language,
   endCursor,
-  perPage
+  perPage,
 }: {
   language: string;
   endCursor?: string;
@@ -165,7 +170,7 @@ const getResult = async ({
 export const getGoodFirstIssues = async ({
   language,
   endCursor,
-  perPage
+  perPage,
 }: {
   language: string;
   endCursor?: string;
@@ -175,23 +180,23 @@ export const getGoodFirstIssues = async ({
 
   const formattedResponse = {
     ...queryResponse.data.search,
-    repositories: queryResponse.data.search.nodes.map(repository => {
+    repositories: queryResponse.data.search.nodes.map((repository) => {
       return {
         ...repository,
         stargazerCount: repository.stargazers.totalCount,
         issueCount: repository.issues.totalCount,
-        issues: repository.issues.nodes.map(issue => {
+        issues: repository.issues.nodes.map((issue) => {
           return {
             ...issue,
             author: issue.author
               ? {
-                  avatarUrl: issue.author.avatarUrl
+                  avatarUrl: issue.author.avatarUrl,
                 }
-              : null
+              : null,
           };
-        })
+        }),
       };
-    })
+    }),
   };
 
   delete formattedResponse.nodes; // Reduce payload
@@ -203,6 +208,6 @@ export const resolvers = {
     async goodFirstIssues(_root, args, _context) {
       const { language = "javascript", endCursor, perPage = 20 } = args;
       return await getGoodFirstIssues({ language, endCursor, perPage });
-    }
-  }
+    },
+  },
 };
