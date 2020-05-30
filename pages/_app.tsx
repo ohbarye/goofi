@@ -39,7 +39,7 @@ class MyApp extends App<Props> {
       pageProps = await Component.getInitialProps(ctx);
     }
 
-    const nowUrl = `https://${ctx.req.headers["x-now-deployment-url"]}`;
+    const nowUrl = `https://${ctx.req.headers["x-vercel-deployment-url"]}`;
 
     return { pageProps, nowUrl };
   }

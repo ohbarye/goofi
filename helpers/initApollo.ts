@@ -17,9 +17,9 @@ function create(initialState, nowUrl) {
     ssrMode: !process.browser,
     link: new HttpLink({
       uri: `${url}/api/graphql`,
-      credentials: "same-origin"
+      credentials: "same-origin",
     }),
-    cache: new InMemoryCache().restore(initialState || {})
+    cache: new InMemoryCache().restore(initialState || {}),
   });
 }
 
