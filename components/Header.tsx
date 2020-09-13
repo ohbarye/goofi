@@ -19,6 +19,7 @@ import LinearProgress from "@material-ui/core/LinearProgress";
 const languageOptions = [
   { value: "javascript", name: "JavaScript" },
   { value: "go", name: "Go" },
+  { value: "csharp", name: "C#" },
   { value: "java", name: "Java" },
   { value: "kotlin", name: "Kotlin" },
   { value: "python", name: "Python" },
