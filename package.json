@@ -34,7 +34,7 @@
     "react": "^16.14.0",
     "react-apollo": "^2.2.4",
     "react-dom": "^16.14.0",
-    "react-jss": "^8.6.1"
+    "react-jss": "^10.5.1"
   },
   "devDependencies": {
     "@types/node": "^12.11.7",
