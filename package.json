@@ -23,7 +23,7 @@
     "@material-ui/core": "^3.9.3",
     "@material-ui/icons": "^4.5.1",
     "apollo-boost": "^0.4.9",
-    "apollo-server-micro": "^2.22.1",
+    "apollo-server-micro": "^2.24.1",
     "axios": "^0.21.1",
     "graphql": "^14.5.8",
     "graphql-tag": "^2.10.1",
