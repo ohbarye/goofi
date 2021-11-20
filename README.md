@@ -4,14 +4,14 @@ Let's contribute to OSS. Here is how to find good first issues in GitHub.
 
 This is a simple app to list issues labelled as "good first issue" in repositories with over 500 stars.
 
-[>> Try Now <<](https://goofi.now.sh/)
+[>> Try Now <<](https://goofi.vercel.app/)
 
 ![image](https://user-images.githubusercontent.com/1811616/42405589-0130aafc-81d4-11e8-967a-e665a04ecb9c.png)
 
 ## Features
 
 - Server side rendering with Next.js v9
-- Deployed on [Now.sh](https://zeit.co/now) v2
+- Deployed on [Vercel](https://vercel.com/)
 - GraphQL and Apollo
 
 ## Development
