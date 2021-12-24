@@ -1,7 +1,7 @@
 version: '3'
 services:
   app:
-    image: "node:8-alpine"
+    image: "node:16-alpine"
     user: "node"
     working_dir: /home/goofi
     environment:
