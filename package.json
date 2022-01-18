@@ -24,7 +24,7 @@
     "@material-ui/icons": "^4.5.1",
     "apollo-boost": "^0.4.9",
     "apollo-server-micro": "^2.22.1",
-    "axios": "^0.21.1",
+    "axios": "^0.25.0",
     "graphql": "^14.6.0",
     "graphql-tag": "^2.10.1",
     "isomorphic-unfetch": "^3.0.0",
