@@ -37,7 +37,7 @@
     "react-jss": "^8.6.1"
   },
   "devDependencies": {
-    "@types/node": "^12.11.7",
+    "@types/node": "^18.7.16",
     "@types/react": "17.0.38",
     "@types/react-dom": "^16.9.4",
     "typescript": "^4.5.4"
