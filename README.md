@@ -10,9 +10,9 @@ This is a simple app to list issues labelled as "good first issue" in repositori
 
 ## Features
 
-- Server side rendering with Next.js v9
-- Deployed on [Vercel](https://vercel.com/)
-- GraphQL and Apollo
+-   Server side rendering with Next.js v9
+-   Deployed on [Vercel](https://vercel.com/)
+-   GraphQL and Apollo
 
 ## Development
 
@@ -21,6 +21,7 @@ You can bootstrap everything with docker-compose.
 ```shell
 $ git clone git@github.com:ohbarye/goofi.git && cd goofi
 $ echo GITHUB_ACCESS_TOKEN=<your token> > .env
+$ yarn
 $ docker-compose up -d
 $ open http://localhost:3000
 ```
