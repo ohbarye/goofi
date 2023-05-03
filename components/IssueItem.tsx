@@ -4,34 +4,36 @@ import ListItem from "@material-ui/core/ListItem";
 import ListItemIcon from "@material-ui/core/ListItemIcon";
 import ListItemText from "@material-ui/core/ListItemText";
 import {
+  createStyles,
+  Theme,
   withStyles,
   WithStyles,
-  StyleRulesCallback
 } from "@material-ui/core/styles";
 import * as React from "react";
 import { Issue } from "../interfaces";
 
-const styles: StyleRulesCallback = theme => ({
-  link: {
-    textDecoration: "none"
-  },
-  listItem: {
-    [theme.breakpoints.down("xs")]: {
-      paddingLeft: "0px",
-      paddingRight: "0px"
-    }
-  },
-  listItemText: {
-    [theme.breakpoints.down("xs")]: {
-      paddingLeft: "0px",
-      paddingRight: "0px"
-    }
-  },
-  avatar: {
-    height: "36px",
-    width: "36px"
-  }
-});
+const styles = (theme: Theme) =>
+  createStyles({
+    link: {
+      textDecoration: "none",
+    },
+    listItem: {
+      [theme.breakpoints.down("xs")]: {
+        paddingLeft: "0px",
+        paddingRight: "0px",
+      },
+    },
+    listItemText: {
+      [theme.breakpoints.down("xs")]: {
+        paddingLeft: "0px",
+        paddingRight: "0px",
+      },
+    },
+    avatar: {
+      height: "36px",
+      width: "36px",
+    },
+  });
 
 interface Props extends WithStyles<typeof styles> {
   issue: Issue;
@@ -41,12 +43,12 @@ interface Props extends WithStyles<typeof styles> {
 const IssueItem: React.FC<Props> = ({
   issue,
   ownerAvatarUrl,
-  classes
+  classes,
 }: Props) => {
   const updatedAt = new Date(issue.updatedAt).toLocaleString();
   const avatarUrl = issue.author ? issue.author.avatarUrl : ownerAvatarUrl;
   return (
-    <a href={issue.url} target="_blank" className={classes.link}  rel="noopener">
+    <a href={issue.url} target="_blank" className={classes.link} rel="noopener">
       <ListItem button={true} className={classes.listItem}>
         <ListItemIcon>
           <Avatar alt="avatar" src={avatarUrl} className={classes.avatar} />

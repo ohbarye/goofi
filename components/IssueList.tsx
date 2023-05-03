@@ -1,20 +1,17 @@
 import List from "@material-ui/core/List";
-import {
-  withStyles,
-  WithStyles,
-  StyleRulesCallback
-} from "@material-ui/core/styles";
+import { createStyles, withStyles, WithStyles } from "@material-ui/core/styles";
 import * as React from "react";
 import { Issue } from "../interfaces";
 import IssueItem from "./IssueItem";
 
-const styles: StyleRulesCallback = _ => ({
-  issueList: {
-    width: "100%",
-    paddingTop: "0px",
-    paddingBottom: "0px"
-  }
-});
+const styles = (_) =>
+  createStyles({
+    issueList: {
+      width: "100%",
+      paddingTop: "0px",
+      paddingBottom: "0px",
+    },
+  });
 
 interface Props extends WithStyles<typeof styles> {
   issues: Issue[];
@@ -24,7 +21,7 @@ interface Props extends WithStyles<typeof styles> {
 const IssueList: React.FC<Props> = ({
   issues,
   ownerAvatarUrl,
-  classes
+  classes,
 }: Props) => {
   return (
     <List component="nav" className={classes.issueList}>

@@ -7,13 +7,8 @@ import {
 import { SheetsRegistry } from "jss";
 import { MaterialUIContext } from "../interfaces";
 
-// This pattern is brought from
-// https://github.com/mui-org/material-ui/tree/master/examples/nextjs
-
 const theme = createMuiTheme({
-  typography: {
-    useNextVariants: true,
-  },
+  typography: {},
   palette: {
     primary: blue,
     secondary: orange,

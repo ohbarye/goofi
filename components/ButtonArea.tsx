@@ -1,24 +1,21 @@
-import CircularProgress from "@material-ui/core/CircularProgress";
-import {
-  withStyles,
-  WithStyles,
-  StyleRulesCallback
-} from "@material-ui/core/styles";
-import * as React from "react";
 import Button from "@material-ui/core/Button";
+import CircularProgress from "@material-ui/core/CircularProgress";
 import Grid from "@material-ui/core/Grid";
+import { createStyles, withStyles, WithStyles } from "@material-ui/core/styles";
+import * as React from "react";
 
-const styles: StyleRulesCallback = _ => ({
-  buttonArea: {
-    textAlign: "center",
-    paddingBottom: "24px",
-    paddingLeft: "16px",
-    paddingRight: "16px"
-  },
-  button: {
-    width: "100%"
-  }
-});
+const styles = (_) =>
+  createStyles({
+    buttonArea: {
+      textAlign: "center",
+      paddingBottom: "24px",
+      paddingLeft: "16px",
+      paddingRight: "16px",
+    },
+    button: {
+      width: "100%",
+    },
+  });
 
 interface Props extends WithStyles<typeof styles> {
   handleClick: () => void;
@@ -30,7 +27,7 @@ const ButtonArea: React.FC<Props> = ({
   classes,
   handleClick,
   loading,
-  hasNextPage
+  hasNextPage,
 }: Props) => {
   const buttonLabel = loading
     ? ""
