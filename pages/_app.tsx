@@ -38,9 +38,9 @@ class MyApp extends App<Props> {
       pageProps = await Component.getInitialProps(ctx);
     }
 
-    const nowUrl = `https://${ctx.req.headers["x-vercel-deployment-url"]}`;
+    const vercelUrl = `https://${ctx.req.headers["x-vercel-deployment-url"]}`;
 
-    return { pageProps, nowUrl };
+    return { pageProps, vercelUrl };
   }
 
   render() {
