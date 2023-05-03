@@ -8,7 +8,7 @@
   },
   "homepage": "https://github.com/ohbarye/goofi#readme",
   "engines": {
-    "node": ">=12.13.1"
+    "node": ">=16"
   },
   "scripts": {
     "dev": "next",
@@ -37,10 +37,14 @@
     "react-jss": "^8.6.1"
   },
   "devDependencies": {
-    "@types/node": "^12.11.7",
+    "@types/node": "^16.11.7",
     "@types/react": "17.0.38",
     "@types/react-dom": "^16.9.4",
     "typescript": "^4.5.4"
   },
-  "license": "MIT"
+  "license": "MIT",
+  "volta": {
+    "node": "16.20.0",
+    "yarn": "4.0.0-rc.43"
+  }
 }
