@@ -1,12 +1,11 @@
-import { HttpLink, InMemoryCache, ApolloClient } from "apollo-boost";
+import { ApolloClient, HttpLink, InMemoryCache } from "apollo-boost";
 import fetch from "isomorphic-unfetch";
-import { GoofiGlobal } from "../interfaces";
 
 let apolloClient = null;
 
 if (!process.browser) {
   // Polyfill fetch() on the server (used by apollo-client)
-  (global as GoofiGlobal).fetch = fetch;
+  globalThis.fetch = fetch;
 }
 
 function create(initialState, nowUrl) {
