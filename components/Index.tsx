@@ -1,21 +1,22 @@
 import Paper from "@material-ui/core/Paper";
 import { FC, useState } from "react";
 
-import Header from "./Header";
-import RepositoryList from "./RepositoryList";
+import { WithStyles, withStyles } from "@material-ui/core";
+import Grid from "@material-ui/core/Grid";
+import { createStyles } from "@material-ui/core/styles";
+import { GoodFirstIssuesResponse, Repository } from "../interfaces";
 import { apiClient } from "../utils/ApiClient";
 import ButtonArea from "./ButtonArea";
-import Grid from "@material-ui/core/Grid";
-import { StyleRulesCallback } from "@material-ui/core/styles";
-import { WithStyles, withStyles } from "@material-ui/core";
-import { Repository, GoodFirstIssuesResponse } from "../interfaces";
+import Header from "./Header";
+import RepositoryList from "./RepositoryList";
 
-const styles: StyleRulesCallback = _ => ({
-  paper: {
-    backgroundColor: "#efefef",
-    paddingTop: "70px"
-  }
-});
+const styles = (_) =>
+  createStyles({
+    paper: {
+      backgroundColor: "#efefef",
+      paddingTop: "70px",
+    },
+  });
 
 interface Props extends WithStyles<typeof styles> {
   language: string;
@@ -36,10 +37,8 @@ const useRepositories = (
   goodFirstIssues: GoodFirstIssuesResponse
 ) => {
   const [loading, setLoading] = useState<boolean>(false);
-  const [
-    { repositories, pageInfo, repositoryCount },
-    setRepositoryState
-  ] = useState<RepositoryState>(goodFirstIssues);
+  const [{ repositories, pageInfo, repositoryCount }, setRepositoryState] =
+    useState<RepositoryState>(goodFirstIssues);
 
   const fetchMoreRepositories = async () => {
     setLoading(true);
@@ -48,14 +47,14 @@ const useRepositories = (
       params: {
         endCursor,
         language,
-        perPage: 20
-      }
+        perPage: 20,
+      },
     });
 
     setRepositoryState({
       repositories: repositories.concat(response.data.repositories),
       pageInfo: response.data.pageInfo,
-      repositoryCount: response.data.repositoryCount
+      repositoryCount: response.data.repositoryCount,
     });
     setLoading(false);
   };
@@ -65,7 +64,7 @@ const useRepositories = (
     repositoryCount,
     loading,
     pageInfo,
-    fetchMoreRepositories
+    fetchMoreRepositories,
   };
 };
 
@@ -75,7 +74,7 @@ const Index: FC<Props> = ({ classes, language, goodFirstIssues }) => {
     repositoryCount,
     pageInfo,
     fetchMoreRepositories,
-    loading
+    loading,
   } = useRepositories(language, goodFirstIssues);
 
   return (

@@ -1,19 +1,15 @@
 import AppBar from "@material-ui/core/AppBar";
 import FormControl from "@material-ui/core/FormControl";
+import IconButton from "@material-ui/core/IconButton";
+import LinearProgress from "@material-ui/core/LinearProgress";
 import MenuItem from "@material-ui/core/MenuItem";
 import Select from "@material-ui/core/Select";
+import { createStyles, withStyles, WithStyles } from "@material-ui/core/styles";
 import Toolbar from "@material-ui/core/Toolbar";
 import Tooltip from "@material-ui/core/Tooltip";
 import Typography from "@material-ui/core/Typography";
-import IconButton from "@material-ui/core/IconButton";
-import {
-  withStyles,
-  WithStyles,
-  StyleRulesCallback
-} from "@material-ui/core/styles";
 import * as React from "react";
 import { GitHub } from "./icons/GitHub";
-import LinearProgress from "@material-ui/core/LinearProgress";
 
 // TODO Try Downshift https://material-ui.com/demos/autocomplete/#react-autosuggest
 const languageOptions = [
@@ -29,18 +25,19 @@ const languageOptions = [
   { value: "swift", name: "Swift" },
   { value: "rust", name: "Rust" },
   { value: "ocaml", name: "OCaml" },
-  { value: "php", name: "PHP" }
+  { value: "php", name: "PHP" },
 ];
 
-const styles: StyleRulesCallback = _ => ({
-  select: {
-    color: "#fff"
-  },
-  title: {
-    flex: "1",
-    textAlign: "left"
-  }
-});
+const styles = (_) =>
+  createStyles({
+    select: {
+      color: "#fff",
+    },
+    title: {
+      flex: "1",
+      textAlign: "left",
+    },
+  });
 
 interface Props extends WithStyles<typeof styles> {
   language: string;
@@ -63,7 +60,7 @@ const Header: React.FC<Props> = ({
   language,
   classes,
   fetchedRepositoryCount,
-  totalRepositoryCount
+  totalRepositoryCount,
 }: Props) => {
   return (
     <AppBar>
@@ -80,11 +77,11 @@ const Header: React.FC<Props> = ({
             }}
             inputProps={{
               id: "language",
-              name: "language"
+              name: "language",
             }}
             className={classes.select}
           >
-            {languageOptions.map(languageOption => (
+            {languageOptions.map((languageOption) => (
               <MenuItem key={languageOption.value} value={languageOption.value}>
                 {languageOption.name}
               </MenuItem>

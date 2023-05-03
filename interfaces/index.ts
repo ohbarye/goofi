@@ -1,5 +1,5 @@
 import { Theme } from "@material-ui/core";
-import { SheetsRegistry, GenerateClassName } from "jss";
+import { GenerateClassName, SheetsRegistry } from "jss";
 
 interface User {
   id: string;
@@ -47,8 +47,3 @@ export type MaterialUIContext = {
   sheetsRegistry: SheetsRegistry;
   generateClassName: GenerateClassName<any>;
 };
-
-export interface GoofiGlobal extends NodeJS.Global {
-  __INIT_MATERIAL_UI__: MaterialUIContext;
-  fetch: (input: RequestInfo, init?: RequestInit) => Promise<Response>;
-}

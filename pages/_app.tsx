@@ -1,15 +1,14 @@
-import React from "react";
-import App from "next/app";
-import Head from "next/head";
 import CssBaseline from "@material-ui/core/CssBaseline";
 import { MuiThemeProvider } from "@material-ui/core/styles";
+import App from "next/app";
+import Head from "next/head";
 import { ApolloProvider } from "react-apollo";
 
 import JssProvider from "react-jss/lib/JssProvider";
 import { getMaterialUIContext } from "../helpers/materialUIContext";
 
-import withApolloClient from "../helpers/with-apollo";
 import { ApolloClient } from "apollo-client";
+import withApolloClient from "../helpers/with-apollo";
 import { MaterialUIContext } from "../interfaces";
 
 type Props = {
@@ -39,9 +38,9 @@ class MyApp extends App<Props> {
       pageProps = await Component.getInitialProps(ctx);
     }
 
-    const nowUrl = `https://${ctx.req.headers["x-vercel-deployment-url"]}`;
+    const vercelUrl = `https://${ctx.req.headers["x-vercel-deployment-url"]}`;
 
-    return { pageProps, nowUrl };
+    return { pageProps, vercelUrl };
   }
 
   render() {
@@ -59,7 +58,7 @@ class MyApp extends App<Props> {
           <ApolloProvider client={apolloClient}>
             <MuiThemeProvider
               theme={this.pageContext.theme}
-              sheetsManager={this.pageContext.sheetsManager}
+              // sheetsManager={this.pageContext.sheetsManager}
             >
               <CssBaseline />
               <Component pageContext={this.pageContext} {...pageProps} />

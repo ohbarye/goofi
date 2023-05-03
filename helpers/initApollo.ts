@@ -1,16 +1,15 @@
-import { HttpLink, InMemoryCache, ApolloClient } from "apollo-boost";
+import { ApolloClient, HttpLink, InMemoryCache } from "apollo-boost";
 import fetch from "isomorphic-unfetch";
-import { GoofiGlobal } from "../interfaces";
 
 let apolloClient = null;
 
 if (!process.browser) {
   // Polyfill fetch() on the server (used by apollo-client)
-  (global as GoofiGlobal).fetch = fetch;
+  globalThis.fetch = fetch;
 }
 
-function create(initialState, nowUrl) {
-  const url = process.env.api ? process.env.api : nowUrl;
+function create(initialState, vercelUrl) {
+  const url = process.env.api ? process.env.api : vercelUrl;
 
   return new ApolloClient({
     connectToDevTools: process.browser,
@@ -23,16 +22,16 @@ function create(initialState, nowUrl) {
   });
 }
 
-export function initApollo(initialState, nowUrl) {
+export function initApollo(initialState, vercelUrl) {
   // Make sure to create a new client for every server-side request so that data
   // isn't shared between connections
   if (!process.browser) {
-    return create(initialState, nowUrl);
+    return create(initialState, vercelUrl);
   }
 
   // Reuse client on the client-side
   if (!apolloClient) {
-    apolloClient = create(initialState, nowUrl);
+    apolloClient = create(initialState, vercelUrl);
   }
 
   return apolloClient;

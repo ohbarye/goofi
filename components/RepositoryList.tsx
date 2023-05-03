@@ -1,21 +1,18 @@
-import {
-  withStyles,
-  WithStyles,
-  StyleRulesCallback
-} from "@material-ui/core/styles";
+import { createStyles, withStyles, WithStyles } from "@material-ui/core/styles";
 import * as React from "react";
 import { Repository } from "../interfaces";
 import RepositoryCard from "./RepositoryCard";
 
-const styles: StyleRulesCallback = _ => ({
-  body: {
-    paddingBottom: "16px",
-    paddingLeft: "16px",
-    paddingRight: "16px",
-    paddingTop: "16px",
-    textAlign: "center"
-  }
-});
+const styles = (_) =>
+  createStyles({
+    body: {
+      paddingBottom: "16px",
+      paddingLeft: "16px",
+      paddingRight: "16px",
+      paddingTop: "16px",
+      textAlign: "center",
+    },
+  });
 
 interface Props extends WithStyles<typeof styles> {
   loading: boolean;
