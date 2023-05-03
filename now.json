@@ -1,7 +1,6 @@
 {
   "version": 2,
   "alias": ["goofi.now.sh"],
-  "builds": [{ "src": "package.json", "use": "@now/next" }],
   "env": {
     "PORT": "80"
   }
