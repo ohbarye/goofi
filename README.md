@@ -10,9 +10,9 @@ This is a simple app to list issues labelled as "good first issue" in repositori
 
 ## Features
 
--   Server side rendering with Next.js v9
--   Deployed on [Vercel](https://vercel.com/)
--   GraphQL and Apollo
+- Server side rendering with Next.js v9
+- Deployed on [Vercel](https://vercel.com/)
+- GraphQL and Apollo
 
 ## Development
 
@@ -32,13 +32,4 @@ $ open http://localhost:3000
 $ yarn
 $ GITHUB_ACCESS_TOKEN=<your token> yarn dev
 $ open http://localhost:3000
-```
-
-## Release
-
-Run the following command to deploy to now.sh:
-
-```shell
-$ now        # Deploy staging app
-$ now --prod # Deploy production app
 ```
