@@ -8,7 +8,7 @@
   },
   "homepage": "https://github.com/ohbarye/goofi#readme",
   "engines": {
-    "node": ">=16"
+    "node": "16"
   },
   "scripts": {
     "dev": "next",
