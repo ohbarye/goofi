@@ -26,6 +26,7 @@ const languageOptions = [
   { value: "rust", name: "Rust" },
   { value: "ocaml", name: "OCaml" },
   { value: "php", name: "PHP" },
+  { value: "scala", name: "Scala" },
 ];
 
 const styles = (_) =>
